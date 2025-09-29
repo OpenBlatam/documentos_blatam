@@ -1,0 +1,969 @@
+{
+  "timestamp": "2025-09-15T15:49:50.311709",
+  "total_variantes": 118,
+  "categorias": 4,
+  "variantes_por_categoria": {
+    "psicologia_avanzada": 28,
+    "neuromarketing": 30,
+    "conversion_avanzada": 30,
+    "tendencias_2024": 30
+  },
+  "variantes": {
+    "psicologia_avanzada": [
+      {
+        "anchor_text": "{problema_actual} vs {realidad_deseada} - {metodo} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{problema_actual}} vs {{realidad_deseada}} - {{metodo}} {{resultado}}",
+        "longitud": 62,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{situacion_negativa} pero {posibilidad_positiva} - {accion} {garantia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{situacion_negativa}} pero {{posibilidad_positiva}} - {{accion}} {{garantia}}",
+        "longitud": 70,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{contradiccion} → {solucion} {beneficio} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{contradiccion}} → {{solucion}} {{beneficio}} - {{urgencia}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{problema_actual} vs {realidad_deseada} - {metodo} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{problema_actual}} vs {{realidad_deseada}} - {{metodo}} {{resultado}}",
+        "longitud": 62,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{contradiccion} → {solucion} {beneficio} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{contradiccion}} → {{solucion}} {{beneficio}} - {{urgencia}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{contradiccion} → {solucion} {beneficio} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{contradiccion}} → {{solucion}} {{beneficio}} - {{urgencia}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{contradiccion} → {solucion} {beneficio} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "disonancia_cognitiva",
+        "formula": "{{contradiccion}} → {{solucion}} {{beneficio}} - {{urgencia}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{exclusividad} {elemento} {disponibilidad} - {garantia} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "{{exclusividad}} {{elemento}} {{disponibilidad}} - {{garantia}} {{resultado}}",
+        "longitud": 67,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{limitacion_tiempo} para {oportunidad} - {accion} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "{{limitacion_tiempo}} para {{oportunidad}} - {{accion}} {{beneficio}}",
+        "longitud": 61,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{exclusividad} {elemento} {disponibilidad} - {garantia} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "{{exclusividad}} {{elemento}} {{disponibilidad}} - {{garantia}} {{resultado}}",
+        "longitud": 67,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{limitacion_tiempo} para {oportunidad} - {accion} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "{{limitacion_tiempo}} para {{oportunidad}} - {{accion}} {{beneficio}}",
+        "longitud": 61,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{limitacion_tiempo} para {oportunidad} - {accion} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "{{limitacion_tiempo}} para {{oportunidad}} - {{accion}} {{beneficio}}",
+        "longitud": 61,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "Solo {cantidad} {elemento} {disponibilidad} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "Solo {{cantidad}} {{elemento}} {{disponibilidad}} - {{urgencia}}",
+        "longitud": 56,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "Solo {cantidad} {elemento} {disponibilidad} - {urgencia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "escasez_psicologica",
+        "formula": "Solo {{cantidad}} {{elemento}} {{disponibilidad}} - {{urgencia}}",
+        "longitud": 56,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{influencer} {recomienda} {solucion} - {testimonio} {garantia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{influencer}} {{recomienda}} {{solucion}} - {{testimonio}} {{garantia}}",
+        "longitud": 62,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{autoridad} {confirma} {verdad} - {evidencia} {beneficio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "autoridad_social",
+        "formula": "{{autoridad}} {{confirma}} {{verdad}} - {{evidencia}} {{beneficio}}",
+        "longitud": 57,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{numero} {personas} {accion} {resultado} - {testimonio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{numero}} {{personas}} {{accion}} {{resultado}} - {{testimonio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {recomienda} {solucion} - {social_proof} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{grupo}} {{recomienda}} {{solucion}} - {{social_proof}} {{resultado}}",
+        "longitud": 60,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{numero} {personas} {accion} {resultado} - {testimonio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{numero}} {{personas}} {{accion}} {{resultado}} - {{testimonio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{comunidad} {confirma} {beneficio} - {evidencia} {garantia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{comunidad}} {{confirma}} {{beneficio}} - {{evidencia}} {{garantia}}",
+        "longitud": 59,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {recomienda} {solucion} - {social_proof} {resultado}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{grupo}} {{recomienda}} {{solucion}} - {{social_proof}} {{resultado}}",
+        "longitud": 60,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{comunidad} {confirma} {beneficio} - {evidencia} {garantia}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{comunidad}} {{confirma}} {{beneficio}} - {{evidencia}} {{garantia}}",
+        "longitud": 59,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{numero} {personas} {accion} {resultado} - {testimonio}",
+        "categoria": "psicologia_avanzada",
+        "subcategoria": "prueba_social",
+        "formula": "{{numero}} {{personas}} {{accion}} {{resultado}} - {{testimonio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      }
+    ],
+    "neuromarketing": [
+      {
+        "anchor_text": "{emocion} {situacion} → {transformacion} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{emocion}} {{situacion}} → {{transformacion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{emocion} {situacion} → {transformacion} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{emocion}} {{situacion}} → {{transformacion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{emocion} {situacion} → {transformacion} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{emocion}} {{situacion}} → {{transformacion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{estado_emocional} {cambio} - {metodo} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{estado_emocional}} {{cambio}} - {{metodo}} {{satisfaccion}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{sentimiento} {experiencia} - {solucion} {alivio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{sentimiento}} {{experiencia}} - {{solucion}} {{alivio}}",
+        "longitud": 49,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{estado_emocional} {cambio} - {metodo} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{estado_emocional}} {{cambio}} - {{metodo}} {{satisfaccion}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{emocion} {situacion} → {transformacion} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{emocion}} {{situacion}} → {{transformacion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{estado_emocional} {cambio} - {metodo} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{estado_emocional}} {{cambio}} - {{metodo}} {{satisfaccion}}",
+        "longitud": 53,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{sentimiento} {experiencia} - {solucion} {alivio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{sentimiento}} {{experiencia}} - {{solucion}} {{alivio}}",
+        "longitud": 49,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{sentimiento} {experiencia} - {solucion} {alivio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "triggers_emocionales",
+        "formula": "{{sentimiento}} {{experiencia}} - {{solucion}} {{alivio}}",
+        "longitud": 49,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{mentalidad} {cambio} - {estrategia} {prosperidad}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{mentalidad}} {{cambio}} - {{estrategia}} {{prosperidad}}",
+        "longitud": 50,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{habito} {transformacion} - {metodo} {exito}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{habito}} {{transformacion}} - {{metodo}} {{exito}}",
+        "longitud": 44,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{patron} {comportamiento} → {resultado} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{patron}} {{comportamiento}} → {{resultado}} {{beneficio}}",
+        "longitud": 51,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{mentalidad} {cambio} - {estrategia} {prosperidad}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{mentalidad}} {{cambio}} - {{estrategia}} {{prosperidad}}",
+        "longitud": 50,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{patron} {comportamiento} → {resultado} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{patron}} {{comportamiento}} → {{resultado}} {{beneficio}}",
+        "longitud": 51,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{patron} {comportamiento} → {resultado} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{patron}} {{comportamiento}} → {{resultado}} {{beneficio}}",
+        "longitud": 51,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{mentalidad} {cambio} - {estrategia} {prosperidad}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{mentalidad}} {{cambio}} - {{estrategia}} {{prosperidad}}",
+        "longitud": 50,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{mentalidad} {cambio} - {estrategia} {prosperidad}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{mentalidad}} {{cambio}} - {{estrategia}} {{prosperidad}}",
+        "longitud": 50,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{mentalidad} {cambio} - {estrategia} {prosperidad}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{mentalidad}} {{cambio}} - {{estrategia}} {{prosperidad}}",
+        "longitud": 50,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{patron} {comportamiento} → {resultado} {beneficio}",
+        "categoria": "neuromarketing",
+        "subcategoria": "patrones_mentales",
+        "formula": "{{patron}} {{comportamiento}} → {{resultado}} {{beneficio}}",
+        "longitud": 51,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{vinculo} {experiencia} - {metodo} {exito}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{vinculo}} {{experiencia}} - {{metodo}} {{exito}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ancla} {asociacion} → {beneficio} {resultado}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{ancla}} {{asociacion}} → {{beneficio}} {{resultado}}",
+        "longitud": 46,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ancla} {asociacion} → {beneficio} {resultado}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{ancla}} {{asociacion}} → {{beneficio}} {{resultado}}",
+        "longitud": 46,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{conexion} {memoria} - {solucion} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{conexion}} {{memoria}} - {{solucion}} {{satisfaccion}}",
+        "longitud": 48,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{conexion} {memoria} - {solucion} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{conexion}} {{memoria}} - {{solucion}} {{satisfaccion}}",
+        "longitud": 48,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ancla} {asociacion} → {beneficio} {resultado}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{ancla}} {{asociacion}} → {{beneficio}} {{resultado}}",
+        "longitud": 46,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{conexion} {memoria} - {solucion} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{conexion}} {{memoria}} - {{solucion}} {{satisfaccion}}",
+        "longitud": 48,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{conexion} {memoria} - {solucion} {satisfaccion}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{conexion}} {{memoria}} - {{solucion}} {{satisfaccion}}",
+        "longitud": 48,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{vinculo} {experiencia} - {metodo} {exito}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{vinculo}} {{experiencia}} - {{metodo}} {{exito}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ancla} {asociacion} → {beneficio} {resultado}",
+        "categoria": "neuromarketing",
+        "subcategoria": "anclajes_mentales",
+        "formula": "{{ancla}} {{asociacion}} → {{beneficio}} {{resultado}}",
+        "longitud": 46,
+        "palabras_poder": 0
+      }
+    ],
+    "conversion_avanzada": [
+      {
+        "anchor_text": "{proceso} {paso} - {resultado} {progreso}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{proceso}} {{paso}} - {{resultado}} {{progreso}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{proceso} {paso} - {resultado} {progreso}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{proceso}} {{paso}} - {{resultado}} {{progreso}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{proceso} {paso} - {resultado} {progreso}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{proceso}} {{paso}} - {{resultado}} {{progreso}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{journey} {momento} - {solucion} {avance}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{journey}} {{momento}} - {{solucion}} {{avance}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{etapa_funnel} {accion} → {siguiente_etapa} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{etapa_funnel}} {{accion}} → {{siguiente_etapa}} {{beneficio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{etapa_funnel} {accion} → {siguiente_etapa} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{etapa_funnel}} {{accion}} → {{siguiente_etapa}} {{beneficio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{journey} {momento} - {solucion} {avance}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{journey}} {{momento}} - {{solucion}} {{avance}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{etapa_funnel} {accion} → {siguiente_etapa} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{etapa_funnel}} {{accion}} → {{siguiente_etapa}} {{beneficio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{journey} {momento} - {solucion} {avance}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{journey}} {{momento}} - {{solucion}} {{avance}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{etapa_funnel} {accion} → {siguiente_etapa} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "funnels_especificos",
+        "formula": "{{etapa_funnel}} {{accion}} → {{siguiente_etapa}} {{beneficio}}",
+        "longitud": 55,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{objetivo} {metrica} → {resultado} {impacto}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{objetivo}} {{metrica}} → {{resultado}} {{impacto}}",
+        "longitud": 44,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{meta} {medicion} - {logro} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{meta}} {{medicion}} - {{logro}} {{beneficio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{meta} {medicion} - {logro} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{meta}} {{medicion}} - {{logro}} {{beneficio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{objetivo} {metrica} → {resultado} {impacto}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{objetivo}} {{metrica}} → {{resultado}} {{impacto}}",
+        "longitud": 44,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{target} {kpi} - {alcanze} {valor}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{target}} {{kpi}} - {{alcanze}} {{valor}}",
+        "longitud": 34,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{target} {kpi} - {alcanze} {valor}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{target}} {{kpi}} - {{alcanze}} {{valor}}",
+        "longitud": 34,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{meta} {medicion} - {logro} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{meta}} {{medicion}} - {{logro}} {{beneficio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{target} {kpi} - {alcanze} {valor}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{target}} {{kpi}} - {{alcanze}} {{valor}}",
+        "longitud": 34,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{objetivo} {metrica} → {resultado} {impacto}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{objetivo}} {{metrica}} → {{resultado}} {{impacto}}",
+        "longitud": 44,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{meta} {medicion} - {logro} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "objetivos_especificos",
+        "formula": "{{meta}} {{medicion}} - {{logro}} {{beneficio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{segmento} {caracteristica} → {solucion} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{segmento}} {{caracteristica}} → {{solucion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{segmento} {caracteristica} → {solucion} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{segmento}} {{caracteristica}} → {{solucion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {dolor} - {estrategia} {alivio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{grupo}} {{dolor}} - {{estrategia}} {{alivio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{segmento} {caracteristica} → {solucion} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{segmento}} {{caracteristica}} → {{solucion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {dolor} - {estrategia} {alivio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{grupo}} {{dolor}} - {{estrategia}} {{alivio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {dolor} - {estrategia} {alivio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{grupo}} {{dolor}} - {{estrategia}} {{alivio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {dolor} - {estrategia} {alivio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{grupo}} {{dolor}} - {{estrategia}} {{alivio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{grupo} {dolor} - {estrategia} {alivio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{grupo}} {{dolor}} - {{estrategia}} {{alivio}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{segmento} {caracteristica} → {solucion} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{segmento}} {{caracteristica}} → {{solucion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{segmento} {caracteristica} → {solucion} {beneficio}",
+        "categoria": "conversion_avanzada",
+        "subcategoria": "segmentacion_avanzada",
+        "formula": "{{segmento}} {{caracteristica}} → {{solucion}} {{beneficio}}",
+        "longitud": 52,
+        "palabras_poder": 0
+      }
+    ],
+    "tendencias_2024": [
+      {
+        "anchor_text": "{ia_tool} {funcion} → {resultado} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{ia_tool}} {{funcion}} → {{resultado}} {{beneficio}}",
+        "longitud": 45,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{herramienta} {feature} - {uso} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{herramienta}} {{feature}} - {{uso}} {{impacto}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ia_tool} {funcion} → {resultado} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{ia_tool}} {{funcion}} → {{resultado}} {{beneficio}}",
+        "longitud": 45,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{herramienta} {feature} - {uso} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{herramienta}} {{feature}} - {{uso}} {{impacto}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{herramienta} {feature} - {uso} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{herramienta}} {{feature}} - {{uso}} {{impacto}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{tecnologia} {capacidad} - {aplicacion} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{tecnologia}} {{capacidad}} - {{aplicacion}} {{valor}}",
+        "longitud": 47,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{tecnologia} {capacidad} - {aplicacion} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{tecnologia}} {{capacidad}} - {{aplicacion}} {{valor}}",
+        "longitud": 47,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{tecnologia} {capacidad} - {aplicacion} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{tecnologia}} {{capacidad}} - {{aplicacion}} {{valor}}",
+        "longitud": 47,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{herramienta} {feature} - {uso} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{herramienta}} {{feature}} - {{uso}} {{impacto}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{herramienta} {feature} - {uso} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "ia_generativa",
+        "formula": "{{herramienta}} {{feature}} - {{uso}} {{impacto}}",
+        "longitud": 41,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ecologico} {metodo} - {resultado} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{ecologico}} {{metodo}} - {{resultado}} {{valor}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ecologico} {metodo} - {resultado} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{ecologico}} {{metodo}} - {{resultado}} {{valor}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{verde} {estrategia} - {logro} {beneficio}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{verde}} {{estrategia}} - {{logro}} {{beneficio}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{ecologico} {metodo} - {resultado} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "sostenibilidad",
+        "formula": "{{ecologico}} {{metodo}} - {{resultado}} {{valor}}",
+        "longitud": 42,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{personalizado} {experiencia} → {satisfaccion} {resultado}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{personalizado}} {{experiencia}} → {{satisfaccion}} {{resultado}}",
+        "longitud": 58,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{adaptado} {metodo} - {exito} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{adaptado}} {{metodo}} - {{exito}} {{impacto}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{adaptado} {metodo} - {exito} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{adaptado}} {{metodo}} - {{exito}} {{impacto}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{adaptado} {metodo} - {exito} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{adaptado}} {{metodo}} - {{exito}} {{impacto}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{personalizado} {experiencia} → {satisfaccion} {resultado}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{personalizado}} {{experiencia}} → {{satisfaccion}} {{resultado}}",
+        "longitud": 58,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{personalizado} {experiencia} → {satisfaccion} {resultado}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{personalizado}} {{experiencia}} → {{satisfaccion}} {{resultado}}",
+        "longitud": 58,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{adaptado} {metodo} - {exito} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{adaptado}} {{metodo}} - {{exito}} {{impacto}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{customizado} {solucion} - {beneficio} {valor}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{customizado}} {{solucion}} - {{beneficio}} {{valor}}",
+        "longitud": 46,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{personalizado} {experiencia} → {satisfaccion} {resultado}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{personalizado}} {{experiencia}} → {{satisfaccion}} {{resultado}}",
+        "longitud": 58,
+        "palabras_poder": 0
+      },
+      {
+        "anchor_text": "{adaptado} {metodo} - {exito} {impacto}",
+        "categoria": "tendencias_2024",
+        "subcategoria": "personalizacion",
+        "formula": "{{adaptado}} {{metodo}} - {{exito}} {{impacto}}",
+        "longitud": 39,
+        "palabras_poder": 0
+      }
+    ]
+  },
+  "estadisticas": {
+    "longitud_promedio": 48.76271186440678,
+    "palabras_poder_promedio": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+--- RESULTADOS A/B TEST - ANCHOR TEXTS IA MARKETING ---
+Test ID: ab_test_20250915_195400
+Período: 2025-09-15T19:54:00.184495 - 2025-10-15T19:54:00.184495
+Duración: 30 días
+
+RESUMEN EJECUTIVO:
+• CTR promedio: 4.91%
+• Tasa de conversión promedio: 1.67%
+• ROI promedio: 2.97x
+
+GANADORES:
+• Mejor CTR: Variante 14 - Informal + Directa (7.84%)
+• Mejor Conversión: Variante 5 - Informal + Emocional (4.4%)
+• Mejor ROI: Variante 8 - Urgente + Urgente (4.64x)
+
+RECOMENDACIONES:
+• CTR (Alta): Usar la variante 'Variante 14 - Informal + Directa' para maximizar CTR
+  Justificación: CTR de 7.84% vs promedio de 4.91%
+• Conversión (Alta): Implementar la variante 'Variante 5 - Informal + Emocional' para maximizar conversiones
+  Justificación: Tasa de conversión de 4.4% vs promedio de 1.67%
+• ROI (Muy Alta): Priorizar la variante 'Variante 8 - Urgente + Urgente' para mejor retorno de inversión
+  Justificación: ROI de 4.64x vs promedio de 2.97x
+• Significancia (Media): Los resultados son estadísticamente significativos
+  Justificación: P-value de 0.01 < 0.05
+• Variable: longitud (Media): Usar corta en futuros anchor texts
+  Justificación: Presente en 2 de las mejores variantes
+• Variable: tono (Media): Usar informal en futuros anchor texts
+  Justificación: Presente en 2 de las mejores variantes
+• Variable: cta (Media): Usar directa en futuros anchor texts
+  Justificación: Presente en 1 de las mejores variantes
+• Variable: beneficio (Media): Usar facilidad en futuros anchor texts
+  Justificación: Presente en 1 de las mejores variantes
+• Variable: social_proof (Media): Usar autoridad en futuros anchor texts
+  Justificación: Presente en 1 de las mejores variantes
+

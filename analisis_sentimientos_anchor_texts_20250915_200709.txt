@@ -1,0 +1,20 @@
+--- ANÁLISIS DE SENTIMIENTOS - ANCHOR TEXTS IA MARKETING ---
+Fecha: 2025-09-15T20:07:09.352938
+
+ESTADÍSTICAS DEL LOTE:
+• Total anchor texts: 10
+• Impacto promedio: 50.15/100
+• Impacto máximo: 51.5/100
+• Impacto mínimo: 50.0/100
+• Distribución sentimientos: {'neutral': 10}
+• Distribución tonos: {'neutral': 9, 'formal': 1}
+
+MEJOR IMPACTO EMOCIONAL:
+• Anchor text: Certificación IA Marketing - Profesional
+• Score impacto: 51.5/100
+• Sentimiento: neutral
+• Emoción dominante: None
+• Tono dominante: formal
+
+RECOMENDACIONES GENERALES:
+
