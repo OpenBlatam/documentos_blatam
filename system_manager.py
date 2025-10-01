@@ -13,10 +13,25 @@ class SystemManager:
         self.base_path = base_path
         self.tools = {
             'search': 'search_documents.py',
+            'enhanced_search': 'enhanced_search.py',
             'organize': 'auto_organize.py',
             'backup': 'backup_system.py',
             'analytics': 'analytics_system.py',
-            'maintenance': 'maintenance_system.py'
+            'ai_analyzer': 'ai_content_analyzer.py',
+            'web_interface': 'web_interface.py',
+            'mobile_app': 'mobile_app.py',
+            'cloud_sync': 'cloud_sync.py',
+            'blockchain': 'blockchain_integrity.py',
+            'voice_commands': 'voice_commands.py',
+            'ar_vr': 'ar_vr_visualization.py',
+            'quantum': 'quantum_computing.py',
+            'advanced_ai': 'advanced_ai_system.py',
+            'workflow': 'workflow_automation.py',
+            'collaboration': 'collaboration_system.py',
+            'maintenance': 'maintenance_system.py',
+            'advanced_analytics': 'advanced_analytics_engine.py',
+            'quantum_ml': 'quantum_ml_system.py',
+            'autonomous_ai': 'autonomous_ai_system.py'
         }
     
     def run_tool(self, tool_name, *args):
@@ -101,14 +116,25 @@ class SystemManager:
         print("\n🎯 SISTEMA MAESTRO DE GESTIÓN EMPRESARIAL")
         print("=" * 50)
         print("1. 🔍 Búsqueda de Documentos")
-        print("2. 📁 Organización Automática")
-        print("3. 💾 Sistema de Backup")
-        print("4. 📊 Analytics Avanzado")
-        print("5. 🔧 Mantenimiento del Sistema")
-        print("6. 📋 Estado del Sistema")
-        print("7. 🚀 Ejecutar Mantenimiento Completo")
-        print("8. 📖 Ver Documentación")
-        print("9. ❌ Salir")
+        print("2. 🔍 Búsqueda Avanzada con IA")
+        print("3. 📁 Organización Automática")
+        print("4. 💾 Sistema de Backup")
+        print("5. 📊 Analytics Avanzado")
+        print("6. 🤖 Análisis de Contenido con IA")
+        print("7. 🌐 Interfaz Web")
+        print("8. 📱 Aplicación Móvil")
+        print("9. ☁️ Sincronización en la Nube")
+        print("10. ⛓️ Blockchain para Integridad")
+        print("11. 🎤 Comandos de Voz")
+        print("12. 🤝 Sistema de Colaboración")
+        print("13. 🔧 Mantenimiento del Sistema")
+        print("14. 📋 Estado del Sistema")
+        print("15. 🚀 Ejecutar Mantenimiento Completo")
+        print("16. 📖 Ver Documentación")
+        print("17. 📊 Motor de Análisis Avanzado")
+        print("18. ⚛️ Sistema de Machine Learning Cuántico")
+        print("19. 🤖 Sistema de IA Autónoma")
+        print("20. ❌ Salir")
     
     def run_search_system(self):
         """Ejecutar sistema de búsqueda"""
@@ -196,25 +222,47 @@ class SystemManager:
         """Ejecutar sistema maestro"""
         while True:
             self.show_main_menu()
-            choice = input("\nSeleccione una opción (1-9): ").strip()
+            choice = input("\nSeleccione una opción (1-20): ").strip()
             
             if choice == '1':
                 self.run_search_system()
             elif choice == '2':
-                self.run_organization_system()
+                self.run_tool('enhanced_search')
             elif choice == '3':
-                self.run_backup_system()
+                self.run_organization_system()
             elif choice == '4':
-                self.run_analytics_system()
+                self.run_backup_system()
             elif choice == '5':
-                self.run_maintenance_system()
+                self.run_analytics_system()
             elif choice == '6':
-                self.show_system_status()
+                self.run_tool('ai_analyzer')
             elif choice == '7':
-                self.run_complete_maintenance()
+                self.run_tool('web_interface')
             elif choice == '8':
-                self.show_documentation()
+                self.run_tool('mobile_app')
             elif choice == '9':
+                self.run_tool('cloud_sync')
+            elif choice == '10':
+                self.run_tool('blockchain')
+            elif choice == '11':
+                self.run_tool('voice_commands')
+            elif choice == '12':
+                self.run_tool('collaboration')
+            elif choice == '13':
+                self.run_maintenance_system()
+            elif choice == '14':
+                self.show_system_status()
+            elif choice == '15':
+                self.run_complete_maintenance()
+            elif choice == '16':
+                self.show_documentation()
+            elif choice == '17':
+                self.run_tool('advanced_analytics')
+            elif choice == '18':
+                self.run_tool('quantum_ml')
+            elif choice == '19':
+                self.run_tool('autonomous_ai')
+            elif choice == '20':
                 print("\n👋 ¡Gracias por usar el Sistema de Organización Empresarial!")
                 break
             else:

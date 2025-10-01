@@ -1,93 +1,116 @@
-# Gamified AI Marketing Training Platform - Documentation Hub
+# 📚 Documentation Index
+## AI Marketing Course & SaaS Platform
 
-Welcome to the comprehensive documentation for the Gamified AI Marketing Training Platform. This documentation covers all aspects of the system, from technical implementation to business strategy.
+Welcome to the comprehensive documentation for the AI Marketing Course & SaaS Platform. This documentation covers all aspects of the system, from user guides to technical implementation details.
 
-## 📚 Documentation Structure
+---
 
-### 🛠️ Technical Documentation
-- [System Architecture](./technical/architecture.md) - High-level system design and components
-- [API Documentation](./technical/api.md) - REST API endpoints and integration guides
-- [Database Schema](./technical/database.md) - Data models and relationships
-- [Deployment Guide](./technical/deployment.md) - Production deployment instructions
-- [Security Guidelines](./technical/security.md) - Security best practices and implementation
+## 📖 User Documentation
 
-### 👥 User Documentation
-- [User Guide](./user/user-guide.md) - Complete user manual for learners
-- [Getting Started](./user/getting-started.md) - Quick start guide for new users
-- [Tutorials](./user/tutorials.md) - Step-by-step tutorials for key features
-- [FAQ](./user/faq.md) - Frequently asked questions and answers
-- [Troubleshooting](./user/troubleshooting.md) - Common issues and solutions
+### **Getting Started**
+- [Quick Start Guide](./getting-started.md) - Get up and running in minutes
+- [User Guide](./user-guide.md) - Complete user manual
+- [Tutorials](./tutorials/) - Step-by-step tutorials
+- [FAQ](./faq.md) - Frequently asked questions
 
-### ⚙️ Administrator Documentation
-- [Admin Panel Guide](./admin/admin-panel.md) - Administrative interface documentation
-- [User Management](./admin/user-management.md) - Managing learners and instructors
-- [Content Management](./admin/content-management.md) - Creating and managing training content
-- [Analytics Dashboard](./admin/analytics.md) - Understanding platform metrics
-- [Configuration Guide](./admin/configuration.md) - System configuration options
+### **Course Documentation**
+- [Course Overview](./course-overview.md) - Course structure and content
+- [Module 1: AI Marketing Fundamentals](./modules/module-1.md)
+- [Module 2: Advanced Copy.ai Techniques](./modules/module-2.md)
+- [Module 3: Sales Policy Framework Development](./modules/module-3.md)
+- [Module 4: SaaS Platform Development](./modules/module-4.md)
 
-### 👨‍💻 Developer Documentation
-- [Contributing Guidelines](./developer/contributing.md) - How to contribute to the project
-- [Code Standards](./developer/code-standards.md) - Coding conventions and best practices
-- [Testing Guide](./developer/testing.md) - Testing strategies and procedures
-- [Development Setup](./developer/setup.md) - Local development environment setup
-- [Release Process](./developer/release.md) - Software release procedures
+### **Sales Policy Framework**
+- [Framework Overview](./sales-policy-framework.md) - Framework documentation
+- [Template Guide](./templates.md) - Template usage guide
+- [Compliance Guide](./compliance.md) - Compliance requirements
+- [Best Practices](./best-practices.md) - Implementation best practices
 
-### 📊 Business Documentation
-- [Business Strategy](./business/strategy.md) - Overall business approach and goals
-- [ROI Analysis](./business/roi.md) - Return on investment calculations and metrics
-- [Case Studies](./business/case-studies.md) - Success stories and implementations
-- [Market Analysis](./business/market-analysis.md) - Competitive landscape and positioning
-- [Pricing Strategy](./business/pricing.md) - Pricing models and tiers
+---
 
-### 🎓 Training Documentation
-- [Curriculum Design](./training/curriculum.md) - Training program structure and content
-- [Assessment Framework](./training/assessments.md) - Evaluation methods and criteria
-- [Gamification Strategy](./training/gamification.md) - Game mechanics and engagement
-- [Learning Paths](./training/learning-paths.md) - Structured learning progression
-- [Certification Program](./training/certification.md) - Certification requirements and process
+## 🔧 Developer Documentation
 
-## 🚀 Quick Start
+### **Technical Documentation**
+- [Architecture Overview](./architecture.md) - System architecture
+- [API Reference](./api-reference.md) - Complete API documentation
+- [Development Guide](./development.md) - Development setup
+- [Deployment Guide](./deployment.md) - Deployment instructions
 
-### For Learners
-1. Read the [Getting Started Guide](./user/getting-started.md)
-2. Complete the [User Guide](./user/user-guide.md)
-3. Explore [Tutorials](./user/tutorials.md) for hands-on learning
+### **Integration Guides**
+- [Copy.ai Integration](./copy-ai-integration.md) - Copy.ai setup and usage
+- [Database Schema](./database-schema.md) - Database structure
+- [Authentication](./authentication.md) - Auth system documentation
+- [File Storage](./file-storage.md) - File management system
 
-### For Administrators
-1. Review [Admin Panel Guide](./admin/admin-panel.md)
-2. Set up [Configuration](./admin/configuration.md)
-3. Learn [User Management](./admin/user-management.md)
+---
 
-### For Developers
-1. Follow [Development Setup](./developer/setup.md)
-2. Read [Code Standards](./developer/code-standards.md)
-3. Check [Contributing Guidelines](./developer/contributing.md)
+## 🚀 Platform Documentation
 
-### For Business Stakeholders
-1. Review [Business Strategy](./business/strategy.md)
-2. Analyze [ROI Analysis](./business/roi.md)
-3. Study [Case Studies](./business/case-studies.md)
+### **SaaS Platform**
+- [Platform Overview](./platform-overview.md) - Platform features and capabilities
+- [User Management](./user-management.md) - User roles and permissions
+- [Billing System](./billing.md) - Subscription and payment system
+- [Analytics](./analytics.md) - Analytics and reporting
+
+### **Content Generation**
+- [Content Types](./content-types.md) - Available content types
+- [Template System](./template-system.md) - Template management
+- [AI Integration](./ai-integration.md) - AI service integration
+- [Quality Control](./quality-control.md) - Content quality assurance
+
+---
+
+## 📊 Business Documentation
+
+### **Business Model**
+- [Revenue Streams](./revenue-streams.md) - Revenue model overview
+- [Pricing Strategy](./pricing-strategy.md) - Pricing tiers and strategy
+- [Market Analysis](./market-analysis.md) - Target market analysis
+- [Competitive Analysis](./competitive-analysis.md) - Competitive landscape
+
+### **Operations**
+- [Support System](./support-system.md) - Customer support documentation
+- [Maintenance](./maintenance.md) - System maintenance procedures
+- [Security](./security.md) - Security policies and procedures
+- [Compliance](./compliance.md) - Regulatory compliance
+
+---
+
+## 🔍 Quick Reference
+
+### **Common Tasks**
+- [Creating Sales Policies](./quick-reference/creating-sales-policies.md)
+- [Generating Marketing Content](./quick-reference/generating-content.md)
+- [Setting Up Courses](./quick-reference/setting-up-courses.md)
+- [Managing Users](./quick-reference/managing-users.md)
+
+### **Troubleshooting**
+- [Common Issues](./troubleshooting/common-issues.md)
+- [Error Codes](./troubleshooting/error-codes.md)
+- [Performance Issues](./troubleshooting/performance.md)
+- [Integration Issues](./troubleshooting/integration.md)
+
+---
 
 ## 📞 Support
 
-- **Technical Issues**: Create an issue in the GitHub repository
-- **User Support**: Contact support@ai-marketing-training.com
-- **Business Inquiries**: Contact business@ai-marketing-training.com
-- **Partnership Opportunities**: Contact partnerships@ai-marketing-training.com
+- **Email**: support@ai-marketing-saas.com
+- **Discord**: [Join our community](https://discord.gg/ai-marketing-saas)
+- **GitHub Issues**: [Report bugs](https://github.com/your-username/ai-marketing-course-saas/issues)
+- **Documentation Issues**: [Report documentation issues](https://github.com/your-username/ai-marketing-course-saas/issues)
+
+---
 
 ## 🔄 Documentation Updates
 
-This documentation is regularly updated to reflect the latest features and improvements. Last updated: [Current Date]
+This documentation is regularly updated. Last updated: December 2024
 
-## 📄 License
+### **Recent Updates**
+- Added Copy.ai integration guide
+- Updated API reference with new endpoints
+- Added compliance documentation
+- Enhanced troubleshooting guides
 
-This documentation is licensed under the Creative Commons Attribution 4.0 International License.
+---
 
-
-
-
-
-
-
-
-
+*For the most up-to-date information, always refer to the latest version of this documentation.*
