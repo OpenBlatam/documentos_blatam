@@ -1,0 +1,501 @@
+{
+    "perfil": {
+        "perfil_usuario": "intermedio",
+        "industria": "ecommerce",
+        "objetivo_marketing": "conversion",
+        "caracteristicas_combinadas": {
+            "palabras_clave": [
+                "estrategia",
+                "tienda virtual",
+                "compra",
+                "adquiere",
+                "ahora",
+                "ventas online",
+                "urgente",
+                "avanzado",
+                "profesional",
+                "conversión",
+                "optimización",
+                "ecommerce",
+                "obtén"
+            ],
+            "objetivos": [
+                "mejorar",
+                "optimizar",
+                "escalar",
+                "ventas",
+                "conversión",
+                "tráfico",
+                "ROI"
+            ],
+            "dolor_points": [
+                "estancamiento",
+                "ineficiencia",
+                "competencia",
+                "abandono carrito",
+                "baja conversión",
+                "competencia"
+            ],
+            "tono_preferido": "urgente",
+            "beneficios_prioritarios": [
+                "ingreso",
+                "ingresos",
+                "resultados",
+                "ventas",
+                "conversión",
+                "optimización",
+                "venta",
+                "mejora"
+            ]
+        },
+        "preferencias_personalizadas": {
+            "longitud_preferida": "media",
+            "incluir_urgencia": true,
+            "incluir_numeros": true
+        },
+        "fecha_creacion": "2025-09-15T20:16:44.289727"
+    },
+    "anchor_texts": [
+        {
+            "id": "personalizado_001",
+            "anchor_text": "¡No te pierdas! curso IA marketing ventas",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 41,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 59,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294549"
+        },
+        {
+            "id": "personalizado_002",
+            "anchor_text": "Solo hoy: IA aplicada marketing venta",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 37,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 32,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294600"
+        },
+        {
+            "id": "personalizado_003",
+            "anchor_text": "¡No te pierdas! curso IA marketing escalar",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 42,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 35,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294628"
+        },
+        {
+            "id": "personalizado_004",
+            "anchor_text": "¡Última oportunidad! inteligencia artificial marketing - compra",
+            "palabra_clave": "inteligencia artificial marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 63,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 20,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294721"
+        },
+        {
+            "id": "personalizado_005",
+            "anchor_text": "¡Última oportunidad! inteligencia artificial marketing - adquiere",
+            "palabra_clave": "inteligencia artificial marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 65,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 20,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294767"
+        },
+        {
+            "id": "personalizado_006",
+            "anchor_text": "¡No te pierdas! IA aplicada marketing tráfico",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 45,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 35,
+                "tono_detectado": "neutral"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294802"
+        },
+        {
+            "id": "personalizado_007",
+            "anchor_text": "¡No te pierdas! IA aplicada marketing mejorar",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 45,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 47,
+                "tono_detectado": "empático"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294885"
+        },
+        {
+            "id": "personalizado_008",
+            "anchor_text": "Solo hoy: curso IA marketing ventas",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 35,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 59,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.294957"
+        },
+        {
+            "id": "personalizado_009",
+            "anchor_text": "Solo hoy: IA aplicada marketing ingreso",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 39,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 32,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.295019"
+        },
+        {
+            "id": "personalizado_010",
+            "anchor_text": "Solo hoy: IA aplicada marketing ventas",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 38,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 59,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.295058"
+        },
+        {
+            "id": "personalizado_011",
+            "anchor_text": "¡No te pierdas! curso marketing automatizado escalar",
+            "palabra_clave": "curso marketing automatizado",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 52,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 35,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.295087"
+        },
+        {
+            "id": "personalizado_012",
+            "anchor_text": "¡Última oportunidad! machine learning marketing - optimización",
+            "palabra_clave": "machine learning marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 62,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 32,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297285"
+        },
+        {
+            "id": "personalizado_013",
+            "anchor_text": "Oferta limitada: curso IA marketing compra",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 42,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 30,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297358"
+        },
+        {
+            "id": "personalizado_014",
+            "anchor_text": "Solo hoy: marketing digital IA ventas",
+            "palabra_clave": "marketing digital IA",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 37,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 59,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297381"
+        },
+        {
+            "id": "personalizado_015",
+            "anchor_text": "Solo hoy: machine learning marketing ingresos",
+            "palabra_clave": "machine learning marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 45,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 44,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297403"
+        },
+        {
+            "id": "personalizado_016",
+            "anchor_text": "Solo hoy: curso marketing automatizado resultados",
+            "palabra_clave": "curso marketing automatizado",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 49,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 32,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297425"
+        },
+        {
+            "id": "personalizado_017",
+            "anchor_text": "¡No te pierdas! curso marketing automatizado mejorar",
+            "palabra_clave": "curso marketing automatizado",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 52,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 47,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297456"
+        },
+        {
+            "id": "personalizado_018",
+            "anchor_text": "¡No te pierdas! inteligencia artificial marketing conversión",
+            "palabra_clave": "inteligencia artificial marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 60,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 57,
+                "tono_detectado": "neutral"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297490"
+        },
+        {
+            "id": "personalizado_019",
+            "anchor_text": "¡No te pierdas! curso IA marketing mejorar",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 42,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 47,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297516"
+        },
+        {
+            "id": "personalizado_020",
+            "anchor_text": "Oferta limitada: curso IA marketing tienda virtual",
+            "palabra_clave": "curso IA marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 50,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 30,
+                "tono_detectado": "educativo"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297541"
+        },
+        {
+            "id": "personalizado_021",
+            "anchor_text": "Solo hoy: inteligencia artificial marketing ingresos",
+            "palabra_clave": "inteligencia artificial marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 52,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 44,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297562"
+        },
+        {
+            "id": "personalizado_022",
+            "anchor_text": "¡No te pierdas! IA aplicada marketing ventas",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 44,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 1,
+                "beneficios_incluidos": 2,
+                "score_personalizacion": 59,
+                "tono_detectado": "neutral"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297593"
+        },
+        {
+            "id": "personalizado_023",
+            "anchor_text": "¡No te pierdas! marketing digital IA ROI",
+            "palabra_clave": "marketing digital IA",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 40,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 0,
+                "score_personalizacion": 20,
+                "tono_detectado": "comercial"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297619"
+        },
+        {
+            "id": "personalizado_024",
+            "anchor_text": "Solo hoy: curso marketing automatizado resultados",
+            "palabra_clave": "curso marketing automatizado",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 49,
+                "palabras_clave_personalizadas": 0,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 32,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297652"
+        },
+        {
+            "id": "personalizado_025",
+            "anchor_text": "Solo hoy: IA aplicada marketing optimización",
+            "palabra_clave": "IA aplicada marketing",
+            "perfil_usuario": "intermedio",
+            "industria": "ecommerce",
+            "objetivo_marketing": "conversion",
+            "caracteristicas": {
+                "longitud": 44,
+                "palabras_clave_personalizadas": 1,
+                "objetivos_incluidos": 0,
+                "beneficios_incluidos": 1,
+                "score_personalizacion": 42,
+                "tono_detectado": "urgente"
+            },
+            "fecha_generacion": "2025-09-15T20:16:44.297677"
+        }
+    ],
+    "estadisticas": {
+        "total_anchor_texts": 25,
+        "score_promedio": 40.32,
+        "score_maximo": 59,
+        "score_minimo": 20,
+        "tono_mas_comun": "urgente",
+        "longitud_promedio": 46.8,
+        "distribucion_tonos": {
+            "educativo": 7,
+            "urgente": 13,
+            "neutral": 3,
+            "empático": 1,
+            "comercial": 1
+        }
+    },
+    "fecha_exportacion": "2025-09-15T20:16:44.303085"
+}

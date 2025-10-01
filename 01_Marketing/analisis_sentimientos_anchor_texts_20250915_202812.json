@@ -1,0 +1,59 @@
+{
+    "anchor_text": "Curso IA Marketing - Resultados Garantizados",
+    "fecha_analisis": "2025-09-15T20:28:12.225527",
+    "sentimiento": {
+        "anchor_text": "Curso IA Marketing - Resultados Garantizados",
+        "score_sentimiento": 0.0,
+        "sentimiento_predominante": "neutral",
+        "confianza": 16.7,
+        "distribucion_sentimientos": {
+            "positivo": 0,
+            "negativo": 0,
+            "neutral": 1
+        },
+        "total_palabras": 6,
+        "palabras_sentimiento": 1
+    },
+    "emociones": {
+        "anchor_text": "Curso IA Marketing - Resultados Garantizados",
+        "intensidad_emocional": 0.1,
+        "emociones_predominantes": [
+            "confianza"
+        ],
+        "distribucion_emociones": {
+            "alegria": 0,
+            "confianza": 1,
+            "anticipacion": 0,
+            "sorpresa": 0,
+            "miedo": 0,
+            "ira": 0,
+            "tristeza": 0,
+            "asombro": 0
+        },
+        "emocion_principal": "confianza"
+    },
+    "persuasion": {
+        "anchor_text": "Curso IA Marketing - Resultados Garantizados",
+        "score_persuasion": 16.67,
+        "elementos_predominantes": [
+            "beneficio"
+        ],
+        "distribucion_persuasion": {
+            "urgencia": 0,
+            "escasez": 0,
+            "autoridad": 0,
+            "beneficio": 1,
+            "social": 0
+        },
+        "total_elementos": 1
+    },
+    "score_general": 42.92,
+    "recomendaciones": [
+        {
+            "categoria": "sentimiento",
+            "prioridad": "Alta",
+            "recomendacion": "El anchor text tiene un sentimiento muy neutral o negativo",
+            "accion": "Agrega palabras positivas como \"excelente\", \"fantástico\", \"increíble\""
+        }
+    ]
+}

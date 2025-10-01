@@ -1,0 +1,103 @@
+{
+    "fecha_analisis": "2025-09-15T20:16:19.608529",
+    "mes_actual": "september",
+    "estacionalidad_actual": 1.4,
+    "top_palabras_trending": [
+        {
+            "palabra": "limitado",
+            "frecuencia": 11
+        },
+        {
+            "palabra": "ahora",
+            "frecuencia": 10
+        },
+        {
+            "palabra": "hoy",
+            "frecuencia": 10
+        },
+        {
+            "palabra": "revolucionario",
+            "frecuencia": 10
+        },
+        {
+            "palabra": "nuevo",
+            "frecuencia": 9
+        },
+        {
+            "palabra": "urgente",
+            "frecuencia": 8
+        },
+        {
+            "palabra": "inmediato",
+            "frecuencia": 8
+        },
+        {
+            "palabra": "conocimiento",
+            "frecuencia": 8
+        },
+        {
+            "palabra": "innovador",
+            "frecuencia": 7
+        },
+        {
+            "palabra": "energía",
+            "frecuencia": 6
+        }
+    ],
+    "tendencias_emergentes": [
+        {
+            "tendencia": "personalizacion",
+            "frecuencia": 13
+        },
+        {
+            "tendencia": "experiencia",
+            "frecuencia": 10
+        },
+        {
+            "tendencia": "ia_generativa",
+            "frecuencia": 9
+        },
+        {
+            "tendencia": "automatizacion",
+            "frecuencia": 8
+        },
+        {
+            "tendencia": "web3",
+            "frecuencia": 8
+        }
+    ],
+    "palabras_estacionales": [
+        "vuelta al cole",
+        "aprendizaje",
+        "educación",
+        "conocimiento",
+        "desarrollo"
+    ],
+    "recomendaciones": [
+        {
+            "categoria": "palabras_trending",
+            "prioridad": "Alta",
+            "recomendacion": "Incluye \"limitado\" en tus anchor texts",
+            "accion": "Usa \"limitado\" para aprovechar la tendencia actual"
+        },
+        {
+            "categoria": "tendencias_emergentes",
+            "prioridad": "Muy Alta",
+            "recomendacion": "Aprovecha la tendencia \"personalizacion\"",
+            "accion": "Incluye palabras como \"personalizado\" en tus anchor texts"
+        },
+        {
+            "categoria": "estacionalidad",
+            "prioridad": "Alta",
+            "recomendacion": "Estamos en un período de alta demanda estacional",
+            "accion": "Aumenta la urgencia y escasez en tus anchor texts"
+        },
+        {
+            "categoria": "estacionalidad_mensual",
+            "prioridad": "Media",
+            "recomendacion": "Aprovecha las tendencias de september",
+            "accion": "Incluye palabras como vuelta al cole, aprendizaje, educación en tus anchor texts"
+        }
+    ],
+    "datos_analizados": 29
+}

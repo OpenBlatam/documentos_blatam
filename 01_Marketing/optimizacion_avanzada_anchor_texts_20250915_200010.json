@@ -1,0 +1,1147 @@
+{
+    "fecha_optimizacion": "2025-09-15T20:00:10.677921",
+    "estadisticas": {
+        "total_anchor_texts": 5,
+        "mejora_score_promedio": 31.6,
+        "mejora_ctr_promedio": 3.12,
+        "mejora_conversion_promedio": 4.75,
+        "mejora_roi_promedio": 1.89,
+        "mejor_optimizacion": {
+            "anchor_text_original": "Curso IA Marketing",
+            "anchor_text_optimizado": "Curso IA Marketing - Domina Ahora - Resultados Garantizado",
+            "mejora_score": 56.0,
+            "mejora_ctr": 5.17,
+            "mejora_conversion": 18.56,
+            "mejora_roi": 3.71,
+            "caracteristicas_originales": {
+                "longitud": 18,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 0,
+                "mayusculas": 4,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 58,
+                "palabras_poder": 1,
+                "llamada_accion": 2,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 0,
+                "mayusculas": 8,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 44.0,
+                "ctr": 0.05947403578120074,
+                "conversion_rate": 0.06481077272494709,
+                "roi": 1.2549539840453694
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.11118181451271868,
+                "conversion_rate": 0.250412021085542,
+                "roi": 4.969500053695375
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 56.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 5.17%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 18.56%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 3.71x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Curso IA Marketing",
+                    "caracteristicas": {
+                        "longitud": 18,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 4,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 44.0,
+                        "ctr": 0.036432722048716185,
+                        "conversion_rate": 0.09911913464556607,
+                        "roi": 2.547633914071217
+                    },
+                    "mejoras": []
+                },
+                {
+                    "anchor_text": "Curso IA Marketing - Ya",
+                    "caracteristicas": {
+                        "longitud": 23,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 77.0,
+                        "ctr": 0.09978009050096924,
+                        "conversion_rate": 0.2318990357338383,
+                        "roi": 3.5169651128620263
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso IA Marketing Avanzado",
+                    "caracteristicas": {
+                        "longitud": 27,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 65.0,
+                        "ctr": 0.08123073593126798,
+                        "conversion_rate": 0.157508080605721,
+                        "roi": 4.248416542551456
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.675756"
+        },
+        "peor_optimizacion": {
+            "anchor_text_original": "Curso Online IA Marketing 2024",
+            "anchor_text_optimizado": "Curso Online IA Marketing 2024 - Descubre Ahora - Triunfo Garantizado",
+            "mejora_score": 23.0,
+            "mejora_ctr": 3.42,
+            "mejora_conversion": 1.39,
+            "mejora_roi": 1.77,
+            "caracteristicas_originales": {
+                "longitud": 30,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 1,
+                "mayusculas": 5,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 69,
+                "palabras_poder": 0,
+                "llamada_accion": 3,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 1,
+                "mayusculas": 9,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 77.0,
+                "ctr": 0.09243320797226635,
+                "conversion_rate": 0.20716631778961417,
+                "roi": 4.222693544482491
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.12659294375196223,
+                "conversion_rate": 0.2210907337681079,
+                "roi": 5.990459538225327
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 23.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 3.42%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 1.39%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 1.77x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Increíble: Curso Online IA Marketing 2024",
+                    "caracteristicas": {
+                        "longitud": 41,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 1,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 1
+                    },
+                    "rendimiento": {
+                        "score": 80.0,
+                        "ctr": 0.10184321206589811,
+                        "conversion_rate": 0.19437523128251927,
+                        "roi": 3.659120783366356
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso Online IA Marketing 2024 - Hoy",
+                    "caracteristicas": {
+                        "longitud": 36,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 1,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 89.0,
+                        "ctr": 0.10457157222447203,
+                        "conversion_rate": 0.24423249578555983,
+                        "roi": 5.35523545276851
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso Online IA Marketing 2024 - Logro Garantizado",
+                    "caracteristicas": {
+                        "longitud": 50,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 2,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 1,
+                        "mayusculas": 7,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 92.0,
+                        "ctr": 0.12555714160090176,
+                        "conversion_rate": 0.26681736141188894,
+                        "roi": 5.385026305387226
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.677901"
+        }
+    },
+    "resultados_individuales": [
+        {
+            "anchor_text_original": "Curso IA Marketing",
+            "anchor_text_optimizado": "Curso IA Marketing - Domina Ahora - Resultados Garantizado",
+            "mejora_score": 56.0,
+            "mejora_ctr": 5.17,
+            "mejora_conversion": 18.56,
+            "mejora_roi": 3.71,
+            "caracteristicas_originales": {
+                "longitud": 18,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 0,
+                "mayusculas": 4,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 58,
+                "palabras_poder": 1,
+                "llamada_accion": 2,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 0,
+                "mayusculas": 8,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 44.0,
+                "ctr": 0.05947403578120074,
+                "conversion_rate": 0.06481077272494709,
+                "roi": 1.2549539840453694
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.11118181451271868,
+                "conversion_rate": 0.250412021085542,
+                "roi": 4.969500053695375
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 56.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 5.17%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 18.56%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 3.71x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Curso IA Marketing",
+                    "caracteristicas": {
+                        "longitud": 18,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 4,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 44.0,
+                        "ctr": 0.036432722048716185,
+                        "conversion_rate": 0.09911913464556607,
+                        "roi": 2.547633914071217
+                    },
+                    "mejoras": []
+                },
+                {
+                    "anchor_text": "Curso IA Marketing - Ya",
+                    "caracteristicas": {
+                        "longitud": 23,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 77.0,
+                        "ctr": 0.09978009050096924,
+                        "conversion_rate": 0.2318990357338383,
+                        "roi": 3.5169651128620263
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso IA Marketing Avanzado",
+                    "caracteristicas": {
+                        "longitud": 27,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 65.0,
+                        "ctr": 0.08123073593126798,
+                        "conversion_rate": 0.157508080605721,
+                        "roi": 4.248416542551456
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.675756"
+        },
+        {
+            "anchor_text_original": "Aprende Marketing con IA",
+            "anchor_text_optimizado": "Transforma Marketing con IA - Conquista Garantizado - Ahora",
+            "mejora_score": 28.0,
+            "mejora_ctr": 1.23,
+            "mejora_conversion": 2.33,
+            "mejora_roi": 2.57,
+            "caracteristicas_originales": {
+                "longitud": 24,
+                "palabras_poder": 0,
+                "llamada_accion": 1,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 0,
+                "mayusculas": 4,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 59,
+                "palabras_poder": 2,
+                "llamada_accion": 1,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 0,
+                "mayusculas": 7,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 72.0,
+                "ctr": 0.10413440707495838,
+                "conversion_rate": 0.2092654724643041,
+                "roi": 3.392384381406523
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.11647338290782583,
+                "conversion_rate": 0.23260515256433967,
+                "roi": 5.957759269855064
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 28.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 1.23%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 2.33%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 2.57x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Increíble: Aprende Marketing con IA",
+                    "caracteristicas": {
+                        "longitud": 35,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 1
+                    },
+                    "rendimiento": {
+                        "score": 86.0,
+                        "ctr": 0.08730717275117443,
+                        "conversion_rate": 0.2143331761136758,
+                        "roi": 3.7966455056767243
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                },
+                {
+                    "anchor_text": "Aprende Marketing con IA - Resultados Garantizado",
+                    "caracteristicas": {
+                        "longitud": 49,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 2,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 0,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 98.0,
+                        "ctr": 0.10481405326227464,
+                        "conversion_rate": 0.26212485098023774,
+                        "roi": 5.382168863027089
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                },
+                {
+                    "anchor_text": "Aprende Marketing con IA",
+                    "caracteristicas": {
+                        "longitud": 24,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 4,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 72.0,
+                        "ctr": 0.08247894347703774,
+                        "conversion_rate": 0.18738617382947315,
+                        "roi": 4.280269108171226
+                    },
+                    "mejoras": []
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.676275"
+        },
+        {
+            "anchor_text_original": "IA Marketing para Principiantes",
+            "anchor_text_optimizado": "IA Marketing para Principiantes - Obtén Ahora - Conquista Garantizado",
+            "mejora_score": 26.0,
+            "mejora_ctr": 2.46,
+            "mejora_conversion": 0.8,
+            "mejora_roi": 0.62,
+            "caracteristicas_originales": {
+                "longitud": 31,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 0,
+                "mayusculas": 4,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 69,
+                "palabras_poder": 1,
+                "llamada_accion": 2,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 0,
+                "mayusculas": 8,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 74.0,
+                "ctr": 0.0924592974611794,
+                "conversion_rate": 0.21312565251927876,
+                "roi": 4.387490516487846
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.11702179889636909,
+                "conversion_rate": 0.22115590869536889,
+                "roi": 5.005286142061447
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 26.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 2.46%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 0.8%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 0.62x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "IA Marketing para Principiantes - Ya",
+                    "caracteristicas": {
+                        "longitud": 36,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 87.0,
+                        "ctr": 0.12149640144797413,
+                        "conversion_rate": 0.23629371047992576,
+                        "roi": 3.7409960560280706
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "IA Marketing para Principiantes - Consigue Ahora",
+                    "caracteristicas": {
+                        "longitud": 48,
+                        "palabras_poder": 0,
+                        "llamada_accion": 2,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 95.0,
+                        "ctr": 0.11351215497056805,
+                        "conversion_rate": 0.22602166031620335,
+                        "roi": 4.372628198006812
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Fantástico: IA Marketing para Principiantes",
+                    "caracteristicas": {
+                        "longitud": 43,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 0,
+                        "mayusculas": 5,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 1
+                    },
+                    "rendimiento": {
+                        "score": 78.0,
+                        "ctr": 0.07621270480538492,
+                        "conversion_rate": 0.1452044459556049,
+                        "roi": 4.628205425925954
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.676821"
+        },
+        {
+            "anchor_text_original": "Masterclass Marketing Digital IA",
+            "anchor_text_optimizado": "Masterclass Marketing Digital IA - Consigue Ahora - Conquista Garantizado",
+            "mejora_score": 25.0,
+            "mejora_ctr": 3.3,
+            "mejora_conversion": 0.69,
+            "mejora_roi": 0.78,
+            "caracteristicas_originales": {
+                "longitud": 32,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 0,
+                "mayusculas": 5,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 73,
+                "palabras_poder": 1,
+                "llamada_accion": 2,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 0,
+                "mayusculas": 9,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 75.0,
+                "ctr": 0.10311570178005947,
+                "conversion_rate": 0.2104273834868861,
+                "roi": 4.0589494964437325
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.1360902393829062,
+                "conversion_rate": 0.21729960352885042,
+                "roi": 4.835772352666747
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 25.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 3.3%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 0.69%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 0.78x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Extraordinario: Masterclass Marketing Digital IA",
+                    "caracteristicas": {
+                        "longitud": 48,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 0,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 1
+                    },
+                    "rendimiento": {
+                        "score": 78.0,
+                        "ctr": 0.10639940628908533,
+                        "conversion_rate": 0.18551310730443593,
+                        "roi": 3.9164173014837083
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                },
+                {
+                    "anchor_text": "Masterclass Marketing Digital IA - Logra Ahora",
+                    "caracteristicas": {
+                        "longitud": 46,
+                        "palabras_poder": 0,
+                        "llamada_accion": 2,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 7,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 95.0,
+                        "ctr": 0.1334837366242322,
+                        "conversion_rate": 0.22858575397682548,
+                        "roi": 5.25292510679029
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Masterclass Marketing Digital IA - Hoy",
+                    "caracteristicas": {
+                        "longitud": 38,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 0,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 87.0,
+                        "ctr": 0.08716853972729945,
+                        "conversion_rate": 0.17998971211926645,
+                        "roi": 4.982011200380938
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.677419"
+        },
+        {
+            "anchor_text_original": "Curso Online IA Marketing 2024",
+            "anchor_text_optimizado": "Curso Online IA Marketing 2024 - Descubre Ahora - Triunfo Garantizado",
+            "mejora_score": 23.0,
+            "mejora_ctr": 3.42,
+            "mejora_conversion": 1.39,
+            "mejora_roi": 1.77,
+            "caracteristicas_originales": {
+                "longitud": 30,
+                "palabras_poder": 0,
+                "llamada_accion": 0,
+                "beneficios": 0,
+                "urgencia": 0,
+                "emociones": 0,
+                "numeros": 1,
+                "mayusculas": 5,
+                "signos_puntuacion": 0,
+                "guiones": 0,
+                "dos_puntos": 0
+            },
+            "caracteristicas_optimizadas": {
+                "longitud": 69,
+                "palabras_poder": 0,
+                "llamada_accion": 3,
+                "beneficios": 2,
+                "urgencia": 1,
+                "emociones": 1,
+                "numeros": 1,
+                "mayusculas": 9,
+                "signos_puntuacion": 0,
+                "guiones": 2,
+                "dos_puntos": 0
+            },
+            "rendimiento_original": {
+                "score": 77.0,
+                "ctr": 0.09243320797226635,
+                "conversion_rate": 0.20716631778961417,
+                "roi": 4.222693544482491
+            },
+            "rendimiento_optimizado": {
+                "score": 100,
+                "ctr": 0.12659294375196223,
+                "conversion_rate": 0.2210907337681079,
+                "roi": 5.990459538225327
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "score",
+                    "prioridad": "Alta",
+                    "recomendacion": "El score mejoró en 23.0 puntos",
+                    "accion": "Implementar la versión optimizada"
+                },
+                {
+                    "tipo": "ctr",
+                    "prioridad": "Alta",
+                    "recomendacion": "El CTR mejorará en 3.42%",
+                    "accion": "Usar la versión optimizada para aumentar clicks"
+                },
+                {
+                    "tipo": "conversion",
+                    "prioridad": "Alta",
+                    "recomendacion": "La conversión mejorará en 1.39%",
+                    "accion": "Implementar para aumentar conversiones"
+                },
+                {
+                    "tipo": "roi",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El ROI mejorará en 1.77x",
+                    "accion": "Priorizar esta versión para mejor retorno"
+                },
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir más palabras de poder",
+                    "accion": "Usar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Media",
+                    "recomendacion": "Agregar llamada a la acción clara",
+                    "accion": "Incluir palabras como \"aprende\", \"descubre\", \"comienza\""
+                }
+            ],
+            "variantes_alternativas": [
+                {
+                    "anchor_text": "Increíble: Curso Online IA Marketing 2024",
+                    "caracteristicas": {
+                        "longitud": 41,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 0,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 1,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 0,
+                        "dos_puntos": 1
+                    },
+                    "rendimiento": {
+                        "score": 80.0,
+                        "ctr": 0.10184321206589811,
+                        "conversion_rate": 0.19437523128251927,
+                        "roi": 3.659120783366356
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso Online IA Marketing 2024 - Hoy",
+                    "caracteristicas": {
+                        "longitud": 36,
+                        "palabras_poder": 0,
+                        "llamada_accion": 1,
+                        "beneficios": 0,
+                        "urgencia": 1,
+                        "emociones": 0,
+                        "numeros": 1,
+                        "mayusculas": 6,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 89.0,
+                        "ctr": 0.10457157222447203,
+                        "conversion_rate": 0.24423249578555983,
+                        "roi": 5.35523545276851
+                    },
+                    "mejoras": [
+                        "Longitud aumentada",
+                        "Llamada a la acción agregada"
+                    ]
+                },
+                {
+                    "anchor_text": "Curso Online IA Marketing 2024 - Logro Garantizado",
+                    "caracteristicas": {
+                        "longitud": 50,
+                        "palabras_poder": 0,
+                        "llamada_accion": 0,
+                        "beneficios": 2,
+                        "urgencia": 0,
+                        "emociones": 1,
+                        "numeros": 1,
+                        "mayusculas": 7,
+                        "signos_puntuacion": 0,
+                        "guiones": 1,
+                        "dos_puntos": 0
+                    },
+                    "rendimiento": {
+                        "score": 92.0,
+                        "ctr": 0.12555714160090176,
+                        "conversion_rate": 0.26681736141188894,
+                        "roi": 5.385026305387226
+                    },
+                    "mejoras": [
+                        "Longitud aumentada"
+                    ]
+                }
+            ],
+            "fecha_optimizacion": "2025-09-15T20:00:10.677901"
+        }
+    ],
+    "recomendaciones_generales": [
+        "Excelente optimización del lote, implementar todas las mejoras",
+        "Mejora significativa en CTR esperada",
+        "Mejora significativa en ROI esperada"
+    ]
+}

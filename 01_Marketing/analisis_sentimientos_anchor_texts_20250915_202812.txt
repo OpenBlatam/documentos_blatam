@@ -1,0 +1,25 @@
+--- ANÁLISIS DE SENTIMIENTOS - ANCHOR TEXTS IA MARKETING ---
+Fecha: 2025-09-15T20:28:12.225527
+
+ANÁLISIS COMPLETO:
+• Anchor text: Curso IA Marketing - Resultados Garantizados
+• Score general: 42.92/100
+
+SENTIMIENTO:
+• Score: 0.0
+• Predominante: neutral
+• Confianza: 16.7%
+
+EMOCIONES:
+• Intensidad: 0.1
+• Principal: confianza
+• Predominantes: confianza
+
+PERSUASIÓN:
+• Score: 16.67/100
+• Elementos: beneficio
+
+RECOMENDACIONES:
+• Sentimiento (Alta): El anchor text tiene un sentimiento muy neutral o negativo
+  Acción: Agrega palabras positivas como "excelente", "fantástico", "increíble"
+

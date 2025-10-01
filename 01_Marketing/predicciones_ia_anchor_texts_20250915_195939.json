@@ -1,0 +1,412 @@
+{
+    "fecha_analisis": "2025-09-15T19:59:39.427338",
+    "estadisticas": {
+        "total_anchor_texts": 5,
+        "ctr_promedio": 3.86,
+        "ctr_maximo": 4.5,
+        "ctr_minimo": 3.4,
+        "conversion_rate_promedio": 12.8,
+        "roi_promedio": 2.41,
+        "score_promedio": 22.2,
+        "mejor_anchor_text": {
+            "anchor_text": "Transforma tu Negocio con IA Marketing Ahora",
+            "caracteristicas": {
+                "longitud": 44,
+                "palabras_poder": 2,
+                "llamada_accion": 0,
+                "urgencia": 1,
+                "beneficios": 0,
+                "numeros": 0,
+                "emotividad": 0
+            },
+            "score_calidad": 25.4,
+            "predicciones": {
+                "ctr": 4.5,
+                "conversion_rate": 15.0,
+                "roi": 2.75
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "cta",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir una llamada a la acción clara",
+                    "accion": "Agregar palabras como \"aprende\", \"descubre\", \"comienza\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "numeros",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir números para mayor credibilidad",
+                    "accion": "Agregar porcentajes, fechas o cantidades específicas"
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 36.4,
+            "fecha_prediccion": "2025-09-15T19:59:39.427288"
+        },
+        "peor_anchor_text": {
+            "anchor_text": "Aprende IA Marketing desde Cero",
+            "caracteristicas": {
+                "longitud": 31,
+                "palabras_poder": 0,
+                "llamada_accion": 1,
+                "urgencia": 0,
+                "beneficios": 0,
+                "numeros": 0,
+                "emotividad": 0
+            },
+            "score_calidad": 18.6,
+            "predicciones": {
+                "ctr": 3.4,
+                "conversion_rate": 10.0,
+                "roi": 2.0
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir más palabras de poder para mayor impacto",
+                    "accion": "Agregar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "urgencia",
+                    "prioridad": "Media",
+                    "recomendacion": "Crear sensación de urgencia",
+                    "accion": "Agregar palabras como \"ahora\", \"hoy\", \"última oportunidad\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "numeros",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir números para mayor credibilidad",
+                    "accion": "Agregar porcentajes, fechas o cantidades específicas"
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 24.3,
+            "fecha_prediccion": "2025-09-15T19:59:39.427213"
+        }
+    },
+    "resultados_individuales": [
+        {
+            "anchor_text": "Curso IA Marketing - Resultados Garantizados",
+            "caracteristicas": {
+                "longitud": 44,
+                "palabras_poder": 1,
+                "llamada_accion": 0,
+                "urgencia": 0,
+                "beneficios": 2,
+                "numeros": 0,
+                "emotividad": 0
+            },
+            "score_calidad": 25.0,
+            "predicciones": {
+                "ctr": 4.0,
+                "conversion_rate": 15.0,
+                "roi": 2.7
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir más palabras de poder para mayor impacto",
+                    "accion": "Agregar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir una llamada a la acción clara",
+                    "accion": "Agregar palabras como \"aprende\", \"descubre\", \"comienza\""
+                },
+                {
+                    "tipo": "urgencia",
+                    "prioridad": "Media",
+                    "recomendacion": "Crear sensación de urgencia",
+                    "accion": "Agregar palabras como \"ahora\", \"hoy\", \"última oportunidad\""
+                },
+                {
+                    "tipo": "numeros",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir números para mayor credibilidad",
+                    "accion": "Agregar porcentajes, fechas o cantidades específicas"
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 36.4,
+            "fecha_prediccion": "2025-09-15T19:59:39.427107"
+        },
+        {
+            "anchor_text": "Domina el Marketing con IA en 30 Días",
+            "caracteristicas": {
+                "longitud": 37,
+                "palabras_poder": 1,
+                "llamada_accion": 0,
+                "urgencia": 0,
+                "beneficios": 0,
+                "numeros": 1,
+                "emotividad": 0
+            },
+            "score_calidad": 21.0,
+            "predicciones": {
+                "ctr": 3.7,
+                "conversion_rate": 12.0,
+                "roi": 2.3
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir más palabras de poder para mayor impacto",
+                    "accion": "Agregar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir una llamada a la acción clara",
+                    "accion": "Agregar palabras como \"aprende\", \"descubre\", \"comienza\""
+                },
+                {
+                    "tipo": "urgencia",
+                    "prioridad": "Media",
+                    "recomendacion": "Crear sensación de urgencia",
+                    "accion": "Agregar palabras como \"ahora\", \"hoy\", \"última oportunidad\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 36.4,
+            "fecha_prediccion": "2025-09-15T19:59:39.427148"
+        },
+        {
+            "anchor_text": "Aprende IA Marketing desde Cero",
+            "caracteristicas": {
+                "longitud": 31,
+                "palabras_poder": 0,
+                "llamada_accion": 1,
+                "urgencia": 0,
+                "beneficios": 0,
+                "numeros": 0,
+                "emotividad": 0
+            },
+            "score_calidad": 18.6,
+            "predicciones": {
+                "ctr": 3.4,
+                "conversion_rate": 10.0,
+                "roi": 2.0
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir más palabras de poder para mayor impacto",
+                    "accion": "Agregar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "urgencia",
+                    "prioridad": "Media",
+                    "recomendacion": "Crear sensación de urgencia",
+                    "accion": "Agregar palabras como \"ahora\", \"hoy\", \"última oportunidad\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "numeros",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir números para mayor credibilidad",
+                    "accion": "Agregar porcentajes, fechas o cantidades específicas"
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 24.3,
+            "fecha_prediccion": "2025-09-15T19:59:39.427213"
+        },
+        {
+            "anchor_text": "Masterclass IA Marketing 2024 - Exclusivo",
+            "caracteristicas": {
+                "longitud": 41,
+                "palabras_poder": 1,
+                "llamada_accion": 0,
+                "urgencia": 0,
+                "beneficios": 0,
+                "numeros": 1,
+                "emotividad": 0
+            },
+            "score_calidad": 21.0,
+            "predicciones": {
+                "ctr": 3.7,
+                "conversion_rate": 12.0,
+                "roi": 2.3
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "palabras_poder",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir más palabras de poder para mayor impacto",
+                    "accion": "Agregar palabras como \"domina\", \"revoluciona\", \"transforma\""
+                },
+                {
+                    "tipo": "cta",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir una llamada a la acción clara",
+                    "accion": "Agregar palabras como \"aprende\", \"descubre\", \"comienza\""
+                },
+                {
+                    "tipo": "urgencia",
+                    "prioridad": "Media",
+                    "recomendacion": "Crear sensación de urgencia",
+                    "accion": "Agregar palabras como \"ahora\", \"hoy\", \"última oportunidad\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 36.4,
+            "fecha_prediccion": "2025-09-15T19:59:39.427256"
+        },
+        {
+            "anchor_text": "Transforma tu Negocio con IA Marketing Ahora",
+            "caracteristicas": {
+                "longitud": 44,
+                "palabras_poder": 2,
+                "llamada_accion": 0,
+                "urgencia": 1,
+                "beneficios": 0,
+                "numeros": 0,
+                "emotividad": 0
+            },
+            "score_calidad": 25.4,
+            "predicciones": {
+                "ctr": 4.5,
+                "conversion_rate": 15.0,
+                "roi": 2.75
+            },
+            "recomendaciones": [
+                {
+                    "tipo": "cta",
+                    "prioridad": "Alta",
+                    "recomendacion": "Incluir una llamada a la acción clara",
+                    "accion": "Agregar palabras como \"aprende\", \"descubre\", \"comienza\""
+                },
+                {
+                    "tipo": "beneficios",
+                    "prioridad": "Alta",
+                    "recomendacion": "Destacar más beneficios específicos",
+                    "accion": "Incluir palabras como \"resultados\", \"éxito\", \"garantizado\""
+                },
+                {
+                    "tipo": "numeros",
+                    "prioridad": "Media",
+                    "recomendacion": "Incluir números para mayor credibilidad",
+                    "accion": "Agregar porcentajes, fechas o cantidades específicas"
+                },
+                {
+                    "tipo": "emotividad",
+                    "prioridad": "Media",
+                    "recomendacion": "Añadir elementos emocionales",
+                    "accion": "Incluir palabras como \"increíble\", \"sorprendente\", \"fantástico\""
+                },
+                {
+                    "tipo": "general",
+                    "prioridad": "Muy Alta",
+                    "recomendacion": "El anchor text necesita optimización significativa",
+                    "accion": "Revisar todas las recomendaciones específicas y reescribir"
+                }
+            ],
+            "confianza": 36.4,
+            "fecha_prediccion": "2025-09-15T19:59:39.427288"
+        }
+    ],
+    "recomendaciones_generales": [
+        "El lote general necesita optimización significativa",
+        "Considera mejorar el CTR promedio del lote"
+    ]
+}
