@@ -938,3 +938,6 @@ Día 15-30: Compradores anteriores (upsell)
 *Esta guía está diseñada para maximizar el ROI de tus campañas publicitarias. Implementa las estrategias de forma sistemática y mide los resultados constantemente para optimizar continuamente tu performance.*
 
 
+
+
+
