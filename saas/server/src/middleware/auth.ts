@@ -1,98 +1,128 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { prisma } from '../index';
-import { logger } from '../utils/logger';
 
-interface AuthRequest extends Request {
-  user?: {
-    id: string;
-    email: string;
-    role: string;
-  };
+export interface AuthUser {
+  id: string;
+  email: string;
+  name: string;
+  role: string;
+  permissions: string[];
+  region?: string;
+  language?: string;
 }
 
-export const authMiddleware = async (req: AuthRequest, res: Response, next: NextFunction) => {
+declare global {
+  namespace Express {
+    interface Request {
+      user?: AuthUser;
+    }
+  }
+}
+
+// Middleware de autenticación JWT
+export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
+
+  if (!token) {
+    return res.status(401).json({ error: 'Access token required' });
+  }
+
   try {
-    const authHeader = req.headers.authorization;
+    const secret = process.env.JWT_SECRET || 'fallback_secret_key';
+    const decoded = jwt.verify(token, secret) as any;
     
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return res.status(401).json({ error: 'No token provided' });
-    }
-
-    const token = authHeader.substring(7); // Remove 'Bearer ' prefix
-
-    // Verify token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET!) as any;
-
-    // Get user from database
-    const user = await prisma.user.findUnique({
-      where: { id: decoded.userId },
-      select: {
-        id: true,
-        email: true,
-        role: true,
-        plan: true,
-      },
-    });
-
-    if (!user) {
-      return res.status(401).json({ error: 'Invalid token' });
-    }
-
-    // Add user to request object
     req.user = {
-      id: user.id,
-      email: user.email,
-      role: user.role,
+      id: decoded.id,
+      email: decoded.email,
+      name: decoded.name,
+      role: decoded.role,
+      permissions: decoded.permissions || [],
+      region: decoded.region,
+      language: decoded.language
     };
-
+    
     next();
   } catch (error) {
-    logger.error('Auth middleware error:', error);
-    
-    if (error instanceof jwt.JsonWebTokenError) {
-      return res.status(401).json({ error: 'Invalid token' });
-    }
-    
-    if (error instanceof jwt.TokenExpiredError) {
-      return res.status(401).json({ error: 'Token expired' });
-    }
-
-    res.status(500).json({ error: 'Authentication failed' });
+    return res.status(403).json({ error: 'Invalid or expired token' });
   }
 };
 
-export const adminMiddleware = (req: AuthRequest, res: Response, next: NextFunction) => {
-  if (!req.user || req.user.role !== 'ADMIN') {
-    return res.status(403).json({ error: 'Admin access required' });
-  }
-  next();
-};
-
-export const planMiddleware = (requiredPlan: string) => {
-  return (req: AuthRequest, res: Response, next: NextFunction) => {
+// Middleware de autorización por roles
+export const authorizeRole = (roles: string[]) => {
+  return (req: Request, res: Response, next: NextFunction) => {
     if (!req.user) {
       return res.status(401).json({ error: 'Authentication required' });
     }
 
-    const planHierarchy = {
-      'FREE': 0,
-      'PRO': 1,
-      'ENTERPRISE': 2,
-    };
-
-    const userPlanLevel = planHierarchy[req.user.plan as keyof typeof planHierarchy] || 0;
-    const requiredPlanLevel = planHierarchy[requiredPlan as keyof typeof planHierarchy] || 0;
-
-    if (userPlanLevel < requiredPlanLevel) {
-      return res.status(403).json({ 
-        error: 'Upgrade required', 
-        requiredPlan,
-        currentPlan: req.user.plan 
-      });
+    if (!roles.includes(req.user.role)) {
+      return res.status(403).json({ error: 'Insufficient permissions' });
     }
 
     next();
   };
 };
 
+// Middleware de autorización por permisos
+export const authorizePermission = (permission: string) => {
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Authentication required' });
+    }
+
+    if (!req.user.permissions.includes(permission)) {
+      return res.status(403).json({ error: 'Insufficient permissions' });
+    }
+
+    next();
+  };
+};
+
+// Middleware de validación de API key
+export const validateApiKey = (req: Request, res: Response, next: NextFunction) => {
+  const apiKey = req.headers['x-api-key'] as string;
+  const validApiKeys = process.env.VALID_API_KEYS?.split(',') || [];
+
+  if (!apiKey) {
+    return res.status(401).json({ error: 'API key required' });
+  }
+
+  if (!validApiKeys.includes(apiKey)) {
+    return res.status(403).json({ error: 'Invalid API key' });
+  }
+
+  next();
+};
+
+// Middleware de rate limiting por IP
+export const rateLimitByIP = (maxRequests: number = 100, windowMs: number = 15 * 60 * 1000) => {
+  const requests = new Map<string, { count: number; resetTime: number }>();
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    const ip = req.ip;
+    const now = Date.now();
+    const windowStart = now - windowMs;
+
+    // Limpiar entradas expiradas
+    for (const [key, value] of requests.entries()) {
+      if (value.resetTime < now) {
+        requests.delete(key);
+      }
+    }
+
+    const ipData = requests.get(ip);
+    
+    if (!ipData) {
+      requests.set(ip, { count: 1, resetTime: now + windowMs });
+      next();
+    } else if (ipData.count < maxRequests) {
+      ipData.count++;
+      next();
+    } else {
+      return res.status(429).json({
+        error: 'Too many requests. Please try again later.',
+        retryAfter: Math.ceil((ipData.resetTime - now) / 1000)
+      });
+    }
+  };
+};
