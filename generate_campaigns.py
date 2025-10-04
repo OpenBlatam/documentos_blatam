@@ -193,3 +193,4 @@ if __name__ == "__main__":
     for cat, count in sorted(categories.items(), key=lambda x: x[1], reverse=True):
         print(f"  {cat}: {count}")
 
+

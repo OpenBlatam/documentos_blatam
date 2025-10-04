@@ -319,3 +319,4 @@ if __name__ == "__main__":
     generate_statistics(campaigns)
     print("\n¡Proceso completado exitosamente!")
 
+

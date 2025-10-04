@@ -259,3 +259,4 @@ Success in PropTech implementation requires clear strategy, appropriate technolo
 
 
 
+

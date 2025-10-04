@@ -221,3 +221,4 @@
 **ROI promedio proyectado**: 5.8x  
 **Probabilidad de éxito promedio**: 85.2%
 
+

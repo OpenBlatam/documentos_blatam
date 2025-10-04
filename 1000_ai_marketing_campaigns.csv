@@ -20,3 +20,4 @@ ID,Nombre,Categoría,Tecnología,Canal,Objetivo,Vertical,Presupuesto,Probabilida
 19,Personalized Video Recommendations,Recomendaciones Inteligentes,Recommendation Engines,YouTube,Mejorar retención,Entertainment,33000,0.87,Alta,Alta,"Desarrolla un sistema de recomendaciones personalizadas de videos con Recommendation Engines para YouTube, aumentando el tiempo de visualización."
 20,AI Visual Content Optimization,Marketing Visual con IA,Computer Vision,Instagram,Aumentar brand awareness,Fitness & Wellness,20000,0.85,Media,Alta,"Optimiza contenido visual con Computer Vision en Instagram, creando imágenes y videos atractivos que resuenan con la audiencia."
 
+

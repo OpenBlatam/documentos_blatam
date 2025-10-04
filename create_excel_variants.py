@@ -272,3 +272,4 @@ df = pd.DataFrame(data)
 df.to_excel('webinar_copywriting_variants_complete.xlsx', index=False)
 print('Excel file created with 1000 variants')
 
+

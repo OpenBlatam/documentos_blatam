@@ -794,3 +794,4 @@ El SGI aplica a todas las actividades de la organización relacionadas con:
 *Fecha: Enero 2025*
 *Autor: Sistema de Gestión de Calidad*
 
+

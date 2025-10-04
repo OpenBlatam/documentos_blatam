@@ -596,3 +596,4 @@ Gracias por su comprensión y apoyo.
 
 *Este sistema de crisis management te permite detectar, gestionar y recuperarte de crisis de manera efectiva, protegiendo tu reputación y manteniendo la confianza de tu audiencia.*
 
+

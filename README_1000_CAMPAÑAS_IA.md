@@ -224,3 +224,4 @@ Para consultas sobre implementación o personalización de campañas, contactar 
 **Canales**: 10  
 **Sectores**: 20
 
+

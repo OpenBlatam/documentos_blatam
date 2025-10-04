@@ -409,3 +409,4 @@
 **Tamaños de empresa**: 3 categorías  
 **ROI promedio**: 6.2x
 
+

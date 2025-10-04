@@ -254,3 +254,4 @@ if (ROAS > 4.0) {
 *Guía completa para optimización de anuncios*
 *CTR 20% → Conversión 2-5%*
 
+

@@ -351,3 +351,4 @@ Este plan de 30 días está diseñado para transformar tu rendimiento de anuncio
 *Plan de implementación para optimización de anuncios*
 *CTR 20% → Conversión 2-5% en 30 días*
 
+

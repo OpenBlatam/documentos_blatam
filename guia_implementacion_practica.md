@@ -414,3 +414,4 @@ Crear un dashboard en Google Sheets con:
 
 *Esta guía de implementación práctica te proporciona un roadmap detallado para ejecutar tu estrategia de 1000 hooks de manera efectiva y escalable.*
 
+

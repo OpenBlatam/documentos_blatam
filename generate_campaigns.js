@@ -283,3 +283,4 @@ const campaigns = generator.generateAllCampaigns(1000);
 generator.saveCampaigns(campaigns);
 generator.generateStatistics(campaigns);
 
+
