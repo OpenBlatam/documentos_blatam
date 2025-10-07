@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Dashboard Avanzado Anti-Dependencia VC - Startups SaaS IA LATAM</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .dashboard-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #e9ecef;
+        }
+
+        .dashboard-section h2 {
+            color: #495057;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .metric-title {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .metric-description {
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+
+        .chart-container {
+            margin-top: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-color: #ffc107;
+            color: #856404;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+        }
+
+        .alert-danger {
+            background: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+
+        .recommendations {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #28a745;
+        }
+
+        .recommendations h3 {
+            color: #155724;
+            margin-bottom: 15px;
+        }
+
+        .recommendations ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .recommendations li {
+            padding: 8px 0;
+            border-bottom: 1px solid #c3e6cb;
+        }
+
+        .recommendations li:last-child {
+            border-bottom: none;
+        }
+
+        .recommendations li::before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            border-bottom-color: #667eea;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Dashboard Avanzado Anti-Dependencia VC</h1>
+            <p>Monitoreo en tiempo real de tu estrategia de financiamiento</p>
+        </div>
+
+        <div class="dashboard-grid">
+            <!-- Métricas Clave -->
+            <div class="dashboard-section full-width">
+                <h2>📊 Métricas Clave Anti-VC</h2>
+                
+                <div id="alerts-container"></div>
+                
+                <div class="metrics-grid" id="metrics-container">
+                    <div class="metric-card">
+                        <div class="metric-title">Diversificación Score</div>
+                        <div class="metric-value" id="diversificationScore">0/100</div>
+                        <div class="metric-description">Score de diversificación de capital</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-title">Control Score</div>
+                        <div class="metric-value" id="controlScore">0/100</div>
+                        <div class="metric-description">Score de control de fundadores</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-title">Eficiencia Score</div>
+                        <div class="metric-value" id="efficiencyScore">0/100</div>
+                        <div class="metric-description">Score de eficiencia de capital</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-title">Dependencia VC</div>
+                        <div class="metric-value" id="vcDependency">0%</div>
+                        <div class="metric-description">Porcentaje de dependencia VC</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-title">Revenue Anual</div>
+                        <div class="metric-value" id="annualRevenue">$0</div>
+                        <div class="metric-description">Revenue anual proyectado</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-title">Runway</div>
+                        <div class="metric-value" id="runway">0 meses</div>
+                        <div class="metric-description">Meses de runway restante</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gráficos de Revenue -->
+            <div class="dashboard-section">
+                <h2>📈 Proyección de Revenue</h2>
+                <div class="chart-container">
+                    <canvas id="revenueChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Mix de Financiamiento -->
+            <div class="dashboard-section">
+                <h2>💰 Mix de Financiamiento</h2>
+                <div class="chart-container">
+                    <canvas id="fundingMixChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Análisis de Escenarios -->
+            <div class="dashboard-section">
+                <h2>🎯 Análisis de Escenarios</h2>
+                <div class="chart-container">
+                    <canvas id="scenarioChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Métricas de Performance -->
+            <div class="dashboard-section">
+                <h2>⚡ Métricas de Performance</h2>
+                <div class="chart-container">
+                    <canvas id="performanceChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Análisis de Riesgo -->
+            <div class="dashboard-section">
+                <h2>⚠️ Análisis de Riesgo</h2>
+                <div class="chart-container">
+                    <canvas id="riskChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Optimización de Capital -->
+            <div class="dashboard-section">
+                <h2>🔧 Optimización de Capital</h2>
+                <div class="chart-container">
+                    <canvas id="optimizationChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Recomendaciones Inteligentes -->
+            <div class="dashboard-section full-width">
+                <h2>🎯 Recomendaciones Inteligentes</h2>
+                <div class="recommendations" id="recommendations">
+                    <h3>💡 Recomendaciones Basadas en IA</h3>
+                    <ul id="recommendationsList">
+                        <li>Configura tu perfil para ver recomendaciones personalizadas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tabs de Análisis Avanzado -->
+            <div class="dashboard-section full-width">
+                <h2>🔬 Análisis Avanzado</h2>
+                
+                <div class="tabs">
+                    <div class="tab active" onclick="showTab('financial')">Financiero</div>
+                    <div class="tab" onclick="showTab('operational')">Operacional</div>
+                    <div class="tab" onclick="showTab('strategic')">Estratégico</div>
+                    <div class="tab" onclick="showTab('predictive')">Predictivo</div>
+                </div>
+
+                <div id="financial" class="tab-content active">
+                    <div class="chart-container">
+                        <canvas id="financialAnalysisChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+
+                <div id="operational" class="tab-content">
+                    <div class="chart-container">
+                        <canvas id="operationalAnalysisChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+
+                <div id="strategic" class="tab-content">
+                    <div class="chart-container">
+                        <canvas id="strategicAnalysisChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+
+                <div id="predictive" class="tab-content">
+                    <div class="chart-container">
+                        <canvas id="predictiveAnalysisChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales
+        let charts = {};
+        let currentData = {};
+
+        // Inicializar dashboard
+        window.onload = function() {
+            initializeDashboard();
+            updateDashboard();
+            setInterval(updateDashboard, 30000); // Actualizar cada 30 segundos
+        };
+
+        function initializeDashboard() {
+            // Configurar datos iniciales
+            currentData = {
+                revenue: 1000000,
+                growthRate: 0.5,
+                vcDependency: 70,
+                diversificationScore: 30,
+                controlScore: 30,
+                efficiencyScore: 60,
+                runway: 12,
+                ltvCacRatio: 2.5,
+                churnRate: 0.03,
+                burnRate: 50000
+            };
+
+            // Inicializar gráficos
+            initializeCharts();
+        }
+
+        function updateDashboard() {
+            // Simular actualización de datos
+            updateMetrics();
+            updateCharts();
+            updateRecommendations();
+            updateAlerts();
+        }
+
+        function updateMetrics() {
+            // Actualizar métricas en tiempo real
+            document.getElementById('diversificationScore').textContent = currentData.diversificationScore + '/100';
+            document.getElementById('controlScore').textContent = currentData.controlScore + '/100';
+            document.getElementById('efficiencyScore').textContent = currentData.efficiencyScore + '/100';
+            document.getElementById('vcDependency').textContent = currentData.vcDependency + '%';
+            document.getElementById('annualRevenue').textContent = '$' + currentData.revenue.toLocaleString();
+            document.getElementById('runway').textContent = currentData.runway + ' meses';
+        }
+
+        function initializeCharts() {
+            // Gráfico de Revenue
+            const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+            charts.revenue = new Chart(revenueCtx, {
+                type: 'line',
+                data: {
+                    labels: generateMonthLabels(12),
+                    datasets: [{
+                        label: 'Revenue Proyectado',
+                        data: generateRevenueData(12),
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Proyección de Revenue (12 meses)'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value.toLocaleString();
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Mix de Financiamiento
+            const fundingCtx = document.getElementById('fundingMixChart').getContext('2d');
+            charts.fundingMix = new Chart(fundingCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['VC', 'Revenue-Based', 'Strategic', 'Grants', 'Debt'],
+                    datasets: [{
+                        data: [currentData.vcDependency, 30, 20, 15, 5],
+                        backgroundColor: [
+                            '#dc3545',
+                            '#667eea',
+                            '#28a745',
+                            '#ffc107',
+                            '#6c757d'
+                        ],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Mix de Financiamiento Actual'
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Escenarios
+            const scenarioCtx = document.getElementById('scenarioChart').getContext('2d');
+            charts.scenario = new Chart(scenarioCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Conservador', 'Realista', 'Optimista'],
+                    datasets: [{
+                        label: 'Dependencia VC (%)',
+                        data: [30, 20, 10],
+                        backgroundColor: '#dc3545'
+                    }, {
+                        label: 'Control Fundadores (%)',
+                        data: [70, 80, 90],
+                        backgroundColor: '#28a745'
+                    }, {
+                        label: 'Eficiencia Score',
+                        data: [60, 80, 95],
+                        backgroundColor: '#667eea'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Comparación de Escenarios Anti-VC'
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Performance
+            const performanceCtx = document.getElementById('performanceChart').getContext('2d');
+            charts.performance = new Chart(performanceCtx, {
+                type: 'radar',
+                data: {
+                    labels: ['Diversificación', 'Control', 'Eficiencia', 'Crecimiento', 'Profitabilidad'],
+                    datasets: [{
+                        label: 'Score Actual',
+                        data: [currentData.diversificationScore, currentData.controlScore, currentData.efficiencyScore, 70, 60],
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderWidth: 2
+                    }, {
+                        label: 'Objetivo',
+                        data: [90, 90, 90, 90, 90],
+                        borderColor: '#28a745',
+                        backgroundColor: 'rgba(40, 167, 69, 0.2)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Análisis de Performance'
+                        }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Riesgo
+            const riskCtx = document.getElementById('riskChart').getContext('2d');
+            charts.risk = new Chart(riskCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Dependencia VC', 'Runway Bajo', 'Churn Alto', 'CAC Elevado', 'Competencia'],
+                    datasets: [{
+                        label: 'Nivel de Riesgo',
+                        data: [currentData.vcDependency, currentData.runway < 6 ? 80 : 20, currentData.churnRate * 100, 60, 40],
+                        backgroundColor: function(context) {
+                            const value = context.parsed.y;
+                            if (value > 70) return '#dc3545';
+                            if (value > 40) return '#ffc107';
+                            return '#28a745';
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Análisis de Riesgo'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Optimización
+            const optimizationCtx = document.getElementById('optimizationChart').getContext('2d');
+            charts.optimization = new Chart(optimizationCtx, {
+                type: 'line',
+                data: {
+                    labels: generateMonthLabels(6),
+                    datasets: [{
+                        label: 'Optimización Actual',
+                        data: [60, 65, 70, 75, 80, 85],
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        fill: true
+                    }, {
+                        label: 'Objetivo',
+                        data: [90, 90, 90, 90, 90, 90],
+                        borderColor: '#28a745',
+                        backgroundColor: 'rgba(40, 167, 69, 0.1)',
+                        borderWidth: 3,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Tendencia de Optimización'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateCharts() {
+            // Actualizar datos de gráficos
+            if (charts.revenue) {
+                charts.revenue.data.datasets[0].data = generateRevenueData(12);
+                charts.revenue.update();
+            }
+
+            if (charts.fundingMix) {
+                charts.fundingMix.data.datasets[0].data = [currentData.vcDependency, 30, 20, 15, 5];
+                charts.fundingMix.update();
+            }
+
+            if (charts.performance) {
+                charts.performance.data.datasets[0].data = [
+                    currentData.diversificationScore, 
+                    currentData.controlScore, 
+                    currentData.efficiencyScore, 
+                    70, 
+                    60
+                ];
+                charts.performance.update();
+            }
+        }
+
+        function generateMonthLabels(months) {
+            const labels = [];
+            const now = new Date();
+            for (let i = 0; i < months; i++) {
+                const date = new Date(now.getFullYear(), now.getMonth() + i, 1);
+                labels.push(date.toLocaleDateString('es-ES', { month: 'short', year: '2-digit' }));
+            }
+            return labels;
+        }
+
+        function generateRevenueData(months) {
+            const data = [];
+            let currentRevenue = currentData.revenue;
+            for (let i = 0; i < months; i++) {
+                data.push(currentRevenue);
+                currentRevenue *= (1 + currentData.growthRate / 12);
+            }
+            return data;
+        }
+
+        function updateRecommendations() {
+            const recommendations = [];
+            
+            // Recomendaciones basadas en diversificación
+            if (currentData.diversificationScore < 60) {
+                recommendations.push("Implementa Revenue-Based Financing para reducir dependencia VC");
+                recommendations.push("Busca partnerships estratégicos con corporaciones");
+                recommendations.push("Aplica a grants gubernamentales y programas de apoyo");
+            }
+
+            // Recomendaciones basadas en eficiencia
+            if (currentData.efficiencyScore < 70) {
+                recommendations.push("Optimiza tu estrategia de adquisición de clientes");
+                recommendations.push("Mejora la retención de clientes para aumentar LTV");
+                recommendations.push("Implementa automatización para reducir costos operacionales");
+            }
+
+            // Recomendaciones basadas en control
+            if (currentData.controlScore < 70) {
+                recommendations.push("Revisa la estructura de capital actual");
+                recommendations.push("Considera buyback de acciones de inversores");
+                recommendations.push("Negocia mejores términos con inversores existentes");
+            }
+
+            // Actualizar UI
+            const recommendationsList = document.getElementById('recommendationsList');
+            recommendationsList.innerHTML = '';
+            recommendations.forEach(rec => {
+                const li = document.createElement('li');
+                li.textContent = rec;
+                recommendationsList.appendChild(li);
+            });
+        }
+
+        function updateAlerts() {
+            const alertsContainer = document.getElementById('alerts-container');
+            alertsContainer.innerHTML = '';
+
+            // Alerta de dependencia VC
+            if (currentData.vcDependency > 50) {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-danger';
+                alert.innerHTML = `<strong>⚠️ Dependencia VC Alta:</strong> ${currentData.vcDependency}% de dependencia VC. Considera diversificar fuentes de financiamiento.`;
+                alertsContainer.appendChild(alert);
+            } else if (currentData.vcDependency > 30) {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-warning';
+                alert.innerHTML = `<strong>⚠️ Dependencia VC Moderada:</strong> ${currentData.vcDependency}% de dependencia VC. Monitorea y considera reducir.`;
+                alertsContainer.appendChild(alert);
+            } else {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-success';
+                alert.innerHTML = `<strong>✅ Dependencia VC Baja:</strong> ${currentData.vcDependency}% de dependencia VC. Excelente diversificación.`;
+                alertsContainer.appendChild(alert);
+            }
+
+            // Alerta de runway
+            if (currentData.runway < 6) {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-danger';
+                alert.innerHTML = `<strong>⚠️ Runway Crítico:</strong> ${currentData.runway} meses de runway. Busca financiamiento inmediatamente.`;
+                alertsContainer.appendChild(alert);
+            } else if (currentData.runway < 12) {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-warning';
+                alert.innerHTML = `<strong>⚠️ Runway Limitado:</strong> ${currentData.runway} meses de runway. Considera diversificar fuentes de capital.`;
+                alertsContainer.appendChild(alert);
+            }
+        }
+
+        function showTab(tabName) {
+            // Ocultar todos los tabs
+            const tabs = document.querySelectorAll('.tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => tab.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Mostrar tab seleccionado
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Simular actualización de datos en tiempo real
+        setInterval(() => {
+            // Simular cambios en los datos
+            currentData.diversificationScore = Math.min(100, currentData.diversificationScore + Math.random() * 2);
+            currentData.controlScore = Math.min(100, currentData.controlScore + Math.random() * 1.5);
+            currentData.efficiencyScore = Math.min(100, currentData.efficiencyScore + Math.random() * 1);
+            currentData.vcDependency = Math.max(0, currentData.vcDependency - Math.random() * 0.5);
+            currentData.runway = Math.max(0, currentData.runway - 0.1);
+            
+            updateDashboard();
+        }, 60000); // Actualizar cada minuto
+    </script>
+</body>
+</html>

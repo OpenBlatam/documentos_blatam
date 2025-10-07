@@ -1,0 +1,21 @@
+--- PREDICCIONES IA - ANCHOR TEXTS IA MARKETING ---
+Fecha: 2025-09-15T19:59:39.427338
+
+ESTADÍSTICAS DEL LOTE:
+• Total anchor texts: 5
+• CTR promedio: 3.86%
+• Tasa de conversión promedio: 12.8%
+• ROI promedio: 2.41x
+• Score promedio: 22.2/100
+
+MEJOR ANCHOR TEXT:
+• Texto: Transforma tu Negocio con IA Marketing Ahora
+• Score: 25.4/100
+• CTR predicho: 4.5%
+• Conversión predicha: 15.0%
+• ROI predicho: 2.75x
+
+RECOMENDACIONES GENERALES:
+• El lote general necesita optimización significativa
+• Considera mejorar el CTR promedio del lote
+
