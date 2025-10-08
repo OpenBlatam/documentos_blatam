@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de 1000 Campañas de Marketing con IA</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js@2.14.0/dist/plotly.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #718096;
+            margin-top: 5px;
+        }
+
+        .filters {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .filters h3 {
+            margin-bottom: 20px;
+            color: #4a5568;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #4a5568;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 10px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .campaigns-table {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th,
+        .table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .table th {
+            background: #f7fafc;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .table tr:hover {
+            background: #f7fafc;
+        }
+
+        .badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge-high { background: #c6f6d5; color: #22543d; }
+        .badge-medium { background: #fef5e7; color: #744210; }
+        .badge-low { background: #fed7d7; color: #742a2a; }
+        .badge-critical { background: #e6fffa; color: #234e52; }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #718096;
+        }
+
+        .error {
+            background: #fed7d7;
+            color: #742a2a;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Dashboard de Campañas IA</h1>
+            <p>1000 Campañas de Marketing con Inteligencia Artificial</p>
+        </div>
+
+        <div class="filters">
+            <h3>🔍 Filtros de Búsqueda</h3>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="category">Categoría</label>
+                    <select id="category">
+                        <option value="">Todas las categorías</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="vertical">Sector Vertical</label>
+                    <select id="vertical">
+                        <option value="">Todos los sectores</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="complexity">Complejidad</label>
+                    <select id="complexity">
+                        <option value="">Todas las complejidades</option>
+                        <option value="Baja">Baja</option>
+                        <option value="Media">Media</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="priority">Prioridad</label>
+                    <select id="priority">
+                        <option value="">Todas las prioridades</option>
+                        <option value="Baja">Baja</option>
+                        <option value="Media">Media</option>
+                        <option value="Alta">Alta</option>
+                        <option value="Crítica">Crítica</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="minBudget">Presupuesto Mínimo ($)</label>
+                    <input type="number" id="minBudget" placeholder="0">
+                </div>
+                <div class="filter-group">
+                    <label for="maxBudget">Presupuesto Máximo ($)</label>
+                    <input type="number" id="maxBudget" placeholder="200000">
+                </div>
+                <div class="filter-group">
+                    <label for="minSuccess">Probabilidad Mínima (%)</label>
+                    <input type="number" id="minSuccess" placeholder="0" min="0" max="100">
+                </div>
+                <div class="filter-group">
+                    <label for="minROI">ROI Mínimo (x)</label>
+                    <input type="number" id="minROI" placeholder="0" step="0.1">
+                </div>
+            </div>
+            <button class="btn" onclick="applyFilters()">Aplicar Filtros</button>
+            <button class="btn" onclick="resetFilters()" style="margin-left: 10px; background: #718096;">Resetear</button>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3>📊 Estadísticas Generales</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value" id="totalCampaigns">-</div>
+                        <div class="stat-label">Total Campañas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="totalBudget">-</div>
+                        <div class="stat-label">Presupuesto Total</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="avgSuccess">-</div>
+                        <div class="stat-label">Éxito Promedio</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="avgROI">-</div>
+                        <div class="stat-label">ROI Promedio</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📈 Distribución por Categoría</h3>
+                <div class="chart-container">
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>💰 Distribución de Presupuesto</h3>
+                <div class="chart-container">
+                    <canvas id="budgetChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>🎯 ROI vs Probabilidad de Éxito</h3>
+                <div class="chart-container">
+                    <canvas id="scatterChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="campaigns-table">
+            <h3>📋 Campañas Filtradas</h3>
+            <div id="tableContainer">
+                <div class="loading">Cargando campañas...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let campaignsData = [];
+        let filteredData = [];
+
+        // Cargar datos de campañas
+        async function loadCampaigns() {
+            try {
+                const response = await fetch('enhanced_1000_ai_marketing_campaigns.json');
+                campaignsData = await response.json();
+                filteredData = [...campaignsData];
+                
+                populateFilters();
+                updateDashboard();
+                renderTable();
+            } catch (error) {
+                document.getElementById('tableContainer').innerHTML = 
+                    '<div class="error">Error al cargar los datos. Asegúrate de que el archivo enhanced_1000_ai_marketing_campaigns.json esté disponible.</div>';
+            }
+        }
+
+        function populateFilters() {
+            // Poblar categorías
+            const categories = [...new Set(campaignsData.map(c => c.category))];
+            const categorySelect = document.getElementById('category');
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
+
+            // Poblar verticales
+            const verticals = [...new Set(campaignsData.map(c => c.vertical))];
+            const verticalSelect = document.getElementById('vertical');
+            verticals.forEach(vertical => {
+                const option = document.createElement('option');
+                option.value = vertical;
+                option.textContent = vertical;
+                verticalSelect.appendChild(option);
+            });
+        }
+
+        function applyFilters() {
+            const category = document.getElementById('category').value;
+            const vertical = document.getElementById('vertical').value;
+            const complexity = document.getElementById('complexity').value;
+            const priority = document.getElementById('priority').value;
+            const minBudget = parseFloat(document.getElementById('minBudget').value) || 0;
+            const maxBudget = parseFloat(document.getElementById('maxBudget').value) || Infinity;
+            const minSuccess = parseFloat(document.getElementById('minSuccess').value) || 0;
+            const minROI = parseFloat(document.getElementById('minROI').value) || 0;
+
+            filteredData = campaignsData.filter(campaign => {
+                return (!category || campaign.category === category) &&
+                       (!vertical || campaign.vertical === vertical) &&
+                       (!complexity || campaign.complexity === complexity) &&
+                       (!priority || campaign.priority === priority) &&
+                       campaign.budget.amount >= minBudget &&
+                       campaign.budget.amount <= maxBudget &&
+                       campaign.success_probability >= minSuccess / 100 &&
+                       campaign.metrics.return_on_ad_spend >= minROI;
+            });
+
+            updateDashboard();
+            renderTable();
+        }
+
+        function resetFilters() {
+            document.getElementById('category').value = '';
+            document.getElementById('vertical').value = '';
+            document.getElementById('complexity').value = '';
+            document.getElementById('priority').value = '';
+            document.getElementById('minBudget').value = '';
+            document.getElementById('maxBudget').value = '';
+            document.getElementById('minSuccess').value = '';
+            document.getElementById('minROI').value = '';
+            
+            filteredData = [...campaignsData];
+            updateDashboard();
+            renderTable();
+        }
+
+        function updateDashboard() {
+            // Actualizar estadísticas
+            document.getElementById('totalCampaigns').textContent = filteredData.length;
+            document.getElementById('totalBudget').textContent = 
+                '$' + filteredData.reduce((sum, c) => sum + c.budget.amount, 0).toLocaleString();
+            document.getElementById('avgSuccess').textContent = 
+                (filteredData.reduce((sum, c) => sum + c.success_probability, 0) / filteredData.length * 100).toFixed(1) + '%';
+            document.getElementById('avgROI').textContent = 
+                (filteredData.reduce((sum, c) => sum + c.metrics.return_on_ad_spend, 0) / filteredData.length).toFixed(1) + 'x';
+
+            // Actualizar gráficos
+            updateCategoryChart();
+            updateBudgetChart();
+            updateScatterChart();
+        }
+
+        function updateCategoryChart() {
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            
+            // Contar campañas por categoría
+            const categoryCounts = {};
+            filteredData.forEach(campaign => {
+                categoryCounts[campaign.category] = (categoryCounts[campaign.category] || 0) + 1;
+            });
+
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(categoryCounts),
+                    datasets: [{
+                        data: Object.values(categoryCounts),
+                        backgroundColor: [
+                            '#667eea', '#764ba2', '#f093fb', '#f5576c',
+                            '#4facfe', '#00f2fe', '#43e97b', '#38f9d7',
+                            '#ffecd2', '#fcb69f'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateBudgetChart() {
+            const ctx = document.getElementById('budgetChart').getContext('2d');
+            
+            // Agrupar por tier de presupuesto
+            const budgetTiers = {};
+            filteredData.forEach(campaign => {
+                const tier = campaign.budget.tier;
+                budgetTiers[tier] = (budgetTiers[tier] || 0) + 1;
+            });
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(budgetTiers),
+                    datasets: [{
+                        label: 'Número de Campañas',
+                        data: Object.values(budgetTiers),
+                        backgroundColor: '#667eea',
+                        borderColor: '#764ba2',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateScatterChart() {
+            const ctx = document.getElementById('scatterChart').getContext('2d');
+            
+            const data = filteredData.map(campaign => ({
+                x: campaign.success_probability * 100,
+                y: campaign.metrics.return_on_ad_spend,
+                label: campaign.name
+            }));
+
+            new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Campañas',
+                        data: data,
+                        backgroundColor: 'rgba(102, 126, 234, 0.6)',
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Probabilidad de Éxito (%)'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'ROI (x)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderTable() {
+            const tableContainer = document.getElementById('tableContainer');
+            
+            if (filteredData.length === 0) {
+                tableContainer.innerHTML = '<div class="loading">No se encontraron campañas con los filtros aplicados.</div>';
+                return;
+            }
+
+            let tableHTML = `
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Categoría</th>
+                            <th>Tecnología</th>
+                            <th>Canal</th>
+                            <th>Vertical</th>
+                            <th>Presupuesto</th>
+                            <th>ROI</th>
+                            <th>Éxito</th>
+                            <th>Complejidad</th>
+                            <th>Prioridad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            filteredData.slice(0, 50).forEach(campaign => {
+                const priorityClass = campaign.priority.toLowerCase();
+                const complexityClass = campaign.complexity.toLowerCase();
+                
+                tableHTML += `
+                    <tr>
+                        <td>${campaign.id}</td>
+                        <td>${campaign.name}</td>
+                        <td>${campaign.category}</td>
+                        <td>${campaign.technology}</td>
+                        <td>${campaign.channel}</td>
+                        <td>${campaign.vertical}</td>
+                        <td>$${campaign.budget.amount.toLocaleString()}</td>
+                        <td>${campaign.metrics.return_on_ad_spend}x</td>
+                        <td>${(campaign.success_probability * 100).toFixed(1)}%</td>
+                        <td><span class="badge badge-${complexityClass}">${campaign.complexity}</span></td>
+                        <td><span class="badge badge-${priorityClass}">${campaign.priority}</span></td>
+                    </tr>
+                `;
+            });
+
+            tableHTML += '</tbody></table>';
+            
+            if (filteredData.length > 50) {
+                tableHTML += `<p style="margin-top: 15px; color: #718096;">Mostrando 50 de ${filteredData.length} campañas. Usa los filtros para refinar la búsqueda.</p>`;
+            }
+
+            tableContainer.innerHTML = tableHTML;
+        }
+
+        // Cargar datos al iniciar
+        loadCampaigns();
+    </script>
+</body>
+</html>
+
+
