@@ -641,3 +641,5 @@ function calculateBudget(monthlyIncome, businessType, growthStage) {
 ---
 
 *Este documento proporciona un framework completo para la gestión financiera en cursos de IA y SaaS de marketing con IA. Para implementación personalizada, contacta con nuestro equipo de consultoría financiera especializada en IA.*
+
+

@@ -1,524 +1,509 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-🔮 PROYECCIONES FINANCIERAS CON IA PREDICTIVA
-Sistema Ultra-Avanzado de Predicción Financiera para IA Marketing
-
-Características:
-- Machine Learning para predicciones precisas
-- Múltiples algoritmos (LSTM, XGBoost, Random Forest)
-- Análisis de escenarios con Monte Carlo
-- Predicciones en tiempo real
-- Optimización automática de parámetros
-- Alertas predictivas inteligentes
+SISTEMA DE PROYECCIONES FINANCIERAS CON IA PREDICTIVA
+Frontier AI Marketing - Sistema Ultra Avanzado
 """
 
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
 from datetime import datetime, timedelta
-from typing import Dict, List, Tuple, Optional
-from dataclasses import dataclass
-import json
-import logging
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.linear_model import Ridge, Lasso
-from sklearn.svm import SVR
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import warnings
 warnings.filterwarnings('ignore')
 
-# Configuración de logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Configuración de estilo
+plt.style.use('seaborn-v0_8')
+sns.set_palette("husl")
 
-@dataclass
-class PrediccionFinanciera:
-    """Estructura para predicciones financieras"""
-    fecha: datetime
-    valor: float
-    confianza: float
-    intervalo_inferior: float
-    intervalo_superior: float
-    modelo_usado: str
-    variables_importantes: List[str]
-
-@dataclass
-class EscenarioPrediccion:
-    """Estructura para escenarios de predicción"""
-    nombre: str
-    probabilidad: float
-    predicciones: Dict[str, List[float]]
-    factores_clave: List[str]
-    impacto_esperado: float
-
-class ProyeccionesFinancierasIAPredictiva:
+class ProyeccionesFinancierasIA:
     """
-    Sistema de proyecciones financieras con IA predictiva
+    Sistema de Proyecciones Financieras con IA Predictiva
+    para empresas de IA Marketing como Frontier AI
     """
     
     def __init__(self):
-        self.nombre = "🔮 Proyecciones Financieras IA Predictiva"
-        self.version = "2.0.0"
-        self.fecha_inicio = datetime.now()
+        self.modelos_ia = {}
+        self.datos_historicos = {}
+        self.proyecciones = {}
+        self.metricas_ia = {}
         
-        # Modelos de ML
-        self.modelos = {
-            'random_forest': RandomForestRegressor(n_estimators=100, random_state=42),
-            'gradient_boosting': GradientBoostingRegressor(n_estimators=100, random_state=42),
-            'ridge': Ridge(alpha=1.0),
-            'svr': SVR(kernel='rbf', C=1.0, gamma='scale')
-        }
+    def generar_datos_historicos_simulados(self, meses=24):
+        """Genera datos históricos simulados para entrenamiento"""
+        fechas = pd.date_range(start='2022-01-01', periods=meses, freq='M')
         
-        # Escalador de datos
-        self.scaler = StandardScaler()
+        # Simulación de crecimiento exponencial con variaciones
+        np.random.seed(42)
+        base_revenue = 50000
+        growth_rate = 0.15
         
-        # Datos históricos
-        self.datos_historicos = self._generar_datos_historicos()
-        
-        # Variables para predicción
-        self.variables_prediccion = [
-            'arr', 'ai_accuracy', 'ltv_cac_ratio', 'churn_rate', 'gross_margin',
-            'customer_ai_adoption', 'api_revenue_monthly', 'content_generation_speed',
-            'usuarios_activos', 'ingresos_curso', 'ingresos_saas'
-        ]
-        
-        print(f"🔮 {self.nombre} - {self.version}")
-        print(f"📅 Iniciado: {self.fecha_inicio.strftime('%Y-%m-%d %H:%M:%S')}")
-        print("=" * 80)
-
-    def _generar_datos_historicos(self) -> pd.DataFrame:
-        """Generar datos históricos simulados para entrenamiento"""
-        fechas = pd.date_range(start='2023-01-01', end=datetime.now(), freq='D')
-        n_dias = len(fechas)
-        
-        # Generar datos con tendencias y estacionalidad
         datos = {
             'fecha': fechas,
-            'arr': self._generar_serie_temporal(5000000, 0.02, n_dias),  # Crecimiento 2% mensual
-            'ai_accuracy': self._generar_serie_temporal(0.95, 0.001, n_dias, min_val=0.85, max_val=0.99),
-            'ltv_cac_ratio': self._generar_serie_temporal(16, 0.01, n_dias, min_val=8, max_val=30),
-            'churn_rate': self._generar_serie_temporal(0.02, -0.0005, n_dias, min_val=0.005, max_val=0.05),
-            'gross_margin': self._generar_serie_temporal(0.72, 0.001, n_dias, min_val=0.60, max_val=0.85),
-            'customer_ai_adoption': self._generar_serie_temporal(0.85, 0.002, n_dias, min_val=0.70, max_val=0.95),
-            'api_revenue_monthly': self._generar_serie_temporal(100000, 0.03, n_dias),
-            'content_generation_speed': self._generar_serie_temporal(10, 0.01, n_dias, min_val=5, max_val=15),
-            'usuarios_activos': self._generar_serie_temporal(25000, 0.025, n_dias),
-            'ingresos_curso': self._generar_serie_temporal(200000, 0.015, n_dias),
-            'ingresos_saas': self._generar_serie_temporal(400000, 0.03, n_dias)
+            'ingresos_saas': [],
+            'ingresos_cursos': [],
+            'usuarios_activos': [],
+            'churn_rate': [],
+            'cac': [],
+            'ltv': [],
+            'mrr': [],
+            'arr': [],
+            'ai_accuracy': [],
+            'content_generation_speed': [],
+            'api_calls': [],
+            'customer_satisfaction': []
         }
         
-        # Agregar variables externas
-        datos['tendencia_marketplace'] = np.random.normal(0.1, 0.05, n_dias)
-        datos['competencia_intensidad'] = np.random.normal(0.3, 0.1, n_dias)
-        datos['estacionalidad'] = np.sin(2 * np.pi * np.arange(n_dias) / 365) * 0.1
-        
-        return pd.DataFrame(datos)
-
-    def _generar_serie_temporal(self, valor_inicial: float, crecimiento: float, n_periodos: int, 
-                              min_val: float = None, max_val: float = None) -> np.ndarray:
-        """Generar serie temporal con crecimiento y ruido"""
-        valores = [valor_inicial]
-        
-        for i in range(1, n_periodos):
-            # Crecimiento + ruido + estacionalidad
-            crecimiento_periodo = crecimiento + np.random.normal(0, crecimiento * 0.1)
-            estacionalidad = np.sin(2 * np.pi * i / 365) * 0.05
-            ruido = np.random.normal(0, valores[-1] * 0.02)
+        for i in range(meses):
+            # Crecimiento con variaciones estacionales
+            seasonal_factor = 1 + 0.1 * np.sin(2 * np.pi * i / 12)
+            growth_factor = (1 + growth_rate) ** (i / 12)
+            noise = np.random.normal(1, 0.05)
             
-            nuevo_valor = valores[-1] * (1 + crecimiento_periodo) + estacionalidad + ruido
+            # Ingresos SaaS
+            saas_revenue = base_revenue * growth_factor * seasonal_factor * noise
+            datos['ingresos_saas'].append(saas_revenue)
             
-            # Aplicar límites si se especifican
-            if min_val is not None:
-                nuevo_valor = max(nuevo_valor, min_val)
-            if max_val is not None:
-                nuevo_valor = min(nuevo_valor, max_val)
+            # Ingresos Cursos (más estacionales)
+            course_revenue = base_revenue * 0.3 * growth_factor * seasonal_factor * noise * (1 + 0.2 * np.sin(2 * np.pi * i / 6))
+            datos['ingresos_cursos'].append(course_revenue)
             
-            valores.append(nuevo_valor)
-        
-        return np.array(valores)
-
-    def preparar_datos_entrenamiento(self, variable_objetivo: str, ventana: int = 30) -> Tuple[np.ndarray, np.ndarray]:
-        """Preparar datos para entrenamiento de modelos"""
-        df = self.datos_historicos.copy()
-        
-        # Crear features con ventana deslizante
-        features = []
-        targets = []
-        
-        for i in range(ventana, len(df)):
-            # Features: valores de las últimas 'ventana' días
-            feature_row = []
-            for var in self.variables_prediccion:
-                feature_row.extend(df[var].iloc[i-ventana:i].values)
+            # Usuarios activos
+            usuarios = 1000 * growth_factor * seasonal_factor * noise
+            datos['usuarios_activos'].append(int(usuarios))
             
-            # Agregar variables externas del día actual
-            feature_row.extend([
-                df['tendencia_marketplace'].iloc[i],
-                df['competencia_intensidad'].iloc[i],
-                df['estacionalidad'].iloc[i]
-            ])
+            # Métricas de negocio
+            datos['churn_rate'].append(max(0.02, 0.05 - 0.001 * i + np.random.normal(0, 0.005)))
+            datos['cac'].append(150 + np.random.normal(0, 20))
+            datos['ltv'].append(2500 + np.random.normal(0, 200))
+            datos['mrr'].append(saas_revenue / 12)
+            datos['arr'].append(saas_revenue)
             
-            features.append(feature_row)
-            targets.append(df[variable_objetivo].iloc[i])
+            # Métricas de IA
+            datos['ai_accuracy'].append(min(0.98, 0.85 + 0.001 * i + np.random.normal(0, 0.01)))
+            datos['content_generation_speed'].append(2.5 + 0.1 * i + np.random.normal(0, 0.2))
+            datos['api_calls'].append(int(100000 * growth_factor * seasonal_factor * noise))
+            datos['customer_satisfaction'].append(min(5.0, 4.2 + 0.01 * i + np.random.normal(0, 0.1)))
         
-        return np.array(features), np.array(targets)
-
-    def entrenar_modelos(self, variable_objetivo: str) -> Dict:
-        """Entrenar todos los modelos para una variable objetivo"""
-        print(f"🤖 Entrenando modelos para {variable_objetivo}...")
+        self.datos_historicos = pd.DataFrame(datos)
+        return self.datos_historicos
+    
+    def entrenar_modelos_ia(self):
+        """Entrena modelos de IA para predicciones"""
+        from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+        from sklearn.linear_model import Ridge
+        from sklearn.svm import SVR
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.model_selection import train_test_split
         
-        # Preparar datos
-        X, y = self.preparar_datos_entrenamiento(variable_objetivo)
+        # Preparar datos para entrenamiento
+        X = self.datos_historicos[['usuarios_activos', 'churn_rate', 'cac', 'ltv', 
+                                  'ai_accuracy', 'content_generation_speed', 'api_calls', 
+                                  'customer_satisfaction']].values
         
-        # Dividir datos
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        # Entrenar modelos para diferentes métricas
+        metricas = ['ingresos_saas', 'ingresos_cursos', 'mrr', 'arr']
         
-        # Escalar datos
-        X_train_scaled = self.scaler.fit_transform(X_train)
-        X_test_scaled = self.scaler.transform(X_test)
-        
-        resultados = {}
-        
-        for nombre, modelo in self.modelos.items():
-            print(f"  📊 Entrenando {nombre}...")
+        for metrica in metricas:
+            y = self.datos_historicos[metrica].values
             
-            # Entrenar modelo
-            if nombre == 'svr':
-                modelo.fit(X_train_scaled, y_train)
-                y_pred = modelo.predict(X_test_scaled)
-            else:
-                modelo.fit(X_train, y_train)
-                y_pred = modelo.predict(X_test)
+            # Dividir datos
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
             
-            # Calcular métricas
-            mae = mean_absolute_error(y_test, y_pred)
-            mse = mean_squared_error(y_test, y_pred)
-            r2 = r2_score(y_test, y_pred)
+            # Escalar datos
+            scaler = StandardScaler()
+            X_train_scaled = scaler.fit_transform(X_train)
+            X_test_scaled = scaler.transform(X_test)
             
-            resultados[nombre] = {
-                'modelo': modelo,
-                'mae': mae,
-                'mse': mse,
-                'r2': r2,
-                'y_test': y_test,
-                'y_pred': y_pred
+            # Entrenar múltiples modelos
+            modelos = {
+                'RandomForest': RandomForestRegressor(n_estimators=100, random_state=42),
+                'GradientBoosting': GradientBoostingRegressor(n_estimators=100, random_state=42),
+                'Ridge': Ridge(alpha=1.0),
+                'SVR': SVR(kernel='rbf', C=1.0, gamma='scale')
             }
             
-            print(f"    ✅ {nombre}: MAE={mae:.2f}, R²={r2:.3f}")
-        
-        return resultados
-
-    def predecir_futuro(self, variable_objetivo: str, dias_futuro: int = 30) -> List[PrediccionFinanciera]:
-        """Predecir valores futuros para una variable"""
-        print(f"🔮 Prediciendo {variable_objetivo} para {dias_futuro} días...")
-        
-        # Entrenar modelos
-        resultados_modelos = self.entrenar_modelos(variable_objetivo)
-        
-        # Seleccionar mejor modelo
-        mejor_modelo_nombre = max(resultados_modelos.keys(), 
-                                key=lambda x: resultados_modelos[x]['r2'])
-        mejor_modelo = resultados_modelos[mejor_modelo_nombre]['modelo']
-        
-        print(f"  🏆 Mejor modelo: {mejor_modelo_nombre}")
-        
-        # Preparar datos para predicción
-        df = self.datos_historicos.copy()
-        ventana = 30
-        
-        predicciones = []
-        
-        for dia in range(dias_futuro):
-            # Usar últimos datos disponibles
-            ultimo_indice = len(df) - 1
-            
-            # Crear feature vector
-            feature_row = []
-            for var in self.variables_prediccion:
-                feature_row.extend(df[var].iloc[ultimo_indice-ventana+1:ultimo_indice+1].values)
-            
-            # Variables externas (simuladas para el futuro)
-            feature_row.extend([
-                np.random.normal(0.1, 0.05),  # tendencia_marketplace
-                np.random.normal(0.3, 0.1),   # competencia_intensidad
-                np.sin(2 * np.pi * (ultimo_indice + dia + 1) / 365) * 0.1  # estacionalidad
-            ])
-            
-            feature_vector = np.array(feature_row).reshape(1, -1)
-            
-            # Predecir
-            if mejor_modelo_nombre == 'svr':
-                feature_vector_scaled = self.scaler.transform(feature_vector)
-                prediccion = mejor_modelo.predict(feature_vector_scaled)[0]
-            else:
-                prediccion = mejor_modelo.predict(feature_vector)[0]
-            
-            # Calcular intervalo de confianza (simplificado)
-            r2 = resultados_modelos[mejor_modelo_nombre]['r2']
-            confianza = max(0.5, min(0.95, r2))
-            
-            # Intervalo de confianza basado en R²
-            error_estimado = abs(prediccion) * (1 - confianza)
-            intervalo_inferior = prediccion - error_estimado
-            intervalo_superior = prediccion + error_estimado
-            
-            prediccion_obj = PrediccionFinanciera(
-                fecha=df['fecha'].iloc[-1] + timedelta(days=dia+1),
-                valor=prediccion,
-                confianza=confianza,
-                intervalo_inferior=intervalo_inferior,
-                intervalo_superior=intervalo_superior,
-                modelo_usado=mejor_modelo_nombre,
-                variables_importantes=self.variables_prediccion[:5]  # Top 5
-            )
-            
-            predicciones.append(prediccion_obj)
-        
-        return predicciones
-
-    def simular_escenarios_monte_carlo(self, variable_objetivo: str, dias_futuro: int = 30, 
-                                     n_simulaciones: int = 1000) -> Dict:
-        """Simular escenarios usando Monte Carlo"""
-        print(f"🎲 Simulando {n_simulaciones} escenarios para {variable_objetivo}...")
-        
-        # Obtener predicción base
-        prediccion_base = self.predecir_futuro(variable_objetivo, dias_futuro)
-        
-        # Simular variaciones
-        simulaciones = []
-        
-        for sim in range(n_simulaciones):
-            escenario = []
-            
-            for i, pred in enumerate(prediccion_base):
-                # Agregar variación aleatoria
-                variacion = np.random.normal(0, pred.valor * 0.1)  # 10% de variación
-                valor_simulado = pred.valor + variacion
+            mejores_modelos = {}
+            for nombre, modelo in modelos.items():
+                if nombre == 'SVR':
+                    modelo.fit(X_train_scaled, y_train)
+                    score = modelo.score(X_test_scaled, y_test)
+                else:
+                    modelo.fit(X_train, y_train)
+                    score = modelo.score(X_test, y_test)
                 
-                escenario.append(valor_simulado)
+                mejores_modelos[nombre] = {
+                    'modelo': modelo,
+                    'score': score,
+                    'scaler': scaler if nombre == 'SVR' else None
+                }
             
-            simulaciones.append(escenario)
+            # Seleccionar mejor modelo
+            mejor_modelo = max(mejores_modelos.items(), key=lambda x: x[1]['score'])
+            self.modelos_ia[metrica] = mejor_modelo[1]
+            
+            print(f"Mejor modelo para {metrica}: {mejor_modelo[0]} (Score: {mejor_modelo[1]['score']:.4f})")
+    
+    def generar_proyecciones(self, meses_futuro=12):
+        """Genera proyecciones futuras usando IA"""
+        if not self.modelos_ia:
+            print("Primero debe entrenar los modelos de IA")
+            return None
         
-        # Calcular estadísticas
-        simulaciones_array = np.array(simulaciones)
+        # Generar fechas futuras
+        ultima_fecha = self.datos_historicos['fecha'].max()
+        fechas_futuro = pd.date_range(start=ultima_fecha + timedelta(days=1), 
+                                    periods=meses_futuro, freq='M')
         
-        estadisticas = {
-            'simulaciones': simulaciones,
-            'promedio': np.mean(simulaciones_array, axis=0),
-            'mediana': np.median(simulaciones_array, axis=0),
-            'std': np.std(simulaciones_array, axis=0),
-            'percentil_5': np.percentile(simulaciones_array, 5, axis=0),
-            'percentil_25': np.percentile(simulaciones_array, 25, axis=0),
-            'percentil_75': np.percentile(simulaciones_array, 75, axis=0),
-            'percentil_95': np.percentile(simulaciones_array, 95, axis=0),
-            'var_95': np.percentile(simulaciones_array, 5, axis=0),
-            'fechas': [pred.fecha for pred in prediccion_base]
+        # Proyecciones base (tendencia)
+        ultimos_datos = self.datos_historicos.iloc[-1]
+        
+        proyecciones = {
+            'fecha': fechas_futuro,
+            'ingresos_saas': [],
+            'ingresos_cursos': [],
+            'mrr': [],
+            'arr': [],
+            'usuarios_activos': [],
+            'churn_rate': [],
+            'cac': [],
+            'ltv': [],
+            'ai_accuracy': [],
+            'content_generation_speed': [],
+            'api_calls': [],
+            'customer_satisfaction': []
         }
         
-        return estadisticas
-
-    def crear_grafico_predicciones(self, variable_objetivo: str, dias_futuro: int = 30) -> go.Figure:
-        """Crear gráfico de predicciones"""
-        # Obtener predicciones
-        predicciones = self.predecir_futuro(variable_objetivo, dias_futuro)
+        # Proyecciones usando IA
+        for i in range(meses_futuro):
+            # Calcular valores base para predicción
+            growth_factor = 1.15 ** ((i + 1) / 12)  # 15% anual
+            seasonal_factor = 1 + 0.1 * np.sin(2 * np.pi * (i + 24) / 12)
+            
+            # Usuarios activos (crecimiento exponencial)
+            usuarios_futuro = ultimos_datos['usuarios_activos'] * growth_factor * seasonal_factor
+            proyecciones['usuarios_activos'].append(int(usuarios_futuro))
+            
+            # Churn rate (mejora con el tiempo)
+            churn_futuro = max(0.01, ultimos_datos['churn_rate'] - 0.001 * (i + 1))
+            proyecciones['churn_rate'].append(churn_futuro)
+            
+            # CAC (optimización)
+            cac_futuro = max(100, ultimos_datos['cac'] - 2 * (i + 1))
+            proyecciones['cac'].append(cac_futuro)
+            
+            # LTV (mejora)
+            ltv_futuro = ultimos_datos['ltv'] + 50 * (i + 1)
+            proyecciones['ltv'].append(ltv_futuro)
+            
+            # Métricas de IA (mejora continua)
+            ai_accuracy_futuro = min(0.99, ultimos_datos['ai_accuracy'] + 0.001 * (i + 1))
+            proyecciones['ai_accuracy'].append(ai_accuracy_futuro)
+            
+            content_speed_futuro = ultimos_datos['content_generation_speed'] + 0.1 * (i + 1)
+            proyecciones['content_generation_speed'].append(content_speed_futuro)
+            
+            api_calls_futuro = int(ultimos_datos['api_calls'] * growth_factor * seasonal_factor)
+            proyecciones['api_calls'].append(api_calls_futuro)
+            
+            customer_sat_futuro = min(5.0, ultimos_datos['customer_satisfaction'] + 0.01 * (i + 1))
+            proyecciones['customer_satisfaction'].append(customer_sat_futuro)
+            
+            # Preparar datos para predicción de ingresos
+            X_pred = np.array([[
+                usuarios_futuro, churn_futuro, cac_futuro, ltv_futuro,
+                ai_accuracy_futuro, content_speed_futuro, api_calls_futuro, customer_sat_futuro
+            ]])
+            
+            # Predicciones usando modelos entrenados
+            for metrica in ['ingresos_saas', 'ingresos_cursos', 'mrr', 'arr']:
+                modelo_info = self.modelos_ia[metrica]
+                modelo = modelo_info['modelo']
+                scaler = modelo_info['scaler']
+                
+                if scaler:
+                    X_pred_scaled = scaler.transform(X_pred)
+                    prediccion = modelo.predict(X_pred_scaled)[0]
+                else:
+                    prediccion = modelo.predict(X_pred)[0]
+                
+                proyecciones[metrica].append(max(0, prediccion))
         
-        # Obtener datos históricos
-        df_historico = self.datos_historicos.tail(90)  # Últimos 90 días
-        
-        fig = go.Figure()
-        
-        # Datos históricos
-        fig.add_trace(go.Scatter(
-            x=df_historico['fecha'],
-            y=df_historico[variable_objetivo],
-            mode='lines',
-            name='Histórico',
-            line=dict(color='blue', width=2)
-        ))
-        
-        # Predicciones
-        fechas_pred = [p.fecha for p in predicciones]
-        valores_pred = [p.valor for p in predicciones]
-        confianza_pred = [p.confianza for p in predicciones]
-        
-        fig.add_trace(go.Scatter(
-            x=fechas_pred,
-            y=valores_pred,
-            mode='lines+markers',
-            name='Predicción',
-            line=dict(color='red', width=2),
-            marker=dict(size=6)
-        ))
-        
-        # Intervalo de confianza
-        intervalos_inf = [p.intervalo_inferior for p in predicciones]
-        intervalos_sup = [p.intervalo_superior for p in predicciones]
-        
-        fig.add_trace(go.Scatter(
-            x=fechas_pred + fechas_pred[::-1],
-            y=intervalos_sup + intervalos_inf[::-1],
-            fill='tonexty',
-            fillcolor='rgba(255,0,0,0.2)',
-            line=dict(color='rgba(255,255,255,0)'),
-            name='Intervalo de Confianza',
-            hoverinfo="skip"
-        ))
-        
-        fig.update_layout(
-            title=f'Predicciones para {variable_objetivo}',
-            xaxis_title='Fecha',
-            yaxis_title=variable_objetivo,
-            hovermode='x unified'
-        )
-        
-        return fig
-
-    def crear_grafico_escenarios_monte_carlo(self, variable_objetivo: str, dias_futuro: int = 30) -> go.Figure:
-        """Crear gráfico de escenarios Monte Carlo"""
-        # Simular escenarios
-        estadisticas = self.simular_escenarios_monte_carlo(variable_objetivo, dias_futuro)
-        
-        fig = go.Figure()
-        
-        # Promedio
-        fig.add_trace(go.Scatter(
-            x=estadisticas['fechas'],
-            y=estadisticas['promedio'],
-            mode='lines',
-            name='Promedio',
-            line=dict(color='blue', width=3)
-        ))
-        
-        # Percentiles
-        fig.add_trace(go.Scatter(
-            x=estadisticas['fechas'],
-            y=estadisticas['percentil_5'],
-            mode='lines',
-            name='Percentil 5%',
-            line=dict(color='red', width=1, dash='dash')
-        ))
-        
-        fig.add_trace(go.Scatter(
-            x=estadisticas['fechas'],
-            y=estadisticas['percentil_95'],
-            mode='lines',
-            name='Percentil 95%',
-            line=dict(color='red', width=1, dash='dash'),
-            fill='tonexty'
-        ))
-        
-        # Intervalo intercuartil
-        fig.add_trace(go.Scatter(
-            x=estadisticas['fechas'],
-            y=estadisticas['percentil_25'],
-            mode='lines',
-            name='Percentil 25%',
-            line=dict(color='orange', width=1, dash='dot')
-        ))
-        
-        fig.add_trace(go.Scatter(
-            x=estadisticas['fechas'],
-            y=estadisticas['percentil_75'],
-            mode='lines',
-            name='Percentil 75%',
-            line=dict(color='orange', width=1, dash='dot'),
-            fill='tonexty'
-        ))
-        
-        fig.update_layout(
-            title=f'Escenarios Monte Carlo para {variable_objetivo}',
-            xaxis_title='Fecha',
-            yaxis_title=variable_objetivo,
-            hovermode='x unified'
-        )
-        
-        return fig
-
-    def generar_alertas_predictivas(self, variable_objetivo: str, umbral: float) -> List[Dict]:
-        """Generar alertas basadas en predicciones"""
-        predicciones = self.predecir_futuro(variable_objetivo, 30)
-        alertas = []
-        
-        for pred in predicciones:
-            if pred.valor < umbral:
-                alertas.append({
-                    'fecha': pred.fecha,
-                    'variable': variable_objetivo,
-                    'valor_predicho': pred.valor,
-                    'umbral': umbral,
-                    'severidad': 'alta' if pred.valor < umbral * 0.8 else 'media',
-                    'mensaje': f'{variable_objetivo} predicho en {pred.valor:.2f}, por debajo del umbral {umbral:.2f}'
-                })
-        
-        return alertas
-
-    def ejecutar_analisis_completo(self) -> Dict:
-        """Ejecutar análisis completo de proyecciones"""
-        print("🔮 Ejecutando análisis completo de proyecciones...")
-        
-        variables_principales = ['arr', 'ai_accuracy', 'ltv_cac_ratio', 'churn_rate']
-        
-        resultados = {
-            'predicciones': {},
-            'escenarios': {},
-            'graficos': {},
-            'alertas': {}
+        self.proyecciones = pd.DataFrame(proyecciones)
+        return self.proyecciones
+    
+    def analizar_escenarios(self):
+        """Analiza diferentes escenarios de crecimiento"""
+        escenarios = {
+            'Optimista': {'growth_rate': 1.25, 'churn_reduction': 0.002, 'ai_improvement': 0.002},
+            'Base': {'growth_rate': 1.15, 'churn_reduction': 0.001, 'ai_improvement': 0.001},
+            'Conservador': {'growth_rate': 1.08, 'churn_reduction': 0.0005, 'ai_improvement': 0.0005},
+            'Pesimista': {'growth_rate': 1.05, 'churn_reduction': 0.0002, 'ai_improvement': 0.0002}
         }
         
-        for variable in variables_principales:
-            print(f"\n📊 Analizando {variable}...")
-            
-            # Predicciones
-            predicciones = self.predecir_futuro(variable, 30)
-            resultados['predicciones'][variable] = predicciones
-            
-            # Escenarios Monte Carlo
-            escenarios = self.simular_escenarios_monte_carlo(variable, 30)
-            resultados['escenarios'][variable] = escenarios
-            
-            # Gráficos
-            fig_pred = self.crear_grafico_predicciones(variable, 30)
-            fig_monte = self.crear_grafico_escenarios_monte_carlo(variable, 30)
-            
-            resultados['graficos'][f'{variable}_predicciones'] = fig_pred
-            resultados['graficos'][f'{variable}_monte_carlo'] = fig_monte
-            
-            # Alertas (usar umbrales basados en datos históricos)
-            umbral = self.datos_historicos[variable].quantile(0.1)  # Percentil 10
-            alertas = self.generar_alertas_predictivas(variable, umbral)
-            resultados['alertas'][variable] = alertas
+        resultados_escenarios = {}
         
-        print("✅ Análisis de proyecciones completado")
-        return resultados
+        for nombre, params in escenarios.items():
+            # Simular proyecciones con diferentes parámetros
+            ultimos_datos = self.datos_historicos.iloc[-1]
+            
+            escenario_data = {
+                'ingresos_saas_12m': ultimos_datos['ingresos_saas'] * (params['growth_rate'] ** 1),
+                'ingresos_cursos_12m': ultimos_datos['ingresos_cursos'] * (params['growth_rate'] ** 1),
+                'usuarios_12m': int(ultimos_datos['usuarios_activos'] * (params['growth_rate'] ** 1)),
+                'churn_12m': max(0.005, ultimos_datos['churn_rate'] - params['churn_reduction'] * 12),
+                'ai_accuracy_12m': min(0.99, ultimos_datos['ai_accuracy'] + params['ai_improvement'] * 12),
+                'ltv_12m': ultimos_datos['ltv'] + 50 * 12,
+                'cac_12m': max(80, ultimos_datos['cac'] - 2 * 12)
+            }
+            
+            # Calcular métricas derivadas
+            escenario_data['arr_12m'] = escenario_data['ingresos_saas_12m']
+            escenario_data['mrr_12m'] = escenario_data['arr_12m'] / 12
+            escenario_data['ltv_cac_ratio'] = escenario_data['ltv_12m'] / escenario_data['cac_12m']
+            escenario_data['payback_period'] = escenario_data['cac_12m'] / (escenario_data['mrr_12m'] * 0.7)  # 70% gross margin
+            
+            resultados_escenarios[nombre] = escenario_data
+        
+        return resultados_escenarios
+    
+    def calcular_valuacion_proyectada(self, multiples_mercado=None):
+        """Calcula valuación proyectada usando múltiples métodos"""
+        if multiples_mercado is None:
+            multiples_mercado = {
+                'saas_revenue': 15,  # 15x ARR
+                'total_revenue': 12,  # 12x Total Revenue
+                'users': 2000,  # $2000 por usuario
+                'ai_accuracy': 1000000  # $1M por punto de accuracy
+            }
+        
+        ultimos_datos = self.datos_historicos.iloc[-1]
+        proyecciones_12m = self.proyecciones.iloc[-1] if not self.proyecciones.empty else ultimos_datos
+        
+        # Método 1: Múltiplo de ARR
+        valuacion_arr = proyecciones_12m['arr'] * multiples_mercado['saas_revenue']
+        
+        # Método 2: Múltiplo de Revenue Total
+        revenue_total = proyecciones_12m['ingresos_saas'] + proyecciones_12m['ingresos_cursos']
+        valuacion_revenue = revenue_total * multiples_mercado['total_revenue']
+        
+        # Método 3: Múltiplo de Usuarios
+        valuacion_usuarios = proyecciones_12m['usuarios_activos'] * multiples_mercado['users']
+        
+        # Método 4: Múltiplo de IA Accuracy
+        valuacion_ia = proyecciones_12m['ai_accuracy'] * multiples_mercado['ai_accuracy']
+        
+        # Promedio ponderado
+        valuacion_promedio = (valuacion_arr * 0.4 + valuacion_revenue * 0.3 + 
+                             valuacion_usuarios * 0.2 + valuacion_ia * 0.1)
+        
+        return {
+            'valuacion_arr': valuacion_arr,
+            'valuacion_revenue': valuacion_revenue,
+            'valuacion_usuarios': valuacion_usuarios,
+            'valuacion_ia': valuacion_ia,
+            'valuacion_promedio': valuacion_promedio,
+            'multiples_usados': multiples_mercado
+        }
+    
+    def generar_reporte_ejecutivo(self):
+        """Genera reporte ejecutivo completo"""
+        if self.proyecciones.empty:
+            print("Primero debe generar las proyecciones")
+            return None
+        
+        # Análisis de escenarios
+        escenarios = self.analizar_escenarios()
+        
+        # Valuación proyectada
+        valuacion = self.calcular_valuacion_proyectada()
+        
+        # Métricas clave
+        ultimos_datos = self.datos_historicos.iloc[-1]
+        proyecciones_12m = self.proyecciones.iloc[-1]
+        
+        reporte = {
+            'resumen_ejecutivo': {
+                'fecha_analisis': datetime.now().strftime('%Y-%m-%d'),
+                'empresa': 'Frontier AI Marketing',
+                'modelo_negocio': 'AI Course + SaaS Marketing Platform',
+                'valuacion_proyectada': valuacion['valuacion_promedio'],
+                'crecimiento_anual_proyectado': ((proyecciones_12m['ingresos_saas'] / ultimos_datos['ingresos_saas']) - 1) * 100
+            },
+            'metricas_actuales': {
+                'arr_actual': ultimos_datos['arr'],
+                'mrr_actual': ultimos_datos['mrr'],
+                'usuarios_activos': ultimos_datos['usuarios_activos'],
+                'churn_rate': ultimos_datos['churn_rate'],
+                'ltv': ultimos_datos['ltv'],
+                'cac': ultimos_datos['cac'],
+                'ai_accuracy': ultimos_datos['ai_accuracy']
+            },
+            'proyecciones_12_meses': {
+                'arr_proyectado': proyecciones_12m['arr'],
+                'mrr_proyectado': proyecciones_12m['mrr'],
+                'usuarios_proyectados': proyecciones_12m['usuarios_activos'],
+                'churn_proyectado': proyecciones_12m['churn_rate'],
+                'ltv_proyectado': proyecciones_12m['ltv'],
+                'cac_proyectado': proyecciones_12m['cac'],
+                'ai_accuracy_proyectada': proyecciones_12m['ai_accuracy']
+            },
+            'escenarios': escenarios,
+            'valuacion': valuacion,
+            'recomendaciones': [
+                'Mantener crecimiento de usuarios >15% anual',
+                'Reducir churn rate a <2%',
+                'Optimizar CAC manteniendo LTV/CAC >3',
+                'Mejorar AI accuracy a >95%',
+                'Expandir modelo de cursos para diversificar ingresos'
+            ]
+        }
+        
+        return reporte
+    
+    def visualizar_proyecciones(self):
+        """Crea visualizaciones de las proyecciones"""
+        if self.proyecciones.empty:
+            print("Primero debe generar las proyecciones")
+            return None
+        
+        # Combinar datos históricos y proyecciones
+        datos_completos = pd.concat([self.datos_historicos, self.proyecciones], ignore_index=True)
+        
+        # Crear figura con subplots
+        fig, axes = plt.subplots(2, 3, figsize=(18, 12))
+        fig.suptitle('Proyecciones Financieras con IA - Frontier AI Marketing', fontsize=16, fontweight='bold')
+        
+        # 1. Ingresos SaaS
+        axes[0, 0].plot(datos_completos['fecha'], datos_completos['ingresos_saas'], 
+                       label='Histórico', color='blue', linewidth=2)
+        axes[0, 0].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[0, 0].set_title('Ingresos SaaS (ARR)')
+        axes[0, 0].set_ylabel('Ingresos ($)')
+        axes[0, 0].legend()
+        axes[0, 0].grid(True, alpha=0.3)
+        
+        # 2. Ingresos Cursos
+        axes[0, 1].plot(datos_completos['fecha'], datos_completos['ingresos_cursos'], 
+                       label='Histórico', color='green', linewidth=2)
+        axes[0, 1].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[0, 1].set_title('Ingresos Cursos')
+        axes[0, 1].set_ylabel('Ingresos ($)')
+        axes[0, 1].legend()
+        axes[0, 1].grid(True, alpha=0.3)
+        
+        # 3. Usuarios Activos
+        axes[0, 2].plot(datos_completos['fecha'], datos_completos['usuarios_activos'], 
+                       label='Histórico', color='purple', linewidth=2)
+        axes[0, 2].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[0, 2].set_title('Usuarios Activos')
+        axes[0, 2].set_ylabel('Usuarios')
+        axes[0, 2].legend()
+        axes[0, 2].grid(True, alpha=0.3)
+        
+        # 4. Churn Rate
+        axes[1, 0].plot(datos_completos['fecha'], datos_completos['churn_rate'] * 100, 
+                       label='Histórico', color='orange', linewidth=2)
+        axes[1, 0].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[1, 0].set_title('Churn Rate')
+        axes[1, 0].set_ylabel('Churn Rate (%)')
+        axes[1, 0].legend()
+        axes[1, 0].grid(True, alpha=0.3)
+        
+        # 5. AI Accuracy
+        axes[1, 1].plot(datos_completos['fecha'], datos_completos['ai_accuracy'] * 100, 
+                       label='Histórico', color='red', linewidth=2)
+        axes[1, 1].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[1, 1].set_title('AI Accuracy')
+        axes[1, 1].set_ylabel('Accuracy (%)')
+        axes[1, 1].legend()
+        axes[1, 1].grid(True, alpha=0.3)
+        
+        # 6. LTV vs CAC
+        axes[1, 2].plot(datos_completos['fecha'], datos_completos['ltv'], 
+                       label='LTV', color='blue', linewidth=2)
+        axes[1, 2].plot(datos_completos['fecha'], datos_completos['cac'], 
+                       label='CAC', color='red', linewidth=2)
+        axes[1, 2].axvline(x=self.datos_historicos['fecha'].max(), color='red', linestyle='--', alpha=0.7)
+        axes[1, 2].set_title('LTV vs CAC')
+        axes[1, 2].set_ylabel('Valor ($)')
+        axes[1, 2].legend()
+        axes[1, 2].grid(True, alpha=0.3)
+        
+        plt.tight_layout()
+        plt.show()
+        
+        return fig
 
 def main():
-    """Función principal"""
-    print("🔮 PROYECCIONES FINANCIERAS CON IA PREDICTIVA")
-    print("=" * 80)
+    """Función principal para demostrar el sistema"""
+    print("🚀 SISTEMA DE PROYECCIONES FINANCIERAS CON IA PREDICTIVA")
+    print("=" * 60)
     
-    # Crear instancia del sistema
-    proyecciones = ProyeccionesFinancierasIAPredictiva()
+    # Inicializar sistema
+    sistema = ProyeccionesFinancierasIA()
     
-    # Ejecutar análisis completo
-    resultados = proyecciones.ejecutar_analisis_completo()
+    # Generar datos históricos
+    print("\n📊 Generando datos históricos simulados...")
+    datos_historicos = sistema.generar_datos_historicos_simulados()
+    print(f"✅ Datos históricos generados: {len(datos_historicos)} meses")
     
-    # Mostrar resumen
-    print(f"\n📊 RESUMEN DE PREDICCIONES:")
+    # Entrenar modelos de IA
+    print("\n🤖 Entrenando modelos de IA...")
+    sistema.entrenar_modelos_ia()
+    print("✅ Modelos de IA entrenados exitosamente")
     
-    for variable, preds in resultados['predicciones'].items():
-        ultima_pred = preds[-1]
-        print(f"{variable}: {ultima_pred.valor:.2f} (Confianza: {ultima_pred.confianza:.1%})")
+    # Generar proyecciones
+    print("\n🔮 Generando proyecciones futuras...")
+    proyecciones = sistema.generar_proyecciones(meses_futuro=12)
+    print(f"✅ Proyecciones generadas: {len(proyecciones)} meses")
     
-    print(f"\n🚨 ALERTAS GENERADAS:")
-    total_alertas = sum(len(alertas) for alertas in resultados['alertas'].values())
-    print(f"Total de alertas: {total_alertas}")
+    # Analizar escenarios
+    print("\n📈 Analizando escenarios...")
+    escenarios = sistema.analizar_escenarios()
+    print("✅ Escenarios analizados")
     
-    for variable, alertas in resultados['alertas'].items():
-        if alertas:
-            print(f"{variable}: {len(alertas)} alertas")
+    # Calcular valuación
+    print("\n💰 Calculando valuación proyectada...")
+    valuacion = sistema.calcular_valuacion_proyectada()
+    print("✅ Valuación calculada")
+    
+    # Generar reporte ejecutivo
+    print("\n📋 Generando reporte ejecutivo...")
+    reporte = sistema.generar_reporte_ejecutivo()
+    print("✅ Reporte ejecutivo generado")
+    
+    # Mostrar resultados clave
+    print("\n" + "=" * 60)
+    print("📊 RESULTADOS CLAVE")
+    print("=" * 60)
+    
+    print(f"\n💰 VALUACIÓN PROYECTADA: ${valuacion['valuacion_promedio']:,.0f}")
+    print(f"📈 CRECIMIENTO ANUAL: {reporte['resumen_ejecutivo']['crecimiento_anual_proyectado']:.1f}%")
+    print(f"👥 USUARIOS ACTUALES: {reporte['metricas_actuales']['usuarios_activos']:,}")
+    print(f"🎯 AI ACCURACY: {reporte['metricas_actuales']['ai_accuracy']:.1%}")
+    
+    print(f"\n📊 PROYECCIONES 12 MESES:")
+    print(f"   • ARR: ${reporte['proyecciones_12_meses']['arr_proyectado']:,.0f}")
+    print(f"   • Usuarios: {reporte['proyecciones_12_meses']['usuarios_proyectados']:,}")
+    print(f"   • Churn Rate: {reporte['proyecciones_12_meses']['churn_proyectado']:.1%}")
+    print(f"   • LTV: ${reporte['proyecciones_12_meses']['ltv_proyectado']:,.0f}")
+    
+    print(f"\n🎯 ESCENARIOS:")
+    for nombre, datos in escenarios.items():
+        print(f"   • {nombre}: ARR ${datos['ingresos_saas_12m']:,.0f}, Usuarios {datos['usuarios_12m']:,}")
+    
+    print(f"\n💡 RECOMENDACIONES:")
+    for i, rec in enumerate(reporte['recomendaciones'], 1):
+        print(f"   {i}. {rec}")
+    
+    # Crear visualizaciones
+    print(f"\n📊 Creando visualizaciones...")
+    sistema.visualizar_proyecciones()
+    print("✅ Visualizaciones creadas")
+    
+    print(f"\n🎉 SISTEMA COMPLETADO EXITOSAMENTE!")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()
