@@ -329,3 +329,5 @@
 
 *Curriculum actualizado: [Fecha actual]*  
 *Próxima revisión: [Fecha + 3 meses]*
+
+

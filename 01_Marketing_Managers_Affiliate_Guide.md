@@ -324,3 +324,5 @@ Métricas en tiempo real:
 ---
 
 *"En la era de la IA, los Marketing Managers que no se adapten quedarán obsoletos. Los que se adapten, dominarán."* 🚀
+
+
