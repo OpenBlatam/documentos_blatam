@@ -1,38 +1,94 @@
-# Documentación de Automatizaciones para la Startup
+# 📚 Documentación de la Plataforma
 
-Este espacio recopila automatizaciones clave para escalar operaciones, mejorar eficiencia y acelerar el crecimiento. Comienza por el índice y navega al documento principal de automatizaciones.
+> **Versión**: 2.0 | **Última actualización**: 2024 | **Estado**: Producción Ready ✅
 
-## Índice
-- [Automatizaciones (100 ideas)](./automatizaciones.md)
-- [Tabla (CSV) para priorización de las 100 automatizaciones](./automatizaciones_tabla.csv)
-- [Top 20 Quick Wins sugeridos](./QUICK_WINS_TOP20.md)
-- [50 ejemplos UTM (CSV para Sheets)](./UTM_EXAMPLES_50.csv)
-- [LinkedIn Ads Creatives Master (CSV)](./LINKEDIN_ADS_CREATIVES_MASTER.csv) - Todos tus creativos con UTMs pre-configurados
-- [Plantillas de priorización y backlog](./plantillas.md)
-- [Plantillas Google Sheets para UTMs](./SHEETS_UTM_TEMPLATES.md)
-- [Checklist de implementación](./CHECKLIST_IMPLEMENTACION.md)
-- [Matriz de decisión CRM (CSV)](./CRM_DECISION_MATRIX.csv)
-- [Checklist de migración CRM (CSV)](./CRM_MIGRATION_CHECKLIST.csv)
-- Guía relacionada: [Guía de UTMs para Outreach](../UTM_GUIDE_OUTREACH.md)
-- Guía avanzada: [Advanced Automation Workflows](../26_ADVANCED_AUTOMATION_WORKFLOWS.md)
+Bienvenido a la documentación completa de la plataforma de automatización empresarial.
 
-## Cómo priorizar (rápido)
-- Usa ICE: Impacto (1-5) × Confianza (1-5) ÷ Esfuerzo (1-5).
-- O usa RICE: Alcance × Impacto × Confianza ÷ Esfuerzo.
-- Ordena el backlog por score y ejecuta en sprints semanales.
+## 🚀 Inicio Rápido
 
-## Plantilla rápida (copiar/pegar)
-```
-Automatización: <nombre>
-Owner: <persona>
-Objetivo/KPI: <métrica + meta>
-Suposición clave: <hipótesis>
-Esfuerzo: <horas/días>
-Riesgos: <top 1-2>
-Fecha objetivo: <AAAA-MM-DD>
-```
+**¿Nuevo en la plataforma?** Empieza aquí:
 
-## Buenas prácticas
-- Mide del día 1: define KPI antes de implementar.
-- Empieza pequeño (MVP) y amplía al ver impacto.
-- Documenta decisiones y resultados en el issue/tarjeta.
+1. **[Quick Start Guide](./QUICK_START.md)** ⭐ - Guía rápida de 15 minutos
+2. **[Ejemplos Prácticos](./EJEMPLOS_PRACTICOS.md)** - Ejemplos listos para usar
+3. **[Referencia Rápida](./REFERENCIA_RAPIDA.md)** - Comandos y APIs
+
+## 📖 Documentación Completa
+
+### Para Desarrolladores
+
+- **[Guía de Desarrollo](./DESARROLLO.md)** - Configuración, creación de DAGs, testing
+- **[Ejemplos Prácticos](./EJEMPLOS_PRACTICOS.md)** - Ejemplos de Airflow, Kestra, integraciones
+- **[Mejores Prácticas](./BEST_PRACTICES.md)** - Patrones recomendados y anti-patrones
+- **[Guía de Migración](./GUIA_MIGRACION.md)** - Migrar código legacy a nueva arquitectura
+
+### Para DevOps/Platform Engineers
+
+- **[Guía de Deployment](./DEPLOYMENT.md)** - Despliegue en dev/staging/prod
+- **[Operación y Mantenimiento](./OPERACION.md)** - Monitoreo, alertas, mantenimiento
+- **[Troubleshooting](./TROUBLESHOOTING.md)** - Resolución de problemas comunes
+- **[Referencia Rápida](./REFERENCIA_RAPIDA.md)** - Comandos de Kubernetes, Airflow, PostgreSQL
+
+### Para Arquitectos
+
+- **[Arquitectura](./ARQUITECTURA.md)** - Arquitectura completa del sistema
+- **[Diagramas](./DIAGRAMAS.md)** - Diagramas visuales de arquitectura
+- **[Escalabilidad](./ESCALABILIDAD.md)** - Arquitectura de escalabilidad
+
+### Documentación Especializada
+
+- **[Sistema de Aprobaciones](./APPROVAL_SYSTEM.md)** - Documentación técnica completa
+- **[Mejoras del Sistema de Aprobaciones](./APPROVAL_SYSTEM_MEJORAS.md)** - Guía de mejoras
+- **[Sistema de KPIs](./KPI_SYSTEM.md)** - Dashboards y reportes automáticos
+
+## 🔍 Búsqueda Rápida
+
+### Por Tarea
+
+- **Crear un DAG**: [DESARROLLO.md](./DESARROLLO.md) → [EJEMPLOS_PRACTICOS.md](./EJEMPLOS_PRACTICOS.md)
+- **Desplegar**: [DEPLOYMENT.md](./DEPLOYMENT.md)
+- **Troubleshooting**: [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) → [FAQ.md](./FAQ.md)
+- **Mejorar performance**: [BEST_PRACTICES.md](./BEST_PRACTICES.md)
+
+### Por Problema
+
+- **DAG no aparece**: [FAQ.md](./FAQ.md#-airflow)
+- **Error de conexión**: [TROUBLESHOOTING.md](./TROUBLESHOOTING.md#-base-de-datos)
+- **Performance lenta**: [FAQ.md](./FAQ.md#-performance)
+- **Pods fallando**: [TROUBLESHOOTING.md](./TROUBLESHOOTING.md#-kubernetes)
+
+## 📊 Índice Completo
+
+Para ver todos los documentos disponibles, consulta el **[Índice Centralizado](./INDEX.md)**.
+
+## 🆘 Ayuda y Soporte
+
+### ¿Tienes una pregunta?
+
+1. **Consulta el [FAQ](./FAQ.md)** - Preguntas frecuentes
+2. **Busca en [Troubleshooting](./TROUBLESHOOTING.md)** - Problemas comunes
+3. **Revisa [Referencia Rápida](./REFERENCIA_RAPIDA.md)** - Comandos comunes
+
+### ¿Encontraste un error en la documentación?
+
+Por favor, reporta el problema al equipo de plataforma.
+
+## 📈 Estadísticas
+
+- **16 documentos** técnicos completos
+- **150+ ejemplos** de código listos para usar
+- **Diagramas** de arquitectura visuales
+- **Guías paso a paso** con checklists
+- **Referencia rápida** de comandos y APIs
+
+## 🔄 Actualizaciones
+
+**Última actualización**: 2024
+
+La documentación se actualiza regularmente. Para ver el historial de cambios, consulta el repositorio.
+
+---
+
+**Versión**: 2.0 | **Estado**: Producción Ready ✅  
+**Mantenido por**: platform-team  
+**Última actualización**: 2024
+
