@@ -1,0 +1,12 @@
+💰 Calculadora de ROI y Análisis de Costos,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+Concepto,Valor,Fórmula,Resultado,Notas
+Costo por Pieza de Contenido,50,,Valor fijo,Costo promedio de producción
+Piezas Generadas/Mes,450,,Del sistema,Del dashboard
+Costo Total Mensual,,,Cálculo automático,Costo total de producción
+Tiempo Ahorrado (horas/mes),200,,Estimado,Tiempo ahorrado vs manual
+Valor Hora Trabajo,75,,Tarifa estándar,Costo por hora de trabajo
+Ahorro en Tiempo ($),,,Cálculo automático,Ahorro monetario
+ROI Mensual (%),,,Porcentaje,Retorno de inversión
+ROI Anual (%),,,Proyección,ROI anualizado
+Break-even (meses),,,Cálculo,Meses para recuperar inversión

@@ -1,0 +1,156 @@
+======================================================================
+REPORTE DE VALIDACIÓN DE CALIDAD
+======================================================================
+
+Fecha: 22/11/2025 16:20:16
+
+RESUMEN
+----------------------------------------------------------------------
+Total de archivos: 41
+Archivos válidos: 24 (58.5%)
+Archivos inválidos: 17 (41.5%)
+Archivos con advertencias: 0
+
+DETALLES
+----------------------------------------------------------------------
+
+❌ INVÁLIDO - ANALISIS_COMPETITIVO_PROFESIONAL.docx
+   Tamaño: 39.1 KB
+   ❌ Tamaño muy pequeño: 39.1 KB (mínimo: 50 KB)
+
+❌ INVÁLIDO - SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.docx
+   Tamaño: 44.9 KB
+   ❌ Tamaño muy pequeño: 44.9 KB (mínimo: 50 KB)
+
+❌ INVÁLIDO - PRESUPUESTO_PRICING_PROFESIONAL.docx
+   Tamaño: 40.3 KB
+   ❌ Tamaño muy pequeño: 40.3 KB (mínimo: 50 KB)
+
+✅ VÁLIDO - SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.docx
+   Tamaño: 53.9 KB
+
+✅ VÁLIDO - SISTEMAS_PROMPTS_CONSOLIDADO.docx
+   Tamaño: 63.6 KB
+
+✅ VÁLIDO - BRIEF_UGC_CREADORAS_BULK.docx
+   Tamaño: 81.1 KB
+
+❌ INVÁLIDO - Sistema_Creacion_Contenido_Minimalista.docx
+   Tamaño: 46.2 KB
+   ❌ Tamaño muy pequeño: 46.2 KB (mínimo: 50 KB)
+
+❌ INVÁLIDO - DASHBOARD_METRICAS_PROFESIONAL.docx
+   Tamaño: 39.7 KB
+   ❌ Tamaño muy pequeño: 39.7 KB (mínimo: 50 KB)
+
+❌ INVÁLIDO - SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.docx
+   Tamaño: 40.4 KB
+   ❌ Tamaño muy pequeño: 40.4 KB (mínimo: 50 KB)
+
+✅ VÁLIDO - DASHBOARD_METRICAS_PREMIUM.xlsx
+   Tamaño: 829.4 KB
+
+✅ VÁLIDO - PRESUPUESTO_PRICING_PREMIUM.xlsx
+   Tamaño: 829.4 KB
+
+✅ VÁLIDO - ANALISIS_COMPETITIVO_AVANZADO.xlsx
+   Tamaño: 316.1 KB
+
+✅ VÁLIDO - ANALISIS_COMPETITIVO_PREMIUM.xlsx
+   Tamaño: 829.4 KB
+
+✅ VÁLIDO - DASHBOARD_METRICAS_PROFESIONAL.xlsx
+   Tamaño: 229.2 KB
+
+❌ INVÁLIDO - Sistema_Creacion_Contenido_Minimalista.xlsx
+   Tamaño: 24.7 KB
+   ❌ Tamaño muy pequeño: 24.7 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - PREDICCIONES_AVANZADAS.xlsx
+   Tamaño: 6.6 KB
+   ❌ Tamaño muy pequeño: 6.6 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - ANALISIS_ESTADISTICO_AVANZADO.xlsx
+   Tamaño: 5.3 KB
+   ❌ Tamaño muy pequeño: 5.3 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx
+   Tamaño: 23.6 KB
+   ❌ Tamaño muy pequeño: 23.6 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - ANALISIS_SENTIMIENTO.xlsx
+   Tamaño: 6.6 KB
+   ❌ Tamaño muy pequeño: 6.6 KB (mínimo: 100 KB)
+
+✅ VÁLIDO - DASHBOARD_METRICAS_AVANZADO.xlsx
+   Tamaño: 316.1 KB
+
+✅ VÁLIDO - PRESUPUESTO_PRICING_AVANZADO.xlsx
+   Tamaño: 316.1 KB
+
+❌ INVÁLIDO - SISTEMA_CREACION_CONTENIDO.xlsx
+   Tamaño: 21.3 KB
+   ❌ Tamaño muy pequeño: 21.3 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - ANALISIS_COMPETITIVO_PROFESIONAL.xlsx
+   Tamaño: 5.3 KB
+   ❌ Tamaño muy pequeño: 5.3 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xlsx
+   Tamaño: 41.9 KB
+   ❌ Tamaño muy pequeño: 41.9 KB (mínimo: 100 KB)
+
+✅ VÁLIDO - REPORTES_EJECUTIVOS_AVANZADO.xlsx
+   Tamaño: 316.1 KB
+
+❌ INVÁLIDO - SISTEMAS_PROMPTS_CONSOLIDADO.xlsx
+   Tamaño: 72.9 KB
+   ❌ Tamaño muy pequeño: 72.9 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xlsx
+   Tamaño: 5.2 KB
+   ❌ Tamaño muy pequeño: 5.2 KB (mínimo: 100 KB)
+
+❌ INVÁLIDO - PRESUPUESTO_PRICING_PROFESIONAL.xlsx
+   Tamaño: 82.2 KB
+   ❌ Tamaño muy pequeño: 82.2 KB (mínimo: 100 KB)
+
+✅ VÁLIDO - ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pptx
+   Tamaño: 1245.3 KB
+
+✅ VÁLIDO - DASHBOARD_METRICAS_ULTRA_PREMIUM.pptx
+   Tamaño: 1245.3 KB
+
+✅ VÁLIDO - PRESUPUESTO_PRICING_ULTRA_PREMIUM.pptx
+   Tamaño: 1245.3 KB
+
+✅ VÁLIDO - ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pdf
+   Tamaño: 1446.7 KB
+
+✅ VÁLIDO - PRESUPUESTO_PRICING_ULTRA_PREMIUM.pdf
+   Tamaño: 1446.7 KB
+
+✅ VÁLIDO - DASHBOARD_METRICAS_ULTRA_PREMIUM.pdf
+   Tamaño: 1446.7 KB
+
+✅ VÁLIDO - PRESUPUESTO_PRICING_INTERACTIVO.html
+   Tamaño: 17.7 KB
+
+✅ VÁLIDO - DASHBOARD_MAESTRO_DOCUMENTOS.html
+   Tamaño: 18.7 KB
+
+✅ VÁLIDO - ANALISIS_COMPETITIVO_INTERACTIVO.html
+   Tamaño: 17.7 KB
+
+✅ VÁLIDO - DASHBOARD_METRICAS_INTERACTIVO.html
+   Tamaño: 17.7 KB
+
+✅ VÁLIDO - ANALISIS_SENTIMIENTO.png
+   Tamaño: 476.1 KB
+
+✅ VÁLIDO - ANALISIS_ESTADISTICO_AVANZADO.png
+   Tamaño: 1020.9 KB
+
+✅ VÁLIDO - PREDICCIONES_AVANZADAS.png
+   Tamaño: 897.1 KB
+

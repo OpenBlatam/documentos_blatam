@@ -1,0 +1,2225 @@
+{
+  "Resumen Ejecutivo": [
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Variante 4: Académico y Técnico - Dashboard Ejecutivo",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Versión:",
+      "Unnamed: 1": "4.0",
+      "Unnamed: 2": "Fecha:",
+      "Unnamed: 3": "22/11/2025",
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Autor:",
+      "Unnamed: 1": "Sistema de Documentación Técnica",
+      "Unnamed: 2": "Estado:",
+      "Unnamed: 3": "Activo",
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Clasificación:",
+      "Unnamed: 1": "Documentación de Sistema de IA",
+      "Unnamed: 2": "Última Actualización:",
+      "Unnamed: 3": "22/11/2025 02:10",
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "INDICADORES CLAVE DE RENDIMIENTO (KPIs)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Métrica",
+      "Unnamed: 1": "Valor Actual",
+      "Unnamed: 2": "Objetivo",
+      "Unnamed: 3": "Desviación %",
+      "Unnamed: 4": "Estado"
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Tipos de Contenido Soportados",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Plataformas Optimizadas",
+      "Unnamed: 1": 8,
+      "Unnamed: 2": 8,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Reglas de Formato Definidas",
+      "Unnamed: 1": 25,
+      "Unnamed: 2": 25,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Restricciones Operativas",
+      "Unnamed: 1": 15,
+      "Unnamed: 2": 15,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Tasa de Completitud (%)",
+      "Unnamed: 1": 95,
+      "Unnamed: 2": 90,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Tiempo Generación Promedio (min)",
+      "Unnamed: 1": 2.5,
+      "Unnamed: 2": 3,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Tasa de Precisión (%)",
+      "Unnamed: 1": 92,
+      "Unnamed: 2": 90,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Tasa de Relevancia (%)",
+      "Unnamed: 1": 88,
+      "Unnamed: 2": 85,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "Satisfacción del Usuario (%)",
+      "Unnamed: 1": 87,
+      "Unnamed: 2": 85,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE CREACIÓN DE CONTENIDO": "PROMEDIO GENERAL",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    }
+  ],
+  "Análisis Estadístico": [
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "MES",
+      "Unnamed: 1": "Contenido Generado",
+      "Unnamed: 2": "Tasa Éxito (%)",
+      "Unnamed: 3": "Tiempo Promedio (min)",
+      "Unnamed: 4": "Satisfacción (%)",
+      "Unnamed: 5": "ROI (%)"
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Enero",
+      "Unnamed: 1": 120,
+      "Unnamed: 2": 92,
+      "Unnamed: 3": 2.8,
+      "Unnamed: 4": 85,
+      "Unnamed: 5": 145
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Febrero",
+      "Unnamed: 1": 145,
+      "Unnamed: 2": 94,
+      "Unnamed: 3": 2.6,
+      "Unnamed: 4": 87,
+      "Unnamed: 5": 152
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Marzo",
+      "Unnamed: 1": 138,
+      "Unnamed: 2": 91,
+      "Unnamed: 3": 2.7,
+      "Unnamed: 4": 86,
+      "Unnamed: 5": 148
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Abril",
+      "Unnamed: 1": 162,
+      "Unnamed: 2": 95,
+      "Unnamed: 3": 2.4,
+      "Unnamed: 4": 89,
+      "Unnamed: 5": 165
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Mayo",
+      "Unnamed: 1": 175,
+      "Unnamed: 2": 96,
+      "Unnamed: 3": 2.3,
+      "Unnamed: 4": 90,
+      "Unnamed: 5": 178
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Junio",
+      "Unnamed: 1": 188,
+      "Unnamed: 2": 97,
+      "Unnamed: 3": 2.2,
+      "Unnamed: 4": 92,
+      "Unnamed: 5": 185
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "ESTADÍSTICAS DESCRIPTIVAS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Promedio Contenido:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Desviación Estándar:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Mínimo:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Máximo:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Mediana:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "Tasa Éxito Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS ESTADÍSTICO DEL SISTEMA": "ROI Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    }
+  ],
+  "Casos de Estudio": [
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso",
+      "Unnamed: 1": "Cliente",
+      "Unnamed: 2": "Tipo Contenido",
+      "Unnamed: 3": "Volumen",
+      "Unnamed: 4": "Tiempo Ahorrado",
+      "Unnamed: 5": "ROI %",
+      "Unnamed: 6": "Satisfacción",
+      "Unnamed: 7": "Estado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 1",
+      "Unnamed: 1": "TechCorp Inc.",
+      "Unnamed: 2": "Blog Articles",
+      "Unnamed: 3": 150,
+      "Unnamed: 4": 120,
+      "Unnamed: 5": 185,
+      "Unnamed: 6": 94,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 2",
+      "Unnamed: 1": "StartupXYZ",
+      "Unnamed: 2": "Social Media",
+      "Unnamed: 3": 500,
+      "Unnamed: 4": 80,
+      "Unnamed: 5": 220,
+      "Unnamed: 6": 91,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 3",
+      "Unnamed: 1": "Enterprise Ltd",
+      "Unnamed: 2": "Email Marketing",
+      "Unnamed: 3": 200,
+      "Unnamed: 4": 60,
+      "Unnamed: 5": 165,
+      "Unnamed: 6": 89,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 4",
+      "Unnamed: 1": "E-commerce Co",
+      "Unnamed: 2": "Product Descriptions",
+      "Unnamed: 3": 1000,
+      "Unnamed: 4": 200,
+      "Unnamed: 5": 195,
+      "Unnamed: 6": 93,
+      "Unnamed: 7": "En Proceso"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 5",
+      "Unnamed: 1": "SaaS Platform",
+      "Unnamed: 2": "Landing Pages",
+      "Unnamed: 3": 25,
+      "Unnamed: 4": 40,
+      "Unnamed: 5": 210,
+      "Unnamed: 6": 96,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 6",
+      "Unnamed: 1": "Agency Pro",
+      "Unnamed: 2": "Copywriting",
+      "Unnamed: 3": 300,
+      "Unnamed: 4": 100,
+      "Unnamed: 5": 175,
+      "Unnamed: 6": 88,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 7",
+      "Unnamed: 1": "Media Group",
+      "Unnamed: 2": "SEO Content",
+      "Unnamed: 3": 200,
+      "Unnamed: 4": 90,
+      "Unnamed: 5": 190,
+      "Unnamed: 6": 92,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Caso 8",
+      "Unnamed: 1": "Consulting Firm",
+      "Unnamed: 2": "Technical Docs",
+      "Unnamed: 3": 50,
+      "Unnamed: 4": 60,
+      "Unnamed: 5": 155,
+      "Unnamed: 6": 90,
+      "Unnamed: 7": "Completado"
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "ESTADÍSTICAS AGREGADAS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Total Casos:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Volumen Total:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Tiempo Ahorrado Total (horas):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "ROI Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CASOS DE ESTUDIO Y RESULTADOS REALES": "Satisfacción Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    }
+  ],
+  "Benchmarks": [
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Métrica",
+      "Unnamed: 1": "Este Sistema",
+      "Unnamed: 2": "Competidor A",
+      "Unnamed: 3": "Competidor B",
+      "Unnamed: 4": "Competidor C",
+      "Unnamed: 5": "Mejor",
+      "Unnamed: 6": "Ventaja %"
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Tipos de Contenido",
+      "Unnamed: 1": 10,
+      "Unnamed: 2": 7,
+      "Unnamed: 3": 8,
+      "Unnamed: 4": 6,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Tasa de Éxito (%)",
+      "Unnamed: 1": 95,
+      "Unnamed: 2": 88,
+      "Unnamed: 3": 91,
+      "Unnamed: 4": 85,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Tiempo Promedio (min)",
+      "Unnamed: 1": 2.5,
+      "Unnamed: 2": 3.8,
+      "Unnamed: 3": 3.2,
+      "Unnamed: 4": 4.1,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Precisión ML (%)",
+      "Unnamed: 1": 94,
+      "Unnamed: 2": 89,
+      "Unnamed: 3": 91,
+      "Unnamed: 4": 87,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Costo por Contenido ($)",
+      "Unnamed: 1": 35,
+      "Unnamed: 2": 45,
+      "Unnamed: 3": 40,
+      "Unnamed: 4": 50,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Satisfacción Usuario (%)",
+      "Unnamed: 1": 87,
+      "Unnamed: 2": 82,
+      "Unnamed: 3": 84,
+      "Unnamed: 4": 79,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Plataformas Soportadas",
+      "Unnamed: 1": 8,
+      "Unnamed: 2": 5,
+      "Unnamed: 3": 6,
+      "Unnamed: 4": 4,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    },
+    {
+      "BENCHMARKS Y COMPARATIVA CON COMPETIDORES": "Tiempo de Respuesta API (ms)",
+      "Unnamed: 1": 120,
+      "Unnamed: 2": 180,
+      "Unnamed: 3": 150,
+      "Unnamed: 4": 200,
+      "Unnamed: 5": "Este Sistema",
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Troubleshooting": [
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Problema",
+      "Unnamed: 1": "Síntoma",
+      "Unnamed: 2": "Causa Probable",
+      "Unnamed: 3": "Solución",
+      "Unnamed: 4": "Prioridad",
+      "Unnamed: 5": "Frecuencia",
+      "Unnamed: 6": "Estado"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Contenido Incompleto",
+      "Unnamed: 1": "Falta información clave",
+      "Unnamed: 2": "Brief poco detallado",
+      "Unnamed: 3": "Proporcionar más contexto en brief",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": "15%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Formato Incorrecto",
+      "Unnamed: 1": "No cumple reglas de formato",
+      "Unnamed: 2": "Query type mal identificado",
+      "Unnamed: 3": "Especificar tipo explícitamente",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": "8%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Falta de Citaciones",
+      "Unnamed: 1": "Sin referencias",
+      "Unnamed: 2": "Research no proporcionado",
+      "Unnamed: 3": "Incluir research insights",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": "12%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Tono Inconsistente",
+      "Unnamed: 1": "Voz de marca incorrecta",
+      "Unnamed: 2": "Brand guidelines ausentes",
+      "Unnamed: 3": "Proporcionar guidelines detalladas",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": "10%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Contenido Genérico",
+      "Unnamed: 1": "Falta personalización",
+      "Unnamed: 2": "Falta de detalles específicos",
+      "Unnamed: 3": "Incluir detalles en brief",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": "18%",
+      "Unnamed: 6": "En Proceso"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Tiempo de Respuesta Lento",
+      "Unnamed: 1": ">5 minutos",
+      "Unnamed: 2": "Carga alta del sistema",
+      "Unnamed: 3": "Escalar recursos",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": "5%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Error de Validación",
+      "Unnamed: 1": "Falla en validación",
+      "Unnamed: 2": "Bug en reglas",
+      "Unnamed: 3": "Actualizar reglas de validación",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": "3%",
+      "Unnamed: 6": "Resuelto"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Contenido Duplicado",
+      "Unnamed: 1": "Similar a contenido existente",
+      "Unnamed: 2": "Falta de originalidad",
+      "Unnamed: 3": "Mejorar algoritmo de originalidad",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": "7%",
+      "Unnamed: 6": "En Proceso"
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "RESUMEN DE PROBLEMAS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Total Problemas:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Resueltos:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "En Proceso:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Tasa de Resolución:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Prioridad Alta:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS": "Frecuencia Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Roadmap": [
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "Versión",
+      "Unnamed: 1": "Fecha Lanzamiento",
+      "Unnamed: 2": "Características Principales",
+      "Unnamed: 3": "Estado",
+      "Unnamed: 4": "Prioridad",
+      "Unnamed: 5": "Esfuerzo",
+      "Unnamed: 6": "Impacto",
+      "Unnamed: 7": NaN
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v4.0",
+      "Unnamed: 1": "2025-05-13 00:00:00",
+      "Unnamed: 2": "ML avanzado, Análisis predictivo",
+      "Unnamed: 3": "Lanzado",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 8,
+      "Unnamed: 6": "Alto",
+      "Unnamed: 7": 4.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v4.1",
+      "Unnamed: 1": "2025-06-15 00:00:00",
+      "Unnamed: 2": "Soporte multi-idioma",
+      "Unnamed: 3": "En Desarrollo",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 6,
+      "Unnamed: 6": "Alto",
+      "Unnamed: 7": 4.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v4.2",
+      "Unnamed: 1": "2025-07-20 00:00:00",
+      "Unnamed: 2": "Integración con más plataformas",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 5,
+      "Unnamed: 6": "Medio",
+      "Unnamed: 7": 3.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v4.3",
+      "Unnamed: 1": "2025-08-30 00:00:00",
+      "Unnamed: 2": "Generación de contenido multimedia",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 9,
+      "Unnamed: 6": "Alto",
+      "Unnamed: 7": 4.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v4.4",
+      "Unnamed: 1": "2025-10-10 00:00:00",
+      "Unnamed: 2": "A/B testing integrado",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 4,
+      "Unnamed: 6": "Medio",
+      "Unnamed: 7": 3.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v5.0",
+      "Unnamed: 1": "2026-01-15 00:00:00",
+      "Unnamed: 2": "Arquitectura completamente nueva",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 12,
+      "Unnamed: 6": "Muy Alto",
+      "Unnamed: 7": 5.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v5.1",
+      "Unnamed: 1": "2026-03-01 00:00:00",
+      "Unnamed: 2": "IA generativa avanzada (GPT-5)",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 10,
+      "Unnamed: 6": "Muy Alto",
+      "Unnamed: 7": 5.0
+    },
+    {
+      "ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA": "v5.2",
+      "Unnamed: 1": "2026-05-15 00:00:00",
+      "Unnamed: 2": "Análisis de sentimiento en tiempo real",
+      "Unnamed: 3": "Planificado",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 6,
+      "Unnamed: 6": "Medio",
+      "Unnamed: 7": 3.0
+    }
+  ],
+  "Análisis Predictivo": [
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "MES",
+      "Unnamed: 1": "Contenido Real",
+      "Unnamed: 2": "Contenido Predicho",
+      "Unnamed: 3": "Error %",
+      "Unnamed: 4": "Tendencia",
+      "Unnamed: 5": "Confianza"
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Enero",
+      "Unnamed: 1": 120,
+      "Unnamed: 2": 115,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.85
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Febrero",
+      "Unnamed: 1": 145,
+      "Unnamed: 2": 140,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.88
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Marzo",
+      "Unnamed: 1": 138,
+      "Unnamed: 2": 142,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Estable",
+      "Unnamed: 5": 0.82
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Abril",
+      "Unnamed: 1": 162,
+      "Unnamed: 2": 158,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.9
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Mayo",
+      "Unnamed: 1": 175,
+      "Unnamed: 2": 170,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.92
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Junio",
+      "Unnamed: 1": 188,
+      "Unnamed: 2": 185,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.94
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Julio (Pred)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": 195,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.91
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Agosto (Pred)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": 205,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Creciente",
+      "Unnamed: 5": 0.89
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Septiembre (Pred)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": 210,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Estable",
+      "Unnamed: 5": 0.87
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "PREDICCIÓN (Regresión Lineal)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Pendiente (m):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "Intercepto (b):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "R² (Coeficiente Determinación):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS PREDICTIVO Y FORECASTING": "PRÓXIMAS PREDICCIONES",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    }
+  ],
+  "ML Metrics": [
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Métrica",
+      "Unnamed: 1": "Valor Actual",
+      "Unnamed: 2": "Valor Objetivo",
+      "Unnamed: 3": "Mejora %",
+      "Unnamed: 4": "Estado",
+      "Unnamed: 5": "Última Actualización",
+      "Unnamed: 6": "Tendencia"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Precisión (Accuracy)",
+      "Unnamed: 1": 0.94,
+      "Unnamed: 2": 0.9,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↑"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Precisión (Precision)",
+      "Unnamed: 1": 0.91,
+      "Unnamed: 2": 0.88,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↑"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Recall (Sensibilidad)",
+      "Unnamed: 1": 0.89,
+      "Unnamed: 2": 0.85,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↑"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "F1-Score",
+      "Unnamed: 1": 0.9,
+      "Unnamed: 2": 0.86,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↑"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "AUC-ROC",
+      "Unnamed: 1": 0.93,
+      "Unnamed: 2": 0.9,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↑"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Tasa de Falsos Positivos",
+      "Unnamed: 1": 0.05,
+      "Unnamed: 2": 0.1,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↓"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Tiempo de Entrenamiento (min)",
+      "Unnamed: 1": 45,
+      "Unnamed: 2": 60,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": "2025-05-13",
+      "Unnamed: 6": "↓"
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "MATRIZ DE CONFUSIÓN",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": NaN,
+      "Unnamed: 1": "Predicho: Positivo",
+      "Unnamed: 2": "Predicho: Negativo",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Real: Positivo",
+      "Unnamed: 1": 850,
+      "Unnamed: 2": 50,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Real: Negativo",
+      "Unnamed: 1": 45,
+      "Unnamed: 2": 55,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "CÁLCULOS DESDE MATRIZ",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Verdaderos Positivos (TP):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Falsos Positivos (FP):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Falsos Negativos (FN):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Verdaderos Negativos (TN):",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Precisión Calculada:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "Recall Calculado:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN": "F1-Score Calculado:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Optimización Avanzada": [
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "HIPERPARÁMETROS DEL MODELO",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Parámetro",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Descripción",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Learning Rate",
+      "Unnamed: 1": 0.001,
+      "Unnamed: 2": "Tasa de aprendizaje del modelo",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Batch Size",
+      "Unnamed: 1": 32,
+      "Unnamed: 2": "Tamaño del lote de entrenamiento",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Epochs",
+      "Unnamed: 1": 100,
+      "Unnamed: 2": "Número de épocas de entrenamiento",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Dropout Rate",
+      "Unnamed: 1": 0.2,
+      "Unnamed: 2": "Tasa de dropout para regularización",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Hidden Layers",
+      "Unnamed: 1": 3,
+      "Unnamed: 2": "Número de capas ocultas",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Neurons per Layer",
+      "Unnamed: 1": 128,
+      "Unnamed: 2": "Neuronas por capa",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Optimizer",
+      "Unnamed: 1": "Adam",
+      "Unnamed: 2": "Algoritmo de optimización",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Loss Function",
+      "Unnamed: 1": "Cross-Entropy",
+      "Unnamed: 2": "Función de pérdida",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "RESULTADOS DE GRID SEARCH",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "Learning Rate",
+      "Unnamed: 1": "Batch Size",
+      "Unnamed: 2": "Epochs",
+      "Unnamed: 3": "Accuracy",
+      "Unnamed: 4": "F1-Score",
+      "Unnamed: 5": "Tiempo (min)",
+      "Unnamed: 6": "Ranking"
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": 0.001,
+      "Unnamed: 1": 32,
+      "Unnamed: 2": 100,
+      "Unnamed: 3": 0.94,
+      "Unnamed: 4": 0.9,
+      "Unnamed: 5": 45,
+      "Unnamed: 6": 1
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": 0.001,
+      "Unnamed: 1": 64,
+      "Unnamed: 2": 100,
+      "Unnamed: 3": 0.93,
+      "Unnamed: 4": 0.89,
+      "Unnamed: 5": 38,
+      "Unnamed: 6": 2
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": 0.0005,
+      "Unnamed: 1": 32,
+      "Unnamed: 2": 100,
+      "Unnamed: 3": 0.92,
+      "Unnamed: 4": 0.88,
+      "Unnamed: 5": 52,
+      "Unnamed: 6": 3
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": 0.001,
+      "Unnamed: 1": 32,
+      "Unnamed: 2": 150,
+      "Unnamed: 3": 0.95,
+      "Unnamed: 4": 0.91,
+      "Unnamed: 5": 68,
+      "Unnamed: 6": 1
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": 0.002,
+      "Unnamed: 1": 32,
+      "Unnamed: 2": 100,
+      "Unnamed: 3": 0.91,
+      "Unnamed: 4": 0.87,
+      "Unnamed: 5": 42,
+      "Unnamed: 6": 4
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "OPTIMIZACIÓN AVANZADA Y TUNING": "MEJOR COMBINACIÓN:",
+      "Unnamed: 1": "Learning Rate: 0.001, Batch: 32, Epochs: 150",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Matriz de Decisión": [
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Criterio",
+      "Unnamed: 1": "Blog",
+      "Unnamed: 2": "Social Media",
+      "Unnamed: 3": "Email",
+      "Unnamed: 4": "Landing Page",
+      "Unnamed: 5": "Copywriting",
+      "Unnamed: 6": "Peso"
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Longitud Requerida",
+      "Unnamed: 1": 5,
+      "Unnamed: 2": 1,
+      "Unnamed: 3": 3,
+      "Unnamed: 4": 4,
+      "Unnamed: 5": 3,
+      "Unnamed: 6": 0.15
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Complejidad Técnica",
+      "Unnamed: 1": 4,
+      "Unnamed: 2": 2,
+      "Unnamed: 3": 2,
+      "Unnamed: 4": 3,
+      "Unnamed: 5": 3,
+      "Unnamed: 6": 0.2
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Urgencia",
+      "Unnamed: 1": 2,
+      "Unnamed: 2": 5,
+      "Unnamed: 3": 4,
+      "Unnamed: 4": 3,
+      "Unnamed: 5": 3,
+      "Unnamed: 6": 0.1
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Engagement Esperado",
+      "Unnamed: 1": 3,
+      "Unnamed: 2": 5,
+      "Unnamed: 3": 3,
+      "Unnamed: 4": 4,
+      "Unnamed: 5": 4,
+      "Unnamed: 6": 0.25
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "Costo de Producción",
+      "Unnamed: 1": 3,
+      "Unnamed: 2": 2,
+      "Unnamed: 3": 2,
+      "Unnamed: 4": 4,
+      "Unnamed: 5": 3,
+      "Unnamed: 6": 0.15
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "ROI Esperado",
+      "Unnamed: 1": 4,
+      "Unnamed: 2": 3,
+      "Unnamed: 3": 4,
+      "Unnamed: 4": 5,
+      "Unnamed: 5": 4,
+      "Unnamed: 6": 0.15
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "PUNTUACIÓN PONDERADA",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO": "TIPO RECOMENDADO:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Análisis de Costos": [
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Tipo Contenido",
+      "Unnamed: 1": "Costo Producción",
+      "Unnamed: 2": "Costo Revisión",
+      "Unnamed: 3": "Costo Total",
+      "Unnamed: 4": "Valor Generado",
+      "Unnamed: 5": "ROI %"
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Blog Articles",
+      "Unnamed: 1": 150,
+      "Unnamed: 2": 50,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 450,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Social Media Posts",
+      "Unnamed: 1": 25,
+      "Unnamed: 2": 10,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 80,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Email Marketing",
+      "Unnamed: 1": 75,
+      "Unnamed: 2": 25,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 200,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Landing Pages",
+      "Unnamed: 1": 200,
+      "Unnamed: 2": 75,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 600,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Copywriting",
+      "Unnamed: 1": 120,
+      "Unnamed: 2": 40,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 350,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Product Descriptions",
+      "Unnamed: 1": 60,
+      "Unnamed: 2": 20,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 150,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "SEO Content",
+      "Unnamed: 1": 180,
+      "Unnamed: 2": 60,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 500,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "Technical Documentation",
+      "Unnamed: 1": 250,
+      "Unnamed: 2": 100,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 750,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ANÁLISIS DE COSTOS Y ROI": "TOTALES",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    }
+  ],
+  "Calendario Contenido": [
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "Fecha",
+      "Unnamed: 1": "Día",
+      "Unnamed: 2": "Tipo",
+      "Unnamed: 3": "Tema",
+      "Unnamed: 4": "Plataforma",
+      "Unnamed: 5": "Estado",
+      "Unnamed: 6": "Responsable",
+      "Unnamed: 7": "Notas"
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-13 00:00:00",
+      "Unnamed: 1": "Lunes",
+      "Unnamed: 2": "Blog Article",
+      "Unnamed: 3": "Mejores Prácticas IA",
+      "Unnamed: 4": "Website",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo A",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-14 00:00:00",
+      "Unnamed: 1": "Martes",
+      "Unnamed: 2": "Social Media",
+      "Unnamed: 3": "Product Launch",
+      "Unnamed: 4": "Instagram",
+      "Unnamed: 5": "En Proceso",
+      "Unnamed: 6": "Equipo B",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-15 00:00:00",
+      "Unnamed: 1": "Miércoles",
+      "Unnamed: 2": "Email Marketing",
+      "Unnamed: 3": "Newsletter Semanal",
+      "Unnamed: 4": "Email",
+      "Unnamed: 5": "Completado",
+      "Unnamed: 6": "Equipo A",
+      "Unnamed: 7": "Enviado"
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-16 00:00:00",
+      "Unnamed: 1": "Jueves",
+      "Unnamed: 2": "Landing Page",
+      "Unnamed: 3": "Nuevo Servicio",
+      "Unnamed: 4": "Website",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo C",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-17 00:00:00",
+      "Unnamed: 1": "Viernes",
+      "Unnamed: 2": "Social Media",
+      "Unnamed: 3": "Testimonial",
+      "Unnamed: 4": "LinkedIn",
+      "Unnamed: 5": "Completado",
+      "Unnamed: 6": "Equipo B",
+      "Unnamed: 7": "Publicado"
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-20 00:00:00",
+      "Unnamed: 1": "Lunes",
+      "Unnamed: 2": "Blog Article",
+      "Unnamed: 3": "Tendencias Marketing",
+      "Unnamed: 4": "Website",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo A",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-21 00:00:00",
+      "Unnamed: 1": "Martes",
+      "Unnamed: 2": "Copywriting",
+      "Unnamed: 3": "Campaign Copy",
+      "Unnamed: 4": "Múltiples",
+      "Unnamed: 5": "En Proceso",
+      "Unnamed: 6": "Equipo C",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-22 00:00:00",
+      "Unnamed: 1": "Miércoles",
+      "Unnamed: 2": "SEO Content",
+      "Unnamed: 3": "Guía Completa",
+      "Unnamed: 4": "Website",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo A",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-23 00:00:00",
+      "Unnamed: 1": "Jueves",
+      "Unnamed: 2": "Social Media",
+      "Unnamed: 3": "Behind Scenes",
+      "Unnamed: 4": "Instagram",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo B",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "2025-05-24 00:00:00",
+      "Unnamed: 1": "Viernes",
+      "Unnamed: 2": "Email Marketing",
+      "Unnamed: 3": "Promoción",
+      "Unnamed: 4": "Email",
+      "Unnamed: 5": "Planificado",
+      "Unnamed: 6": "Equipo A",
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "RESUMEN POR ESTADO",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "Estado",
+      "Unnamed: 1": "Cantidad",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "Planificado",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "En Proceso",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    },
+    {
+      "CALENDARIO DE PRODUCCIÓN DE CONTENIDO": "Completado",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN
+    }
+  ],
+  "Validación y Testing": [
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Criterio de Validación",
+      "Unnamed: 1": "Tipo Test",
+      "Unnamed: 2": "Frecuencia",
+      "Unnamed: 3": "Resultado Actual",
+      "Unnamed: 4": "Objetivo",
+      "Unnamed: 5": "Estado",
+      "Unnamed: 6": "Última Ejecución"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Completitud de Brief",
+      "Unnamed: 1": "Automático",
+      "Unnamed: 2": "Por solicitud",
+      "Unnamed: 3": 95,
+      "Unnamed: 4": 90,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-13 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Formato Correcto",
+      "Unnamed: 1": "Automático",
+      "Unnamed: 2": "Por solicitud",
+      "Unnamed: 3": 98,
+      "Unnamed: 4": 95,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-13 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Restricciones Cumplidas",
+      "Unnamed: 1": "Automático",
+      "Unnamed: 2": "Por solicitud",
+      "Unnamed: 3": 97,
+      "Unnamed: 4": 95,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-13 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Calidad de Contenido",
+      "Unnamed: 1": "Manual",
+      "Unnamed: 2": "Semanal",
+      "Unnamed: 3": 92,
+      "Unnamed: 4": 90,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-10 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Satisfacción Usuario",
+      "Unnamed: 1": "Manual",
+      "Unnamed: 2": "Mensual",
+      "Unnamed: 3": 87,
+      "Unnamed: 4": 85,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-01 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Tiempo de Respuesta",
+      "Unnamed: 1": "Automático",
+      "Unnamed: 2": "Diario",
+      "Unnamed: 3": 2.5,
+      "Unnamed: 4": 3,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-13 00:00:00"
+    },
+    {
+      "MATRIZ DE VALIDACIÓN Y TESTING": "Tasa de Error",
+      "Unnamed: 1": "Automático",
+      "Unnamed: 2": "Diario",
+      "Unnamed: 3": 2,
+      "Unnamed: 4": 5,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "2025-05-13 00:00:00"
+    }
+  ],
+  "Tipos de Contenido": [
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Tipo",
+      "Unnamed: 1": "Descripción",
+      "Unnamed: 2": "Longitud",
+      "Unnamed: 3": "Plataformas",
+      "Unnamed: 4": "Complejidad",
+      "Unnamed: 5": "Frecuencia Uso",
+      "Unnamed: 6": "Tasa Éxito %"
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Blog Articles",
+      "Unnamed: 1": "Artículos largos y detallados",
+      "Unnamed: 2": "2000-5000 palabras",
+      "Unnamed: 3": "Blogs, CMS",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 45,
+      "Unnamed: 6": 94
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Social Media Posts",
+      "Unnamed: 1": "Contenido conciso y atractivo",
+      "Unnamed: 2": "50-300 caracteres",
+      "Unnamed: 3": "Instagram, Twitter, Facebook",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 78,
+      "Unnamed: 6": 96
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Email Marketing",
+      "Unnamed: 1": "Mensajes con CTA fuerte",
+      "Unnamed: 2": "100-500 palabras",
+      "Unnamed: 3": "Email clients",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 62,
+      "Unnamed: 6": 92
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Landing Pages",
+      "Unnamed: 1": "Copy persuasivo y conversión",
+      "Unnamed: 2": "500-1500 palabras",
+      "Unnamed: 3": "Websites",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 34,
+      "Unnamed: 6": 89
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Copywriting",
+      "Unnamed: 1": "Lenguaje persuasivo",
+      "Unnamed: 2": "Variable",
+      "Unnamed: 3": "Múltiples",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 56,
+      "Unnamed: 6": 93
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Product Descriptions",
+      "Unnamed: 1": "Descripciones detalladas",
+      "Unnamed: 2": "200-800 palabras",
+      "Unnamed: 3": "E-commerce",
+      "Unnamed: 4": "Media",
+      "Unnamed: 5": 48,
+      "Unnamed: 6": 91
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "SEO Content",
+      "Unnamed: 1": "Optimizado para búsqueda",
+      "Unnamed: 2": "1500-3000 palabras",
+      "Unnamed: 3": "Websites",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 41,
+      "Unnamed: 6": 95
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Creative Writing",
+      "Unnamed: 1": "Contenido creativo",
+      "Unnamed: 2": "Variable",
+      "Unnamed: 3": "Múltiples",
+      "Unnamed: 4": "Variable",
+      "Unnamed: 5": 29,
+      "Unnamed: 6": 88
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Technical Documentation",
+      "Unnamed: 1": "Documentación técnica",
+      "Unnamed: 2": "Variable",
+      "Unnamed: 3": "Docs, Wikis",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 37,
+      "Unnamed: 6": 97
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "Content Strategy",
+      "Unnamed: 1": "Estrategia de contenido",
+      "Unnamed: 2": "Variable",
+      "Unnamed: 3": "Múltiples",
+      "Unnamed: 4": "Alta",
+      "Unnamed: 5": 25,
+      "Unnamed: 6": 90
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO": "TOTALES Y PROMEDIOS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    }
+  ],
+  "Reglas de Formato": [
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Categoría",
+      "Unnamed: 1": "Regla",
+      "Unnamed: 2": "Tipo",
+      "Unnamed: 3": "Prioridad"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Inicio",
+      "Unnamed: 1": "Nunca iniciar con encabezado",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Inicio",
+      "Unnamed: 1": "Proporcionar gancho o resumen inicial",
+      "Unnamed: 2": "Requisito",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Encabezados",
+      "Unnamed: 1": "Usar H2 para secciones principales",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Encabezados",
+      "Unnamed: 1": "Usar negrita para subsections",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Media"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Listas",
+      "Unnamed: 1": "Preferir listas planas",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Media"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Listas",
+      "Unnamed: 1": "No anidar listas",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Listas",
+      "Unnamed: 1": "No mezclar ordenadas y desordenadas",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Tablas",
+      "Unnamed: 1": "Usar tablas para comparaciones",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Media"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Énfasis",
+      "Unnamed: 1": "Usar negrita moderadamente",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Media"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Código",
+      "Unnamed: 1": "Usar bloques de código con sintaxis",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Media"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Matemáticas",
+      "Unnamed: 1": "Siempre usar LaTeX",
+      "Unnamed: 2": "Formato",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Matemáticas",
+      "Unnamed: 1": "Nunca usar $ o 42622",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Citas",
+      "Unnamed: 1": "Citar fuentes después de cada oración",
+      "Unnamed: 2": "Requisito",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Citas",
+      "Unnamed: 1": "No incluir sección de Referencias",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    },
+    {
+      "REGLAS DE FORMATO DEL SISTEMA": "Fin",
+      "Unnamed: 1": "Nunca terminar con pregunta",
+      "Unnamed: 2": "Restricción",
+      "Unnamed: 3": "Alta"
+    }
+  ],
+  "Análisis y Métricas": [
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Métrica de Calidad",
+      "Unnamed: 1": "Valor Actual",
+      "Unnamed: 2": "Valor Objetivo",
+      "Unnamed: 3": "Desviación %"
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Completitud",
+      "Unnamed: 1": 95,
+      "Unnamed: 2": 90,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Precisión",
+      "Unnamed: 1": 92,
+      "Unnamed: 2": 90,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Relevancia",
+      "Unnamed: 1": 88,
+      "Unnamed: 2": 85,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Optimización",
+      "Unnamed: 1": 90,
+      "Unnamed: 2": 85,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Originalidad",
+      "Unnamed: 1": 98,
+      "Unnamed: 2": 95,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Formato",
+      "Unnamed: 1": 96,
+      "Unnamed: 2": 95,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO Y MÉTRICAS": "Promedio:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    }
+  ],
+  "Gráficos": [
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Tipo de Contenido",
+      "Unnamed: 1": "Frecuencia de Uso"
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Blog Articles",
+      "Unnamed: 1": 45
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Social Media",
+      "Unnamed: 1": 78
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Email Marketing",
+      "Unnamed: 1": 62
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Landing Pages",
+      "Unnamed: 1": 34
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Copywriting",
+      "Unnamed: 1": 56
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Product Descriptions",
+      "Unnamed: 1": 48
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "SEO Content",
+      "Unnamed: 1": 41
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Technical Docs",
+      "Unnamed: 1": 29
+    },
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Mes",
+      "Unnamed: 1": "Contenido Generado"
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Ene",
+      "Unnamed: 1": 120
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Feb",
+      "Unnamed: 1": 145
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Mar",
+      "Unnamed: 1": 138
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Abr",
+      "Unnamed: 1": 162
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "May",
+      "Unnamed: 1": 175
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Jun",
+      "Unnamed: 1": 188
+    },
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Categoría",
+      "Unnamed: 1": "Distribución %"
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Format Rules",
+      "Unnamed: 1": 25
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Restrictions",
+      "Unnamed: 1": 20
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Query Types",
+      "Unnamed: 1": 18
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Planning Rules",
+      "Unnamed: 1": 15
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Output Specs",
+      "Unnamed: 1": 12
+    },
+    {
+      "VISUALIZACIONES DE DATOS": "Other",
+      "Unnamed: 1": 10
+    }
+  ],
+  "Apéndices": [
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "GLOSARIO DE TÉRMINOS",
+      "Unnamed: 1": NaN
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Término",
+      "Unnamed: 1": "Definición"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Brief",
+      "Unnamed: 1": "Documento que especifica los requisitos del contenido"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Brand Guidelines",
+      "Unnamed: 1": "Pautas que definen voz, tono y estilo de marca"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Query Type",
+      "Unnamed: 1": "Categoría del tipo de contenido solicitado"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Content Piece",
+      "Unnamed: 1": "Pieza final de contenido generada"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Citation",
+      "Unnamed: 1": "Referencia a fuente de información"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "LaTeX",
+      "Unnamed: 1": "Sistema de composición tipográfica para fórmulas"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "CTA",
+      "Unnamed: 1": "Call to Action - Llamado a la acción"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "SEO",
+      "Unnamed: 1": "Search Engine Optimization - Optimización para motores de búsqueda"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "REFERENCIAS CRUZADAS",
+      "Unnamed: 1": NaN
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Referencia",
+      "Unnamed: 1": "Descripción"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 2.1",
+      "Unnamed: 1": "Reglas de formato de inicio"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 3.1",
+      "Unnamed: 1": "Restricciones de lenguaje"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 4.1-4.10",
+      "Unnamed: 1": "Especificaciones por tipo de consulta"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 5.1",
+      "Unnamed: 1": "Proceso de planificación"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 6.1",
+      "Unnamed: 1": "Requisitos de calidad"
+    },
+    {
+      "APÉNDICES Y DATOS DE REFERENCIA": "Sección 8.1",
+      "Unnamed: 1": "Arquitectura de procesamiento"
+    }
+  ]
+}

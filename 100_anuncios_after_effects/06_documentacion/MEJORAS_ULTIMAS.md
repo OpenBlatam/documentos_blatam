@@ -254,3 +254,5 @@ File > Scripts > Run Script File...
 **Versión:** 5.0  
 **Última actualización:** 2025-01-27
 
+
+

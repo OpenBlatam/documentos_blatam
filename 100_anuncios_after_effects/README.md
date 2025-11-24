@@ -384,7 +384,7 @@
 
 **¡Sistema completo listo para usar! 🎬**
 
-**Versión:** 5.1 (Final)  
+**Versión:** 5.2 (Ultimate)  
 **Última actualización:** 2025-01-27
 
 ### 🆕 Funcionalidades por Versión
@@ -429,6 +429,12 @@
 - ✅ Actualización de timing
 - ✅ Limpieza de items no usados
 - ✅ Presets de exportación
+
+#### v5.2 (Ultimate) ⭐ NUEVO
+- ✅ Workflow maestro automático
+- ✅ Comparación de versiones
+- ✅ Corrección automática de problemas comunes
+- ✅ Índice visual completo
 
 **📖 Ver documentación:**
 - [MEJORAS_SISTEMA.md](06_documentacion/MEJORAS_SISTEMA.md) - v2.0

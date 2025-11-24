@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="PRESUPUESTO_PRICING_PREMIUM">
+  <Sheet name="Dashboard">
+    <Headers>
+      <Header>/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Generado: 22/11/2025 16:03 | Versión Premium 2.0</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">💰 Total Inversión</Cell>
+        <Cell column="Unnamed: 1">📈 ROI</Cell>
+        <Cell column="Unnamed: 2">🤝 Colaboraciones</Cell>
+        <Cell column="Unnamed: 3">📧 Tasa Respuesta</Cell>
+        <Cell column="Unnamed: 4">⭐ Engagement Avg</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">$2,500</Cell>
+        <Cell column="Unnamed: 1">200%</Cell>
+        <Cell column="Unnamed: 2">8</Cell>
+        <Cell column="Unnamed: 3">25%</Cell>
+        <Cell column="Unnamed: 4">5.4%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Datos Detallados">
+    <Headers>
+      <Header>Fecha</Header>
+      <Header>Influencer</Header>
+      <Header>Plataforma</Header>
+      <Header>Tipo</Header>
+      <Header>Inversión</Header>
+      <Header>Resultados</Header>
+      <Header>ROI</Header>
+      <Header>Engagement</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Fecha">2025-01-15</Cell>
+        <Cell column="Influencer">TechReviewer</Cell>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Tipo">Post</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">4.5%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-01-20</Cell>
+        <Cell column="Influencer">CodeMaster</Cell>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Tipo">Video</Cell>
+        <Cell column="Inversión">150</Cell>
+        <Cell column="Resultados">450</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">6.2%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-01</Cell>
+        <Cell column="Influencer">DevGuru</Cell>
+        <Cell column="Plataforma">YouTube</Cell>
+        <Cell column="Tipo">Review</Cell>
+        <Cell column="Inversión">500</Cell>
+        <Cell column="Resultados">1500</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">8.1%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-10</Cell>
+        <Cell column="Influencer">StartupLife</Cell>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Tipo">Reel</Cell>
+        <Cell column="Inversión">300</Cell>
+        <Cell column="Resultados">900</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">5.8%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-15</Cell>
+        <Cell column="Influencer">TechTrends</Cell>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Tipo">Series</Cell>
+        <Cell column="Inversión">400</Cell>
+        <Cell column="Resultados">1200</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">7.3%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-20</Cell>
+        <Cell column="Influencer">InnovationHub</Cell>
+        <Cell column="Plataforma">LinkedIn</Cell>
+        <Cell column="Tipo">Article</Cell>
+        <Cell column="Inversión">250</Cell>
+        <Cell column="Resultados">750</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">3.8%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-03-01</Cell>
+        <Cell column="Influencer">FutureTech</Cell>
+        <Cell column="Plataforma">YouTube</Cell>
+        <Cell column="Tipo">Tutorial</Cell>
+        <Cell column="Inversión">600</Cell>
+        <Cell column="Resultados">1800</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">9.2%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-03-10</Cell>
+        <Cell column="Influencer">DigitalNomad</Cell>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Tipo">Story</Cell>
+        <Cell column="Inversión">100</Cell>
+        <Cell column="Resultados">300</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Engagement">4.2%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Por Plataforma">
+    <Headers>
+      <Header>Plataforma</Header>
+      <Header>Inversión</Header>
+      <Header>Resultados</Header>
+      <Header>ROI</Header>
+      <Header>Colaboraciones</Header>
+      <Header>Engagement Avg</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Inversión">1000</Cell>
+        <Cell column="Resultados">3000</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">5</Cell>
+        <Cell column="Engagement Avg">4.8%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Inversión">600</Cell>
+        <Cell column="Resultados">1800</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">3</Cell>
+        <Cell column="Engagement Avg">6.5%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">YouTube</Cell>
+        <Cell column="Inversión">500</Cell>
+        <Cell column="Resultados">1500</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">2</Cell>
+        <Cell column="Engagement Avg">8.6%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">Twitter</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">1</Cell>
+        <Cell column="Engagement Avg">3.2%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">LinkedIn</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">1</Cell>
+        <Cell column="Engagement Avg">3.9%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Análisis Estadístico">
+    <Headers>
+      <Header>ANÁLISIS ESTADÍSTICO AVANZADO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Interpretación</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Promedio ROI</Cell>
+        <Cell column="Unnamed: 1">200%</Cell>
+        <Cell column="Unnamed: 2">Excelente</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Desviación Estándar</Cell>
+        <Cell column="Unnamed: 1">0%</Cell>
+        <Cell column="Unnamed: 2">Muy consistente</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">ROI Mínimo</Cell>
+        <Cell column="Unnamed: 1">200%</Cell>
+        <Cell column="Unnamed: 2">Mínimo excelente</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">ROI Máximo</Cell>
+        <Cell column="Unnamed: 1">200%</Cell>
+        <Cell column="Unnamed: 2">Máximo excelente</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Promedio Engagement</Cell>
+        <Cell column="Unnamed: 1">5.4%</Cell>
+        <Cell column="Unnamed: 2">Por encima del promedio</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Total Inversión</Cell>
+        <Cell column="Unnamed: 1">$2,500</Cell>
+        <Cell column="Unnamed: 2">Presupuesto optimizado</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Total Resultados</Cell>
+        <Cell column="Unnamed: 1">$7,500</Cell>
+        <Cell column="Unnamed: 2">Retorno triplicado</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

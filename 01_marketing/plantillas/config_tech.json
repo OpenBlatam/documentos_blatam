@@ -1,0 +1,13 @@
+{
+  "industria": "tech",
+  "nombre": "Tecnología",
+  "colores": {
+    "primary": "#2563EB",
+    "secondary": "#10B981",
+    "accent": "#F59E0B"
+  },
+  "fuente": "Calibri",
+  "estilo": "moderno",
+  "fecha_creacion": "2025-11-22T16:13:39.787579",
+  "version": "1.0"
+}

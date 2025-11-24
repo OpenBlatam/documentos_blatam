@@ -1,0 +1,106 @@
+{
+  "fecha": "2025-11-22T16:29:23.496496",
+  "tipos_cambio": {
+    "USD_EUR": {
+      "moneda_origen": "USD",
+      "moneda_destino": "EUR",
+      "tipo_cambio": 0.85,
+      "fecha": "2025-11-22T16:29:23.496542",
+      "fuente": "simulado"
+    },
+    "USD_GBP": {
+      "moneda_origen": "USD",
+      "moneda_destino": "GBP",
+      "tipo_cambio": 0.73,
+      "fecha": "2025-11-22T16:29:23.496548",
+      "fuente": "simulado"
+    },
+    "USD_MXN": {
+      "moneda_origen": "USD",
+      "moneda_destino": "MXN",
+      "tipo_cambio": 20.0,
+      "fecha": "2025-11-22T16:29:23.496552",
+      "fuente": "simulado"
+    }
+  },
+  "clima": {
+    "Madrid": {
+      "ciudad": "Madrid",
+      "temperatura": 22,
+      "descripcion": "Parcialmente nublado",
+      "humedad": 65,
+      "viento": 15,
+      "fecha": "2025-11-22T16:29:23.496558",
+      "fuente": "simulado"
+    },
+    "Barcelona": {
+      "ciudad": "Barcelona",
+      "temperatura": 22,
+      "descripcion": "Parcialmente nublado",
+      "humedad": 65,
+      "viento": 15,
+      "fecha": "2025-11-22T16:29:23.496563",
+      "fuente": "simulado"
+    },
+    "México DF": {
+      "ciudad": "México DF",
+      "temperatura": 22,
+      "descripcion": "Parcialmente nublado",
+      "humedad": 65,
+      "viento": 15,
+      "fecha": "2025-11-22T16:29:23.496566",
+      "fuente": "simulado"
+    }
+  },
+  "noticias": {
+    "tema": "tecnologia",
+    "noticias": [
+      {
+        "titulo": "Avances en IA",
+        "fecha": "2025-11-22",
+        "fuente": "Tech News"
+      },
+      {
+        "titulo": "Nuevas tendencias en marketing",
+        "fecha": "2025-11-21",
+        "fuente": "Marketing Today"
+      },
+      {
+        "titulo": "Innovación en documentos",
+        "fecha": "2025-11-20",
+        "fuente": "Business Weekly"
+      }
+    ],
+    "fecha": "2025-11-22T16:29:23.496574",
+    "fuente": "simulado"
+  },
+  "acciones": {
+    "AAPL": {
+      "simbolo": "AAPL",
+      "precio": 150.25,
+      "cambio": 2.5,
+      "cambio_porcentual": 1.69,
+      "volumen": 50000000,
+      "fecha": "2025-11-22T16:29:23.496579",
+      "fuente": "simulado"
+    },
+    "GOOGL": {
+      "simbolo": "GOOGL",
+      "precio": 150.25,
+      "cambio": 2.5,
+      "cambio_porcentual": 1.69,
+      "volumen": 50000000,
+      "fecha": "2025-11-22T16:29:23.496583",
+      "fuente": "simulado"
+    },
+    "MSFT": {
+      "simbolo": "MSFT",
+      "precio": 150.25,
+      "cambio": 2.5,
+      "cambio_porcentual": 1.69,
+      "volumen": 50000000,
+      "fecha": "2025-11-22T16:29:23.496587",
+      "fuente": "simulado"
+    }
+  }
+}

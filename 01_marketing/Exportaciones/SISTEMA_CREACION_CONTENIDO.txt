@@ -1,0 +1,175 @@
+======================================================================
+EXPORTACIÓN DE: SISTEMA_CREACION_CONTENIDO.xlsx
+Fecha: 22/11/2025 16:23:10
+======================================================================
+
+
+======================================================================
+HOJA: 📊 Resumen Ejecutivo
+======================================================================
+
+      ✍️ Sistema de Creación de Contenido Unnamed: 1 Unnamed: 2 Unnamed: 3  Unnamed: 4 Unnamed: 5
+Variante Tech Startup - Resumen Ejecutivo        NaN        NaN        NaN         NaN        NaN
+               Generado: 22/11/2025 02:28        NaN        NaN        NaN         NaN        NaN
+                                      NaN        NaN        NaN        NaN         NaN        NaN
+                                      KPI      Valor  Tendencia       Meta      Estado    Cálculo
+            Tipos de Contenido Soportados          8          ↑         10 En Progreso        NaN
+                       Formatos de Salida          4          →          4    Completo        NaN
+                        Reglas de Formato         15          ↑         20 En Progreso        NaN
+                   Restricciones Críticas         12          →         12    Completo        NaN
+                            Tasa de Éxito        95%          ↑        98%   Excelente        NaN
+
+
+======================================================================
+HOJA: 🎯 Dashboard
+======================================================================
+
+📊 Dashboard Interactivo - Sistema de Creación de Contenido Unnamed: 1                     Unnamed: 2
+                                                       NaN        NaN                            NaN
+                                                   Métrica      Valor                        Fórmula
+                                     Total Tipos Contenido        NaN      Cuenta tipos de contenido
+                                       Contenido Total/Mes        NaN      Suma de todo el contenido
+                                    Tasa Aprobación Actual        NaN      Última tasa de aprobación
+                                     Promedio Satisfacción        NaN Promedio de todas las métricas
+                                    Máxima Tasa Conversión        NaN       Valor máximo de métricas
+
+
+======================================================================
+HOJA: 📋 Datos Detallados
+======================================================================
+
+   Tipo de Contenido               Características        Plataforma Longitud Promedio Tiempo Producción Prioridad  Score Calculado
+       Blog Articles Artículos largos y detallados               Web         2000-5000              2-4h      Alta              NaN
+        Social Media  Contenido conciso optimizado Instagram/Twitter            50-280          15-30min      Alta              NaN
+     Email Marketing     Mensajes con CTAs fuertes             Email           100-500          30-60min     Media              NaN
+       Landing Pages    Copy persuasivo conversión               Web          500-1500              1-2h      Alta              NaN
+         Copywriting           Lenguaje persuasivo  Multi-plataforma          100-1000              1-3h      Alta              NaN
+Product Descriptions  Características y beneficios        E-commerce           100-300          20-40min     Media              NaN
+         SEO Content       Optimizado con keywords               Web         1500-3000              2-3h      Alta              NaN
+      Technical Docs      Documentación con código        Web/GitHub         1000-5000              3-6h     Media              NaN
+
+
+======================================================================
+HOJA: 📈 Análisis y Métricas
+======================================================================
+
+Métricas de Rendimiento del Sistema   Unnamed: 1     Unnamed: 2 Unnamed: 3
+                                NaN          NaN            NaN        NaN
+                            Métrica Valor Actual Valor Anterior   Cambio %
+                 Tasa de Aprobación           95             92        NaN
+         Tiempo Promedio Producción          2.5            3.2        NaN
+               Satisfacción Usuario          4.8            4.6        NaN
+             Contenido Generado/Mes          450            380        NaN
+                 Tasa de Conversión         12.5           11.2        NaN
+                    Engagement Rate          8.3            7.5        NaN
+               SEO Ranking Promedio          4.2            3.8        NaN
+                Tiempo de Respuesta          0.8            1.2        NaN
+              Precisión Brand Voice           96             94        NaN
+
+
+======================================================================
+HOJA: 📊 Gráficos
+======================================================================
+
+                Tipo   Cantidad Mensual      Unnamed: 2
+       Blog Articles                120             NaN
+        Social Media                200             NaN
+     Email Marketing                 80             NaN
+       Landing Pages                 30             NaN
+         Copywriting                 50             NaN
+Product Descriptions                100             NaN
+         SEO Content                 90             NaN
+      Technical Docs                 40             NaN
+                 NaN                NaN             NaN
+                 NaN                NaN             NaN
+                 NaN                NaN             NaN
+                 NaN                NaN             NaN
+                 NaN                NaN             NaN
+                 Mes Contenido Generado Tasa Aprobación
+                 Ene                350              92
+                 Feb                380              93
+                 Mar                410              94
+                 Abr                430            94.5
+                 May                450              95
+                 Jun                470            95.5
+
+
+======================================================================
+HOJA: 📚 Apéndices
+======================================================================
+
+    Categoría            Elemento                           Descripción          Referencia
+     Formatos        Word (.docx) Documentos con estilos personalizados      Hoja: Formatos
+     Formatos                 PDF           Alta calidad con marcadores      Hoja: Formatos
+     Formatos      Markdown (.md)                    Sintaxis extendida      Hoja: Formatos
+     Formatos       Excel (.xlsx)            Múltiples hojas y fórmulas      Hoja: Formatos
+       Reglas Inicio de Contenido          Hook o resumen, nunca header        Hoja: Reglas
+       Reglas         Encabezados           Nivel 2 (##) para secciones        Hoja: Reglas
+       Reglas              Listas                    Planas, sin anidar        Hoja: Reglas
+       Reglas              Tablas                    Para comparaciones        Hoja: Reglas
+Restricciones            Lenguaje                      Sin moralización Hoja: Restricciones
+Restricciones           Contenido                         Sin copyright Hoja: Restricciones
+Restricciones             Formato                  Sin emojis en cuerpo Hoja: Restricciones
+      Colores          Verde Neón                               #10b981        Tech Startup
+      Colores               Negro                               #000000        Tech Startup
+      Colores         Gris Carbón                               #374151        Tech Startup
+
+
+======================================================================
+HOJA: ⚙️ Configuración
+======================================================================
+
+⚙️ Configuración y Validación de Datos Unnamed: 1             Unnamed: 2                   Unnamed: 3
+                                   NaN        NaN                    NaN                          NaN
+                             Parámetro      Valor        Tipo Validación                  Descripción
+                      Prioridad Mínima      Media Lista: Alta,Media,Baja   Prioridad mínima aceptable
+                 Tiempo Máximo (horas)          6           Número: 0-24  Tiempo máximo de producción
+                       Longitud Mínima         50             Número: >0 Longitud mínima de contenido
+                Tasa Aprobación Mínima        90%     Porcentaje: 0-100%    Tasa mínima de aprobación
+
+
+======================================================================
+HOJA: 💰 ROI & Costos
+======================================================================
+
+💰 Calculadora de ROI y Análisis de Costos Unnamed: 1 Unnamed: 2         Unnamed: 3                     Unnamed: 4
+                                      NaN        NaN        NaN                NaN                            NaN
+                                 Concepto      Valor    Fórmula          Resultado                          Notas
+             Costo por Pieza de Contenido         50        NaN         Valor fijo   Costo promedio de producción
+                     Piezas Generadas/Mes        450        NaN        Del sistema                  Del dashboard
+                      Costo Total Mensual        NaN        NaN Cálculo automático      Costo total de producción
+              Tiempo Ahorrado (horas/mes)        200        NaN           Estimado      Tiempo ahorrado vs manual
+                       Valor Hora Trabajo         75        NaN    Tarifa estándar      Costo por hora de trabajo
+                     Ahorro en Tiempo ($)        NaN        NaN Cálculo automático               Ahorro monetario
+                          ROI Mensual (%)        NaN        NaN         Porcentaje           Retorno de inversión
+                            ROI Anual (%)        NaN        NaN         Proyección                 ROI anualizado
+                       Break-even (meses)        NaN        NaN            Cálculo Meses para recuperar inversión
+
+
+======================================================================
+HOJA: 🔮 Análisis Predictivo
+======================================================================
+
+🔮 Análisis Predictivo y Proyecciones   Unnamed: 1 Unnamed: 2         Unnamed: 3
+                                 NaN          NaN        NaN                NaN
+                             Métrica Valor Actual  Tendencia Proyección 3 Meses
+                       Contenido/Mes          450          ↑                NaN
+                     Tasa Aprobación           95          ↑                NaN
+                   Tiempo Producción          2.5          ↓                NaN
+                        Satisfacción          4.8          ↑                NaN
+                     Engagement Rate          8.3          ↑                NaN
+
+
+======================================================================
+HOJA: 📝 Plantillas
+======================================================================
+
+📝 Plantillas y Ejemplos de Uso                      Unnamed: 1                          Unnamed: 2
+                           NaN                             NaN                                 NaN
+             Tipo de Contenido                       Plantilla                      Ejemplo de Uso
+                  Blog Article        Hook + 3 Secciones + CTA Artículo educativo de 2000 palabras
+                  Social Media              Hook + Valor + CTA        Post de Instagram optimizado
+                         Email           Asunto + Cuerpo + CTA                  Newsletter semanal
+                  Landing Page     Headline + Beneficios + CTA                  Página de producto
+                   Copywriting Propuesta + Prueba Social + CTA                Anuncio publicitario
+

@@ -1,0 +1,19 @@
+ANÁLISIS PREDICTIVO Y FORECASTING,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+,,,,,
+MES,Contenido Real,Contenido Predicho,Error %,Tendencia,Confianza
+Enero,120,115,,Creciente,0.85
+Febrero,145,140,,Creciente,0.88
+Marzo,138,142,,Estable,0.82
+Abril,162,158,,Creciente,0.9
+Mayo,175,170,,Creciente,0.92
+Junio,188,185,,Creciente,0.94
+Julio (Pred),,195,,Creciente,0.91
+Agosto (Pred),,205,,Creciente,0.89
+Septiembre (Pred),,210,,Estable,0.87
+,,,,,
+PREDICCIÓN (Regresión Lineal),,,,,
+Pendiente (m):,,,,,
+Intercepto (b):,,,,,
+R² (Coeficiente Determinación):,,,,,
+,,,,,
+PRÓXIMAS PREDICCIONES,,,,,

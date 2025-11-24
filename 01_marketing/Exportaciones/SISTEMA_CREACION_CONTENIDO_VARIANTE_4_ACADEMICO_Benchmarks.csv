@@ -1,0 +1,10 @@
+BENCHMARKS Y COMPARATIVA CON COMPETIDORES,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Métrica,Este Sistema,Competidor A,Competidor B,Competidor C,Mejor,Ventaja %
+Tipos de Contenido,10,7,8,6,Este Sistema,
+Tasa de Éxito (%),95,88,91,85,Este Sistema,
+Tiempo Promedio (min),2.5,3.8,3.2,4.1,Este Sistema,
+Precisión ML (%),94,89,91,87,Este Sistema,
+Costo por Contenido ($),35,45,40,50,Este Sistema,
+Satisfacción Usuario (%),87,82,84,79,Este Sistema,
+Plataformas Soportadas,8,5,6,4,Este Sistema,
+Tiempo de Respuesta API (ms),120,180,150,200,Este Sistema,

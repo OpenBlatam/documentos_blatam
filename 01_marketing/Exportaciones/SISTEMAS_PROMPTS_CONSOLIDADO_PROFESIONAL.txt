@@ -1,0 +1,20 @@
+======================================================================
+EXPORTACIÓN DE: SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xlsx
+Fecha: 22/11/2025 16:23:27
+======================================================================
+
+
+======================================================================
+HOJA: Resumen Sistemas
+======================================================================
+
+SISTEMAS DE PROMPTS CONSOLIDADOS    Unnamed: 1 Unnamed: 2 Unnamed: 3
+                             NaN           NaN        NaN        NaN
+                         Sistema          Tipo  Variantes     Estado
+                      Perplexity      Búsqueda          1     Activo
+                      UGC Videos     Contenido          5     Activo
+              Creación Contenido     Contenido          7     Activo
+               Calendario Social Planificación          3     Activo
+                  Diseño Gráfico        Diseño          8     Activo
+                 Ventas y Cierre        Ventas          8     Activo
+

@@ -466,3 +466,5 @@ ROI = (Ganancia - Inversión) / Inversión × 100
 **Nota:** Esta guía es un sistema completo. Adapta según tus necesidades específicas.
 
 
+
+

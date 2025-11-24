@@ -1,0 +1,17 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,Validación de Datos,,,
+,──────────────────────────────────────────────────,,,
+,,,,
+,Campo,Tipo Validación,Valores Permitidos,Descripción
+,Tipo de Contenido,Lista,"Blog, Social Media, Email, Landing",Selección de tipo
+,Estado,Lista,"Borrador, Revisión, Publicado",Estado del contenido
+,Prioridad,Lista,"Alta, Media, Baja",Nivel de prioridad
+,Fecha Publicación,Fecha,>=HOY(),Fecha futura o hoy
+,Engagement %,Decimal,0-100,Porcentaje de engagement
+,Alcance,Entero,>=0,Número positivo
+,,,,
+,,,,
+,,,,
+,Ejemplo Práctico,,,
+,Tipo:,Estado:,,
+,Selecciona...,Selecciona...,,

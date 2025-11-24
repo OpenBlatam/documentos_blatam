@@ -1,0 +1,13 @@
+{
+  "industria": "educacion",
+  "nombre": "Educación",
+  "colores": {
+    "primary": "#1976D2",
+    "secondary": "#FFC107",
+    "accent": "#4CAF50"
+  },
+  "fuente": "Calibri",
+  "estilo": "acogedor",
+  "fecha_creacion": "2025-11-22T16:13:40.047605",
+  "version": "1.0"
+}

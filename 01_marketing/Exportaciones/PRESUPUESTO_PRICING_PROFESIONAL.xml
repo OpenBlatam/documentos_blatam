@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="PRESUPUESTO_PRICING_PROFESIONAL">
+  <Sheet name="Resumen">
+    <Headers>
+      <Header>/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Generado: 22/11/2025 15:59</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Tipo Influencer</Cell>
+        <Cell column="Unnamed: 1">Plataforma</Cell>
+        <Cell column="Unnamed: 2">Tipo Contenido</Cell>
+        <Cell column="Unnamed: 3">Precio Min</Cell>
+        <Cell column="Unnamed: 4">Precio Max</Cell>
+        <Cell column="Unnamed: 5">Promedio</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Nano (1K-10K)</Cell>
+        <Cell column="Unnamed: 1">Instagram</Cell>
+        <Cell column="Unnamed: 2">Post Feed</Cell>
+        <Cell column="Unnamed: 3">10</Cell>
+        <Cell column="Unnamed: 4">100</Cell>
+        <Cell column="Unnamed: 5">55</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Nano (1K-10K)</Cell>
+        <Cell column="Unnamed: 1">Instagram</Cell>
+        <Cell column="Unnamed: 2">Reel/Video</Cell>
+        <Cell column="Unnamed: 3">20</Cell>
+        <Cell column="Unnamed: 4">150</Cell>
+        <Cell column="Unnamed: 5">85</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Nano (1K-10K)</Cell>
+        <Cell column="Unnamed: 1">TikTok</Cell>
+        <Cell column="Unnamed: 2">Video</Cell>
+        <Cell column="Unnamed: 3">5</Cell>
+        <Cell column="Unnamed: 4">50</Cell>
+        <Cell column="Unnamed: 5">27</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Micro (10K-100K)</Cell>
+        <Cell column="Unnamed: 1">Instagram</Cell>
+        <Cell column="Unnamed: 2">Post Feed</Cell>
+        <Cell column="Unnamed: 3">100</Cell>
+        <Cell column="Unnamed: 4">1000</Cell>
+        <Cell column="Unnamed: 5">550</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Micro (10K-100K)</Cell>
+        <Cell column="Unnamed: 1">Instagram</Cell>
+        <Cell column="Unnamed: 2">Reel/Video</Cell>
+        <Cell column="Unnamed: 3">200</Cell>
+        <Cell column="Unnamed: 4">1500</Cell>
+        <Cell column="Unnamed: 5">850</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Micro (10K-100K)</Cell>
+        <Cell column="Unnamed: 1">TikTok</Cell>
+        <Cell column="Unnamed: 2">Video</Cell>
+        <Cell column="Unnamed: 3">50</Cell>
+        <Cell column="Unnamed: 4">500</Cell>
+        <Cell column="Unnamed: 5">275</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing">Micro (10K-100K)</Cell>
+        <Cell column="Unnamed: 1">YouTube</Cell>
+        <Cell column="Unnamed: 2">Video Dedicado</Cell>
+        <Cell column="Unnamed: 3">500</Cell>
+        <Cell column="Unnamed: 4">3000</Cell>
+        <Cell column="Unnamed: 5">1750</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

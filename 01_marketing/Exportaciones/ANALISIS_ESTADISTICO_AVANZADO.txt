@@ -1,0 +1,36 @@
+======================================================================
+EXPORTACIÓN DE: ANALISIS_ESTADISTICO_AVANZADO.xlsx
+Fecha: 22/11/2025 16:23:06
+======================================================================
+
+
+======================================================================
+HOJA: Análisis Estadístico
+======================================================================
+
+ANÁLISIS ESTADÍSTICO AVANZADO  Unnamed: 1
+                          NaN         NaN
+                    Inversión         NaN
+                        Media      989.80
+                      Mediana      983.63
+          Desviación Estándar      303.03
+                       Mínimo      524.84
+                       Máximo     1476.71
+        Coeficiente Variación       30.62
+                          NaN         NaN
+                       Ventas         NaN
+                        Media     2851.15
+                      Mediana     2891.50
+          Desviación Estándar      961.93
+                       Mínimo     1396.60
+                       Máximo     4145.19
+        Coeficiente Variación       33.74
+                          NaN         NaN
+                          ROI         NaN
+                        Media      285.50
+                      Mediana      284.34
+          Desviación Estándar       23.75
+                       Mínimo      235.48
+                       Máximo      324.91
+        Coeficiente Variación        8.32
+

@@ -1,0 +1,173 @@
+{
+  "estadisticas": {
+    "total_textos": 10,
+    "positivo": 1,
+    "negativo": 1,
+    "neutral": 8,
+    "score_promedio": 0.030410145410145407
+  },
+  "tendencias": [
+    {
+      "palabra": "producto",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "excelente",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "increíble",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "clientes",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "están",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "algunos",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "pero",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "calidad",
+      "frecuencia": 2
+    },
+    {
+      "palabra": "nuestro",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "tenido",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "éxito",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "mercado",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "satisfechos",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "campaña",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "marketing",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "genial",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "generó",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "crecimiento",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "significativo",
+      "frecuencia": 1
+    },
+    {
+      "palabra": "ventas",
+      "frecuencia": 1
+    }
+  ],
+  "resultados_detallados": [
+    {
+      "sentimiento": "positivo",
+      "score": 0.16666666666666666,
+      "positivo": 3,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 18
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.07142857142857142,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 14
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.0,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 13
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.08333333333333333,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 12
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.09090909090909091,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 11
+    },
+    {
+      "sentimiento": "neutral",
+      "score": -0.07692307692307693,
+      "positivo": 1,
+      "negativo": 2,
+      "neutral": 0,
+      "total_palabras": 13
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.09090909090909091,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 11
+    },
+    {
+      "sentimiento": "negativo",
+      "score": -0.2222222222222222,
+      "positivo": 0,
+      "negativo": 2,
+      "neutral": 0,
+      "total_palabras": 9
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.1,
+      "positivo": 1,
+      "negativo": 0,
+      "neutral": 0,
+      "total_palabras": 10
+    },
+    {
+      "sentimiento": "neutral",
+      "score": 0.0,
+      "positivo": 0,
+      "negativo": 0,
+      "neutral": 1,
+      "total_palabras": 10
+    }
+  ]
+}

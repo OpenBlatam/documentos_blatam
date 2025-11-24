@@ -1,0 +1,308 @@
+======================================================================
+EXPORTACIÓN DE: Sistema_Creacion_Contenido_Minimalista.xlsx
+Fecha: 22/11/2025 16:23:05
+======================================================================
+
+
+======================================================================
+HOJA: Portada
+======================================================================
+
+ Unnamed: 0                                   Unnamed: 1
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN             Sistema de Creación de Contenido
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN           Variante 3: Minimalista y Elegante
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN                                          NaN
+        NaN Versión: 1.0 | Fecha: 22 de November de 2025
+
+
+======================================================================
+HOJA: Resumen Ejecutivo
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4
+        NaN                                  Resumen Ejecutivo        NaN        NaN        NaN
+        NaN ──────────────────────────────────────────────────        NaN        NaN        NaN
+        NaN                                                NaN        NaN        NaN        NaN
+        NaN                                   KPIs Principales        NaN        NaN        NaN
+        NaN                                                NaN        NaN        NaN        NaN
+        NaN                                            Métrica      Valor   Objetivo     Estado
+        NaN                                 Contenidos Creados         45         50        90%
+        NaN                                 Tasa de Engagement       8.5%        10%        85%
+        NaN                                      Alcance Total       125K       150K        83%
+        NaN                                       Conversiones         23         30        77%
+
+
+======================================================================
+HOJA: Estructura del Sistema
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                                         Unnamed: 2
+        NaN    Estructura del Sistema de Creación de Contenido                                                NaN
+        NaN ──────────────────────────────────────────────────                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                               Goal        Definición del objetivo del Content Creator
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                       Format Rules Reglas de formato para contenido bien estructurado
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                       Restrictions                Restricciones y límites del sistema
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                         Query Type                       Tipos de consulta soportados
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                     Planning Rules             Reglas para planificación de contenido
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                             Output                         Especificaciones de salida
+        NaN                                                NaN                                                NaN
+        NaN                                                NaN                                                NaN
+        NaN                                    Personalization                        Personalización del sistema
+
+
+======================================================================
+HOJA: Tipos de Contenido
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                                                              Unnamed: 2
+        NaN                      Tipos de Contenido Soportados                                                                     NaN
+        NaN ──────────────────────────────────────────────────                                                                     NaN
+        NaN                                                NaN                                                                     NaN
+        NaN                                               Tipo                                                             Descripción
+        NaN                                      Blog Articles Artículos largos y detallados con secciones claras, markdown y headings
+        NaN                                 Social Media Posts   Contenido conciso y atractivo optimizado para plataformas específicas
+        NaN                                    Email Marketing                        Mensajes claros con llamados a la acción fuertes
+        NaN                                      Landing Pages                                Copy persuasivo y enfocado en conversión
+        NaN                                        Copywriting                      Lenguaje persuasivo con propuestas de valor claras
+        NaN                               Product Descriptions               Descripciones detalladas con características y beneficios
+        NaN                                        SEO Content                             Contenido optimizado con keywords naturales
+        NaN                                   Creative Writing                      Escritura creativa siguiendo dirección del usuario
+        NaN                            Technical Documentation                            Documentación técnica con ejemplos de código
+        NaN                                   Content Strategy                      Estrategia de contenido basada en brand guidelines
+
+
+======================================================================
+HOJA: Métricas y Análisis
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1 Unnamed: 2   Unnamed: 3 Unnamed: 4   Unnamed: 5 Unnamed: 6
+        NaN                               Análisis de Métricas        NaN          NaN        NaN          NaN        NaN
+        NaN ──────────────────────────────────────────────────        NaN          NaN        NaN          NaN        NaN
+        NaN                                                NaN        NaN          NaN        NaN          NaN        NaN
+        NaN                                                Mes Contenidos Engagement %    Alcance Conversiones      ROI %
+        NaN                                              Enero         35          7.2      87500           17        NaN
+        NaN                                            Febrero         42          8.1     105000           21        NaN
+        NaN                                              Marzo         38          7.8      95000           19        NaN
+        NaN                                              Abril         45          8.5     112500           22        NaN
+        NaN                                               Mayo         48          9.1     120000           24        NaN
+        NaN                                              Junio         52          9.5     130000           26        NaN
+
+
+======================================================================
+HOJA: Glosario
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                                                                     Unnamed: 2
+        NaN                               Glosario de Términos                                                                            NaN
+        NaN ──────────────────────────────────────────────────                                                                            NaN
+        NaN                                                NaN                                                                            NaN
+        NaN                                    Content Creator Profesional especializado en crear contenido estratégico y de alto rendimiento
+        NaN                                                NaN                                                                            NaN
+        NaN                                        Brand Voice                               Tono y estilo único de comunicación de una marca
+        NaN                                                NaN                                                                            NaN
+        NaN                                      Content Brief              Documento que especifica los requisitos y objetivos del contenido
+        NaN                                                NaN                                                                            NaN
+        NaN                                         Engagement          Interacción del público con el contenido (likes, comentarios, shares)
+        NaN                                                NaN                                                                            NaN
+        NaN                               Call-to-Action (CTA)                              Invitación clara a realizar una acción específica
+        NaN                                                NaN                                                                            NaN
+        NaN                                                SEO                                          Optimización para motores de búsqueda
+        NaN                                                NaN                                                                            NaN
+        NaN                                                UGC                                                Contenido generado por usuarios
+        NaN                                                NaN                                                                            NaN
+        NaN                                       Landing Page                      Página web diseñada para convertir visitantes en clientes
+
+
+======================================================================
+HOJA: Fórmulas Avanzadas
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                      Unnamed: 2                           Unnamed: 3 Unnamed: 4
+        NaN                      Fórmulas Avanzadas y Ejemplos                             NaN                                  NaN        NaN
+        NaN ──────────────────────────────────────────────────                             NaN                                  NaN        NaN
+        NaN                                                NaN                             NaN                                  NaN        NaN
+        NaN                                          Categoría                         Fórmula                          Descripción    Ejemplo
+        NaN                                           Búsqueda BUSCARV(valor;matriz;columna;0) Busca un valor en la primera columna        NaN
+        NaN                                           Búsqueda     INDICE(matriz;fila;columna)             Devuelve valor de matriz        NaN
+        NaN                                        Condicional   SUMAR.SI(rango;criterio;suma)                   Suma con condición        NaN
+        NaN                                        Condicional       CONTAR.SI(rango;criterio)                 Cuenta con condición        NaN
+        NaN                                             Lógica   SI(condición;verdadero;falso)                   Lógica condicional        NaN
+        NaN                                             Lógica  SI.ERROR(valor;valor_si_error)                    Manejo de errores        NaN
+        NaN                                              Texto       CONCATENAR(texto1;texto2)                           Une textos        NaN
+        NaN                                              Texto   EXTRAE(texto;inicio;longitud)               Extrae parte del texto        NaN
+        NaN                                              Fecha                      AÑO(fecha)                           Extrae año        NaN
+        NaN                                              Fecha                      MES(fecha)                           Extrae mes        NaN
+        NaN                                        Estadística     PROMEDIO.SI(rango;criterio)                 Promedio condicional        NaN
+        NaN                                        Estadística                  DESVEST(rango)                  Desviación estándar        NaN
+
+
+======================================================================
+HOJA: Validación de Datos
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1      Unnamed: 2                         Unnamed: 3               Unnamed: 4
+        NaN                                Validación de Datos             NaN                                NaN                      NaN
+        NaN ──────────────────────────────────────────────────             NaN                                NaN                      NaN
+        NaN                                                NaN             NaN                                NaN                      NaN
+        NaN                                              Campo Tipo Validación                 Valores Permitidos              Descripción
+        NaN                                  Tipo de Contenido           Lista Blog, Social Media, Email, Landing        Selección de tipo
+        NaN                                             Estado           Lista      Borrador, Revisión, Publicado     Estado del contenido
+        NaN                                          Prioridad           Lista                  Alta, Media, Baja       Nivel de prioridad
+        NaN                                  Fecha Publicación           Fecha                            >=HOY()       Fecha futura o hoy
+        NaN                                       Engagement %         Decimal                              0-100 Porcentaje de engagement
+        NaN                                            Alcance          Entero                                >=0          Número positivo
+        NaN                                                NaN             NaN                                NaN                      NaN
+        NaN                                                NaN             NaN                                NaN                      NaN
+        NaN                                                NaN             NaN                                NaN                      NaN
+        NaN                                   Ejemplo Práctico             NaN                                NaN                      NaN
+        NaN                                              Tipo:         Estado:                                NaN                      NaN
+        NaN                                      Selecciona...   Selecciona...                                NaN                      NaN
+
+
+======================================================================
+HOJA: Casos de Uso
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                                                                                                                                 Unnamed: 2
+        NaN                             Casos de Uso Prácticos                                                                                                                                        NaN
+        NaN ──────────────────────────────────────────────────                                                                                                                                        NaN
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                               Caso 1: Blog Article Crear un artículo de blog de 2000 palabras sobre "Tendencias de Marketing Digital 2025" con secciones claras, citas y llamados a la acción
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                               Caso 2: Social Media                     Generar 10 publicaciones para Instagram sobre un nuevo producto, optimizadas para engagement y con hashtags relevantes
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                            Caso 3: Email Marketing                                               Crear una secuencia de 5 emails de bienvenida para nuevos suscriptores con CTAs estratégicos
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                               Caso 4: Landing Page                                                   Desarrollar copy persuasivo para landing page de producto SaaS con enfoque en conversión
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                        Caso 5: Product Description                                Escribir descripciones detalladas de productos e-commerce con características, beneficios y puntos de venta
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                                Caso 6: SEO Content                                             Crear contenido optimizado para SEO sobre "Cómo mejorar el SEO técnico" con keywords naturales
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                              Caso 7: Technical Doc                                                                       Documentar API REST con ejemplos de código, endpoints y casos de uso
+        NaN                                                NaN                                                                                                                                        NaN
+        NaN                           Caso 8: Content Strategy                                           Desarrollar estrategia de contenido trimestral basada en brand guidelines y objetivos de negocio
+
+
+======================================================================
+HOJA: Dashboard
+======================================================================
+
+ Unnamed: 0            Unnamed: 1
+        NaN Dashboard de Métricas
+        NaN                   NaN
+        NaN                   NaN
+        NaN      Total Contenidos
+        NaN                   NaN
+        NaN   Promedio Engagement
+        NaN                   NaN
+        NaN         Total Alcance
+        NaN                   NaN
+        NaN    Total Conversiones
+
+
+======================================================================
+HOJA: Checklist de Calidad
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1 Unnamed: 2 Unnamed: 3
+        NaN                               Checklist de Calidad        NaN        NaN
+        NaN ──────────────────────────────────────────────────        NaN        NaN
+        NaN                                                NaN        NaN        NaN
+        NaN                                               Item     Estado      Notas
+        NaN      El contenido comienza con un gancho o resumen  Pendiente        NaN
+        NaN         No hay encabezados al inicio del contenido  Pendiente        NaN
+        NaN     Secciones principales usan encabezados nivel 2  Pendiente        NaN
+        NaN                 Listas son planas, sin anidamiento  Pendiente        NaN
+        NaN                   Tablas usadas para comparaciones  Pendiente        NaN
+        NaN                      Citas incluidas correctamente  Pendiente        NaN
+        NaN                   Expresiones matemáticas en LaTeX  Pendiente        NaN
+        NaN               Fuentes citadas con formato correcto  Pendiente        NaN
+        NaN                    No hay lenguaje de moralización  Pendiente        NaN
+        NaN             No hay contenido con derechos de autor  Pendiente        NaN
+        NaN                         No hay emojis en el cuerpo  Pendiente        NaN
+        NaN         Contenido termina con CTA o próximos pasos  Pendiente        NaN
+        NaN             Tono apropiado para audiencia objetivo  Pendiente        NaN
+        NaN                Optimizado para plataforma objetivo  Pendiente        NaN
+        NaN           Formato consistente en todo el documento  Pendiente        NaN
+
+
+======================================================================
+HOJA: Calendario Editorial
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1   Unnamed: 2                Unnamed: 3 Unnamed: 4 Unnamed: 5   Unnamed: 6         Unnamed: 7
+        NaN                               Calendario Editorial          NaN                       NaN        NaN        NaN          NaN                NaN
+        NaN ──────────────────────────────────────────────────          NaN                       NaN        NaN        NaN          NaN                NaN
+        NaN                                                NaN          NaN                       NaN        NaN        NaN          NaN                NaN
+        NaN                                              Fecha         Tipo                    Título Plataforma     Estado        Autor              Notas
+        NaN                                         2025-01-15         Blog Tendencias Marketing 2025    Website  Publicado   Ana García    Alto engagement
+        NaN                                         2025-01-18 Social Media    Lanzamiento Producto X  Instagram Programado Carlos López   Incluir hashtags
+        NaN                                         2025-01-20        Email        Newsletter Semanal      Email   Borrador   María Ruiz        Revisar CTA
+        NaN                                         2025-01-22         Blog         Guía SEO Completa    Website   Revisión   Ana García Optimizar keywords
+        NaN                                         2025-01-25 Social Media       Testimonial Cliente   LinkedIn Programado Carlos López     Incluir imagen
+
+
+======================================================================
+HOJA: Análisis Competencia
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1      Unnamed: 2   Unnamed: 3       Unnamed: 4     Unnamed: 5           Unnamed: 6
+        NaN                            Análisis de Competencia             NaN          NaN              NaN            NaN                  NaN
+        NaN ──────────────────────────────────────────────────             NaN          NaN              NaN            NaN                  NaN
+        NaN                                                NaN             NaN          NaN              NaN            NaN                  NaN
+        NaN                                         Competidor Frecuencia Post Engagement % Alcance Promedio Tipo Contenido           Fortalezas
+        NaN                                       Competidor A          Diario         8.5%              50K      Educativo Contenido de calidad
+        NaN                                       Competidor B       3x/semana         6.2%              35K    Promocional      Alta frecuencia
+        NaN                                       Competidor C       2x/semana         9.1%              75K          Mixto      Alto engagement
+        NaN                                       Competidor D          Diario         5.8%              28K       Noticias Actualidad constante
+
+
+======================================================================
+HOJA: Plantillas
+======================================================================
+
+ Unnamed: 0                                         Unnamed: 1                                                                                                                                                      Unnamed: 2
+        NaN                            Plantillas de Contenido                                                                                                                                                             NaN
+        NaN ──────────────────────────────────────────────────                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                          Blog Post Título atractivo\n\n[Gancho inicial - 2-3 oraciones]\n\n## Sección Principal\n\n[Contenido detallado]\n\n## Otra Sección\n\n[Contenido]\n\n[Conclusión con CTA]
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                       Social Media                                                                                               [Gancho]\n\n[Contenido principal]\n\n[CTA]\n\n#hashtag1 #hashtag2
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                              Email                                                              Asunto: [Tema]\n\nHola [Nombre],\n\n[Gancho]\n\n[Cuerpo del mensaje]\n\n[CTA]\n\nSaludos,\n[Firma]
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                                NaN                                                                                                                                                             NaN
+        NaN                                       Landing Page                                                      [Headline]\n\n[Subheadline]\n\n[Beneficios clave]\n\n[Características]\n\n[Testimonios]\n\n[CTA principal]
+

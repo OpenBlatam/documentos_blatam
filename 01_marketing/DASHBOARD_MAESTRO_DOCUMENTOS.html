@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Maestro - Documentos Generados</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1F4E78 0%, #2E7D32 100%);
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        
+        .stats-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .stat-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1F4E78;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 1.1em;
+            color: #666;
+            font-weight: 600;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #1F4E78;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #1F4E78;
+        }
+        
+        .files-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .file-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #1F4E78;
+            transition: all 0.3s;
+        }
+        
+        .file-card:hover {
+            background: #f0f0f0;
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .file-name {
+            font-weight: bold;
+            color: #1F4E78;
+            margin-bottom: 10px;
+            word-break: break-word;
+        }
+        
+        .file-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .file-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #1F4E78;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background 0.3s;
+        }
+        
+        .file-link:hover {
+            background: #2E7D32;
+        }
+        
+        .footer {
+            background: #1F4E78;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-overview {
+                grid-template-columns: 1fr;
+            }
+            
+            .files-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Dashboard Maestro de Documentos</h1>
+            <p>Sistema de Conversión Premium 2.0</p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                Generado: 22 de November de 2025 16:13:42
+            </p>
+        </div>
+        
+        <div class="stats-overview">
+            <div class="stat-card">
+                <div class="stat-icon">📄</div>
+                <div class="stat-value">36</div>
+                <div class="stat-label">Total Documentos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">💾</div>
+                <div class="stat-value">13.5 MB</div>
+                <div class="stat-label">Tamaño Total</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📊</div>
+                <div class="stat-value">6</div>
+                <div class="stat-label">Formatos Diferentes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📅</div>
+                <div class="stat-value">22/11</div>
+                <div class="stat-label">Fecha Actual</div>
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <div class="section">
+                <h2 class="section-title">Word (.docx) (9 archivos - 0.44 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_PROFESIONAL.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_PROFESIONAL.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_PROFESIONAL.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_PROFESIONAL.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">SISTEMAS_PROMPTS_CONSOLIDADO.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="SISTEMAS_PROMPTS_CONSOLIDADO.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">BRIEF_UGC_CREADORAS_BULK.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="BRIEF_UGC_CREADORAS_BULK.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">Sistema_Creacion_Contenido_Minimalista.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="Sistema_Creacion_Contenido_Minimalista.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_PROFESIONAL.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_PROFESIONAL.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.docx</div>
+                        <div class="file-info">
+                            Tamaño: 49.9 KB
+                        </div>
+                        <a href="SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.docx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Excel (.xlsx) (17 archivos - 4.16 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_PREMIUM.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_PREMIUM.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_PREMIUM.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_PREMIUM.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_AVANZADO.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_AVANZADO.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_PREMIUM.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_PREMIUM.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_PROFESIONAL.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_PROFESIONAL.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">Sistema_Creacion_Contenido_Minimalista.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="Sistema_Creacion_Contenido_Minimalista.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_ESTADISTICO_AVANZADO.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="ANALISIS_ESTADISTICO_AVANZADO.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_AVANZADO.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_AVANZADO.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_AVANZADO.xlsx</div>
+                        <div class="file-info">
+                            Tamaño: 250.8 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_AVANZADO.xlsx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card" style="background: #e3f2fd; border-left-color: #2196F3;">
+                        <div class="file-name">... y 7 archivos más</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">PowerPoint (.pptx) (3 archivos - 3.65 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pptx</div>
+                        <div class="file-info">
+                            Tamaño: 1245.3 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pptx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_ULTRA_PREMIUM.pptx</div>
+                        <div class="file-info">
+                            Tamaño: 1245.3 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_ULTRA_PREMIUM.pptx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_ULTRA_PREMIUM.pptx</div>
+                        <div class="file-info">
+                            Tamaño: 1245.3 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_ULTRA_PREMIUM.pptx" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">PDF (.pdf) (3 archivos - 4.24 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pdf</div>
+                        <div class="file-info">
+                            Tamaño: 1446.7 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pdf" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_ULTRA_PREMIUM.pdf</div>
+                        <div class="file-info">
+                            Tamaño: 1446.7 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_ULTRA_PREMIUM.pdf" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_ULTRA_PREMIUM.pdf</div>
+                        <div class="file-info">
+                            Tamaño: 1446.7 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_ULTRA_PREMIUM.pdf" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">HTML (.html) (3 archivos - 0.05 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">PRESUPUESTO_PRICING_INTERACTIVO.html</div>
+                        <div class="file-info">
+                            Tamaño: 17.7 KB
+                        </div>
+                        <a href="PRESUPUESTO_PRICING_INTERACTIVO.html" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_COMPETITIVO_INTERACTIVO.html</div>
+                        <div class="file-info">
+                            Tamaño: 17.7 KB
+                        </div>
+                        <a href="ANALISIS_COMPETITIVO_INTERACTIVO.html" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                    <div class="file-card">
+                        <div class="file-name">DASHBOARD_METRICAS_INTERACTIVO.html</div>
+                        <div class="file-info">
+                            Tamaño: 17.7 KB
+                        </div>
+                        <a href="DASHBOARD_METRICAS_INTERACTIVO.html" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Imágenes (.png) (1 archivos - 1.00 MB)</h2>
+                <div class="files-grid">
+
+                    <div class="file-card">
+                        <div class="file-name">ANALISIS_ESTADISTICO_AVANZADO.png</div>
+                        <div class="file-info">
+                            Tamaño: 1020.9 KB
+                        </div>
+                        <a href="ANALISIS_ESTADISTICO_AVANZADO.png" class="file-link" target="_blank">Abrir →</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 - Sistema de Conversión Premium 2.0</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                Todos los documentos generados automáticamente con las mejores prácticas
+            </p>
+        </div>
+    </div>
+</body>
+</html>

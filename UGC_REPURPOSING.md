@@ -368,3 +368,5 @@ Adaptar un video original a múltiples formatos, plataformas y usos para maximiz
 **Uso**: Maximizar valor de cada video creado
 
 
+
+

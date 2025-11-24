@@ -1,0 +1,22 @@
+======================================================================
+EXPORTACIÓN DE: DASHBOARD_METRICAS_PROFESIONAL.xlsx
+Fecha: 22/11/2025 16:23:01
+======================================================================
+
+
+======================================================================
+HOJA: Resumen
+======================================================================
+
+/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas Unnamed: 1  Unnamed: 2     Unnamed: 3 Unnamed: 4  Unnamed: 5 Unnamed: 6
+                                             Generado: 22/11/2025 15:59        NaN         NaN            NaN        NaN         NaN        NaN
+                                                                    NaN        NaN         NaN            NaN        NaN         NaN        NaN
+                                                   MÉTRICAS PRINCIPALES        NaN         NaN POR PLATAFORMA        NaN         NaN        NaN
+                                               Candidatos Identificados        150         NaN     Plataforma Candidatos Contactados Respuestas
+                                                            Verificados        120         NaN      Instagram         80          35         10
+                                                            Contactados         60         NaN         TikTok         40          15          3
+                                                             Respuestas         15         NaN        Twitter         20           8          2
+                                                      Tasa de Respuesta        25%         NaN        YouTube         10           2          0
+                                                 Colaboraciones Activas          8         NaN            NaN        NaN         NaN        NaN
+                                                                    ROI       200%         NaN            NaN        NaN         NaN        NaN
+

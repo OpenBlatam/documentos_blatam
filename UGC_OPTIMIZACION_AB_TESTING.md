@@ -464,3 +464,5 @@ d = Diferencia mínima detectable (ej: 0.01 para 1%)
 **Uso**: Optimización sistemática de videos UGC
 
 
+
+

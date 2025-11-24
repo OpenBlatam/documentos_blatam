@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="ANALISIS_COMPETITIVO_PROFESIONAL">
+  <Sheet name="Resumen">
+    <Headers>
+      <Header>/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">Generado: 22/11/2025 15:59</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">ANÁLISIS COMPETITIVO</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">Competidor</Cell>
+        <Cell column="Unnamed: 1">Influencers</Cell>
+        <Cell column="Unnamed: 2">Plataformas</Cell>
+        <Cell column="Unnamed: 3">Engagement Avg</Cell>
+        <Cell column="Unnamed: 4">Tipo Contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">Competidor A</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">Instagram, TikTok</Cell>
+        <Cell column="Unnamed: 3">4.5%</Cell>
+        <Cell column="Unnamed: 4">Reviews, Tutoriales</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">Competidor B</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">YouTube, LinkedIn</Cell>
+        <Cell column="Unnamed: 3">6.2%</Cell>
+        <Cell column="Unnamed: 4">Casos de Uso</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo">Competidor C</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+        <Cell column="Unnamed: 2">Instagram, Twitter</Cell>
+        <Cell column="Unnamed: 3">3.8%</Cell>
+        <Cell column="Unnamed: 4">Comparativas</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

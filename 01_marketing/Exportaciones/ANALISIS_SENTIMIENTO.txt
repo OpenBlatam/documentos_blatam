@@ -1,0 +1,62 @@
+======================================================================
+EXPORTACIÓN DE: ANALISIS_SENTIMIENTO.xlsx
+Fecha: 22/11/2025 16:23:07
+======================================================================
+
+
+======================================================================
+HOJA: Resumen
+======================================================================
+
+ANÁLISIS DE SENTIMIENTO - RESUMEN  Unnamed: 1
+                              NaN         NaN
+         Total Textos Analizados:    10.00000
+          Sentimientos Positivos:     1.00000
+          Sentimientos Negativos:     1.00000
+          Sentimientos Neutrales:     8.00000
+                  Score Promedio:     0.03041
+
+
+======================================================================
+HOJA: Tendencias
+======================================================================
+
+      Palabra  Frecuencia
+     producto           2
+    excelente           2
+    increíble           2
+     clientes           2
+        están           2
+      algunos           2
+         pero           2
+      calidad           2
+      nuestro           1
+       tenido           1
+        éxito           1
+      mercado           1
+  satisfechos           1
+      campaña           1
+    marketing           1
+       genial           1
+       generó           1
+  crecimiento           1
+significativo           1
+       ventas           1
+
+
+======================================================================
+HOJA: Detalles
+======================================================================
+
+Sentimiento     Score  Positivo  Negativo  Neutral  Total Palabras
+   positivo  0.166667         3         0        0              18
+    neutral  0.071429         1         0        0              14
+    neutral  0.000000         0         0        0              13
+    neutral  0.083333         1         0        0              12
+    neutral  0.090909         1         0        0              11
+    neutral -0.076923         1         2        0              13
+    neutral  0.090909         1         0        0              11
+   negativo -0.222222         0         2        0               9
+    neutral  0.100000         1         0        0              10
+    neutral  0.000000         0         0        1              10
+

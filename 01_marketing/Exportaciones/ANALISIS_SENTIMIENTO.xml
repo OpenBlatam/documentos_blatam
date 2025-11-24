@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="ANALISIS_SENTIMIENTO">
+  <Sheet name="Resumen">
+    <Headers>
+      <Header>ANÁLISIS DE SENTIMIENTO - RESUMEN</Header>
+      <Header>Unnamed: 1</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN">Total Textos Analizados:</Cell>
+        <Cell column="Unnamed: 1">10.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN">Sentimientos Positivos:</Cell>
+        <Cell column="Unnamed: 1">1.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN">Sentimientos Negativos:</Cell>
+        <Cell column="Unnamed: 1">1.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN">Sentimientos Neutrales:</Cell>
+        <Cell column="Unnamed: 1">8.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE SENTIMIENTO - RESUMEN">Score Promedio:</Cell>
+        <Cell column="Unnamed: 1">0.03041014541014541</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Tendencias">
+    <Headers>
+      <Header>Palabra</Header>
+      <Header>Frecuencia</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Palabra">producto</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">excelente</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">increíble</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">clientes</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">están</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">algunos</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">pero</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">calidad</Cell>
+        <Cell column="Frecuencia">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">nuestro</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">tenido</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">éxito</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">mercado</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">satisfechos</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">campaña</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">marketing</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">genial</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">generó</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">crecimiento</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">significativo</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Palabra">ventas</Cell>
+        <Cell column="Frecuencia">1</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Detalles">
+    <Headers>
+      <Header>Sentimiento</Header>
+      <Header>Score</Header>
+      <Header>Positivo</Header>
+      <Header>Negativo</Header>
+      <Header>Neutral</Header>
+      <Header>Total Palabras</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Sentimiento">positivo</Cell>
+        <Cell column="Score">0.1666666666666667</Cell>
+        <Cell column="Positivo">3</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">18</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.07142857142857142</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">14</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.0</Cell>
+        <Cell column="Positivo">0</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">13</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.08333333333333333</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">12</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.09090909090909091</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">11</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">-0.07692307692307693</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">2</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">13</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.09090909090909091</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">11</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">negativo</Cell>
+        <Cell column="Score">-0.2222222222222222</Cell>
+        <Cell column="Positivo">0</Cell>
+        <Cell column="Negativo">2</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">9</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.1</Cell>
+        <Cell column="Positivo">1</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">0</Cell>
+        <Cell column="Total Palabras">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="Sentimiento">neutral</Cell>
+        <Cell column="Score">0.0</Cell>
+        <Cell column="Positivo">0</Cell>
+        <Cell column="Negativo">0</Cell>
+        <Cell column="Neutral">1</Cell>
+        <Cell column="Total Palabras">10</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

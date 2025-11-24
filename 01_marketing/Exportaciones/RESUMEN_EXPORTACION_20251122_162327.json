@@ -1,0 +1,196 @@
+{
+  "fecha": "2025-11-22T16:23:27.650690",
+  "total_archivos": 19,
+  "resultados": [
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_PREMIUM.xlsx",
+      "fecha": "2025-11-22T16:22:59.195352",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PREMIUM.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PREMIUM.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PREMIUM.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PREMIUM.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_PREMIUM.xlsx",
+      "fecha": "2025-11-22T16:22:59.485718",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PREMIUM.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PREMIUM.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PREMIUM.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PREMIUM.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_AVANZADO.xlsx",
+      "fecha": "2025-11-22T16:22:59.898675",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_AVANZADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_AVANZADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_AVANZADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_AVANZADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_PREMIUM.xlsx",
+      "fecha": "2025-11-22T16:23:00.458973",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PREMIUM.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PREMIUM.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PREMIUM.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PREMIUM.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_PROFESIONAL.xlsx",
+      "fecha": "2025-11-22T16:23:00.907784",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PROFESIONAL.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PROFESIONAL.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PROFESIONAL.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_PROFESIONAL.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/Sistema_Creacion_Contenido_Minimalista.xlsx",
+      "fecha": "2025-11-22T16:23:01.049012",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/Sistema_Creacion_Contenido_Minimalista.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/Sistema_Creacion_Contenido_Minimalista.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/Sistema_Creacion_Contenido_Minimalista.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/Sistema_Creacion_Contenido_Minimalista.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/PREDICCIONES_AVANZADAS.xlsx",
+      "fecha": "2025-11-22T16:23:06.061957",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PREDICCIONES_AVANZADAS.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PREDICCIONES_AVANZADAS.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PREDICCIONES_AVANZADAS.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PREDICCIONES_AVANZADAS.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_ESTADISTICO_AVANZADO.xlsx",
+      "fecha": "2025-11-22T16:23:06.331035",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_ESTADISTICO_AVANZADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_ESTADISTICO_AVANZADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_ESTADISTICO_AVANZADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_ESTADISTICO_AVANZADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx",
+      "fecha": "2025-11-22T16:23:06.438049",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_SENTIMIENTO.xlsx",
+      "fecha": "2025-11-22T16:23:07.747667",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_SENTIMIENTO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_SENTIMIENTO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_SENTIMIENTO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_SENTIMIENTO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_AVANZADO.xlsx",
+      "fecha": "2025-11-22T16:23:07.875530",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_AVANZADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_AVANZADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_AVANZADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/DASHBOARD_METRICAS_AVANZADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_AVANZADO.xlsx",
+      "fecha": "2025-11-22T16:23:08.027440",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_AVANZADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_AVANZADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_AVANZADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_AVANZADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CREACION_CONTENIDO.xlsx",
+      "fecha": "2025-11-22T16:23:08.188514",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_PROFESIONAL.xlsx",
+      "fecha": "2025-11-22T16:23:10.897555",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PROFESIONAL.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PROFESIONAL.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PROFESIONAL.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/ANALISIS_COMPETITIVO_PROFESIONAL.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xlsx",
+      "fecha": "2025-11-22T16:23:11.145233",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/REPORTES_EJECUTIVOS_AVANZADO.xlsx",
+      "fecha": "2025-11-22T16:23:16.228119",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/REPORTES_EJECUTIVOS_AVANZADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/REPORTES_EJECUTIVOS_AVANZADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/REPORTES_EJECUTIVOS_AVANZADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/REPORTES_EJECUTIVOS_AVANZADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO.xlsx",
+      "fecha": "2025-11-22T16:23:16.739090",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xlsx",
+      "fecha": "2025-11-22T16:23:27.234627",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.txt"
+      }
+    },
+    {
+      "archivo_origen": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_PROFESIONAL.xlsx",
+      "fecha": "2025-11-22T16:23:27.382429",
+      "formatos": {
+        "csv": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PROFESIONAL.csv",
+        "json": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PROFESIONAL.json",
+        "xml": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PROFESIONAL.xml",
+        "txt": "/Users/adan/Documents/documentos_blatam/01_marketing/Exportaciones/PRESUPUESTO_PRICING_PROFESIONAL.txt"
+      }
+    }
+  ]
+}

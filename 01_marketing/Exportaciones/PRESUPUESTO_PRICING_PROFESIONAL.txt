@@ -1,0 +1,22 @@
+======================================================================
+EXPORTACIÓN DE: PRESUPUESTO_PRICING_PROFESIONAL.xlsx
+Fecha: 22/11/2025 16:23:27
+======================================================================
+
+
+======================================================================
+HOJA: Resumen
+======================================================================
+
+/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing Unnamed: 1     Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5
+                                              Generado: 22/11/2025 15:59        NaN            NaN        NaN        NaN        NaN
+                                                                     NaN        NaN            NaN        NaN        NaN        NaN
+                                                         Tipo Influencer Plataforma Tipo Contenido Precio Min Precio Max   Promedio
+                                                           Nano (1K-10K)  Instagram      Post Feed         10        100         55
+                                                           Nano (1K-10K)  Instagram     Reel/Video         20        150         85
+                                                           Nano (1K-10K)     TikTok          Video          5         50         27
+                                                        Micro (10K-100K)  Instagram      Post Feed        100       1000        550
+                                                        Micro (10K-100K)  Instagram     Reel/Video        200       1500        850
+                                                        Micro (10K-100K)     TikTok          Video         50        500        275
+                                                        Micro (10K-100K)    YouTube Video Dedicado        500       3000       1750
+

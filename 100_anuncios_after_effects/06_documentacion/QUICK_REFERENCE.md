@@ -71,3 +71,5 @@ Referencia rápida de todos los scripts disponibles.
 3. QA → Optimizar → Variantes
 4. Exportar → Documentar
 
+
+

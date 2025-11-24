@@ -1,0 +1,15 @@
+Categoría,Elemento,Descripción,Referencia
+Formatos,Word (.docx),Documentos con estilos personalizados,Hoja: Formatos
+Formatos,PDF,Alta calidad con marcadores,Hoja: Formatos
+Formatos,Markdown (.md),Sintaxis extendida,Hoja: Formatos
+Formatos,Excel (.xlsx),Múltiples hojas y fórmulas,Hoja: Formatos
+Reglas,Inicio de Contenido,"Hook o resumen, nunca header",Hoja: Reglas
+Reglas,Encabezados,Nivel 2 (##) para secciones,Hoja: Reglas
+Reglas,Listas,"Planas, sin anidar",Hoja: Reglas
+Reglas,Tablas,Para comparaciones,Hoja: Reglas
+Restricciones,Lenguaje,Sin moralización,Hoja: Restricciones
+Restricciones,Contenido,Sin copyright,Hoja: Restricciones
+Restricciones,Formato,Sin emojis en cuerpo,Hoja: Restricciones
+Colores,Verde Neón,#10b981,Tech Startup
+Colores,Negro,#000000,Tech Startup
+Colores,Gris Carbón,#374151,Tech Startup

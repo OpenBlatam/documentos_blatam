@@ -1,0 +1,59 @@
+======================================================================
+EXPORTACIÓN DE: DASHBOARD_METRICAS_PREMIUM.xlsx
+Fecha: 22/11/2025 16:22:59
+======================================================================
+
+
+======================================================================
+HOJA: Dashboard
+======================================================================
+
+/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas Unnamed: 1       Unnamed: 2       Unnamed: 3       Unnamed: 4
+                       Generado: 22/11/2025 16:03 | Versión Premium 2.0        NaN              NaN              NaN              NaN
+                                                                    NaN        NaN              NaN              NaN              NaN
+                                                      💰 Total Inversión      📈 ROI 🤝 Colaboraciones 📧 Tasa Respuesta ⭐ Engagement Avg
+                                                                 $2,500       200%                8              25%             5.4%
+
+
+======================================================================
+HOJA: Datos Detallados
+======================================================================
+
+     Fecha    Influencer Plataforma     Tipo  Inversión  Resultados  ROI Engagement
+2025-01-15  TechReviewer  Instagram     Post        200         600 200%       4.5%
+2025-01-20    CodeMaster     TikTok    Video        150         450 200%       6.2%
+2025-02-01       DevGuru    YouTube   Review        500        1500 200%       8.1%
+2025-02-10   StartupLife  Instagram     Reel        300         900 200%       5.8%
+2025-02-15    TechTrends     TikTok   Series        400        1200 200%       7.3%
+2025-02-20 InnovationHub   LinkedIn  Article        250         750 200%       3.8%
+2025-03-01    FutureTech    YouTube Tutorial        600        1800 200%       9.2%
+2025-03-10  DigitalNomad  Instagram    Story        100         300 200%       4.2%
+
+
+======================================================================
+HOJA: Por Plataforma
+======================================================================
+
+Plataforma  Inversión  Resultados  ROI  Colaboraciones Engagement Avg
+ Instagram       1000        3000 200%               5           4.8%
+    TikTok        600        1800 200%               3           6.5%
+   YouTube        500        1500 200%               2           8.6%
+   Twitter        200         600 200%               1           3.2%
+  LinkedIn        200         600 200%               1           3.9%
+
+
+======================================================================
+HOJA: Análisis Estadístico
+======================================================================
+
+ANÁLISIS ESTADÍSTICO AVANZADO Unnamed: 1              Unnamed: 2
+                          NaN        NaN                     NaN
+                      Métrica      Valor          Interpretación
+                 Promedio ROI       200%               Excelente
+          Desviación Estándar         0%         Muy consistente
+                   ROI Mínimo       200%        Mínimo excelente
+                   ROI Máximo       200%        Máximo excelente
+          Promedio Engagement       5.4% Por encima del promedio
+              Total Inversión     $2,500  Presupuesto optimizado
+             Total Resultados     $7,500      Retorno triplicado
+

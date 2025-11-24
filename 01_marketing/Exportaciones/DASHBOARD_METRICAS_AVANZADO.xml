@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="DASHBOARD_METRICAS_AVANZADO">
+  <Sheet name="Dashboard">
+    <Headers>
+      <Header>/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Total Inversión</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">ROI</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Colaboraciones Activas</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">Tasa de Respuesta</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">$2,500</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">200%</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">8</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">25%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Datos Detallados">
+    <Headers>
+      <Header>Fecha</Header>
+      <Header>Influencer</Header>
+      <Header>Plataforma</Header>
+      <Header>Tipo</Header>
+      <Header>Inversión</Header>
+      <Header>Resultados</Header>
+      <Header>ROI</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Fecha">2025-01-15</Cell>
+        <Cell column="Influencer">Influencer A</Cell>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Tipo">Post</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-01-20</Cell>
+        <Cell column="Influencer">Influencer B</Cell>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Tipo">Video</Cell>
+        <Cell column="Inversión">150</Cell>
+        <Cell column="Resultados">450</Cell>
+        <Cell column="ROI">200%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-01</Cell>
+        <Cell column="Influencer">Influencer C</Cell>
+        <Cell column="Plataforma">YouTube</Cell>
+        <Cell column="Tipo">Review</Cell>
+        <Cell column="Inversión">500</Cell>
+        <Cell column="Resultados">1500</Cell>
+        <Cell column="ROI">200%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-10</Cell>
+        <Cell column="Influencer">Influencer D</Cell>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Tipo">Reel</Cell>
+        <Cell column="Inversión">300</Cell>
+        <Cell column="Resultados">900</Cell>
+        <Cell column="ROI">200%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Fecha">2025-02-15</Cell>
+        <Cell column="Influencer">Influencer E</Cell>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Tipo">Series</Cell>
+        <Cell column="Inversión">400</Cell>
+        <Cell column="Resultados">1200</Cell>
+        <Cell column="ROI">200%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Por Plataforma">
+    <Headers>
+      <Header>Plataforma</Header>
+      <Header>Inversión</Header>
+      <Header>Resultados</Header>
+      <Header>ROI</Header>
+      <Header>Colaboraciones</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Plataforma">Instagram</Cell>
+        <Cell column="Inversión">1000</Cell>
+        <Cell column="Resultados">3000</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">TikTok</Cell>
+        <Cell column="Inversión">600</Cell>
+        <Cell column="Resultados">1800</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">3</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">YouTube</Cell>
+        <Cell column="Inversión">500</Cell>
+        <Cell column="Resultados">1500</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">Twitter</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="Plataforma">LinkedIn</Cell>
+        <Cell column="Inversión">200</Cell>
+        <Cell column="Resultados">600</Cell>
+        <Cell column="ROI">200%</Cell>
+        <Cell column="Colaboraciones">1</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

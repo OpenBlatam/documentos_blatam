@@ -1,0 +1,115 @@
+{
+  "Dashboard": [
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo": "Total Inversión",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "ROI",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "Colaboraciones Activas",
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "Tasa de Respuesta"
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo": "$2,500",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "200%",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "8",
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": "25%"
+    }
+  ],
+  "Datos Detallados": [
+    {
+      "Fecha": "2025-01-15",
+      "Influencer": "Influencer A",
+      "Plataforma": "Instagram",
+      "Tipo": "Post",
+      "Inversión": 200,
+      "Resultados": 600,
+      "ROI": "200%"
+    },
+    {
+      "Fecha": "2025-01-20",
+      "Influencer": "Influencer B",
+      "Plataforma": "TikTok",
+      "Tipo": "Video",
+      "Inversión": 150,
+      "Resultados": 450,
+      "ROI": "200%"
+    },
+    {
+      "Fecha": "2025-02-01",
+      "Influencer": "Influencer C",
+      "Plataforma": "YouTube",
+      "Tipo": "Review",
+      "Inversión": 500,
+      "Resultados": 1500,
+      "ROI": "200%"
+    },
+    {
+      "Fecha": "2025-02-10",
+      "Influencer": "Influencer D",
+      "Plataforma": "Instagram",
+      "Tipo": "Reel",
+      "Inversión": 300,
+      "Resultados": 900,
+      "ROI": "200%"
+    },
+    {
+      "Fecha": "2025-02-15",
+      "Influencer": "Influencer E",
+      "Plataforma": "TikTok",
+      "Tipo": "Series",
+      "Inversión": 400,
+      "Resultados": 1200,
+      "ROI": "200%"
+    }
+  ],
+  "Por Plataforma": [
+    {
+      "Plataforma": "Instagram",
+      "Inversión": 1000,
+      "Resultados": 3000,
+      "ROI": "200%",
+      "Colaboraciones": 5
+    },
+    {
+      "Plataforma": "TikTok",
+      "Inversión": 600,
+      "Resultados": 1800,
+      "ROI": "200%",
+      "Colaboraciones": 3
+    },
+    {
+      "Plataforma": "YouTube",
+      "Inversión": 500,
+      "Resultados": 1500,
+      "ROI": "200%",
+      "Colaboraciones": 2
+    },
+    {
+      "Plataforma": "Twitter",
+      "Inversión": 200,
+      "Resultados": 600,
+      "ROI": "200%",
+      "Colaboraciones": 1
+    },
+    {
+      "Plataforma": "LinkedIn",
+      "Inversión": 200,
+      "Resultados": 600,
+      "ROI": "200%",
+      "Colaboraciones": 1
+    }
+  ]
+}

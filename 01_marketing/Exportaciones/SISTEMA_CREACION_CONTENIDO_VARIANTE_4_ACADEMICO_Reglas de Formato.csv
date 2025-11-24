@@ -1,0 +1,17 @@
+REGLAS DE FORMATO DEL SISTEMA,Unnamed: 1,Unnamed: 2,Unnamed: 3
+Categoría,Regla,Tipo,Prioridad
+Inicio,Nunca iniciar con encabezado,Restricción,Alta
+Inicio,Proporcionar gancho o resumen inicial,Requisito,Alta
+Encabezados,Usar H2 para secciones principales,Formato,Alta
+Encabezados,Usar negrita para subsections,Formato,Media
+Listas,Preferir listas planas,Formato,Media
+Listas,No anidar listas,Restricción,Alta
+Listas,No mezclar ordenadas y desordenadas,Restricción,Alta
+Tablas,Usar tablas para comparaciones,Formato,Media
+Énfasis,Usar negrita moderadamente,Formato,Media
+Código,Usar bloques de código con sintaxis,Formato,Media
+Matemáticas,Siempre usar LaTeX,Formato,Alta
+Matemáticas,Nunca usar $ o 42622,Restricción,Alta
+Citas,Citar fuentes después de cada oración,Requisito,Alta
+Citas,No incluir sección de Referencias,Restricción,Alta
+Fin,Nunca terminar con pregunta,Restricción,Alta

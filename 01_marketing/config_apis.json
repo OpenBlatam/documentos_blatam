@@ -1,0 +1,16 @@
+{
+  "apis_activas": {
+    "exchange_rate": false,
+    "weather": false,
+    "news": false,
+    "stock": false
+  },
+  "api_keys": {
+    "exchange_rate": "",
+    "weather": "",
+    "news": "",
+    "stock": ""
+  },
+  "timeout": 10,
+  "cache_minutos": 60
+}

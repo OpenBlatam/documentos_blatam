@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES">
+  <Sheet name="00_Portada">
+    <Headers>
+      <Header>SISTEMA DE CALENDARIO DE CONTENIDO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">DE REDES SOCIALES</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">Sistema de Prompt para Inteligencia Artificial</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">Versión:</Cell>
+        <Cell column="Unnamed: 1">1.0</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">Fecha:</Cell>
+        <Cell column="Unnamed: 1">November 2025</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">Categoría:</Cell>
+        <Cell column="Unnamed: 1">Marketing Digital - Planificación de Contenido</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">ÍNDICE DE HOJAS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">Hoja</Cell>
+        <Cell column="Unnamed: 1">Contenido</Cell>
+        <Cell column="Unnamed: 2">Descripción</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">00_Portada</Cell>
+        <Cell column="Unnamed: 1">Portada e Índice</Cell>
+        <Cell column="Unnamed: 2">Información general del documento</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">01_Información</Cell>
+        <Cell column="Unnamed: 1">Información General</Cell>
+        <Cell column="Unnamed: 2">Metadatos y versión del sistema</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">02_Objetivo</Cell>
+        <Cell column="Unnamed: 1">Objetivo del Sistema</Cell>
+        <Cell column="Unnamed: 2">Descripción del rol y propósito</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">03_Reglas_Formato</Cell>
+        <Cell column="Unnamed: 1">Reglas de Formato</Cell>
+        <Cell column="Unnamed: 2">Instrucciones de formato detalladas</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">04_Restricciones</Cell>
+        <Cell column="Unnamed: 1">Restricciones</Cell>
+        <Cell column="Unnamed: 2">Lista completa de restricciones</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">05_Tipos_Consulta</Cell>
+        <Cell column="Unnamed: 1">Tipos de Consulta</Cell>
+        <Cell column="Unnamed: 2">Tipos de calendarios soportados</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">06_Planificación</Cell>
+        <Cell column="Unnamed: 1">Reglas de Planificación</Cell>
+        <Cell column="Unnamed: 2">Proceso de planificación estratégica</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">07_Especificaciones</Cell>
+        <Cell column="Unnamed: 1">Especificaciones de Salida</Cell>
+        <Cell column="Unnamed: 2">Requisitos de estructura y calidad</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">08_Checklist</Cell>
+        <Cell column="Unnamed: 1">Checklist de Calidad</Cell>
+        <Cell column="Unnamed: 2">Lista de verificación antes de entregar</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">09_Plataformas</Cell>
+        <Cell column="Unnamed: 1">Estrategias por Plataforma</Cell>
+        <Cell column="Unnamed: 2">Recomendaciones específicas por plataforma</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">10_Contenido</Cell>
+        <Cell column="Unnamed: 1">Tipos de Contenido</Cell>
+        <Cell column="Unnamed: 2">Variedad y balance de contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CALENDARIO DE CONTENIDO">11_Métricas</Cell>
+        <Cell column="Unnamed: 1">Métricas y KPIs</Cell>
+        <Cell column="Unnamed: 2">Indicadores de rendimiento</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="01_Información">
+    <Headers>
+      <Header>INFORMACIÓN GENERAL DEL SISTEMA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Campo</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Descripción</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Versión</Cell>
+        <Cell column="Unnamed: 1">1.0</Cell>
+        <Cell column="Unnamed: 2">Versión actual del sistema de prompt</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Fecha de Creación</Cell>
+        <Cell column="Unnamed: 1">November 2025</Cell>
+        <Cell column="Unnamed: 2">Fecha de última actualización</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Tipo de Sistema</Cell>
+        <Cell column="Unnamed: 1">Sistema de Prompt para IA</Cell>
+        <Cell column="Unnamed: 2">Tipo de documento</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Categoría</Cell>
+        <Cell column="Unnamed: 1">Marketing Digital</Cell>
+        <Cell column="Unnamed: 2">Área de aplicación</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Subcategoría</Cell>
+        <Cell column="Unnamed: 1">Planificación de Contenido</Cell>
+        <Cell column="Unnamed: 2">Especialización</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Plataformas Soportadas</Cell>
+        <Cell column="Unnamed: 1">Instagram, Facebook, Twitter/X, LinkedIn, TikTok, YouTube, Pinterest</Cell>
+        <Cell column="Unnamed: 2">Redes sociales cubiertas</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Idioma Principal</Cell>
+        <Cell column="Unnamed: 1">Español/Inglés</Cell>
+        <Cell column="Unnamed: 2">Idiomas de trabajo</Cell>
+      </Row>
+      <Row>
+        <Cell column="INFORMACIÓN GENERAL DEL SISTEMA">Formato de Salida</Cell>
+        <Cell column="Unnamed: 1">Markdown con tablas</Cell>
+        <Cell column="Unnamed: 2">Formato requerido para calendarios</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="09_Plataformas">
+    <Headers>
+      <Header>ESTRATEGIAS POR PLATAFORMA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">Plataforma</Cell>
+        <Cell column="Unnamed: 1">Mejor Horario</Cell>
+        <Cell column="Unnamed: 2">Frecuencia Recomendada</Cell>
+        <Cell column="Unnamed: 3">Tipo de Contenido</Cell>
+        <Cell column="Unnamed: 4">Hashtags</Cell>
+        <Cell column="Unnamed: 5">Notas</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">Instagram</Cell>
+        <Cell column="Unnamed: 1">11 AM - 1 PM (L-V)</Cell>
+        <Cell column="Unnamed: 2">1-2x/día</Cell>
+        <Cell column="Unnamed: 3">Visual, Stories, Reels</Cell>
+        <Cell column="Unnamed: 4">5-10 hashtags</Cell>
+        <Cell column="Unnamed: 5">Enfoque visual y estético</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">Facebook</Cell>
+        <Cell column="Unnamed: 1">1-3 PM (L-V)</Cell>
+        <Cell column="Unnamed: 2">1x/día</Cell>
+        <Cell column="Unnamed: 3">Comunidad, contenido largo</Cell>
+        <Cell column="Unnamed: 4">1-2 hashtags</Cell>
+        <Cell column="Unnamed: 5">Enfoque en comunidad</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">Twitter/X</Cell>
+        <Cell column="Unnamed: 1">8-9 AM, 12-1 PM</Cell>
+        <Cell column="Unnamed: 2">3-5x/día</Cell>
+        <Cell column="Unnamed: 3">Tendencias, mensajes cortos</Cell>
+        <Cell column="Unnamed: 4">1-2 hashtags</Cell>
+        <Cell column="Unnamed: 5">Tiempo real, conciso</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">LinkedIn</Cell>
+        <Cell column="Unnamed: 1">8-9 AM (L-V)</Cell>
+        <Cell column="Unnamed: 2">1x/día</Cell>
+        <Cell column="Unnamed: 3">Profesional, liderazgo</Cell>
+        <Cell column="Unnamed: 4">3-5 hashtags</Cell>
+        <Cell column="Unnamed: 5">Tono profesional B2B</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">TikTok</Cell>
+        <Cell column="Unnamed: 1">6-10 AM, 7-9 PM</Cell>
+        <Cell column="Unnamed: 2">1-3x/día</Cell>
+        <Cell column="Unnamed: 3">Videos cortos, tendencias</Cell>
+        <Cell column="Unnamed: 4">3-5 hashtags</Cell>
+        <Cell column="Unnamed: 5">Autenticidad, tendencias</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">YouTube</Cell>
+        <Cell column="Unnamed: 1">2-4 PM (L-V)</Cell>
+        <Cell column="Unnamed: 2">2-3x/semana</Cell>
+        <Cell column="Unnamed: 3">Educativo, series, tutoriales</Cell>
+        <Cell column="Unnamed: 4">Títulos optimizados</Cell>
+        <Cell column="Unnamed: 5">Contenido largo</Cell>
+      </Row>
+      <Row>
+        <Cell column="ESTRATEGIAS POR PLATAFORMA">Pinterest</Cell>
+        <Cell column="Unnamed: 1">8-11 PM, 2-4 AM</Cell>
+        <Cell column="Unnamed: 2">5-10x/día</Cell>
+        <Cell column="Unnamed: 3">Visual, descubrimiento</Cell>
+        <Cell column="Unnamed: 4">Rich Pins</Cell>
+        <Cell column="Unnamed: 5">Búsqueda visual</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="10_Contenido">
+    <Headers>
+      <Header>TIPOS DE CONTENIDO Y BALANCE</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Tipo de Contenido</Cell>
+        <Cell column="Unnamed: 1">Porcentaje Recomendado</Cell>
+        <Cell column="Unnamed: 2">Objetivo</Cell>
+        <Cell column="Unnamed: 3">Ejemplos</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Educativo</Cell>
+        <Cell column="Unnamed: 1">30</Cell>
+        <Cell column="Unnamed: 2">Valor, conocimiento</Cell>
+        <Cell column="Unnamed: 3">How-tos, tips, insights</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Entretenimiento</Cell>
+        <Cell column="Unnamed: 1">25</Cell>
+        <Cell column="Unnamed: 2">Engagement, diversión</Cell>
+        <Cell column="Unnamed: 3">Behind-the-scenes, humor</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Promocional</Cell>
+        <Cell column="Unnamed: 1">20</Cell>
+        <Cell column="Unnamed: 2">Conversiones, ventas</Cell>
+        <Cell column="Unnamed: 3">Productos, ofertas, servicios</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Construcción de Comunidad</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">Relación, lealtad</Cell>
+        <Cell column="Unnamed: 3">Preguntas, polls, UGC</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO Y BALANCE">Liderazgo de Opinión</Cell>
+        <Cell column="Unnamed: 1">10</Cell>
+        <Cell column="Unnamed: 2">Autoridad, confianza</Cell>
+        <Cell column="Unnamed: 3">Tendencias, comentarios</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="11_Métricas">
+    <Headers>
+      <Header>MÉTRICAS Y KPIs</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Métrica</Cell>
+        <Cell column="Unnamed: 1">Plataforma</Cell>
+        <Cell column="Unnamed: 2">Objetivo</Cell>
+        <Cell column="Unnamed: 3">Benchmark</Cell>
+        <Cell column="Unnamed: 4">Fórmula</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Tasa de Engagement</Cell>
+        <Cell column="Unnamed: 1">Todas</Cell>
+        <Cell column="Unnamed: 2">3-5%</Cell>
+        <Cell column="Unnamed: 3">2-3%</Cell>
+        <Cell column="Unnamed: 4">(Likes+Comentarios+Compartidos)/Alcance</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Alcance</Cell>
+        <Cell column="Unnamed: 1">Todas</Cell>
+        <Cell column="Unnamed: 2">Aumentar 20%</Cell>
+        <Cell column="Unnamed: 3">Baseline</Cell>
+        <Cell column="Unnamed: 4">Usuarios únicos que ven el contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Clics</Cell>
+        <Cell column="Unnamed: 1">Facebook, LinkedIn</Cell>
+        <Cell column="Unnamed: 2">2-3% CTR</Cell>
+        <Cell column="Unnamed: 3">1-2% CTR</Cell>
+        <Cell column="Unnamed: 4">Clics/Impresiones</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Conversiones</Cell>
+        <Cell column="Unnamed: 1">Todas</Cell>
+        <Cell column="Unnamed: 2">1-2%</Cell>
+        <Cell column="Unnamed: 3">0.5-1%</Cell>
+        <Cell column="Unnamed: 4">Conversiones/Visitas</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Crecimiento de Seguidores</Cell>
+        <Cell column="Unnamed: 1">Todas</Cell>
+        <Cell column="Unnamed: 2">5-10%/mes</Cell>
+        <Cell column="Unnamed: 3">3-5%/mes</Cell>
+        <Cell column="Unnamed: 4">(Nuevos seguidores/Seguidores totales)*100</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Tiempo de Visualización</Cell>
+        <Cell column="Unnamed: 1">YouTube, TikTok</Cell>
+        <Cell column="Unnamed: 2">&gt;50% del video</Cell>
+        <Cell column="Unnamed: 3">30-40%</Cell>
+        <Cell column="Unnamed: 4">Tiempo promedio/duración total</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS Y KPIs">Guardados</Cell>
+        <Cell column="Unnamed: 1">Instagram, Pinterest</Cell>
+        <Cell column="Unnamed: 2">2-3%</Cell>
+        <Cell column="Unnamed: 3">1-2%</Cell>
+        <Cell column="Unnamed: 4">Guardados/Impresiones</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="12_Plantilla_Brief">
+    <Headers>
+      <Header>PLANTILLA DE BRIEF PARA CALENDARIO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Campo</Cell>
+        <Cell column="Unnamed: 1">Descripción</Cell>
+        <Cell column="Unnamed: 2">Ejemplo</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Marca</Cell>
+        <Cell column="Unnamed: 1">Nombre de la marca</Cell>
+        <Cell column="Unnamed: 2">TechStart Inc.</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Plataformas</Cell>
+        <Cell column="Unnamed: 1">Redes sociales</Cell>
+        <Cell column="Unnamed: 2">Instagram, LinkedIn</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Período</Cell>
+        <Cell column="Unnamed: 1">Duración</Cell>
+        <Cell column="Unnamed: 2">Semanal o Mensual</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Objetivos</Cell>
+        <Cell column="Unnamed: 1">Objetivos marketing</Cell>
+        <Cell column="Unnamed: 2">Awareness, Engagement</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Audiencia</Cell>
+        <Cell column="Unnamed: 1">Descripción</Cell>
+        <Cell column="Unnamed: 2">Mujeres 25-40</Cell>
+      </Row>
+      <Row>
+        <Cell column="PLANTILLA DE BRIEF PARA CALENDARIO">Temas</Cell>
+        <Cell column="Unnamed: 1">Pilares contenido</Cell>
+        <Cell column="Unnamed: 2">Innovación, Sostenibilidad</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="13_Calculadora">
+    <Headers>
+      <Header>CALCULADORA DE FRECUENCIA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">Plataforma</Cell>
+        <Cell column="Unnamed: 1">Frecuencia</Cell>
+        <Cell column="Unnamed: 2">Posts/Semana</Cell>
+        <Cell column="Unnamed: 3">Posts/Mes</Cell>
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">Instagram</Cell>
+        <Cell column="Unnamed: 1">1-2x/día</Cell>
+        <Cell column="Unnamed: 2">10.5</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">Facebook</Cell>
+        <Cell column="Unnamed: 1">1x/día</Cell>
+        <Cell column="Unnamed: 2">7</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">Twitter/X</Cell>
+        <Cell column="Unnamed: 1">3-5x/día</Cell>
+        <Cell column="Unnamed: 2">28</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">LinkedIn</Cell>
+        <Cell column="Unnamed: 1">1x/día</Cell>
+        <Cell column="Unnamed: 2">7</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="CALCULADORA DE FRECUENCIA">TikTok</Cell>
+        <Cell column="Unnamed: 1">1-3x/día</Cell>
+        <Cell column="Unnamed: 2">14</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="14_Comparativa">
+    <Headers>
+      <Header>COMPARATIVA DE PLATAFORMAS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">Plataforma</Cell>
+        <Cell column="Unnamed: 1">Horario</Cell>
+        <Cell column="Unnamed: 2">Frecuencia</Cell>
+        <Cell column="Unnamed: 3">Formato</Cell>
+        <Cell column="Unnamed: 4">Hashtags</Cell>
+        <Cell column="Unnamed: 5">Alcance</Cell>
+        <Cell column="Unnamed: 6">Engagement</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">Instagram</Cell>
+        <Cell column="Unnamed: 1">11 AM-1 PM</Cell>
+        <Cell column="Unnamed: 2">Alta</Cell>
+        <Cell column="Unnamed: 3">Visual</Cell>
+        <Cell column="Unnamed: 4">5-10</Cell>
+        <Cell column="Unnamed: 5">Alto</Cell>
+        <Cell column="Unnamed: 6">Alto</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">Facebook</Cell>
+        <Cell column="Unnamed: 1">1-3 PM</Cell>
+        <Cell column="Unnamed: 2">Media</Cell>
+        <Cell column="Unnamed: 3">Texto/Video</Cell>
+        <Cell column="Unnamed: 4">1-2</Cell>
+        <Cell column="Unnamed: 5">Muy Alto</Cell>
+        <Cell column="Unnamed: 6">Medio</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">Twitter/X</Cell>
+        <Cell column="Unnamed: 1">8-9 AM</Cell>
+        <Cell column="Unnamed: 2">Muy Alta</Cell>
+        <Cell column="Unnamed: 3">Texto</Cell>
+        <Cell column="Unnamed: 4">1-2</Cell>
+        <Cell column="Unnamed: 5">Medio</Cell>
+        <Cell column="Unnamed: 6">Medio</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">LinkedIn</Cell>
+        <Cell column="Unnamed: 1">8-9 AM</Cell>
+        <Cell column="Unnamed: 2">Baja</Cell>
+        <Cell column="Unnamed: 3">Texto/Video</Cell>
+        <Cell column="Unnamed: 4">3-5</Cell>
+        <Cell column="Unnamed: 5">Medio</Cell>
+        <Cell column="Unnamed: 6">Alto</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE PLATAFORMAS">TikTok</Cell>
+        <Cell column="Unnamed: 1">6-10 AM</Cell>
+        <Cell column="Unnamed: 2">Alta</Cell>
+        <Cell column="Unnamed: 3">Video</Cell>
+        <Cell column="Unnamed: 4">3-5</Cell>
+        <Cell column="Unnamed: 5">Alto</Cell>
+        <Cell column="Unnamed: 6">Muy Alto</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="15_Implementación">
+    <Headers>
+      <Header>CHECKLIST DE IMPLEMENTACIÓN</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Fase</Cell>
+        <Cell column="Unnamed: 1">Tarea</Cell>
+        <Cell column="Unnamed: 2">Responsable</Cell>
+        <Cell column="Unnamed: 3">Estado</Cell>
+        <Cell column="Unnamed: 4">Fecha</Cell>
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Preparación</Cell>
+        <Cell column="Unnamed: 1">Revisar brief</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Preparación</Cell>
+        <Cell column="Unnamed: 1">Validar objetivos</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Creación</Cell>
+        <Cell column="Unnamed: 1">Generar calendario</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Aprobación</Cell>
+        <Cell column="Unnamed: 1">Revisión interna</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Producción</Cell>
+        <Cell column="Unnamed: 1">Crear contenido</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="CHECKLIST DE IMPLEMENTACIÓN">Ejecución</Cell>
+        <Cell column="Unnamed: 1">Publicar</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Pendiente</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="16_Dashboard">
+    <Headers>
+      <Header>DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Última actualización: 22/11/2025 02:03</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">RESUMEN EJECUTIVO</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Objetivo</Cell>
+        <Cell column="Unnamed: 3">Estado</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Posts Programados</Cell>
+        <Cell column="Unnamed: 1">45</Cell>
+        <Cell column="Unnamed: 2">50</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Plataformas Activas</Cell>
+        <Cell column="Unnamed: 1">4</Cell>
+        <Cell column="Unnamed: 2">4</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Engagement Rate</Cell>
+        <Cell column="Unnamed: 1">5.2%</Cell>
+        <Cell column="Unnamed: 2">5.0%</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Alcance Total</Cell>
+        <Cell column="Unnamed: 1">12500</Cell>
+        <Cell column="Unnamed: 2">10000</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Conversiones</Cell>
+        <Cell column="Unnamed: 1">85</Cell>
+        <Cell column="Unnamed: 2">80</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">MÉTRICAS POR PLATAFORMA</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Plataforma</Cell>
+        <Cell column="Unnamed: 1">Posts</Cell>
+        <Cell column="Unnamed: 2">Engagement</Cell>
+        <Cell column="Unnamed: 3">Alcance</Cell>
+        <Cell column="Unnamed: 4">Conversiones</Cell>
+        <Cell column="Unnamed: 5">ROI</Cell>
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Instagram</Cell>
+        <Cell column="Unnamed: 1">20</Cell>
+        <Cell column="Unnamed: 2">6.2%</Cell>
+        <Cell column="Unnamed: 3">8500</Cell>
+        <Cell column="Unnamed: 4">45</Cell>
+        <Cell column="Unnamed: 5">320%</Cell>
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Facebook</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">4.8%</Cell>
+        <Cell column="Unnamed: 3">12000</Cell>
+        <Cell column="Unnamed: 4">25</Cell>
+        <Cell column="Unnamed: 5">280%</Cell>
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">LinkedIn</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">5.5%</Cell>
+        <Cell column="Unnamed: 3">3500</Cell>
+        <Cell column="Unnamed: 4">12</Cell>
+        <Cell column="Unnamed: 5">350%</Cell>
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Twitter/X</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+        <Cell column="Unnamed: 2">3.2%</Cell>
+        <Cell column="Unnamed: 3">2800</Cell>
+        <Cell column="Unnamed: 4">3</Cell>
+        <Cell column="Unnamed: 5">150%</Cell>
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">ANÁLISIS DE CONTENIDO</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Tipo de Contenido</Cell>
+        <Cell column="Unnamed: 1">Cantidad</Cell>
+        <Cell column="Unnamed: 2">Engagement Promedio</Cell>
+        <Cell column="Unnamed: 3">Mejor Performador</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Educativo</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">6.5%</Cell>
+        <Cell column="Unnamed: 3">Guía de sostenibilidad</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Entretenimiento</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+        <Cell column="Unnamed: 2">5.2%</Cell>
+        <Cell column="Unnamed: 3">Behind-the-scenes</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Promocional</Cell>
+        <Cell column="Unnamed: 1">10</Cell>
+        <Cell column="Unnamed: 2">4.1%</Cell>
+        <Cell column="Unnamed: 3">Oferta verano</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO">Comunidad</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">7.8%</Cell>
+        <Cell column="Unnamed: 3">UGC campaign</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="17_Análisis">
+    <Headers>
+      <Header>ANÁLISIS DE RENDIMIENTO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">RENDIMIENTO SEMANAL</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">Semana</Cell>
+        <Cell column="Unnamed: 1">Posts</Cell>
+        <Cell column="Unnamed: 2">Engagement</Cell>
+        <Cell column="Unnamed: 3">Alcance</Cell>
+        <Cell column="Unnamed: 4">Tendencia</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">Semana 1</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+        <Cell column="Unnamed: 2">5.1%</Cell>
+        <Cell column="Unnamed: 3">8500</Cell>
+        <Cell column="Unnamed: 4">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">Semana 2</Cell>
+        <Cell column="Unnamed: 1">11</Cell>
+        <Cell column="Unnamed: 2">5.3%</Cell>
+        <Cell column="Unnamed: 3">9200</Cell>
+        <Cell column="Unnamed: 4">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">Semana 3</Cell>
+        <Cell column="Unnamed: 1">13</Cell>
+        <Cell column="Unnamed: 2">5.8%</Cell>
+        <Cell column="Unnamed: 3">10500</Cell>
+        <Cell column="Unnamed: 4">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO">Semana 4</Cell>
+        <Cell column="Unnamed: 1">9</Cell>
+        <Cell column="Unnamed: 2">4.9%</Cell>
+        <Cell column="Unnamed: 3">7800</Cell>
+        <Cell column="Unnamed: 4">↓</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="18_Validación">
+    <Headers>
+      <Header>SISTEMA DE VALIDACIÓN DE CALENDARIOS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">CHECKLIST DE VALIDACIÓN</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Categoría</Cell>
+        <Cell column="Unnamed: 1">Item</Cell>
+        <Cell column="Unnamed: 2">Estado</Cell>
+        <Cell column="Unnamed: 3">Notas</Cell>
+        <Cell column="Unnamed: 4">Puntos</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estructura</Cell>
+        <Cell column="Unnamed: 1">Introducción presente</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estructura</Cell>
+        <Cell column="Unnamed: 1">Tabla formateada correctamente</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estructura</Cell>
+        <Cell column="Unnamed: 1">Resumen presente</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Contenido</Cell>
+        <Cell column="Unnamed: 1">Completitud (todos los días)</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Contenido</Cell>
+        <Cell column="Unnamed: 1">Calidad (específico, no genérico)</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Contenido</Cell>
+        <Cell column="Unnamed: 1">Balance (80/20 o especificado)</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Datos</Cell>
+        <Cell column="Unnamed: 1">Fechas correctas</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Datos</Cell>
+        <Cell column="Unnamed: 1">Horarios correctos</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Datos</Cell>
+        <Cell column="Unnamed: 1">Plataformas correctas</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Datos</Cell>
+        <Cell column="Unnamed: 1">Datos completos</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">5</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estrategia</Cell>
+        <Cell column="Unnamed: 1">Alineación con objetivos</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">7</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estrategia</Cell>
+        <Cell column="Unnamed: 1">Alineación con audiencia</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">7</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Estrategia</Cell>
+        <Cell column="Unnamed: 1">Alineación con marca</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">6</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Optimización</Cell>
+        <Cell column="Unnamed: 1">Frecuencia apropiada</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">3</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Optimización</Cell>
+        <Cell column="Unnamed: 1">Timing optimizado</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">4</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">Optimización</Cell>
+        <Cell column="Unnamed: 1">Repurposing identificado</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">3</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">SCORE TOTAL:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">CALIFICACIÓN:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">PROBLEMAS IDENTIFICADOS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">#</Cell>
+        <Cell column="Unnamed: 1">Problema</Cell>
+        <Cell column="Unnamed: 2">Severidad</Cell>
+        <Cell column="Unnamed: 3">Acción Requerida</Cell>
+        <Cell column="Unnamed: 4">Estado</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">1</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">2</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">3</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">4</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE VALIDACIÓN DE CALENDARIOS">5</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

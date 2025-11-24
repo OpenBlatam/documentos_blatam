@@ -1,0 +1,236 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    PLANTILLA: OPTIMIZAR HOOKS BASADO EN FEEDBACK
+═══════════════════════════════════════════════════════════════════════════════
+
+INFORMACIÓN GENERAL
+────────────────────────────────────────────────────────────────────────────────
+Fecha de creación:        [FECHA]
+Responsable:              [NOMBRE]
+Proyecto/Campaña:         [NOMBRE_PROYECTO]
+Versión:                  1.0
+
+DATOS DEL HOOK
+────────────────────────────────────────────────────────────────────────────────
+Hook ID:                  [ID_UNICO]
+Canal:                    [TikTok / Instagram / LinkedIn / YouTube / Otro]
+Fecha creación original:  [FECHA]
+Fecha última optimización: [FECHA]
+Estado actual:            [Activo / En prueba / Archivado]
+
+HOOK ORIGINAL
+────────────────────────────────────────────────────────────────────────────────
+Texto del Hook:
+[PEGAR_HOOK_ORIGINAL_AQUI]
+
+Objetivo del hook:        [DESCRIBIR]
+Audiencia objetivo:       [DESCRIBIR]
+Mensaje principal:        [DESCRIBIR]
+Call to Action:           [DESCRIBIR]
+
+MÉTRICAS DEL HOOK ORIGINAL
+────────────────────────────────────────────────────────────────────────────────
+Impresiones:              [NUMERO]        Fecha: [FECHA]
+Vistas completas:        [NUMERO]        Fecha: [FECHA]
+Tasa de retención (3s):  [%]             Fecha: [FECHA]
+Tasa de retención (15s): [%]             Fecha: [FECHA]
+Likes:                   [NUMERO]        Fecha: [FECHA]
+Comentarios:             [NUMERO]        Fecha: [FECHA]
+Compartidos:             [NUMERO]        Fecha: [FECHA]
+Guardados:               [NUMERO]        Fecha: [FECHA]
+Clics en CTA:            [NUMERO]        Fecha: [FECHA]
+Conversiones:            [NUMERO]        Fecha: [FECHA]
+CTR:                     [%]             Fecha: [FECHA]
+CVR:                     [%]             Fecha: [FECHA]
+
+FEEDBACK DE AUDIENCIA
+────────────────────────────────────────────────────────────────────────────────
+COMENTARIOS POSITIVOS:
+1. [FECHA] - [USUARIO] - "[COMENTARIO]"
+2. [FECHA] - [USUARIO] - "[COMENTARIO]"
+3. [FECHA] - [USUARIO] - "[COMENTARIO]"
+
+COMENTARIOS NEGATIVOS / CRÍTICAS:
+1. [FECHA] - [USUARIO] - "[COMENTARIO]"
+2. [FECHA] - [USUARIO] - "[COMENTARIO]"
+3. [FECHA] - [USUARIO] - "[COMENTARIO]"
+
+PREGUNTAS FRECUENTES:
+1. [PREGUNTA] - Frecuencia: [NUMERO] veces
+2. [PREGUNTA] - Frecuencia: [NUMERO] veces
+3. [PREGUNTA] - Frecuencia: [NUMERO] veces
+
+FEEDBACK INTERNO
+────────────────────────────────────────────────────────────────────────────────
+EQUIPO DE MARKETING:
+- [NOMBRE]: "[COMENTARIO]"
+- [NOMBRE]: "[COMENTARIO]"
+- [NOMBRE]: "[COMENTARIO]"
+
+EQUIPO DE VENTAS:
+- [NOMBRE]: "[COMENTARIO]"
+- [NOMBRE]: "[COMENTARIO]"
+
+STAKEHOLDERS:
+- [NOMBRE]: "[COMENTARIO]"
+
+FEEDBACK DE ANÁLISIS DE DATOS
+────────────────────────────────────────────────────────────────────────────────
+INSIGHTS CLAVE:
+1. [INSIGHT]
+2. [INSIGHT]
+3. [INSIGHT]
+
+PUNTOS DE ABANDONO:
+- Segundo 0-3:   [%] abandono - [RAZON]
+- Segundo 3-10:  [%] abandono - [RAZON]
+- Segundo 10-15: [%] abandono - [RAZON]
+
+ANÁLISIS DEL FEEDBACK
+────────────────────────────────────────────────────────────────────────────────
+FORTALEZAS IDENTIFICADAS:
+1. [FORTALEZA] - Evidencia: [DESCRIBIR]
+2. [FORTALEZA] - Evidencia: [DESCRIBIR]
+3. [FORTALEZA] - Evidencia: [DESCRIBIR]
+
+DEBILIDADES IDENTIFICADAS:
+1. [DEBILIDAD] - Impacto: [ALTO/MEDIO/BAJO] - Evidencia: [DESCRIBIR]
+2. [DEBILIDAD] - Impacto: [ALTO/MEDIO/BAJO] - Evidencia: [DESCRIBIR]
+3. [DEBILIDAD] - Impacto: [ALTO/MEDIO/BAJO] - Evidencia: [DESCRIBIR]
+
+OPORTUNIDADES DE MEJORA:
+1. [OPORTUNIDAD] - Prioridad: [ALTA/MEDIA/BAJA]
+2. [OPORTUNIDAD] - Prioridad: [ALTA/MEDIA/BAJA]
+3. [OPORTUNIDAD] - Prioridad: [ALTA/MEDIA/BAJA]
+
+VERSIÓN 1.1 - OPTIMIZACIÓN MENOR
+────────────────────────────────────────────────────────────────────────────────
+Texto del Hook:
+[PEGAR_HOOK_OPTIMIZADO_AQUI]
+
+Cambios realizados:
+- [CAMBIO 1]
+- [CAMBIO 2]
+- [CAMBIO 3]
+
+Razón del cambio:
+- [RAZON 1]
+- [RAZON 2]
+
+Feedback que motivó el cambio:
+- [FEEDBACK 1]
+- [FEEDBACK 2]
+
+Fecha de implementación: [FECHA]
+Estado: [En prueba / Activo / Archivado]
+
+VERSIÓN 1.2 - OPTIMIZACIÓN MEDIA
+────────────────────────────────────────────────────────────────────────────────
+Texto del Hook:
+[PEGAR_HOOK_OPTIMIZADO_AQUI]
+
+Cambios realizados:
+- [CAMBIO 1]
+- [CAMBIO 2]
+- [CAMBIO 3]
+
+Razón del cambio:
+- [RAZON 1]
+- [RAZON 2]
+
+Feedback que motivó el cambio:
+- [FEEDBACK 1]
+- [FEEDBACK 2]
+
+Fecha de implementación: [FECHA]
+Estado: [En prueba / Activo / Archivado]
+
+VERSIÓN 2.0 - REDISEÑO COMPLETO
+────────────────────────────────────────────────────────────────────────────────
+Texto del Hook:
+[PEGAR_HOOK_OPTIMIZADO_AQUI]
+
+Cambios realizados:
+- [CAMBIO 1]
+- [CAMBIO 2]
+- [CAMBIO 3]
+
+Razón del cambio:
+- [RAZON 1]
+- [RAZON 2]
+
+Feedback que motivó el cambio:
+- [FEEDBACK 1]
+- [FEEDBACK 2]
+
+Fecha de implementación: [FECHA]
+Estado: [En prueba / Activo / Archivado]
+
+COMPARATIVA DE VERSIONES
+────────────────────────────────────────────────────────────────────────────────
+Métrica              | Original | V1.1 | V1.2 | V2.0 | Mejora %
+─────────────────────|──────────|──────|──────|──────|─────────
+Impresiones          | [NUM]    | [NUM]| [NUM]| [NUM]| [%]
+Retención 3s         | [%]      | [%]  | [%]  | [%]  | [%]
+Retención 15s        | [%]      | [%]  | [%]  | [%]  | [%]
+Likes                | [NUM]    | [NUM]| [NUM]| [NUM]| [%]
+Comentarios          | [NUM]    | [NUM]| [NUM]| [NUM]| [%]
+CTR                  | [%]      | [%]  | [%]  | [%]  | [%]
+CVR                  | [%]      | [%]  | [%]  | [%]  | [%]
+
+A/B TESTING
+────────────────────────────────────────────────────────────────────────────────
+Fecha inicio:        [FECHA]
+Fecha fin:           [FECHA]
+Variante A:          [DESCRIPCION]
+Variante B:          [DESCRIPCION]
+Tamaño muestra:      [NUMERO]
+Hipótesis:           [DESCRIBIR]
+
+RESULTADOS DEL TEST:
+Variante A - [METRICA]: [VALOR]
+Variante B - [METRICA]: [VALOR]
+Ganador: [A/B]
+Conclusión: [DESCRIBIR]
+
+LECCIONES APRENDIDAS
+────────────────────────────────────────────────────────────────────────────────
+QUÉ FUNCIONÓ:
+1. [LECCION] - Aplicable a: [OTROS_HOOKS/CAMPAÑAS]
+2. [LECCION] - Aplicable a: [OTROS_HOOKS/CAMPAÑAS]
+3. [LECCION] - Aplicable a: [OTROS_HOOKS/CAMPAÑAS]
+
+QUÉ NO FUNCIONÓ:
+1. [LECCION] - Evitar en: [CONTEXTO]
+2. [LECCION] - Evitar en: [CONTEXTO]
+3. [LECCION] - Evitar en: [CONTEXTO]
+
+RECOMENDACIONES FUTURAS:
+1. [RECOMENDACION]
+2. [RECOMENDACION]
+3. [RECOMENDACION]
+
+CHECKLIST DE OPTIMIZACIÓN
+────────────────────────────────────────────────────────────────────────────────
+[ ] Feedback recopilado de audiencia
+[ ] Feedback recopilado de equipo interno
+[ ] Análisis de métricas completado
+[ ] Identificadas fortalezas y debilidades
+[ ] Versión optimizada creada
+[ ] Versión optimizada revisada por equipo
+[ ] A/B test configurado (si aplica)
+[ ] Versión optimizada implementada
+[ ] Métricas de versión optimizada recopiladas
+[ ] Comparativa de versiones completada
+[ ] Lecciones aprendidas documentadas
+[ ] Documentación actualizada
+
+NOTAS ADICIONALES
+────────────────────────────────────────────────────────────────────────────────
+[ESPACIO_PARA_NOTAS_LIBRES]
+
+────────────────────────────────────────────────────────────────────────────────
+Última actualización: [FECHA]
+Próxima revisión:     [FECHA]
+
+
+

@@ -375,3 +375,5 @@ Variación posible: [Cómo adaptarlo]
 **Uso**: Analizar competencia y diferenciarse estratégicamente
 
 
+
+

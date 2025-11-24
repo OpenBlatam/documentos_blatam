@@ -461,3 +461,5 @@ Día 30+:   Análisis y mejora
 **Tiempo invertido:** 2-3 horas/día
 
 
+
+

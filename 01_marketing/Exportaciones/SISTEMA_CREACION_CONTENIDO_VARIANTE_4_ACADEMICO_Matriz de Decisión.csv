@@ -1,0 +1,12 @@
+MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Criterio,Blog,Social Media,Email,Landing Page,Copywriting,Peso
+Longitud Requerida,5,1,3,4,3,0.15
+Complejidad Técnica,4,2,2,3,3,0.2
+Urgencia,2,5,4,3,3,0.1
+Engagement Esperado,3,5,3,4,4,0.25
+Costo de Producción,3,2,2,4,3,0.15
+ROI Esperado,4,3,4,5,4,0.15
+,,,,,,
+PUNTUACIÓN PONDERADA,,,,,,
+,,,,,,
+TIPO RECOMENDADO:,,,,,,

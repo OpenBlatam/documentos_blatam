@@ -1,0 +1,13 @@
+{
+  "backups": [
+    {
+      "nombre": "BACKUP_COMPLETO_20251122_162613",
+      "archivo": "/Users/adan/Documents/documentos_blatam/01_marketing/Backups/BACKUP_COMPLETO_20251122_162613.zip",
+      "fecha": "2025-11-22T16:26:14.550849",
+      "tamaño_mb": 11.834203720092773,
+      "hash": "0e4053a2eccfd2b2e08c5caf5cb1bfa6",
+      "archivos_incluidos": 81,
+      "tipo": "completo"
+    }
+  ]
+}

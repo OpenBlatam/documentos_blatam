@@ -437,3 +437,5 @@
 **Nota:** La mejor negociación es aquella donde ambas partes ganan. Construye relaciones, no solo transacciones.
 
 
+
+

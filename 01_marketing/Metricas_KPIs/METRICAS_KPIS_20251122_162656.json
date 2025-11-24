@@ -1,0 +1,47 @@
+{
+  "fecha": "2025-11-22T16:26:56.363813",
+  "estadisticas_documentos": {
+    "total_archivos": 41,
+    "por_formato": {
+      ".docx": 9,
+      ".xlsx": 19,
+      ".pptx": 3,
+      ".pdf": 3,
+      ".html": 4,
+      ".png": 3
+    },
+    "por_fecha": {
+      "2025-11-22": 40,
+      "2025-11-21": 1
+    },
+    "tamaño_total_mb": 14.910638809204102,
+    "archivos_recientes": 41,
+    "archivos_antiguos": 0
+  },
+  "estadisticas_scripts": {
+    "total_scripts": 32,
+    "tamaño_total_kb": 629.0146484375,
+    "scripts_por_tamaño": {
+      "pequeños": 12,
+      "medianos": 16,
+      "grandes": 4
+    }
+  },
+  "kpis": {
+    "productividad": {
+      "documentos_por_dia": 20.5,
+      "archivos_recientes_7dias": 41,
+      "tasa_crecimiento": 3900.0
+    },
+    "eficiencia": {
+      "tamaño_promedio_mb": 0.363674117297661,
+      "scripts_activos": 32,
+      "ratio_documentos_scripts": 1.28125
+    },
+    "calidad": {
+      "diversidad_formatos": 6,
+      "archivos_antiguos": 0,
+      "porcentaje_recientes": 100.0
+    }
+  }
+}

@@ -500,3 +500,5 @@ RANK  INFLUENCER        PLATAFORMA    ALCANCE    ENGAGEMENT    ROI
 **Nota:** Personaliza estos templates según tu audiencia y necesidades específicas.
 
 
+
+

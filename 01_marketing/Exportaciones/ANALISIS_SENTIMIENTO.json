@@ -1,0 +1,192 @@
+{
+  "Resumen": [
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": NaN,
+      "Unnamed: 1": NaN
+    },
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": "Total Textos Analizados:",
+      "Unnamed: 1": 10.0
+    },
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": "Sentimientos Positivos:",
+      "Unnamed: 1": 1.0
+    },
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": "Sentimientos Negativos:",
+      "Unnamed: 1": 1.0
+    },
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": "Sentimientos Neutrales:",
+      "Unnamed: 1": 8.0
+    },
+    {
+      "ANÁLISIS DE SENTIMIENTO - RESUMEN": "Score Promedio:",
+      "Unnamed: 1": 0.03041014541014541
+    }
+  ],
+  "Tendencias": [
+    {
+      "Palabra": "producto",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "excelente",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "increíble",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "clientes",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "están",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "algunos",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "pero",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "calidad",
+      "Frecuencia": 2
+    },
+    {
+      "Palabra": "nuestro",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "tenido",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "éxito",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "mercado",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "satisfechos",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "campaña",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "marketing",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "genial",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "generó",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "crecimiento",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "significativo",
+      "Frecuencia": 1
+    },
+    {
+      "Palabra": "ventas",
+      "Frecuencia": 1
+    }
+  ],
+  "Detalles": [
+    {
+      "Sentimiento": "positivo",
+      "Score": 0.1666666666666667,
+      "Positivo": 3,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 18
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.07142857142857142,
+      "Positivo": 1,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 14
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.0,
+      "Positivo": 0,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 13
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.08333333333333333,
+      "Positivo": 1,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 12
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.09090909090909091,
+      "Positivo": 1,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 11
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": -0.07692307692307693,
+      "Positivo": 1,
+      "Negativo": 2,
+      "Neutral": 0,
+      "Total Palabras": 13
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.09090909090909091,
+      "Positivo": 1,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 11
+    },
+    {
+      "Sentimiento": "negativo",
+      "Score": -0.2222222222222222,
+      "Positivo": 0,
+      "Negativo": 2,
+      "Neutral": 0,
+      "Total Palabras": 9
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.1,
+      "Positivo": 1,
+      "Negativo": 0,
+      "Neutral": 0,
+      "Total Palabras": 10
+    },
+    {
+      "Sentimiento": "neutral",
+      "Score": 0.0,
+      "Positivo": 0,
+      "Negativo": 0,
+      "Neutral": 1,
+      "Total Palabras": 10
+    }
+  ]
+}

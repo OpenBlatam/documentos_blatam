@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="ANALISIS_ESTADISTICO_AVANZADO">
+  <Sheet name="Análisis Estadístico">
+    <Headers>
+      <Header>ANÁLISIS ESTADÍSTICO AVANZADO</Header>
+      <Header>Unnamed: 1</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Inversión</Cell>
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Media</Cell>
+        <Cell column="Unnamed: 1">989.8</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mediana</Cell>
+        <Cell column="Unnamed: 1">983.63</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Desviación Estándar</Cell>
+        <Cell column="Unnamed: 1">303.03</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mínimo</Cell>
+        <Cell column="Unnamed: 1">524.84</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Máximo</Cell>
+        <Cell column="Unnamed: 1">1476.71</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Coeficiente Variación</Cell>
+        <Cell column="Unnamed: 1">30.62</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Ventas</Cell>
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Media</Cell>
+        <Cell column="Unnamed: 1">2851.15</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mediana</Cell>
+        <Cell column="Unnamed: 1">2891.5</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Desviación Estándar</Cell>
+        <Cell column="Unnamed: 1">961.93</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mínimo</Cell>
+        <Cell column="Unnamed: 1">1396.6</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Máximo</Cell>
+        <Cell column="Unnamed: 1">4145.19</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Coeficiente Variación</Cell>
+        <Cell column="Unnamed: 1">33.74</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">ROI</Cell>
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Media</Cell>
+        <Cell column="Unnamed: 1">285.5</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mediana</Cell>
+        <Cell column="Unnamed: 1">284.34</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Desviación Estándar</Cell>
+        <Cell column="Unnamed: 1">23.75</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Mínimo</Cell>
+        <Cell column="Unnamed: 1">235.48</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Máximo</Cell>
+        <Cell column="Unnamed: 1">324.91</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO AVANZADO">Coeficiente Variación</Cell>
+        <Cell column="Unnamed: 1">8.32</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

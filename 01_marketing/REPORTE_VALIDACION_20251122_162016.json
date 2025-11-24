@@ -1,0 +1,415 @@
+{
+  "fecha": "2025-11-22T16:20:16.776645",
+  "resumen": {
+    "total_archivos": 41,
+    "archivos_validos": 24,
+    "archivos_invalidos": 17,
+    "archivos_con_advertencias": 0,
+    "porcentaje_valido": 58.536585365853654
+  },
+  "resultados_detallados": [
+    {
+      "archivo": "ANALISIS_COMPETITIVO_PROFESIONAL.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_PROFESIONAL.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 39.1 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 39.1337890625,
+      "fecha_modificacion": "2025-11-22T15:59:56.132375"
+    },
+    {
+      "archivo": "SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 44.9 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 44.8896484375,
+      "fecha_modificacion": "2025-11-22T02:31:13.004248"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_PROFESIONAL.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_PROFESIONAL.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 40.3 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 40.2685546875,
+      "fecha_modificacion": "2025-11-22T15:59:54.944433"
+    },
+    {
+      "archivo": "SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.docx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 53.8828125,
+      "fecha_modificacion": "2025-11-22T16:01:09.142710"
+    },
+    {
+      "archivo": "SISTEMAS_PROMPTS_CONSOLIDADO.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO.docx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 63.609375,
+      "fecha_modificacion": "2025-11-22T01:44:29.537117"
+    },
+    {
+      "archivo": "BRIEF_UGC_CREADORAS_BULK.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/BRIEF_UGC_CREADORAS_BULK.docx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 81.142578125,
+      "fecha_modificacion": "2025-11-21T12:26:45.737364"
+    },
+    {
+      "archivo": "Sistema_Creacion_Contenido_Minimalista.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/Sistema_Creacion_Contenido_Minimalista.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 46.2 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 46.19921875,
+      "fecha_modificacion": "2025-11-22T02:28:04.364418"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_PROFESIONAL.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_PROFESIONAL.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 39.7 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 39.6591796875,
+      "fecha_modificacion": "2025-11-22T15:59:55.386528"
+    },
+    {
+      "archivo": "SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.docx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.docx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 40.4 KB (mínimo: 50 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 40.4423828125,
+      "fecha_modificacion": "2025-11-22T01:58:51.150339"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_PREMIUM.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_PREMIUM.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 829.4111328125,
+      "fecha_modificacion": "2025-11-22T16:03:41.272750"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_PREMIUM.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_PREMIUM.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 829.4091796875,
+      "fecha_modificacion": "2025-11-22T16:03:40.220622"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_AVANZADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_AVANZADO.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 316.0947265625,
+      "fecha_modificacion": "2025-11-22T16:01:08.327641"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_PREMIUM.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_PREMIUM.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 829.4111328125,
+      "fecha_modificacion": "2025-11-22T16:03:42.259276"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_PROFESIONAL.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_PROFESIONAL.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 229.16015625,
+      "fecha_modificacion": "2025-11-22T15:59:55.938465"
+    },
+    {
+      "archivo": "Sistema_Creacion_Contenido_Minimalista.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/Sistema_Creacion_Contenido_Minimalista.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 24.7 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 24.7333984375,
+      "fecha_modificacion": "2025-11-22T02:28:03.013445"
+    },
+    {
+      "archivo": "PREDICCIONES_AVANZADAS.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PREDICCIONES_AVANZADAS.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 6.6 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 6.6494140625,
+      "fecha_modificacion": "2025-11-22T16:16:26.573351"
+    },
+    {
+      "archivo": "ANALISIS_ESTADISTICO_AVANZADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_ESTADISTICO_AVANZADO.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 5.3 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 5.263671875,
+      "fecha_modificacion": "2025-11-22T16:10:07.213124"
+    },
+    {
+      "archivo": "SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 23.6 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 23.5751953125,
+      "fecha_modificacion": "2025-11-22T02:15:17.881443"
+    },
+    {
+      "archivo": "ANALISIS_SENTIMIENTO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_SENTIMIENTO.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 6.6 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 6.599609375,
+      "fecha_modificacion": "2025-11-22T16:20:15.043696"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_AVANZADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_AVANZADO.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 316.0927734375,
+      "fecha_modificacion": "2025-11-22T16:01:07.866522"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_AVANZADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_AVANZADO.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 316.0927734375,
+      "fecha_modificacion": "2025-11-22T16:01:07.437158"
+    },
+    {
+      "archivo": "SISTEMA_CREACION_CONTENIDO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CREACION_CONTENIDO.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 21.3 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 21.291015625,
+      "fecha_modificacion": "2025-11-22T02:28:53.893264"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_PROFESIONAL.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_PROFESIONAL.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 5.3 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 5.267578125,
+      "fecha_modificacion": "2025-11-22T15:59:56.161482"
+    },
+    {
+      "archivo": "SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 41.9 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 41.91015625,
+      "fecha_modificacion": "2025-11-22T02:28:32.223145"
+    },
+    {
+      "archivo": "REPORTES_EJECUTIVOS_AVANZADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/REPORTES_EJECUTIVOS_AVANZADO.xlsx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 316.091796875,
+      "fecha_modificacion": "2025-11-22T16:01:08.789582"
+    },
+    {
+      "archivo": "SISTEMAS_PROMPTS_CONSOLIDADO.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 72.9 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 72.873046875,
+      "fecha_modificacion": "2025-11-22T01:51:08.767509"
+    },
+    {
+      "archivo": "SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 5.2 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 5.2021484375,
+      "fecha_modificacion": "2025-11-22T16:01:09.147779"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_PROFESIONAL.xlsx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_PROFESIONAL.xlsx",
+      "valido": false,
+      "errores": [
+        "Tamaño muy pequeño: 82.2 KB (mínimo: 100 KB)"
+      ],
+      "advertencias": [],
+      "tamaño_kb": 82.1884765625,
+      "fecha_modificacion": "2025-11-22T15:59:55.267618"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pptx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pptx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1245.3134765625,
+      "fecha_modificacion": "2025-11-22T16:07:04.518166"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_ULTRA_PREMIUM.pptx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_ULTRA_PREMIUM.pptx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1245.3125,
+      "fecha_modificacion": "2025-11-22T16:07:00.354471"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_ULTRA_PREMIUM.pptx",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_ULTRA_PREMIUM.pptx",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1245.3125,
+      "fecha_modificacion": "2025-11-22T16:06:56.215790"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pdf",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_ULTRA_PREMIUM.pdf",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1446.708984375,
+      "fecha_modificacion": "2025-11-22T16:07:07.150618"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_ULTRA_PREMIUM.pdf",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_ULTRA_PREMIUM.pdf",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1446.7099609375,
+      "fecha_modificacion": "2025-11-22T16:06:58.671728"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_ULTRA_PREMIUM.pdf",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_ULTRA_PREMIUM.pdf",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1446.7080078125,
+      "fecha_modificacion": "2025-11-22T16:07:02.950852"
+    },
+    {
+      "archivo": "PRESUPUESTO_PRICING_INTERACTIVO.html",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PRESUPUESTO_PRICING_INTERACTIVO.html",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 17.6982421875,
+      "fecha_modificacion": "2025-11-22T16:09:59.031617"
+    },
+    {
+      "archivo": "DASHBOARD_MAESTRO_DOCUMENTOS.html",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_MAESTRO_DOCUMENTOS.html",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 18.740234375,
+      "fecha_modificacion": "2025-11-22T16:13:42.195694"
+    },
+    {
+      "archivo": "ANALISIS_COMPETITIVO_INTERACTIVO.html",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_COMPETITIVO_INTERACTIVO.html",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 17.701171875,
+      "fecha_modificacion": "2025-11-22T16:09:59.129458"
+    },
+    {
+      "archivo": "DASHBOARD_METRICAS_INTERACTIVO.html",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/DASHBOARD_METRICAS_INTERACTIVO.html",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 17.6953125,
+      "fecha_modificacion": "2025-11-22T16:09:59.080765"
+    },
+    {
+      "archivo": "ANALISIS_SENTIMIENTO.png",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_SENTIMIENTO.png",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 476.06640625,
+      "fecha_modificacion": "2025-11-22T16:20:14.820623"
+    },
+    {
+      "archivo": "ANALISIS_ESTADISTICO_AVANZADO.png",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/ANALISIS_ESTADISTICO_AVANZADO.png",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 1020.8681640625,
+      "fecha_modificacion": "2025-11-22T16:10:07.032375"
+    },
+    {
+      "archivo": "PREDICCIONES_AVANZADAS.png",
+      "ruta": "/Users/adan/Documents/documentos_blatam/01_marketing/PREDICCIONES_AVANZADAS.png",
+      "valido": true,
+      "errores": [],
+      "advertencias": [],
+      "tamaño_kb": 897.1142578125,
+      "fecha_modificacion": "2025-11-22T16:16:26.210173"
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="SISTEMA_CREACION_CONTENIDO">
+  <Sheet name="📊 Resumen Ejecutivo">
+    <Headers>
+      <Header>✍️ Sistema de Creación de Contenido</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Variante Tech Startup - Resumen Ejecutivo</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Generado: 22/11/2025 02:28</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">KPI</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Tendencia</Cell>
+        <Cell column="Unnamed: 3">Meta</Cell>
+        <Cell column="Unnamed: 4">Estado</Cell>
+        <Cell column="Unnamed: 5">Cálculo</Cell>
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Tipos de Contenido Soportados</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3">10</Cell>
+        <Cell column="Unnamed: 4">En Progreso</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Formatos de Salida</Cell>
+        <Cell column="Unnamed: 1">4</Cell>
+        <Cell column="Unnamed: 2">→</Cell>
+        <Cell column="Unnamed: 3">4</Cell>
+        <Cell column="Unnamed: 4">Completo</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Reglas de Formato</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3">20</Cell>
+        <Cell column="Unnamed: 4">En Progreso</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Restricciones Críticas</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+        <Cell column="Unnamed: 2">→</Cell>
+        <Cell column="Unnamed: 3">12</Cell>
+        <Cell column="Unnamed: 4">Completo</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="✍️ Sistema de Creación de Contenido">Tasa de Éxito</Cell>
+        <Cell column="Unnamed: 1">95%</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3">98%</Cell>
+        <Cell column="Unnamed: 4">Excelente</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="🎯 Dashboard">
+    <Headers>
+      <Header>📊 Dashboard Interactivo - Sistema de Creación de Contenido</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Fórmula</Cell>
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Total Tipos Contenido</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">Cuenta tipos de contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Contenido Total/Mes</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">Suma de todo el contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Tasa Aprobación Actual</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">Última tasa de aprobación</Cell>
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Promedio Satisfacción</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">Promedio de todas las métricas</Cell>
+      </Row>
+      <Row>
+        <Cell column="📊 Dashboard Interactivo - Sistema de Creación de Contenido">Máxima Tasa Conversión</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">Valor máximo de métricas</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="📋 Datos Detallados">
+    <Headers>
+      <Header>Tipo de Contenido</Header>
+      <Header>Características</Header>
+      <Header>Plataforma</Header>
+      <Header>Longitud Promedio</Header>
+      <Header>Tiempo Producción</Header>
+      <Header>Prioridad</Header>
+      <Header>Score Calculado</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Tipo de Contenido">Blog Articles</Cell>
+        <Cell column="Características">Artículos largos y detallados</Cell>
+        <Cell column="Plataforma">Web</Cell>
+        <Cell column="Longitud Promedio">2000-5000</Cell>
+        <Cell column="Tiempo Producción">2-4h</Cell>
+        <Cell column="Prioridad">Alta</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Social Media</Cell>
+        <Cell column="Características">Contenido conciso optimizado</Cell>
+        <Cell column="Plataforma">Instagram/Twitter</Cell>
+        <Cell column="Longitud Promedio">50-280</Cell>
+        <Cell column="Tiempo Producción">15-30min</Cell>
+        <Cell column="Prioridad">Alta</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Email Marketing</Cell>
+        <Cell column="Características">Mensajes con CTAs fuertes</Cell>
+        <Cell column="Plataforma">Email</Cell>
+        <Cell column="Longitud Promedio">100-500</Cell>
+        <Cell column="Tiempo Producción">30-60min</Cell>
+        <Cell column="Prioridad">Media</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Landing Pages</Cell>
+        <Cell column="Características">Copy persuasivo conversión</Cell>
+        <Cell column="Plataforma">Web</Cell>
+        <Cell column="Longitud Promedio">500-1500</Cell>
+        <Cell column="Tiempo Producción">1-2h</Cell>
+        <Cell column="Prioridad">Alta</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Copywriting</Cell>
+        <Cell column="Características">Lenguaje persuasivo</Cell>
+        <Cell column="Plataforma">Multi-plataforma</Cell>
+        <Cell column="Longitud Promedio">100-1000</Cell>
+        <Cell column="Tiempo Producción">1-3h</Cell>
+        <Cell column="Prioridad">Alta</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Product Descriptions</Cell>
+        <Cell column="Características">Características y beneficios</Cell>
+        <Cell column="Plataforma">E-commerce</Cell>
+        <Cell column="Longitud Promedio">100-300</Cell>
+        <Cell column="Tiempo Producción">20-40min</Cell>
+        <Cell column="Prioridad">Media</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">SEO Content</Cell>
+        <Cell column="Características">Optimizado con keywords</Cell>
+        <Cell column="Plataforma">Web</Cell>
+        <Cell column="Longitud Promedio">1500-3000</Cell>
+        <Cell column="Tiempo Producción">2-3h</Cell>
+        <Cell column="Prioridad">Alta</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+      <Row>
+        <Cell column="Tipo de Contenido">Technical Docs</Cell>
+        <Cell column="Características">Documentación con código</Cell>
+        <Cell column="Plataforma">Web/GitHub</Cell>
+        <Cell column="Longitud Promedio">1000-5000</Cell>
+        <Cell column="Tiempo Producción">3-6h</Cell>
+        <Cell column="Prioridad">Media</Cell>
+        <Cell column="Score Calculado" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="📈 Análisis y Métricas">
+    <Headers>
+      <Header>Métricas de Rendimiento del Sistema</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor Actual</Cell>
+        <Cell column="Unnamed: 2">Valor Anterior</Cell>
+        <Cell column="Unnamed: 3">Cambio %</Cell>
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Tasa de Aprobación</Cell>
+        <Cell column="Unnamed: 1">95</Cell>
+        <Cell column="Unnamed: 2">92</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Tiempo Promedio Producción</Cell>
+        <Cell column="Unnamed: 1">2.5</Cell>
+        <Cell column="Unnamed: 2">3.2</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Satisfacción Usuario</Cell>
+        <Cell column="Unnamed: 1">4.8</Cell>
+        <Cell column="Unnamed: 2">4.6</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Contenido Generado/Mes</Cell>
+        <Cell column="Unnamed: 1">450</Cell>
+        <Cell column="Unnamed: 2">380</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Tasa de Conversión</Cell>
+        <Cell column="Unnamed: 1">12.5</Cell>
+        <Cell column="Unnamed: 2">11.2</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Engagement Rate</Cell>
+        <Cell column="Unnamed: 1">8.3</Cell>
+        <Cell column="Unnamed: 2">7.5</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">SEO Ranking Promedio</Cell>
+        <Cell column="Unnamed: 1">4.2</Cell>
+        <Cell column="Unnamed: 2">3.8</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Tiempo de Respuesta</Cell>
+        <Cell column="Unnamed: 1">0.8</Cell>
+        <Cell column="Unnamed: 2">1.2</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="Métricas de Rendimiento del Sistema">Precisión Brand Voice</Cell>
+        <Cell column="Unnamed: 1">96</Cell>
+        <Cell column="Unnamed: 2">94</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="📊 Gráficos">
+    <Headers>
+      <Header>Tipo</Header>
+      <Header>Cantidad Mensual</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Tipo">Blog Articles</Cell>
+        <Cell column="Cantidad Mensual">120</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Social Media</Cell>
+        <Cell column="Cantidad Mensual">200</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Email Marketing</Cell>
+        <Cell column="Cantidad Mensual">80</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Landing Pages</Cell>
+        <Cell column="Cantidad Mensual">30</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Copywriting</Cell>
+        <Cell column="Cantidad Mensual">50</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Product Descriptions</Cell>
+        <Cell column="Cantidad Mensual">100</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">SEO Content</Cell>
+        <Cell column="Cantidad Mensual">90</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Technical Docs</Cell>
+        <Cell column="Cantidad Mensual">40</Cell>
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo" />
+        <Cell column="Cantidad Mensual" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo" />
+        <Cell column="Cantidad Mensual" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo" />
+        <Cell column="Cantidad Mensual" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo" />
+        <Cell column="Cantidad Mensual" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo" />
+        <Cell column="Cantidad Mensual" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="Tipo">Mes</Cell>
+        <Cell column="Cantidad Mensual">Contenido Generado</Cell>
+        <Cell column="Unnamed: 2">Tasa Aprobación</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">Ene</Cell>
+        <Cell column="Cantidad Mensual">350</Cell>
+        <Cell column="Unnamed: 2">92</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">Feb</Cell>
+        <Cell column="Cantidad Mensual">380</Cell>
+        <Cell column="Unnamed: 2">93</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">Mar</Cell>
+        <Cell column="Cantidad Mensual">410</Cell>
+        <Cell column="Unnamed: 2">94</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">Abr</Cell>
+        <Cell column="Cantidad Mensual">430</Cell>
+        <Cell column="Unnamed: 2">94.5</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">May</Cell>
+        <Cell column="Cantidad Mensual">450</Cell>
+        <Cell column="Unnamed: 2">95</Cell>
+      </Row>
+      <Row>
+        <Cell column="Tipo">Jun</Cell>
+        <Cell column="Cantidad Mensual">470</Cell>
+        <Cell column="Unnamed: 2">95.5</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="📚 Apéndices">
+    <Headers>
+      <Header>Categoría</Header>
+      <Header>Elemento</Header>
+      <Header>Descripción</Header>
+      <Header>Referencia</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Categoría">Formatos</Cell>
+        <Cell column="Elemento">Word (.docx)</Cell>
+        <Cell column="Descripción">Documentos con estilos personalizados</Cell>
+        <Cell column="Referencia">Hoja: Formatos</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Formatos</Cell>
+        <Cell column="Elemento">PDF</Cell>
+        <Cell column="Descripción">Alta calidad con marcadores</Cell>
+        <Cell column="Referencia">Hoja: Formatos</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Formatos</Cell>
+        <Cell column="Elemento">Markdown (.md)</Cell>
+        <Cell column="Descripción">Sintaxis extendida</Cell>
+        <Cell column="Referencia">Hoja: Formatos</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Formatos</Cell>
+        <Cell column="Elemento">Excel (.xlsx)</Cell>
+        <Cell column="Descripción">Múltiples hojas y fórmulas</Cell>
+        <Cell column="Referencia">Hoja: Formatos</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Reglas</Cell>
+        <Cell column="Elemento">Inicio de Contenido</Cell>
+        <Cell column="Descripción">Hook o resumen, nunca header</Cell>
+        <Cell column="Referencia">Hoja: Reglas</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Reglas</Cell>
+        <Cell column="Elemento">Encabezados</Cell>
+        <Cell column="Descripción">Nivel 2 (##) para secciones</Cell>
+        <Cell column="Referencia">Hoja: Reglas</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Reglas</Cell>
+        <Cell column="Elemento">Listas</Cell>
+        <Cell column="Descripción">Planas, sin anidar</Cell>
+        <Cell column="Referencia">Hoja: Reglas</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Reglas</Cell>
+        <Cell column="Elemento">Tablas</Cell>
+        <Cell column="Descripción">Para comparaciones</Cell>
+        <Cell column="Referencia">Hoja: Reglas</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Restricciones</Cell>
+        <Cell column="Elemento">Lenguaje</Cell>
+        <Cell column="Descripción">Sin moralización</Cell>
+        <Cell column="Referencia">Hoja: Restricciones</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Restricciones</Cell>
+        <Cell column="Elemento">Contenido</Cell>
+        <Cell column="Descripción">Sin copyright</Cell>
+        <Cell column="Referencia">Hoja: Restricciones</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Restricciones</Cell>
+        <Cell column="Elemento">Formato</Cell>
+        <Cell column="Descripción">Sin emojis en cuerpo</Cell>
+        <Cell column="Referencia">Hoja: Restricciones</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Colores</Cell>
+        <Cell column="Elemento">Verde Neón</Cell>
+        <Cell column="Descripción">#10b981</Cell>
+        <Cell column="Referencia">Tech Startup</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Colores</Cell>
+        <Cell column="Elemento">Negro</Cell>
+        <Cell column="Descripción">#000000</Cell>
+        <Cell column="Referencia">Tech Startup</Cell>
+      </Row>
+      <Row>
+        <Cell column="Categoría">Colores</Cell>
+        <Cell column="Elemento">Gris Carbón</Cell>
+        <Cell column="Descripción">#374151</Cell>
+        <Cell column="Referencia">Tech Startup</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="⚙️ Configuración">
+    <Headers>
+      <Header>⚙️ Configuración y Validación de Datos</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos">Parámetro</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Tipo Validación</Cell>
+        <Cell column="Unnamed: 3">Descripción</Cell>
+      </Row>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos">Prioridad Mínima</Cell>
+        <Cell column="Unnamed: 1">Media</Cell>
+        <Cell column="Unnamed: 2">Lista: Alta,Media,Baja</Cell>
+        <Cell column="Unnamed: 3">Prioridad mínima aceptable</Cell>
+      </Row>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos">Tiempo Máximo (horas)</Cell>
+        <Cell column="Unnamed: 1">6</Cell>
+        <Cell column="Unnamed: 2">Número: 0-24</Cell>
+        <Cell column="Unnamed: 3">Tiempo máximo de producción</Cell>
+      </Row>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos">Longitud Mínima</Cell>
+        <Cell column="Unnamed: 1">50</Cell>
+        <Cell column="Unnamed: 2">Número: &gt;0</Cell>
+        <Cell column="Unnamed: 3">Longitud mínima de contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="⚙️ Configuración y Validación de Datos">Tasa Aprobación Mínima</Cell>
+        <Cell column="Unnamed: 1">90%</Cell>
+        <Cell column="Unnamed: 2">Porcentaje: 0-100%</Cell>
+        <Cell column="Unnamed: 3">Tasa mínima de aprobación</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="💰 ROI &amp; Costos">
+    <Headers>
+      <Header>💰 Calculadora de ROI y Análisis de Costos</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Concepto</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Fórmula</Cell>
+        <Cell column="Unnamed: 3">Resultado</Cell>
+        <Cell column="Unnamed: 4">Notas</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Costo por Pieza de Contenido</Cell>
+        <Cell column="Unnamed: 1">50</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Valor fijo</Cell>
+        <Cell column="Unnamed: 4">Costo promedio de producción</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Piezas Generadas/Mes</Cell>
+        <Cell column="Unnamed: 1">450</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Del sistema</Cell>
+        <Cell column="Unnamed: 4">Del dashboard</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Costo Total Mensual</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Cálculo automático</Cell>
+        <Cell column="Unnamed: 4">Costo total de producción</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Tiempo Ahorrado (horas/mes)</Cell>
+        <Cell column="Unnamed: 1">200</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Estimado</Cell>
+        <Cell column="Unnamed: 4">Tiempo ahorrado vs manual</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Valor Hora Trabajo</Cell>
+        <Cell column="Unnamed: 1">75</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Tarifa estándar</Cell>
+        <Cell column="Unnamed: 4">Costo por hora de trabajo</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Ahorro en Tiempo ($)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Cálculo automático</Cell>
+        <Cell column="Unnamed: 4">Ahorro monetario</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">ROI Mensual (%)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Porcentaje</Cell>
+        <Cell column="Unnamed: 4">Retorno de inversión</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">ROI Anual (%)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Proyección</Cell>
+        <Cell column="Unnamed: 4">ROI anualizado</Cell>
+      </Row>
+      <Row>
+        <Cell column="💰 Calculadora de ROI y Análisis de Costos">Break-even (meses)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Cálculo</Cell>
+        <Cell column="Unnamed: 4">Meses para recuperar inversión</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="🔮 Análisis Predictivo">
+    <Headers>
+      <Header>🔮 Análisis Predictivo y Proyecciones</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor Actual</Cell>
+        <Cell column="Unnamed: 2">Tendencia</Cell>
+        <Cell column="Unnamed: 3">Proyección 3 Meses</Cell>
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Contenido/Mes</Cell>
+        <Cell column="Unnamed: 1">450</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Tasa Aprobación</Cell>
+        <Cell column="Unnamed: 1">95</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Tiempo Producción</Cell>
+        <Cell column="Unnamed: 1">2.5</Cell>
+        <Cell column="Unnamed: 2">↓</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Satisfacción</Cell>
+        <Cell column="Unnamed: 1">4.8</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="🔮 Análisis Predictivo y Proyecciones">Engagement Rate</Cell>
+        <Cell column="Unnamed: 1">8.3</Cell>
+        <Cell column="Unnamed: 2">↑</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="📝 Plantillas">
+    <Headers>
+      <Header>📝 Plantillas y Ejemplos de Uso</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Tipo de Contenido</Cell>
+        <Cell column="Unnamed: 1">Plantilla</Cell>
+        <Cell column="Unnamed: 2">Ejemplo de Uso</Cell>
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Blog Article</Cell>
+        <Cell column="Unnamed: 1">Hook + 3 Secciones + CTA</Cell>
+        <Cell column="Unnamed: 2">Artículo educativo de 2000 palabras</Cell>
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Social Media</Cell>
+        <Cell column="Unnamed: 1">Hook + Valor + CTA</Cell>
+        <Cell column="Unnamed: 2">Post de Instagram optimizado</Cell>
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Email</Cell>
+        <Cell column="Unnamed: 1">Asunto + Cuerpo + CTA</Cell>
+        <Cell column="Unnamed: 2">Newsletter semanal</Cell>
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Landing Page</Cell>
+        <Cell column="Unnamed: 1">Headline + Beneficios + CTA</Cell>
+        <Cell column="Unnamed: 2">Página de producto</Cell>
+      </Row>
+      <Row>
+        <Cell column="📝 Plantillas y Ejemplos de Uso">Copywriting</Cell>
+        <Cell column="Unnamed: 1">Propuesta + Prueba Social + CTA</Cell>
+        <Cell column="Unnamed: 2">Anuncio publicitario</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

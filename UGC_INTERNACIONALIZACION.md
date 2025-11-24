@@ -361,3 +361,5 @@ Adaptar contenido para:
 **Uso**: Expandir alcance global manteniendo relevancia local
 
 
+
+

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="DASHBOARD_METRICAS_PROFESIONAL">
+  <Sheet name="Resumen">
+    <Headers>
+      <Header>/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Generado: 22/11/2025 15:59</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">MÉTRICAS PRINCIPALES</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">POR PLATAFORMA</Cell>
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Candidatos Identificados</Cell>
+        <Cell column="Unnamed: 1">150</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Plataforma</Cell>
+        <Cell column="Unnamed: 4">Candidatos</Cell>
+        <Cell column="Unnamed: 5">Contactados</Cell>
+        <Cell column="Unnamed: 6">Respuestas</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Verificados</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Instagram</Cell>
+        <Cell column="Unnamed: 4">80</Cell>
+        <Cell column="Unnamed: 5">35</Cell>
+        <Cell column="Unnamed: 6">10</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Contactados</Cell>
+        <Cell column="Unnamed: 1">60</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">TikTok</Cell>
+        <Cell column="Unnamed: 4">40</Cell>
+        <Cell column="Unnamed: 5">15</Cell>
+        <Cell column="Unnamed: 6">3</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Respuestas</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">Twitter</Cell>
+        <Cell column="Unnamed: 4">20</Cell>
+        <Cell column="Unnamed: 5">8</Cell>
+        <Cell column="Unnamed: 6">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Tasa de Respuesta</Cell>
+        <Cell column="Unnamed: 1">25%</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3">YouTube</Cell>
+        <Cell column="Unnamed: 4">10</Cell>
+        <Cell column="Unnamed: 5">2</Cell>
+        <Cell column="Unnamed: 6">0</Cell>
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">Colaboraciones Activas</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="/Users/Adan/Documents/Documentos Blatam/01 Marketing/Dashboard Metricas">ROI</Cell>
+        <Cell column="Unnamed: 1">200%</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

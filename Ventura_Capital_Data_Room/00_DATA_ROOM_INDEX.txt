@@ -1,0 +1,40 @@
+VENTURA CAPITAL - DATA ROOM INDEX (EXTENDED)
+===========================================
+
+[01_Financials]
+  - Ventura_Capital_Herramientas_V3.xlsx
+  - Ventura_Capital_Master_Model_V5.xlsx
+
+[02_Legal]
+  - Ventura_Capital_Documentacion_V2.docx
+  - Ventura_Capital_IP_Assignment_Template.docx
+
+[03_Investment_Deck]
+  - Ventura_Capital_Demo_Script.docx
+  - Ventura_Capital_Investment_Memo.docx
+  - Ventura_Capital_Pitch_Deck_V2.pptx
+  - Ventura_Capital_Teaser.docx
+
+[04_Strategy_Market]
+  - Ventura_Capital_Exit_Strategy.docx
+  - Ventura_Capital_GTM_Playbook.docx
+  - Ventura_Capital_Investor_FAQ.docx
+
+[05_Technical_Due_Diligence]
+  - Ventura_Capital_Tech_Brief.docx
+
+[06_Customer_Traction]
+  - Ventura_Capital_Case_Studies.docx
+
+[07_Governance_Compliance]
+  - Ventura_Capital_ESG_Policy.docx
+
+[08_Product_Roadmap]
+  - Ventura_Capital_Product_Roadmap.xlsx
+
+[09_Talent_Culture]
+  - Ventura_Capital_Key_Hires_JDs.docx
+
+[10_Process_Management]
+  - Ventura_Capital_DD_Request_Tracker.xlsx
+

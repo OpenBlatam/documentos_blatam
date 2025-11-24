@@ -1,0 +1,248 @@
+======================================================================
+EXPORTACIÓN DE: SISTEMA_CALENDARIO_CONTENIDO_REDES_SOCIALES.xlsx
+Fecha: 22/11/2025 16:23:07
+======================================================================
+
+
+======================================================================
+HOJA: 00_Portada
+======================================================================
+
+            SISTEMA DE CALENDARIO DE CONTENIDO                                     Unnamed: 1                                 Unnamed: 2
+                             DE REDES SOCIALES                                            NaN                                        NaN
+                                           NaN                                            NaN                                        NaN
+Sistema de Prompt para Inteligencia Artificial                                            NaN                                        NaN
+                                           NaN                                            NaN                                        NaN
+                                      Versión:                                            1.0                                        NaN
+                                        Fecha:                                  November 2025                                        NaN
+                                    Categoría: Marketing Digital - Planificación de Contenido                                        NaN
+                                           NaN                                            NaN                                        NaN
+                               ÍNDICE DE HOJAS                                            NaN                                        NaN
+                                          Hoja                                      Contenido                                Descripción
+                                    00_Portada                               Portada e Índice          Información general del documento
+                                01_Información                            Información General            Metadatos y versión del sistema
+                                   02_Objetivo                           Objetivo del Sistema            Descripción del rol y propósito
+                             03_Reglas_Formato                              Reglas de Formato        Instrucciones de formato detalladas
+                              04_Restricciones                                  Restricciones            Lista completa de restricciones
+                             05_Tipos_Consulta                              Tipos de Consulta            Tipos de calendarios soportados
+                              06_Planificación                        Reglas de Planificación       Proceso de planificación estratégica
+                           07_Especificaciones                     Especificaciones de Salida         Requisitos de estructura y calidad
+                                  08_Checklist                           Checklist de Calidad    Lista de verificación antes de entregar
+                                09_Plataformas                     Estrategias por Plataforma Recomendaciones específicas por plataforma
+                                  10_Contenido                             Tipos de Contenido            Variedad y balance de contenido
+                                   11_Métricas                                Métricas y KPIs                 Indicadores de rendimiento
+
+
+======================================================================
+HOJA: 01_Información
+======================================================================
+
+INFORMACIÓN GENERAL DEL SISTEMA                                                           Unnamed: 1                           Unnamed: 2
+                            NaN                                                                  NaN                                  NaN
+                          Campo                                                                Valor                          Descripción
+                        Versión                                                                  1.0 Versión actual del sistema de prompt
+              Fecha de Creación                                                        November 2025        Fecha de última actualización
+                Tipo de Sistema                                            Sistema de Prompt para IA                    Tipo de documento
+                      Categoría                                                    Marketing Digital                   Área de aplicación
+                   Subcategoría                                           Planificación de Contenido                      Especialización
+         Plataformas Soportadas Instagram, Facebook, Twitter/X, LinkedIn, TikTok, YouTube, Pinterest             Redes sociales cubiertas
+               Idioma Principal                                                       Español/Inglés                   Idiomas de trabajo
+              Formato de Salida                                                  Markdown con tablas   Formato requerido para calendarios
+
+
+======================================================================
+HOJA: 09_Plataformas
+======================================================================
+
+ESTRATEGIAS POR PLATAFORMA         Unnamed: 1             Unnamed: 2                    Unnamed: 3          Unnamed: 4                Unnamed: 5
+                       NaN                NaN                    NaN                           NaN                 NaN                       NaN
+                Plataforma      Mejor Horario Frecuencia Recomendada             Tipo de Contenido            Hashtags                     Notas
+                 Instagram 11 AM - 1 PM (L-V)               1-2x/día        Visual, Stories, Reels       5-10 hashtags Enfoque visual y estético
+                  Facebook       1-3 PM (L-V)                 1x/día    Comunidad, contenido largo        1-2 hashtags      Enfoque en comunidad
+                 Twitter/X    8-9 AM, 12-1 PM               3-5x/día   Tendencias, mensajes cortos        1-2 hashtags      Tiempo real, conciso
+                  LinkedIn       8-9 AM (L-V)                 1x/día        Profesional, liderazgo        3-5 hashtags      Tono profesional B2B
+                    TikTok    6-10 AM, 7-9 PM               1-3x/día     Videos cortos, tendencias        3-5 hashtags  Autenticidad, tendencias
+                   YouTube       2-4 PM (L-V)            2-3x/semana Educativo, series, tutoriales Títulos optimizados           Contenido largo
+                 Pinterest    8-11 PM, 2-4 AM              5-10x/día        Visual, descubrimiento           Rich Pins           Búsqueda visual
+
+
+======================================================================
+HOJA: 10_Contenido
+======================================================================
+
+TIPOS DE CONTENIDO Y BALANCE             Unnamed: 1            Unnamed: 2                    Unnamed: 3
+                         NaN                    NaN                   NaN                           NaN
+           Tipo de Contenido Porcentaje Recomendado              Objetivo                      Ejemplos
+                   Educativo                     30   Valor, conocimiento       How-tos, tips, insights
+             Entretenimiento                     25 Engagement, diversión      Behind-the-scenes, humor
+                 Promocional                     20  Conversiones, ventas Productos, ofertas, servicios
+   Construcción de Comunidad                     15     Relación, lealtad         Preguntas, polls, UGC
+        Liderazgo de Opinión                     10  Autoridad, confianza       Tendencias, comentarios
+
+
+======================================================================
+HOJA: 11_Métricas
+======================================================================
+
+          MÉTRICAS Y KPIs           Unnamed: 1     Unnamed: 2 Unnamed: 3                                 Unnamed: 4
+                      NaN                  NaN            NaN        NaN                                        NaN
+                  Métrica           Plataforma       Objetivo  Benchmark                                    Fórmula
+       Tasa de Engagement                Todas           3-5%       2-3%    (Likes+Comentarios+Compartidos)/Alcance
+                  Alcance                Todas   Aumentar 20%   Baseline       Usuarios únicos que ven el contenido
+                    Clics   Facebook, LinkedIn       2-3% CTR   1-2% CTR                          Clics/Impresiones
+             Conversiones                Todas           1-2%     0.5-1%                       Conversiones/Visitas
+Crecimiento de Seguidores                Todas      5-10%/mes   3-5%/mes (Nuevos seguidores/Seguidores totales)*100
+  Tiempo de Visualización      YouTube, TikTok >50% del video     30-40%             Tiempo promedio/duración total
+                Guardados Instagram, Pinterest           2-3%       1-2%                      Guardados/Impresiones
+
+
+======================================================================
+HOJA: 12_Plantilla_Brief
+======================================================================
+
+PLANTILLA DE BRIEF PARA CALENDARIO          Unnamed: 1                 Unnamed: 2
+                               NaN                 NaN                        NaN
+                             Campo         Descripción                    Ejemplo
+                             Marca  Nombre de la marca             TechStart Inc.
+                       Plataformas      Redes sociales        Instagram, LinkedIn
+                           Período            Duración          Semanal o Mensual
+                         Objetivos Objetivos marketing      Awareness, Engagement
+                         Audiencia         Descripción              Mujeres 25-40
+                             Temas   Pilares contenido Innovación, Sostenibilidad
+
+
+======================================================================
+HOJA: 13_Calculadora
+======================================================================
+
+CALCULADORA DE FRECUENCIA Unnamed: 1   Unnamed: 2 Unnamed: 3
+                      NaN        NaN          NaN        NaN
+               Plataforma Frecuencia Posts/Semana  Posts/Mes
+                Instagram   1-2x/día         10.5        NaN
+                 Facebook     1x/día            7        NaN
+                Twitter/X   3-5x/día           28        NaN
+                 LinkedIn     1x/día            7        NaN
+                   TikTok   1-3x/día           14        NaN
+
+
+======================================================================
+HOJA: 14_Comparativa
+======================================================================
+
+COMPARATIVA DE PLATAFORMAS Unnamed: 1 Unnamed: 2  Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6
+                       NaN        NaN        NaN         NaN        NaN        NaN        NaN
+                Plataforma    Horario Frecuencia     Formato   Hashtags    Alcance Engagement
+                 Instagram 11 AM-1 PM       Alta      Visual       5-10       Alto       Alto
+                  Facebook     1-3 PM      Media Texto/Video        1-2   Muy Alto      Medio
+                 Twitter/X     8-9 AM   Muy Alta       Texto        1-2      Medio      Medio
+                  LinkedIn     8-9 AM       Baja Texto/Video        3-5      Medio       Alto
+                    TikTok    6-10 AM       Alta       Video        3-5       Alto   Muy Alto
+
+
+======================================================================
+HOJA: 15_Implementación
+======================================================================
+
+CHECKLIST DE IMPLEMENTACIÓN         Unnamed: 1  Unnamed: 2 Unnamed: 3 Unnamed: 4
+                        NaN                NaN         NaN        NaN        NaN
+                       Fase              Tarea Responsable     Estado      Fecha
+                Preparación      Revisar brief         NaN  Pendiente        NaN
+                Preparación  Validar objetivos         NaN  Pendiente        NaN
+                   Creación Generar calendario         NaN  Pendiente        NaN
+                 Aprobación   Revisión interna         NaN  Pendiente        NaN
+                 Producción    Crear contenido         NaN  Pendiente        NaN
+                  Ejecución           Publicar         NaN  Pendiente        NaN
+
+
+======================================================================
+HOJA: 16_Dashboard
+======================================================================
+
+DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO Unnamed: 1          Unnamed: 2             Unnamed: 3   Unnamed: 4 Unnamed: 5
+         Última actualización: 22/11/2025 02:03        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                              RESUMEN EJECUTIVO        NaN                 NaN                    NaN          NaN        NaN
+                                        Métrica      Valor            Objetivo                 Estado          NaN        NaN
+                              Posts Programados         45                  50                    NaN          NaN        NaN
+                            Plataformas Activas          4                   4                    NaN          NaN        NaN
+                                Engagement Rate       5.2%                5.0%                    NaN          NaN        NaN
+                                  Alcance Total      12500               10000                    NaN          NaN        NaN
+                                   Conversiones         85                  80                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                        MÉTRICAS POR PLATAFORMA        NaN                 NaN                    NaN          NaN        NaN
+                                     Plataforma      Posts          Engagement                Alcance Conversiones        ROI
+                                      Instagram         20                6.2%                   8500           45       320%
+                                       Facebook         15                4.8%                  12000           25       280%
+                                       LinkedIn          8                5.5%                   3500           12       350%
+                                      Twitter/X         12                3.2%                   2800            3       150%
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                                            NaN        NaN                 NaN                    NaN          NaN        NaN
+                          ANÁLISIS DE CONTENIDO        NaN                 NaN                    NaN          NaN        NaN
+                              Tipo de Contenido   Cantidad Engagement Promedio      Mejor Performador          NaN        NaN
+                                      Educativo         15                6.5% Guía de sostenibilidad          NaN        NaN
+                                Entretenimiento         12                5.2%      Behind-the-scenes          NaN        NaN
+                                    Promocional         10                4.1%          Oferta verano          NaN        NaN
+                                      Comunidad          8                7.8%           UGC campaign          NaN        NaN
+
+
+======================================================================
+HOJA: 17_Análisis
+======================================================================
+
+ANÁLISIS DE RENDIMIENTO Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4
+                    NaN        NaN        NaN        NaN        NaN
+    RENDIMIENTO SEMANAL        NaN        NaN        NaN        NaN
+                 Semana      Posts Engagement    Alcance  Tendencia
+               Semana 1         12       5.1%       8500          ↑
+               Semana 2         11       5.3%       9200          ↑
+               Semana 3         13       5.8%      10500          ↑
+               Semana 4          9       4.9%       7800          ↓
+
+
+======================================================================
+HOJA: 18_Validación
+======================================================================
+
+SISTEMA DE VALIDACIÓN DE CALENDARIOS                        Unnamed: 1 Unnamed: 2       Unnamed: 3 Unnamed: 4
+                                 NaN                               NaN        NaN              NaN        NaN
+             CHECKLIST DE VALIDACIÓN                               NaN        NaN              NaN        NaN
+                           Categoría                              Item     Estado            Notas     Puntos
+                          Estructura             Introducción presente        NaN              NaN          5
+                          Estructura    Tabla formateada correctamente        NaN              NaN         10
+                          Estructura                  Resumen presente        NaN              NaN          5
+                           Contenido      Completitud (todos los días)        NaN              NaN         10
+                           Contenido Calidad (específico, no genérico)        NaN              NaN         10
+                           Contenido    Balance (80/20 o especificado)        NaN              NaN         10
+                               Datos                  Fechas correctas        NaN              NaN          5
+                               Datos                Horarios correctos        NaN              NaN          5
+                               Datos             Plataformas correctas        NaN              NaN          5
+                               Datos                   Datos completos        NaN              NaN          5
+                          Estrategia          Alineación con objetivos        NaN              NaN          7
+                          Estrategia          Alineación con audiencia        NaN              NaN          7
+                          Estrategia              Alineación con marca        NaN              NaN          6
+                        Optimización              Frecuencia apropiada        NaN              NaN          3
+                        Optimización                 Timing optimizado        NaN              NaN          4
+                        Optimización          Repurposing identificado        NaN              NaN          3
+                                 NaN                               NaN        NaN              NaN        NaN
+                        SCORE TOTAL:                               NaN        NaN              NaN        NaN
+                                 NaN                               NaN        NaN              NaN        NaN
+                       CALIFICACIÓN:                               NaN        NaN              NaN        NaN
+                                 NaN                               NaN        NaN              NaN        NaN
+             PROBLEMAS IDENTIFICADOS                               NaN        NaN              NaN        NaN
+                                   #                          Problema  Severidad Acción Requerida     Estado
+                                   1                               NaN        NaN              NaN        NaN
+                                   2                               NaN        NaN              NaN        NaN
+                                   3                               NaN        NaN              NaN        NaN
+                                   4                               NaN        NaN              NaN        NaN
+                                   5                               NaN        NaN              NaN        NaN
+

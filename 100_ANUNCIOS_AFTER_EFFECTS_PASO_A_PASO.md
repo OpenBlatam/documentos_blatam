@@ -1574,3 +1574,5 @@ ease(time, inPoint, inPoint + 0.5, [540, startY], [540, endY]);
 **Versión:** 1.0
 
 
+
+

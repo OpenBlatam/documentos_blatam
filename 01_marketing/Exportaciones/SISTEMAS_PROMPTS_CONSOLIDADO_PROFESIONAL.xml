@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="SISTEMAS_PROMPTS_CONSOLIDADO_PROFESIONAL">
+  <Sheet name="Resumen Sistemas">
+    <Headers>
+      <Header>SISTEMAS DE PROMPTS CONSOLIDADOS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Sistema</Cell>
+        <Cell column="Unnamed: 1">Tipo</Cell>
+        <Cell column="Unnamed: 2">Variantes</Cell>
+        <Cell column="Unnamed: 3">Estado</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Perplexity</Cell>
+        <Cell column="Unnamed: 1">Búsqueda</Cell>
+        <Cell column="Unnamed: 2">1</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">UGC Videos</Cell>
+        <Cell column="Unnamed: 1">Contenido</Cell>
+        <Cell column="Unnamed: 2">5</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Creación Contenido</Cell>
+        <Cell column="Unnamed: 1">Contenido</Cell>
+        <Cell column="Unnamed: 2">7</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Calendario Social</Cell>
+        <Cell column="Unnamed: 1">Planificación</Cell>
+        <Cell column="Unnamed: 2">3</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Diseño Gráfico</Cell>
+        <Cell column="Unnamed: 1">Diseño</Cell>
+        <Cell column="Unnamed: 2">8</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMAS DE PROMPTS CONSOLIDADOS">Ventas y Cierre</Cell>
+        <Cell column="Unnamed: 1">Ventas</Cell>
+        <Cell column="Unnamed: 2">8</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

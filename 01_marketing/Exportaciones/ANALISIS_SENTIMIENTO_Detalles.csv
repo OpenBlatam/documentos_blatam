@@ -1,0 +1,11 @@
+Sentimiento,Score,Positivo,Negativo,Neutral,Total Palabras
+positivo,0.1666666666666667,3,0,0,18
+neutral,0.07142857142857142,1,0,0,14
+neutral,0.0,0,0,0,13
+neutral,0.08333333333333333,1,0,0,12
+neutral,0.09090909090909091,1,0,0,11
+neutral,-0.07692307692307693,1,2,0,13
+neutral,0.09090909090909091,1,0,0,11
+negativo,-0.2222222222222222,0,2,0,9
+neutral,0.1,1,0,0,10
+neutral,0.0,0,0,1,10

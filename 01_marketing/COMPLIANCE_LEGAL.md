@@ -401,3 +401,5 @@ PROTECCIÓN DE DATOS (GDPR)
 **Nota:** El compliance legal es crítico. Siempre consulta con un abogado para asesoría específica a tu situación.
 
 
+
+

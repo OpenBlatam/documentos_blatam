@@ -1,0 +1,13 @@
+{
+  "industria": "marketing",
+  "nombre": "Marketing",
+  "colores": {
+    "primary": "#E1306C",
+    "secondary": "#FF9800",
+    "accent": "#2196F3"
+  },
+  "fuente": "Arial",
+  "estilo": "vibrante",
+  "fecha_creacion": "2025-11-22T16:13:39.925870",
+  "version": "1.0"
+}

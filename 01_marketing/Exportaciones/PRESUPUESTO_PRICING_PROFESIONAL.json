@@ -1,0 +1,84 @@
+{
+  "Resumen": [
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Generado: 22/11/2025 15:59",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Tipo Influencer",
+      "Unnamed: 1": "Plataforma",
+      "Unnamed: 2": "Tipo Contenido",
+      "Unnamed: 3": "Precio Min",
+      "Unnamed: 4": "Precio Max",
+      "Unnamed: 5": "Promedio"
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Nano (1K-10K)",
+      "Unnamed: 1": "Instagram",
+      "Unnamed: 2": "Post Feed",
+      "Unnamed: 3": 10,
+      "Unnamed: 4": 100,
+      "Unnamed: 5": 55
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Nano (1K-10K)",
+      "Unnamed: 1": "Instagram",
+      "Unnamed: 2": "Reel/Video",
+      "Unnamed: 3": 20,
+      "Unnamed: 4": 150,
+      "Unnamed: 5": 85
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Nano (1K-10K)",
+      "Unnamed: 1": "TikTok",
+      "Unnamed: 2": "Video",
+      "Unnamed: 3": 5,
+      "Unnamed: 4": 50,
+      "Unnamed: 5": 27
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Micro (10K-100K)",
+      "Unnamed: 1": "Instagram",
+      "Unnamed: 2": "Post Feed",
+      "Unnamed: 3": 100,
+      "Unnamed: 4": 1000,
+      "Unnamed: 5": 550
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Micro (10K-100K)",
+      "Unnamed: 1": "Instagram",
+      "Unnamed: 2": "Reel/Video",
+      "Unnamed: 3": 200,
+      "Unnamed: 4": 1500,
+      "Unnamed: 5": 850
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Micro (10K-100K)",
+      "Unnamed: 1": "TikTok",
+      "Unnamed: 2": "Video",
+      "Unnamed: 3": 50,
+      "Unnamed: 4": 500,
+      "Unnamed: 5": 275
+    },
+    {
+      "/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing": "Micro (10K-100K)",
+      "Unnamed: 1": "YouTube",
+      "Unnamed: 2": "Video Dedicado",
+      "Unnamed: 3": 500,
+      "Unnamed: 4": 3000,
+      "Unnamed: 5": 1750
+    }
+  ]
+}

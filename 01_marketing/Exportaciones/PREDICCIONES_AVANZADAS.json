@@ -1,0 +1,110 @@
+{
+  "Predicción Lineal": [
+    {
+      "Mes": "2025-01-31",
+      "Inversión": 1380.102300692247,
+      "Ventas": 3393.611946456521,
+      "ROI": "245.9%"
+    },
+    {
+      "Mes": "2025-02-28",
+      "Inversión": 1436.302998445795,
+      "Ventas": 3552.686883923344,
+      "ROI": "247.3%"
+    },
+    {
+      "Mes": "2025-03-31",
+      "Inversión": 1492.503696199343,
+      "Ventas": 3711.761821390167,
+      "ROI": "248.7%"
+    },
+    {
+      "Mes": "2025-04-30",
+      "Inversión": 1548.704393952891,
+      "Ventas": 3870.836758856991,
+      "ROI": "249.9%"
+    },
+    {
+      "Mes": "2025-05-31",
+      "Inversión": 1604.905091706438,
+      "Ventas": 4029.911696323814,
+      "ROI": "251.1%"
+    },
+    {
+      "Mes": "2025-06-30",
+      "Inversión": 1661.105789459986,
+      "Ventas": 4188.986633790638,
+      "ROI": "252.2%"
+    }
+  ],
+  "Predicción Polinomial": [
+    {
+      "Mes": "2025-01-31",
+      "Inversión": 1243.242992067381,
+      "Ventas": 2966.477843799816,
+      "ROI": "238.6%"
+    },
+    {
+      "Mes": "2025-02-28",
+      "Inversión": 1236.27785507099,
+      "Ventas": 2928.413964655854,
+      "ROI": "236.9%"
+    },
+    {
+      "Mes": "2025-03-31",
+      "Inversión": 1220.289027396037,
+      "Ventas": 2862.187397424636,
+      "ROI": "234.5%"
+    },
+    {
+      "Mes": "2025-04-30",
+      "Inversión": 1195.276509042521,
+      "Ventas": 2767.798142106164,
+      "ROI": "231.6%"
+    },
+    {
+      "Mes": "2025-05-31",
+      "Inversión": 1161.240300010443,
+      "Ventas": 2645.246198700436,
+      "ROI": "227.8%"
+    },
+    {
+      "Mes": "2025-06-30",
+      "Inversión": 1118.180400299801,
+      "Ventas": 2494.531567207454,
+      "ROI": "223.1%"
+    }
+  ],
+  "Comparativa Modelos": [
+    {
+      "COMPARATIVA DE MODELOS PREDICTIVOS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "COMPARATIVA DE MODELOS PREDICTIVOS": "Modelo",
+      "Unnamed: 1": "Inversión Promedio",
+      "Unnamed: 2": "Ventas Promedio",
+      "Unnamed: 3": "ROI Promedio"
+    },
+    {
+      "COMPARATIVA DE MODELOS PREDICTIVOS": "Lineal",
+      "Unnamed: 1": "$1,521",
+      "Unnamed: 2": "$3,791",
+      "Unnamed: 3": "249.2%"
+    },
+    {
+      "COMPARATIVA DE MODELOS PREDICTIVOS": "Polinomial",
+      "Unnamed: 1": "$1,196",
+      "Unnamed: 2": "$2,777",
+      "Unnamed: 3": "232.1%"
+    },
+    {
+      "COMPARATIVA DE MODELOS PREDICTIVOS": "EMA",
+      "Unnamed: 1": "$1,598",
+      "Unnamed: 2": "$3,498",
+      "Unnamed: 3": "219.0%"
+    }
+  ]
+}

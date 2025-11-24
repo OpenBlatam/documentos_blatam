@@ -1,0 +1,9 @@
+MATRIZ DE VALIDACIÓN Y TESTING,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Criterio de Validación,Tipo Test,Frecuencia,Resultado Actual,Objetivo,Estado,Última Ejecución
+Completitud de Brief,Automático,Por solicitud,95,90,,2025-05-13 00:00:00
+Formato Correcto,Automático,Por solicitud,98,95,,2025-05-13 00:00:00
+Restricciones Cumplidas,Automático,Por solicitud,97,95,,2025-05-13 00:00:00
+Calidad de Contenido,Manual,Semanal,92,90,,2025-05-10 00:00:00
+Satisfacción Usuario,Manual,Mensual,87,85,,2025-05-01 00:00:00
+Tiempo de Respuesta,Automático,Diario,2.5,3,,2025-05-13 00:00:00
+Tasa de Error,Automático,Diario,2,5,,2025-05-13 00:00:00

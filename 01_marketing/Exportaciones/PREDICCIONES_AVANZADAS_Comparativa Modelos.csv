@@ -1,0 +1,6 @@
+COMPARATIVA DE MODELOS PREDICTIVOS,Unnamed: 1,Unnamed: 2,Unnamed: 3
+,,,
+Modelo,Inversión Promedio,Ventas Promedio,ROI Promedio
+Lineal,"$1,521","$3,791",249.2%
+Polinomial,"$1,196","$2,777",232.1%
+EMA,"$1,598","$3,498",219.0%

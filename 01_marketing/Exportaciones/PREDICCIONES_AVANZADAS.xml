@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="PREDICCIONES_AVANZADAS">
+  <Sheet name="Predicción Lineal">
+    <Headers>
+      <Header>Mes</Header>
+      <Header>Inversión</Header>
+      <Header>Ventas</Header>
+      <Header>ROI</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Mes">2025-01-31</Cell>
+        <Cell column="Inversión">1380.102300692247</Cell>
+        <Cell column="Ventas">3393.611946456521</Cell>
+        <Cell column="ROI">245.9%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-02-28</Cell>
+        <Cell column="Inversión">1436.302998445795</Cell>
+        <Cell column="Ventas">3552.686883923344</Cell>
+        <Cell column="ROI">247.3%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-03-31</Cell>
+        <Cell column="Inversión">1492.503696199343</Cell>
+        <Cell column="Ventas">3711.761821390167</Cell>
+        <Cell column="ROI">248.7%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-04-30</Cell>
+        <Cell column="Inversión">1548.704393952891</Cell>
+        <Cell column="Ventas">3870.836758856991</Cell>
+        <Cell column="ROI">249.9%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-05-31</Cell>
+        <Cell column="Inversión">1604.905091706438</Cell>
+        <Cell column="Ventas">4029.911696323814</Cell>
+        <Cell column="ROI">251.1%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-06-30</Cell>
+        <Cell column="Inversión">1661.105789459986</Cell>
+        <Cell column="Ventas">4188.986633790638</Cell>
+        <Cell column="ROI">252.2%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Predicción Polinomial">
+    <Headers>
+      <Header>Mes</Header>
+      <Header>Inversión</Header>
+      <Header>Ventas</Header>
+      <Header>ROI</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="Mes">2025-01-31</Cell>
+        <Cell column="Inversión">1243.242992067381</Cell>
+        <Cell column="Ventas">2966.477843799816</Cell>
+        <Cell column="ROI">238.6%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-02-28</Cell>
+        <Cell column="Inversión">1236.27785507099</Cell>
+        <Cell column="Ventas">2928.413964655854</Cell>
+        <Cell column="ROI">236.9%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-03-31</Cell>
+        <Cell column="Inversión">1220.289027396037</Cell>
+        <Cell column="Ventas">2862.187397424636</Cell>
+        <Cell column="ROI">234.5%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-04-30</Cell>
+        <Cell column="Inversión">1195.276509042521</Cell>
+        <Cell column="Ventas">2767.798142106164</Cell>
+        <Cell column="ROI">231.6%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-05-31</Cell>
+        <Cell column="Inversión">1161.240300010443</Cell>
+        <Cell column="Ventas">2645.246198700436</Cell>
+        <Cell column="ROI">227.8%</Cell>
+      </Row>
+      <Row>
+        <Cell column="Mes">2025-06-30</Cell>
+        <Cell column="Inversión">1118.180400299801</Cell>
+        <Cell column="Ventas">2494.531567207454</Cell>
+        <Cell column="ROI">223.1%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Comparativa Modelos">
+    <Headers>
+      <Header>COMPARATIVA DE MODELOS PREDICTIVOS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="COMPARATIVA DE MODELOS PREDICTIVOS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE MODELOS PREDICTIVOS">Modelo</Cell>
+        <Cell column="Unnamed: 1">Inversión Promedio</Cell>
+        <Cell column="Unnamed: 2">Ventas Promedio</Cell>
+        <Cell column="Unnamed: 3">ROI Promedio</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE MODELOS PREDICTIVOS">Lineal</Cell>
+        <Cell column="Unnamed: 1">$1,521</Cell>
+        <Cell column="Unnamed: 2">$3,791</Cell>
+        <Cell column="Unnamed: 3">249.2%</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE MODELOS PREDICTIVOS">Polinomial</Cell>
+        <Cell column="Unnamed: 1">$1,196</Cell>
+        <Cell column="Unnamed: 2">$2,777</Cell>
+        <Cell column="Unnamed: 3">232.1%</Cell>
+      </Row>
+      <Row>
+        <Cell column="COMPARATIVA DE MODELOS PREDICTIVOS">EMA</Cell>
+        <Cell column="Unnamed: 1">$1,598</Cell>
+        <Cell column="Unnamed: 2">$3,498</Cell>
+        <Cell column="Unnamed: 3">219.0%</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

@@ -1,0 +1,13 @@
+{
+  "industria": "financiero",
+  "nombre": "Financiero",
+  "colores": {
+    "primary": "#1F4E78",
+    "secondary": "#D4AF37",
+    "accent": "#4CAF50"
+  },
+  "fuente": "Times New Roman",
+  "estilo": "conservador",
+  "fecha_creacion": "2025-11-22T16:13:39.862732",
+  "version": "1.0"
+}

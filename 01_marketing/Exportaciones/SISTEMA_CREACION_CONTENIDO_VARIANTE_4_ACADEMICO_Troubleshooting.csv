@@ -1,0 +1,18 @@
+GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Problema,Síntoma,Causa Probable,Solución,Prioridad,Frecuencia,Estado
+Contenido Incompleto,Falta información clave,Brief poco detallado,Proporcionar más contexto en brief,Alta,15%,Resuelto
+Formato Incorrecto,No cumple reglas de formato,Query type mal identificado,Especificar tipo explícitamente,Media,8%,Resuelto
+Falta de Citaciones,Sin referencias,Research no proporcionado,Incluir research insights,Media,12%,Resuelto
+Tono Inconsistente,Voz de marca incorrecta,Brand guidelines ausentes,Proporcionar guidelines detalladas,Alta,10%,Resuelto
+Contenido Genérico,Falta personalización,Falta de detalles específicos,Incluir detalles en brief,Media,18%,En Proceso
+Tiempo de Respuesta Lento,>5 minutos,Carga alta del sistema,Escalar recursos,Alta,5%,Resuelto
+Error de Validación,Falla en validación,Bug en reglas,Actualizar reglas de validación,Alta,3%,Resuelto
+Contenido Duplicado,Similar a contenido existente,Falta de originalidad,Mejorar algoritmo de originalidad,Media,7%,En Proceso
+,,,,,,
+RESUMEN DE PROBLEMAS,,,,,,
+Total Problemas:,,,,,,
+Resueltos:,,,,,,
+En Proceso:,,,,,,
+Tasa de Resolución:,,,,,,
+Prioridad Alta:,,,,,,
+Frecuencia Promedio:,,,,,,

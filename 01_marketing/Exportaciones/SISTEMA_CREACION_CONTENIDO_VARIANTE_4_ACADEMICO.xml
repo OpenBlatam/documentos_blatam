@@ -1,0 +1,2406 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Workbook name="SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO">
+  <Sheet name="Resumen Ejecutivo">
+    <Headers>
+      <Header>SISTEMA DE CREACIÓN DE CONTENIDO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Variante 4: Académico y Técnico - Dashboard Ejecutivo</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Versión:</Cell>
+        <Cell column="Unnamed: 1">4.0</Cell>
+        <Cell column="Unnamed: 2">Fecha:</Cell>
+        <Cell column="Unnamed: 3">22/11/2025</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Autor:</Cell>
+        <Cell column="Unnamed: 1">Sistema de Documentación Técnica</Cell>
+        <Cell column="Unnamed: 2">Estado:</Cell>
+        <Cell column="Unnamed: 3">Activo</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Clasificación:</Cell>
+        <Cell column="Unnamed: 1">Documentación de Sistema de IA</Cell>
+        <Cell column="Unnamed: 2">Última Actualización:</Cell>
+        <Cell column="Unnamed: 3">22/11/2025 02:10</Cell>
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">INDICADORES CLAVE DE RENDIMIENTO (KPIs)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor Actual</Cell>
+        <Cell column="Unnamed: 2">Objetivo</Cell>
+        <Cell column="Unnamed: 3">Desviación %</Cell>
+        <Cell column="Unnamed: 4">Estado</Cell>
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Tipos de Contenido Soportados</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Plataformas Optimizadas</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">8</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Reglas de Formato Definidas</Cell>
+        <Cell column="Unnamed: 1">25</Cell>
+        <Cell column="Unnamed: 2">25</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Restricciones Operativas</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+        <Cell column="Unnamed: 2">15</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Tasa de Completitud (%)</Cell>
+        <Cell column="Unnamed: 1">95</Cell>
+        <Cell column="Unnamed: 2">90</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Tiempo Generación Promedio (min)</Cell>
+        <Cell column="Unnamed: 1">2.5</Cell>
+        <Cell column="Unnamed: 2">3</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Tasa de Precisión (%)</Cell>
+        <Cell column="Unnamed: 1">92</Cell>
+        <Cell column="Unnamed: 2">90</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Tasa de Relevancia (%)</Cell>
+        <Cell column="Unnamed: 1">88</Cell>
+        <Cell column="Unnamed: 2">85</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">Satisfacción del Usuario (%)</Cell>
+        <Cell column="Unnamed: 1">87</Cell>
+        <Cell column="Unnamed: 2">85</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+      <Row>
+        <Cell column="SISTEMA DE CREACIÓN DE CONTENIDO">PROMEDIO GENERAL</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Análisis Estadístico">
+    <Headers>
+      <Header>ANÁLISIS ESTADÍSTICO DEL SISTEMA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">MES</Cell>
+        <Cell column="Unnamed: 1">Contenido Generado</Cell>
+        <Cell column="Unnamed: 2">Tasa Éxito (%)</Cell>
+        <Cell column="Unnamed: 3">Tiempo Promedio (min)</Cell>
+        <Cell column="Unnamed: 4">Satisfacción (%)</Cell>
+        <Cell column="Unnamed: 5">ROI (%)</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Enero</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+        <Cell column="Unnamed: 2">92</Cell>
+        <Cell column="Unnamed: 3">2.8</Cell>
+        <Cell column="Unnamed: 4">85</Cell>
+        <Cell column="Unnamed: 5">145</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Febrero</Cell>
+        <Cell column="Unnamed: 1">145</Cell>
+        <Cell column="Unnamed: 2">94</Cell>
+        <Cell column="Unnamed: 3">2.6</Cell>
+        <Cell column="Unnamed: 4">87</Cell>
+        <Cell column="Unnamed: 5">152</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Marzo</Cell>
+        <Cell column="Unnamed: 1">138</Cell>
+        <Cell column="Unnamed: 2">91</Cell>
+        <Cell column="Unnamed: 3">2.7</Cell>
+        <Cell column="Unnamed: 4">86</Cell>
+        <Cell column="Unnamed: 5">148</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Abril</Cell>
+        <Cell column="Unnamed: 1">162</Cell>
+        <Cell column="Unnamed: 2">95</Cell>
+        <Cell column="Unnamed: 3">2.4</Cell>
+        <Cell column="Unnamed: 4">89</Cell>
+        <Cell column="Unnamed: 5">165</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Mayo</Cell>
+        <Cell column="Unnamed: 1">175</Cell>
+        <Cell column="Unnamed: 2">96</Cell>
+        <Cell column="Unnamed: 3">2.3</Cell>
+        <Cell column="Unnamed: 4">90</Cell>
+        <Cell column="Unnamed: 5">178</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Junio</Cell>
+        <Cell column="Unnamed: 1">188</Cell>
+        <Cell column="Unnamed: 2">97</Cell>
+        <Cell column="Unnamed: 3">2.2</Cell>
+        <Cell column="Unnamed: 4">92</Cell>
+        <Cell column="Unnamed: 5">185</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">ESTADÍSTICAS DESCRIPTIVAS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Promedio Contenido:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Desviación Estándar:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Mínimo:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Máximo:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Mediana:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">Tasa Éxito Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS ESTADÍSTICO DEL SISTEMA">ROI Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Casos de Estudio">
+    <Headers>
+      <Header>CASOS DE ESTUDIO Y RESULTADOS REALES</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+      <Header>Unnamed: 7</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso</Cell>
+        <Cell column="Unnamed: 1">Cliente</Cell>
+        <Cell column="Unnamed: 2">Tipo Contenido</Cell>
+        <Cell column="Unnamed: 3">Volumen</Cell>
+        <Cell column="Unnamed: 4">Tiempo Ahorrado</Cell>
+        <Cell column="Unnamed: 5">ROI %</Cell>
+        <Cell column="Unnamed: 6">Satisfacción</Cell>
+        <Cell column="Unnamed: 7">Estado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 1</Cell>
+        <Cell column="Unnamed: 1">TechCorp Inc.</Cell>
+        <Cell column="Unnamed: 2">Blog Articles</Cell>
+        <Cell column="Unnamed: 3">150</Cell>
+        <Cell column="Unnamed: 4">120</Cell>
+        <Cell column="Unnamed: 5">185</Cell>
+        <Cell column="Unnamed: 6">94</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 2</Cell>
+        <Cell column="Unnamed: 1">StartupXYZ</Cell>
+        <Cell column="Unnamed: 2">Social Media</Cell>
+        <Cell column="Unnamed: 3">500</Cell>
+        <Cell column="Unnamed: 4">80</Cell>
+        <Cell column="Unnamed: 5">220</Cell>
+        <Cell column="Unnamed: 6">91</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 3</Cell>
+        <Cell column="Unnamed: 1">Enterprise Ltd</Cell>
+        <Cell column="Unnamed: 2">Email Marketing</Cell>
+        <Cell column="Unnamed: 3">200</Cell>
+        <Cell column="Unnamed: 4">60</Cell>
+        <Cell column="Unnamed: 5">165</Cell>
+        <Cell column="Unnamed: 6">89</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 4</Cell>
+        <Cell column="Unnamed: 1">E-commerce Co</Cell>
+        <Cell column="Unnamed: 2">Product Descriptions</Cell>
+        <Cell column="Unnamed: 3">1000</Cell>
+        <Cell column="Unnamed: 4">200</Cell>
+        <Cell column="Unnamed: 5">195</Cell>
+        <Cell column="Unnamed: 6">93</Cell>
+        <Cell column="Unnamed: 7">En Proceso</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 5</Cell>
+        <Cell column="Unnamed: 1">SaaS Platform</Cell>
+        <Cell column="Unnamed: 2">Landing Pages</Cell>
+        <Cell column="Unnamed: 3">25</Cell>
+        <Cell column="Unnamed: 4">40</Cell>
+        <Cell column="Unnamed: 5">210</Cell>
+        <Cell column="Unnamed: 6">96</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 6</Cell>
+        <Cell column="Unnamed: 1">Agency Pro</Cell>
+        <Cell column="Unnamed: 2">Copywriting</Cell>
+        <Cell column="Unnamed: 3">300</Cell>
+        <Cell column="Unnamed: 4">100</Cell>
+        <Cell column="Unnamed: 5">175</Cell>
+        <Cell column="Unnamed: 6">88</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 7</Cell>
+        <Cell column="Unnamed: 1">Media Group</Cell>
+        <Cell column="Unnamed: 2">SEO Content</Cell>
+        <Cell column="Unnamed: 3">200</Cell>
+        <Cell column="Unnamed: 4">90</Cell>
+        <Cell column="Unnamed: 5">190</Cell>
+        <Cell column="Unnamed: 6">92</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Caso 8</Cell>
+        <Cell column="Unnamed: 1">Consulting Firm</Cell>
+        <Cell column="Unnamed: 2">Technical Docs</Cell>
+        <Cell column="Unnamed: 3">50</Cell>
+        <Cell column="Unnamed: 4">60</Cell>
+        <Cell column="Unnamed: 5">155</Cell>
+        <Cell column="Unnamed: 6">90</Cell>
+        <Cell column="Unnamed: 7">Completado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">ESTADÍSTICAS AGREGADAS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Total Casos:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Volumen Total:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Tiempo Ahorrado Total (horas):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">ROI Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CASOS DE ESTUDIO Y RESULTADOS REALES">Satisfacción Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Benchmarks">
+    <Headers>
+      <Header>BENCHMARKS Y COMPARATIVA CON COMPETIDORES</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Métrica</Cell>
+        <Cell column="Unnamed: 1">Este Sistema</Cell>
+        <Cell column="Unnamed: 2">Competidor A</Cell>
+        <Cell column="Unnamed: 3">Competidor B</Cell>
+        <Cell column="Unnamed: 4">Competidor C</Cell>
+        <Cell column="Unnamed: 5">Mejor</Cell>
+        <Cell column="Unnamed: 6">Ventaja %</Cell>
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Tipos de Contenido</Cell>
+        <Cell column="Unnamed: 1">10</Cell>
+        <Cell column="Unnamed: 2">7</Cell>
+        <Cell column="Unnamed: 3">8</Cell>
+        <Cell column="Unnamed: 4">6</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Tasa de Éxito (%)</Cell>
+        <Cell column="Unnamed: 1">95</Cell>
+        <Cell column="Unnamed: 2">88</Cell>
+        <Cell column="Unnamed: 3">91</Cell>
+        <Cell column="Unnamed: 4">85</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Tiempo Promedio (min)</Cell>
+        <Cell column="Unnamed: 1">2.5</Cell>
+        <Cell column="Unnamed: 2">3.8</Cell>
+        <Cell column="Unnamed: 3">3.2</Cell>
+        <Cell column="Unnamed: 4">4.1</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Precisión ML (%)</Cell>
+        <Cell column="Unnamed: 1">94</Cell>
+        <Cell column="Unnamed: 2">89</Cell>
+        <Cell column="Unnamed: 3">91</Cell>
+        <Cell column="Unnamed: 4">87</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Costo por Contenido ($)</Cell>
+        <Cell column="Unnamed: 1">35</Cell>
+        <Cell column="Unnamed: 2">45</Cell>
+        <Cell column="Unnamed: 3">40</Cell>
+        <Cell column="Unnamed: 4">50</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Satisfacción Usuario (%)</Cell>
+        <Cell column="Unnamed: 1">87</Cell>
+        <Cell column="Unnamed: 2">82</Cell>
+        <Cell column="Unnamed: 3">84</Cell>
+        <Cell column="Unnamed: 4">79</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Plataformas Soportadas</Cell>
+        <Cell column="Unnamed: 1">8</Cell>
+        <Cell column="Unnamed: 2">5</Cell>
+        <Cell column="Unnamed: 3">6</Cell>
+        <Cell column="Unnamed: 4">4</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="BENCHMARKS Y COMPARATIVA CON COMPETIDORES">Tiempo de Respuesta API (ms)</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+        <Cell column="Unnamed: 2">180</Cell>
+        <Cell column="Unnamed: 3">150</Cell>
+        <Cell column="Unnamed: 4">200</Cell>
+        <Cell column="Unnamed: 5">Este Sistema</Cell>
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Troubleshooting">
+    <Headers>
+      <Header>GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Problema</Cell>
+        <Cell column="Unnamed: 1">Síntoma</Cell>
+        <Cell column="Unnamed: 2">Causa Probable</Cell>
+        <Cell column="Unnamed: 3">Solución</Cell>
+        <Cell column="Unnamed: 4">Prioridad</Cell>
+        <Cell column="Unnamed: 5">Frecuencia</Cell>
+        <Cell column="Unnamed: 6">Estado</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Contenido Incompleto</Cell>
+        <Cell column="Unnamed: 1">Falta información clave</Cell>
+        <Cell column="Unnamed: 2">Brief poco detallado</Cell>
+        <Cell column="Unnamed: 3">Proporcionar más contexto en brief</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">15%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Formato Incorrecto</Cell>
+        <Cell column="Unnamed: 1">No cumple reglas de formato</Cell>
+        <Cell column="Unnamed: 2">Query type mal identificado</Cell>
+        <Cell column="Unnamed: 3">Especificar tipo explícitamente</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">8%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Falta de Citaciones</Cell>
+        <Cell column="Unnamed: 1">Sin referencias</Cell>
+        <Cell column="Unnamed: 2">Research no proporcionado</Cell>
+        <Cell column="Unnamed: 3">Incluir research insights</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">12%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Tono Inconsistente</Cell>
+        <Cell column="Unnamed: 1">Voz de marca incorrecta</Cell>
+        <Cell column="Unnamed: 2">Brand guidelines ausentes</Cell>
+        <Cell column="Unnamed: 3">Proporcionar guidelines detalladas</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">10%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Contenido Genérico</Cell>
+        <Cell column="Unnamed: 1">Falta personalización</Cell>
+        <Cell column="Unnamed: 2">Falta de detalles específicos</Cell>
+        <Cell column="Unnamed: 3">Incluir detalles en brief</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">18%</Cell>
+        <Cell column="Unnamed: 6">En Proceso</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Tiempo de Respuesta Lento</Cell>
+        <Cell column="Unnamed: 1">&gt;5 minutos</Cell>
+        <Cell column="Unnamed: 2">Carga alta del sistema</Cell>
+        <Cell column="Unnamed: 3">Escalar recursos</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">5%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Error de Validación</Cell>
+        <Cell column="Unnamed: 1">Falla en validación</Cell>
+        <Cell column="Unnamed: 2">Bug en reglas</Cell>
+        <Cell column="Unnamed: 3">Actualizar reglas de validación</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">3%</Cell>
+        <Cell column="Unnamed: 6">Resuelto</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Contenido Duplicado</Cell>
+        <Cell column="Unnamed: 1">Similar a contenido existente</Cell>
+        <Cell column="Unnamed: 2">Falta de originalidad</Cell>
+        <Cell column="Unnamed: 3">Mejorar algoritmo de originalidad</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">7%</Cell>
+        <Cell column="Unnamed: 6">En Proceso</Cell>
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">RESUMEN DE PROBLEMAS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Total Problemas:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Resueltos:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">En Proceso:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Tasa de Resolución:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Prioridad Alta:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS">Frecuencia Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Roadmap">
+    <Headers>
+      <Header>ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+      <Header>Unnamed: 7</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">Versión</Cell>
+        <Cell column="Unnamed: 1">Fecha Lanzamiento</Cell>
+        <Cell column="Unnamed: 2">Características Principales</Cell>
+        <Cell column="Unnamed: 3">Estado</Cell>
+        <Cell column="Unnamed: 4">Prioridad</Cell>
+        <Cell column="Unnamed: 5">Esfuerzo</Cell>
+        <Cell column="Unnamed: 6">Impacto</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v4.0</Cell>
+        <Cell column="Unnamed: 1">2025-05-13 00:00:00</Cell>
+        <Cell column="Unnamed: 2">ML avanzado, Análisis predictivo</Cell>
+        <Cell column="Unnamed: 3">Lanzado</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">8</Cell>
+        <Cell column="Unnamed: 6">Alto</Cell>
+        <Cell column="Unnamed: 7">4.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v4.1</Cell>
+        <Cell column="Unnamed: 1">2025-06-15 00:00:00</Cell>
+        <Cell column="Unnamed: 2">Soporte multi-idioma</Cell>
+        <Cell column="Unnamed: 3">En Desarrollo</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">6</Cell>
+        <Cell column="Unnamed: 6">Alto</Cell>
+        <Cell column="Unnamed: 7">4.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v4.2</Cell>
+        <Cell column="Unnamed: 1">2025-07-20 00:00:00</Cell>
+        <Cell column="Unnamed: 2">Integración con más plataformas</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">5</Cell>
+        <Cell column="Unnamed: 6">Medio</Cell>
+        <Cell column="Unnamed: 7">3.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v4.3</Cell>
+        <Cell column="Unnamed: 1">2025-08-30 00:00:00</Cell>
+        <Cell column="Unnamed: 2">Generación de contenido multimedia</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">9</Cell>
+        <Cell column="Unnamed: 6">Alto</Cell>
+        <Cell column="Unnamed: 7">4.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v4.4</Cell>
+        <Cell column="Unnamed: 1">2025-10-10 00:00:00</Cell>
+        <Cell column="Unnamed: 2">A/B testing integrado</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">4</Cell>
+        <Cell column="Unnamed: 6">Medio</Cell>
+        <Cell column="Unnamed: 7">3.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v5.0</Cell>
+        <Cell column="Unnamed: 1">2026-01-15 00:00:00</Cell>
+        <Cell column="Unnamed: 2">Arquitectura completamente nueva</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">12</Cell>
+        <Cell column="Unnamed: 6">Muy Alto</Cell>
+        <Cell column="Unnamed: 7">5.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v5.1</Cell>
+        <Cell column="Unnamed: 1">2026-03-01 00:00:00</Cell>
+        <Cell column="Unnamed: 2">IA generativa avanzada (GPT-5)</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">10</Cell>
+        <Cell column="Unnamed: 6">Muy Alto</Cell>
+        <Cell column="Unnamed: 7">5.0</Cell>
+      </Row>
+      <Row>
+        <Cell column="ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA">v5.2</Cell>
+        <Cell column="Unnamed: 1">2026-05-15 00:00:00</Cell>
+        <Cell column="Unnamed: 2">Análisis de sentimiento en tiempo real</Cell>
+        <Cell column="Unnamed: 3">Planificado</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">6</Cell>
+        <Cell column="Unnamed: 6">Medio</Cell>
+        <Cell column="Unnamed: 7">3.0</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Análisis Predictivo">
+    <Headers>
+      <Header>ANÁLISIS PREDICTIVO Y FORECASTING</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">MES</Cell>
+        <Cell column="Unnamed: 1">Contenido Real</Cell>
+        <Cell column="Unnamed: 2">Contenido Predicho</Cell>
+        <Cell column="Unnamed: 3">Error %</Cell>
+        <Cell column="Unnamed: 4">Tendencia</Cell>
+        <Cell column="Unnamed: 5">Confianza</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Enero</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+        <Cell column="Unnamed: 2">115</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.85</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Febrero</Cell>
+        <Cell column="Unnamed: 1">145</Cell>
+        <Cell column="Unnamed: 2">140</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.88</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Marzo</Cell>
+        <Cell column="Unnamed: 1">138</Cell>
+        <Cell column="Unnamed: 2">142</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Estable</Cell>
+        <Cell column="Unnamed: 5">0.82</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Abril</Cell>
+        <Cell column="Unnamed: 1">162</Cell>
+        <Cell column="Unnamed: 2">158</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.9</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Mayo</Cell>
+        <Cell column="Unnamed: 1">175</Cell>
+        <Cell column="Unnamed: 2">170</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.92</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Junio</Cell>
+        <Cell column="Unnamed: 1">188</Cell>
+        <Cell column="Unnamed: 2">185</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.94</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Julio (Pred)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">195</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.91</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Agosto (Pred)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">205</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Creciente</Cell>
+        <Cell column="Unnamed: 5">0.89</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Septiembre (Pred)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2">210</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">Estable</Cell>
+        <Cell column="Unnamed: 5">0.87</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">PREDICCIÓN (Regresión Lineal)</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Pendiente (m):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">Intercepto (b):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">R² (Coeficiente Determinación):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS PREDICTIVO Y FORECASTING">PRÓXIMAS PREDICCIONES</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="ML Metrics">
+    <Headers>
+      <Header>MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Métrica</Cell>
+        <Cell column="Unnamed: 1">Valor Actual</Cell>
+        <Cell column="Unnamed: 2">Valor Objetivo</Cell>
+        <Cell column="Unnamed: 3">Mejora %</Cell>
+        <Cell column="Unnamed: 4">Estado</Cell>
+        <Cell column="Unnamed: 5">Última Actualización</Cell>
+        <Cell column="Unnamed: 6">Tendencia</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Precisión (Accuracy)</Cell>
+        <Cell column="Unnamed: 1">0.94</Cell>
+        <Cell column="Unnamed: 2">0.9</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Precisión (Precision)</Cell>
+        <Cell column="Unnamed: 1">0.91</Cell>
+        <Cell column="Unnamed: 2">0.88</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Recall (Sensibilidad)</Cell>
+        <Cell column="Unnamed: 1">0.89</Cell>
+        <Cell column="Unnamed: 2">0.85</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">F1-Score</Cell>
+        <Cell column="Unnamed: 1">0.9</Cell>
+        <Cell column="Unnamed: 2">0.86</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">AUC-ROC</Cell>
+        <Cell column="Unnamed: 1">0.93</Cell>
+        <Cell column="Unnamed: 2">0.9</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↑</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Tasa de Falsos Positivos</Cell>
+        <Cell column="Unnamed: 1">0.05</Cell>
+        <Cell column="Unnamed: 2">0.1</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↓</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Tiempo de Entrenamiento (min)</Cell>
+        <Cell column="Unnamed: 1">45</Cell>
+        <Cell column="Unnamed: 2">60</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5">2025-05-13</Cell>
+        <Cell column="Unnamed: 6">↓</Cell>
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">MATRIZ DE CONFUSIÓN</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN" />
+        <Cell column="Unnamed: 1">Predicho: Positivo</Cell>
+        <Cell column="Unnamed: 2">Predicho: Negativo</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Real: Positivo</Cell>
+        <Cell column="Unnamed: 1">850</Cell>
+        <Cell column="Unnamed: 2">50</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Real: Negativo</Cell>
+        <Cell column="Unnamed: 1">45</Cell>
+        <Cell column="Unnamed: 2">55</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">CÁLCULOS DESDE MATRIZ</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Verdaderos Positivos (TP):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Falsos Positivos (FP):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Falsos Negativos (FN):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Verdaderos Negativos (TN):</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Precisión Calculada:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">Recall Calculado:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN">F1-Score Calculado:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Optimización Avanzada">
+    <Headers>
+      <Header>OPTIMIZACIÓN AVANZADA Y TUNING</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">HIPERPARÁMETROS DEL MODELO</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Parámetro</Cell>
+        <Cell column="Unnamed: 1">Valor</Cell>
+        <Cell column="Unnamed: 2">Descripción</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Learning Rate</Cell>
+        <Cell column="Unnamed: 1">0.001</Cell>
+        <Cell column="Unnamed: 2">Tasa de aprendizaje del modelo</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Batch Size</Cell>
+        <Cell column="Unnamed: 1">32</Cell>
+        <Cell column="Unnamed: 2">Tamaño del lote de entrenamiento</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Epochs</Cell>
+        <Cell column="Unnamed: 1">100</Cell>
+        <Cell column="Unnamed: 2">Número de épocas de entrenamiento</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Dropout Rate</Cell>
+        <Cell column="Unnamed: 1">0.2</Cell>
+        <Cell column="Unnamed: 2">Tasa de dropout para regularización</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Hidden Layers</Cell>
+        <Cell column="Unnamed: 1">3</Cell>
+        <Cell column="Unnamed: 2">Número de capas ocultas</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Neurons per Layer</Cell>
+        <Cell column="Unnamed: 1">128</Cell>
+        <Cell column="Unnamed: 2">Neuronas por capa</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Optimizer</Cell>
+        <Cell column="Unnamed: 1">Adam</Cell>
+        <Cell column="Unnamed: 2">Algoritmo de optimización</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Loss Function</Cell>
+        <Cell column="Unnamed: 1">Cross-Entropy</Cell>
+        <Cell column="Unnamed: 2">Función de pérdida</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">RESULTADOS DE GRID SEARCH</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">Learning Rate</Cell>
+        <Cell column="Unnamed: 1">Batch Size</Cell>
+        <Cell column="Unnamed: 2">Epochs</Cell>
+        <Cell column="Unnamed: 3">Accuracy</Cell>
+        <Cell column="Unnamed: 4">F1-Score</Cell>
+        <Cell column="Unnamed: 5">Tiempo (min)</Cell>
+        <Cell column="Unnamed: 6">Ranking</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">0.001</Cell>
+        <Cell column="Unnamed: 1">32</Cell>
+        <Cell column="Unnamed: 2">100</Cell>
+        <Cell column="Unnamed: 3">0.94</Cell>
+        <Cell column="Unnamed: 4">0.9</Cell>
+        <Cell column="Unnamed: 5">45</Cell>
+        <Cell column="Unnamed: 6">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">0.001</Cell>
+        <Cell column="Unnamed: 1">64</Cell>
+        <Cell column="Unnamed: 2">100</Cell>
+        <Cell column="Unnamed: 3">0.93</Cell>
+        <Cell column="Unnamed: 4">0.89</Cell>
+        <Cell column="Unnamed: 5">38</Cell>
+        <Cell column="Unnamed: 6">2</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">0.0005</Cell>
+        <Cell column="Unnamed: 1">32</Cell>
+        <Cell column="Unnamed: 2">100</Cell>
+        <Cell column="Unnamed: 3">0.92</Cell>
+        <Cell column="Unnamed: 4">0.88</Cell>
+        <Cell column="Unnamed: 5">52</Cell>
+        <Cell column="Unnamed: 6">3</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">0.001</Cell>
+        <Cell column="Unnamed: 1">32</Cell>
+        <Cell column="Unnamed: 2">150</Cell>
+        <Cell column="Unnamed: 3">0.95</Cell>
+        <Cell column="Unnamed: 4">0.91</Cell>
+        <Cell column="Unnamed: 5">68</Cell>
+        <Cell column="Unnamed: 6">1</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">0.002</Cell>
+        <Cell column="Unnamed: 1">32</Cell>
+        <Cell column="Unnamed: 2">100</Cell>
+        <Cell column="Unnamed: 3">0.91</Cell>
+        <Cell column="Unnamed: 4">0.87</Cell>
+        <Cell column="Unnamed: 5">42</Cell>
+        <Cell column="Unnamed: 6">4</Cell>
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="OPTIMIZACIÓN AVANZADA Y TUNING">MEJOR COMBINACIÓN:</Cell>
+        <Cell column="Unnamed: 1">Learning Rate: 0.001, Batch: 32, Epochs: 150</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Matriz de Decisión">
+    <Headers>
+      <Header>MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Criterio</Cell>
+        <Cell column="Unnamed: 1">Blog</Cell>
+        <Cell column="Unnamed: 2">Social Media</Cell>
+        <Cell column="Unnamed: 3">Email</Cell>
+        <Cell column="Unnamed: 4">Landing Page</Cell>
+        <Cell column="Unnamed: 5">Copywriting</Cell>
+        <Cell column="Unnamed: 6">Peso</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Longitud Requerida</Cell>
+        <Cell column="Unnamed: 1">5</Cell>
+        <Cell column="Unnamed: 2">1</Cell>
+        <Cell column="Unnamed: 3">3</Cell>
+        <Cell column="Unnamed: 4">4</Cell>
+        <Cell column="Unnamed: 5">3</Cell>
+        <Cell column="Unnamed: 6">0.15</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Complejidad Técnica</Cell>
+        <Cell column="Unnamed: 1">4</Cell>
+        <Cell column="Unnamed: 2">2</Cell>
+        <Cell column="Unnamed: 3">2</Cell>
+        <Cell column="Unnamed: 4">3</Cell>
+        <Cell column="Unnamed: 5">3</Cell>
+        <Cell column="Unnamed: 6">0.2</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Urgencia</Cell>
+        <Cell column="Unnamed: 1">2</Cell>
+        <Cell column="Unnamed: 2">5</Cell>
+        <Cell column="Unnamed: 3">4</Cell>
+        <Cell column="Unnamed: 4">3</Cell>
+        <Cell column="Unnamed: 5">3</Cell>
+        <Cell column="Unnamed: 6">0.1</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Engagement Esperado</Cell>
+        <Cell column="Unnamed: 1">3</Cell>
+        <Cell column="Unnamed: 2">5</Cell>
+        <Cell column="Unnamed: 3">3</Cell>
+        <Cell column="Unnamed: 4">4</Cell>
+        <Cell column="Unnamed: 5">4</Cell>
+        <Cell column="Unnamed: 6">0.25</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">Costo de Producción</Cell>
+        <Cell column="Unnamed: 1">3</Cell>
+        <Cell column="Unnamed: 2">2</Cell>
+        <Cell column="Unnamed: 3">2</Cell>
+        <Cell column="Unnamed: 4">4</Cell>
+        <Cell column="Unnamed: 5">3</Cell>
+        <Cell column="Unnamed: 6">0.15</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">ROI Esperado</Cell>
+        <Cell column="Unnamed: 1">4</Cell>
+        <Cell column="Unnamed: 2">3</Cell>
+        <Cell column="Unnamed: 3">4</Cell>
+        <Cell column="Unnamed: 4">5</Cell>
+        <Cell column="Unnamed: 5">4</Cell>
+        <Cell column="Unnamed: 6">0.15</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">PUNTUACIÓN PONDERADA</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO">TIPO RECOMENDADO:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Análisis de Costos">
+    <Headers>
+      <Header>ANÁLISIS DE COSTOS Y ROI</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Tipo Contenido</Cell>
+        <Cell column="Unnamed: 1">Costo Producción</Cell>
+        <Cell column="Unnamed: 2">Costo Revisión</Cell>
+        <Cell column="Unnamed: 3">Costo Total</Cell>
+        <Cell column="Unnamed: 4">Valor Generado</Cell>
+        <Cell column="Unnamed: 5">ROI %</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Blog Articles</Cell>
+        <Cell column="Unnamed: 1">150</Cell>
+        <Cell column="Unnamed: 2">50</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">450</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Social Media Posts</Cell>
+        <Cell column="Unnamed: 1">25</Cell>
+        <Cell column="Unnamed: 2">10</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">80</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Email Marketing</Cell>
+        <Cell column="Unnamed: 1">75</Cell>
+        <Cell column="Unnamed: 2">25</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">200</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Landing Pages</Cell>
+        <Cell column="Unnamed: 1">200</Cell>
+        <Cell column="Unnamed: 2">75</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">600</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Copywriting</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+        <Cell column="Unnamed: 2">40</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">350</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Product Descriptions</Cell>
+        <Cell column="Unnamed: 1">60</Cell>
+        <Cell column="Unnamed: 2">20</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">150</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">SEO Content</Cell>
+        <Cell column="Unnamed: 1">180</Cell>
+        <Cell column="Unnamed: 2">60</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">500</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">Technical Documentation</Cell>
+        <Cell column="Unnamed: 1">250</Cell>
+        <Cell column="Unnamed: 2">100</Cell>
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4">750</Cell>
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE COSTOS Y ROI">TOTALES</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Calendario Contenido">
+    <Headers>
+      <Header>CALENDARIO DE PRODUCCIÓN DE CONTENIDO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+      <Header>Unnamed: 7</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">Fecha</Cell>
+        <Cell column="Unnamed: 1">Día</Cell>
+        <Cell column="Unnamed: 2">Tipo</Cell>
+        <Cell column="Unnamed: 3">Tema</Cell>
+        <Cell column="Unnamed: 4">Plataforma</Cell>
+        <Cell column="Unnamed: 5">Estado</Cell>
+        <Cell column="Unnamed: 6">Responsable</Cell>
+        <Cell column="Unnamed: 7">Notas</Cell>
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-13 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Lunes</Cell>
+        <Cell column="Unnamed: 2">Blog Article</Cell>
+        <Cell column="Unnamed: 3">Mejores Prácticas IA</Cell>
+        <Cell column="Unnamed: 4">Website</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo A</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-14 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Martes</Cell>
+        <Cell column="Unnamed: 2">Social Media</Cell>
+        <Cell column="Unnamed: 3">Product Launch</Cell>
+        <Cell column="Unnamed: 4">Instagram</Cell>
+        <Cell column="Unnamed: 5">En Proceso</Cell>
+        <Cell column="Unnamed: 6">Equipo B</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-15 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Miércoles</Cell>
+        <Cell column="Unnamed: 2">Email Marketing</Cell>
+        <Cell column="Unnamed: 3">Newsletter Semanal</Cell>
+        <Cell column="Unnamed: 4">Email</Cell>
+        <Cell column="Unnamed: 5">Completado</Cell>
+        <Cell column="Unnamed: 6">Equipo A</Cell>
+        <Cell column="Unnamed: 7">Enviado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-16 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Jueves</Cell>
+        <Cell column="Unnamed: 2">Landing Page</Cell>
+        <Cell column="Unnamed: 3">Nuevo Servicio</Cell>
+        <Cell column="Unnamed: 4">Website</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo C</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-17 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Viernes</Cell>
+        <Cell column="Unnamed: 2">Social Media</Cell>
+        <Cell column="Unnamed: 3">Testimonial</Cell>
+        <Cell column="Unnamed: 4">LinkedIn</Cell>
+        <Cell column="Unnamed: 5">Completado</Cell>
+        <Cell column="Unnamed: 6">Equipo B</Cell>
+        <Cell column="Unnamed: 7">Publicado</Cell>
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-20 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Lunes</Cell>
+        <Cell column="Unnamed: 2">Blog Article</Cell>
+        <Cell column="Unnamed: 3">Tendencias Marketing</Cell>
+        <Cell column="Unnamed: 4">Website</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo A</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-21 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Martes</Cell>
+        <Cell column="Unnamed: 2">Copywriting</Cell>
+        <Cell column="Unnamed: 3">Campaign Copy</Cell>
+        <Cell column="Unnamed: 4">Múltiples</Cell>
+        <Cell column="Unnamed: 5">En Proceso</Cell>
+        <Cell column="Unnamed: 6">Equipo C</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-22 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Miércoles</Cell>
+        <Cell column="Unnamed: 2">SEO Content</Cell>
+        <Cell column="Unnamed: 3">Guía Completa</Cell>
+        <Cell column="Unnamed: 4">Website</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo A</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-23 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Jueves</Cell>
+        <Cell column="Unnamed: 2">Social Media</Cell>
+        <Cell column="Unnamed: 3">Behind Scenes</Cell>
+        <Cell column="Unnamed: 4">Instagram</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo B</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">2025-05-24 00:00:00</Cell>
+        <Cell column="Unnamed: 1">Viernes</Cell>
+        <Cell column="Unnamed: 2">Email Marketing</Cell>
+        <Cell column="Unnamed: 3">Promoción</Cell>
+        <Cell column="Unnamed: 4">Email</Cell>
+        <Cell column="Unnamed: 5">Planificado</Cell>
+        <Cell column="Unnamed: 6">Equipo A</Cell>
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">RESUMEN POR ESTADO</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">Estado</Cell>
+        <Cell column="Unnamed: 1">Cantidad</Cell>
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">Planificado</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">En Proceso</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+      <Row>
+        <Cell column="CALENDARIO DE PRODUCCIÓN DE CONTENIDO">Completado</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+        <Cell column="Unnamed: 7" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Validación y Testing">
+    <Headers>
+      <Header>MATRIZ DE VALIDACIÓN Y TESTING</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Criterio de Validación</Cell>
+        <Cell column="Unnamed: 1">Tipo Test</Cell>
+        <Cell column="Unnamed: 2">Frecuencia</Cell>
+        <Cell column="Unnamed: 3">Resultado Actual</Cell>
+        <Cell column="Unnamed: 4">Objetivo</Cell>
+        <Cell column="Unnamed: 5">Estado</Cell>
+        <Cell column="Unnamed: 6">Última Ejecución</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Completitud de Brief</Cell>
+        <Cell column="Unnamed: 1">Automático</Cell>
+        <Cell column="Unnamed: 2">Por solicitud</Cell>
+        <Cell column="Unnamed: 3">95</Cell>
+        <Cell column="Unnamed: 4">90</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-13 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Formato Correcto</Cell>
+        <Cell column="Unnamed: 1">Automático</Cell>
+        <Cell column="Unnamed: 2">Por solicitud</Cell>
+        <Cell column="Unnamed: 3">98</Cell>
+        <Cell column="Unnamed: 4">95</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-13 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Restricciones Cumplidas</Cell>
+        <Cell column="Unnamed: 1">Automático</Cell>
+        <Cell column="Unnamed: 2">Por solicitud</Cell>
+        <Cell column="Unnamed: 3">97</Cell>
+        <Cell column="Unnamed: 4">95</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-13 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Calidad de Contenido</Cell>
+        <Cell column="Unnamed: 1">Manual</Cell>
+        <Cell column="Unnamed: 2">Semanal</Cell>
+        <Cell column="Unnamed: 3">92</Cell>
+        <Cell column="Unnamed: 4">90</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-10 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Satisfacción Usuario</Cell>
+        <Cell column="Unnamed: 1">Manual</Cell>
+        <Cell column="Unnamed: 2">Mensual</Cell>
+        <Cell column="Unnamed: 3">87</Cell>
+        <Cell column="Unnamed: 4">85</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-01 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Tiempo de Respuesta</Cell>
+        <Cell column="Unnamed: 1">Automático</Cell>
+        <Cell column="Unnamed: 2">Diario</Cell>
+        <Cell column="Unnamed: 3">2.5</Cell>
+        <Cell column="Unnamed: 4">3</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-13 00:00:00</Cell>
+      </Row>
+      <Row>
+        <Cell column="MATRIZ DE VALIDACIÓN Y TESTING">Tasa de Error</Cell>
+        <Cell column="Unnamed: 1">Automático</Cell>
+        <Cell column="Unnamed: 2">Diario</Cell>
+        <Cell column="Unnamed: 3">2</Cell>
+        <Cell column="Unnamed: 4">5</Cell>
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6">2025-05-13 00:00:00</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Tipos de Contenido">
+    <Headers>
+      <Header>TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+      <Header>Unnamed: 4</Header>
+      <Header>Unnamed: 5</Header>
+      <Header>Unnamed: 6</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Tipo</Cell>
+        <Cell column="Unnamed: 1">Descripción</Cell>
+        <Cell column="Unnamed: 2">Longitud</Cell>
+        <Cell column="Unnamed: 3">Plataformas</Cell>
+        <Cell column="Unnamed: 4">Complejidad</Cell>
+        <Cell column="Unnamed: 5">Frecuencia Uso</Cell>
+        <Cell column="Unnamed: 6">Tasa Éxito %</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Blog Articles</Cell>
+        <Cell column="Unnamed: 1">Artículos largos y detallados</Cell>
+        <Cell column="Unnamed: 2">2000-5000 palabras</Cell>
+        <Cell column="Unnamed: 3">Blogs, CMS</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">45</Cell>
+        <Cell column="Unnamed: 6">94</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Social Media Posts</Cell>
+        <Cell column="Unnamed: 1">Contenido conciso y atractivo</Cell>
+        <Cell column="Unnamed: 2">50-300 caracteres</Cell>
+        <Cell column="Unnamed: 3">Instagram, Twitter, Facebook</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">78</Cell>
+        <Cell column="Unnamed: 6">96</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Email Marketing</Cell>
+        <Cell column="Unnamed: 1">Mensajes con CTA fuerte</Cell>
+        <Cell column="Unnamed: 2">100-500 palabras</Cell>
+        <Cell column="Unnamed: 3">Email clients</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">62</Cell>
+        <Cell column="Unnamed: 6">92</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Landing Pages</Cell>
+        <Cell column="Unnamed: 1">Copy persuasivo y conversión</Cell>
+        <Cell column="Unnamed: 2">500-1500 palabras</Cell>
+        <Cell column="Unnamed: 3">Websites</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">34</Cell>
+        <Cell column="Unnamed: 6">89</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Copywriting</Cell>
+        <Cell column="Unnamed: 1">Lenguaje persuasivo</Cell>
+        <Cell column="Unnamed: 2">Variable</Cell>
+        <Cell column="Unnamed: 3">Múltiples</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">56</Cell>
+        <Cell column="Unnamed: 6">93</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Product Descriptions</Cell>
+        <Cell column="Unnamed: 1">Descripciones detalladas</Cell>
+        <Cell column="Unnamed: 2">200-800 palabras</Cell>
+        <Cell column="Unnamed: 3">E-commerce</Cell>
+        <Cell column="Unnamed: 4">Media</Cell>
+        <Cell column="Unnamed: 5">48</Cell>
+        <Cell column="Unnamed: 6">91</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">SEO Content</Cell>
+        <Cell column="Unnamed: 1">Optimizado para búsqueda</Cell>
+        <Cell column="Unnamed: 2">1500-3000 palabras</Cell>
+        <Cell column="Unnamed: 3">Websites</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">41</Cell>
+        <Cell column="Unnamed: 6">95</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Creative Writing</Cell>
+        <Cell column="Unnamed: 1">Contenido creativo</Cell>
+        <Cell column="Unnamed: 2">Variable</Cell>
+        <Cell column="Unnamed: 3">Múltiples</Cell>
+        <Cell column="Unnamed: 4">Variable</Cell>
+        <Cell column="Unnamed: 5">29</Cell>
+        <Cell column="Unnamed: 6">88</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Technical Documentation</Cell>
+        <Cell column="Unnamed: 1">Documentación técnica</Cell>
+        <Cell column="Unnamed: 2">Variable</Cell>
+        <Cell column="Unnamed: 3">Docs, Wikis</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">37</Cell>
+        <Cell column="Unnamed: 6">97</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">Content Strategy</Cell>
+        <Cell column="Unnamed: 1">Estrategia de contenido</Cell>
+        <Cell column="Unnamed: 2">Variable</Cell>
+        <Cell column="Unnamed: 3">Múltiples</Cell>
+        <Cell column="Unnamed: 4">Alta</Cell>
+        <Cell column="Unnamed: 5">25</Cell>
+        <Cell column="Unnamed: 6">90</Cell>
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+      <Row>
+        <Cell column="TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO">TOTALES Y PROMEDIOS</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+        <Cell column="Unnamed: 4" />
+        <Cell column="Unnamed: 5" />
+        <Cell column="Unnamed: 6" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Reglas de Formato">
+    <Headers>
+      <Header>REGLAS DE FORMATO DEL SISTEMA</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Categoría</Cell>
+        <Cell column="Unnamed: 1">Regla</Cell>
+        <Cell column="Unnamed: 2">Tipo</Cell>
+        <Cell column="Unnamed: 3">Prioridad</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Inicio</Cell>
+        <Cell column="Unnamed: 1">Nunca iniciar con encabezado</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Inicio</Cell>
+        <Cell column="Unnamed: 1">Proporcionar gancho o resumen inicial</Cell>
+        <Cell column="Unnamed: 2">Requisito</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Encabezados</Cell>
+        <Cell column="Unnamed: 1">Usar H2 para secciones principales</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Encabezados</Cell>
+        <Cell column="Unnamed: 1">Usar negrita para subsections</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Media</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Listas</Cell>
+        <Cell column="Unnamed: 1">Preferir listas planas</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Media</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Listas</Cell>
+        <Cell column="Unnamed: 1">No anidar listas</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Listas</Cell>
+        <Cell column="Unnamed: 1">No mezclar ordenadas y desordenadas</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Tablas</Cell>
+        <Cell column="Unnamed: 1">Usar tablas para comparaciones</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Media</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Énfasis</Cell>
+        <Cell column="Unnamed: 1">Usar negrita moderadamente</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Media</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Código</Cell>
+        <Cell column="Unnamed: 1">Usar bloques de código con sintaxis</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Media</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Matemáticas</Cell>
+        <Cell column="Unnamed: 1">Siempre usar LaTeX</Cell>
+        <Cell column="Unnamed: 2">Formato</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Matemáticas</Cell>
+        <Cell column="Unnamed: 1">Nunca usar $ o 42622</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Citas</Cell>
+        <Cell column="Unnamed: 1">Citar fuentes después de cada oración</Cell>
+        <Cell column="Unnamed: 2">Requisito</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Citas</Cell>
+        <Cell column="Unnamed: 1">No incluir sección de Referencias</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+      <Row>
+        <Cell column="REGLAS DE FORMATO DEL SISTEMA">Fin</Cell>
+        <Cell column="Unnamed: 1">Nunca terminar con pregunta</Cell>
+        <Cell column="Unnamed: 2">Restricción</Cell>
+        <Cell column="Unnamed: 3">Alta</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Análisis y Métricas">
+    <Headers>
+      <Header>ANÁLISIS DE RENDIMIENTO Y MÉTRICAS</Header>
+      <Header>Unnamed: 1</Header>
+      <Header>Unnamed: 2</Header>
+      <Header>Unnamed: 3</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Métrica de Calidad</Cell>
+        <Cell column="Unnamed: 1">Valor Actual</Cell>
+        <Cell column="Unnamed: 2">Valor Objetivo</Cell>
+        <Cell column="Unnamed: 3">Desviación %</Cell>
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Completitud</Cell>
+        <Cell column="Unnamed: 1">95</Cell>
+        <Cell column="Unnamed: 2">90</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Precisión</Cell>
+        <Cell column="Unnamed: 1">92</Cell>
+        <Cell column="Unnamed: 2">90</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Relevancia</Cell>
+        <Cell column="Unnamed: 1">88</Cell>
+        <Cell column="Unnamed: 2">85</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Optimización</Cell>
+        <Cell column="Unnamed: 1">90</Cell>
+        <Cell column="Unnamed: 2">85</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Originalidad</Cell>
+        <Cell column="Unnamed: 1">98</Cell>
+        <Cell column="Unnamed: 2">95</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Formato</Cell>
+        <Cell column="Unnamed: 1">96</Cell>
+        <Cell column="Unnamed: 2">95</Cell>
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS" />
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+      <Row>
+        <Cell column="ANÁLISIS DE RENDIMIENTO Y MÉTRICAS">Promedio:</Cell>
+        <Cell column="Unnamed: 1" />
+        <Cell column="Unnamed: 2" />
+        <Cell column="Unnamed: 3" />
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Gráficos">
+    <Headers>
+      <Header>VISUALIZACIONES DE DATOS</Header>
+      <Header>Unnamed: 1</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Tipo de Contenido</Cell>
+        <Cell column="Unnamed: 1">Frecuencia de Uso</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Blog Articles</Cell>
+        <Cell column="Unnamed: 1">45</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Social Media</Cell>
+        <Cell column="Unnamed: 1">78</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Email Marketing</Cell>
+        <Cell column="Unnamed: 1">62</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Landing Pages</Cell>
+        <Cell column="Unnamed: 1">34</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Copywriting</Cell>
+        <Cell column="Unnamed: 1">56</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Product Descriptions</Cell>
+        <Cell column="Unnamed: 1">48</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">SEO Content</Cell>
+        <Cell column="Unnamed: 1">41</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Technical Docs</Cell>
+        <Cell column="Unnamed: 1">29</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Mes</Cell>
+        <Cell column="Unnamed: 1">Contenido Generado</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Ene</Cell>
+        <Cell column="Unnamed: 1">120</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Feb</Cell>
+        <Cell column="Unnamed: 1">145</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Mar</Cell>
+        <Cell column="Unnamed: 1">138</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Abr</Cell>
+        <Cell column="Unnamed: 1">162</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">May</Cell>
+        <Cell column="Unnamed: 1">175</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Jun</Cell>
+        <Cell column="Unnamed: 1">188</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Categoría</Cell>
+        <Cell column="Unnamed: 1">Distribución %</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Format Rules</Cell>
+        <Cell column="Unnamed: 1">25</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Restrictions</Cell>
+        <Cell column="Unnamed: 1">20</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Query Types</Cell>
+        <Cell column="Unnamed: 1">18</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Planning Rules</Cell>
+        <Cell column="Unnamed: 1">15</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Output Specs</Cell>
+        <Cell column="Unnamed: 1">12</Cell>
+      </Row>
+      <Row>
+        <Cell column="VISUALIZACIONES DE DATOS">Other</Cell>
+        <Cell column="Unnamed: 1">10</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+  <Sheet name="Apéndices">
+    <Headers>
+      <Header>APÉNDICES Y DATOS DE REFERENCIA</Header>
+      <Header>Unnamed: 1</Header>
+    </Headers>
+    <Rows>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">GLOSARIO DE TÉRMINOS</Cell>
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Término</Cell>
+        <Cell column="Unnamed: 1">Definición</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Brief</Cell>
+        <Cell column="Unnamed: 1">Documento que especifica los requisitos del contenido</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Brand Guidelines</Cell>
+        <Cell column="Unnamed: 1">Pautas que definen voz, tono y estilo de marca</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Query Type</Cell>
+        <Cell column="Unnamed: 1">Categoría del tipo de contenido solicitado</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Content Piece</Cell>
+        <Cell column="Unnamed: 1">Pieza final de contenido generada</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Citation</Cell>
+        <Cell column="Unnamed: 1">Referencia a fuente de información</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">LaTeX</Cell>
+        <Cell column="Unnamed: 1">Sistema de composición tipográfica para fórmulas</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">CTA</Cell>
+        <Cell column="Unnamed: 1">Call to Action - Llamado a la acción</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">SEO</Cell>
+        <Cell column="Unnamed: 1">Search Engine Optimization - Optimización para motores de búsqueda</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA" />
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">REFERENCIAS CRUZADAS</Cell>
+        <Cell column="Unnamed: 1" />
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Referencia</Cell>
+        <Cell column="Unnamed: 1">Descripción</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 2.1</Cell>
+        <Cell column="Unnamed: 1">Reglas de formato de inicio</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 3.1</Cell>
+        <Cell column="Unnamed: 1">Restricciones de lenguaje</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 4.1-4.10</Cell>
+        <Cell column="Unnamed: 1">Especificaciones por tipo de consulta</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 5.1</Cell>
+        <Cell column="Unnamed: 1">Proceso de planificación</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 6.1</Cell>
+        <Cell column="Unnamed: 1">Requisitos de calidad</Cell>
+      </Row>
+      <Row>
+        <Cell column="APÉNDICES Y DATOS DE REFERENCIA">Sección 8.1</Cell>
+        <Cell column="Unnamed: 1">Arquitectura de procesamiento</Cell>
+      </Row>
+    </Rows>
+  </Sheet>
+</Workbook>

@@ -1,0 +1,13 @@
+{
+  "industria": "salud",
+  "nombre": "Salud",
+  "colores": {
+    "primary": "#2E7D32",
+    "secondary": "#1976D2",
+    "accent": "#F44336"
+  },
+  "fuente": "Arial",
+  "estilo": "profesional",
+  "fecha_creacion": "2025-11-22T16:13:39.983052",
+  "version": "1.0"
+}

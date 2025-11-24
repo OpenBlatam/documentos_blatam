@@ -1,0 +1,288 @@
+═══════════════════════════════════════════════════════════════════════════════
+              PLANTILLA: INICIAR COLABORACIONES CON MICRO-INFLUENCERS
+═══════════════════════════════════════════════════════════════════════════════
+
+INFORMACIÓN GENERAL
+────────────────────────────────────────────────────────────────────────────────
+Fecha de creación:        [FECHA]
+Responsable:              [NOMBRE]
+Proyecto/Campaña:         [NOMBRE_PROYECTO]
+Versión:                  1.0
+
+DATOS DE LA COLABORACIÓN
+────────────────────────────────────────────────────────────────────────────────
+Colaboración ID:          [ID_UNICO]
+Influencer:               [NOMBRE_USUARIO]
+Plataforma principal:     [TikTok / Instagram / LinkedIn / YouTube / Otro]
+Fecha inicio:            [FECHA]
+Fecha fin:                [FECHA]
+Estado:                   [Prospección / Negociación / Contratado / 
+                           En ejecución / Completado / Cancelado]
+
+PERFIL DEL MICRO-INFLUENCER
+────────────────────────────────────────────────────────────────────────────────
+INFORMACIÓN BÁSICA:
+Nombre completo:          [NOMBRE]
+Usuario/Handle:           [@USUARIO]
+Email:                    [EMAIL]
+Teléfono:                 [TELEFONO]
+Ubicación:                [CIUDAD, PAIS]
+Idioma:                   [IDIOMA]
+
+MÉTRICAS DE AUDIENCIA:
+Plataforma    | Seguidores | Engagement Rate | Alcance Promedio | CPM Estimado
+──────────────|────────────|─────────────────|──────────────────|─────────────
+TikTok        | [NUM]      | [%]             | [NUM]            | [$]
+Instagram     | [NUM]      | [%]             | [NUM]            | [$]
+LinkedIn      | [NUM]      | [%]             | [NUM]            | [$]
+YouTube       | [NUM]      | [%]             | [NUM]            | [$]
+Otra          | [NUM]      | [%]             | [NUM]            | [$]
+
+DEMOGRAFÍA DE AUDIENCIA:
+Edad promedio:            [RANGO]
+Género:                   [%] Femenino / [%] Masculino / [%] Otro
+Ubicación principal:      [PAIS/REGION]
+Intereses principales:    [LISTA]
+Nivel socioeconómico:     [NIVEL]
+
+CONTENIDO Y NICHO:
+Nicho principal:          [DESCRIBIR]
+Temas que cubre:          [LISTA]
+Estilo de contenido:      [DESCRIBIR]
+Frecuencia de publicación: [FRECUENCIA]
+Tipo de contenido:        [Videos / Posts / Stories / Reels / Otro]
+
+ANÁLISIS DE CONTENIDO:
+Calidad del contenido:    [EXCELENTE / BUENA / REGULAR / BAJA]
+Autenticidad:             [ALTA / MEDIA / BAJA]
+Alineación con marca:     [ALTA / MEDIA / BAJA]
+Engagement genuino:        [SÍ / NO] - Evidencia: [DESCRIBIR]
+
+OBJETIVOS DE LA COLABORACIÓN
+────────────────────────────────────────────────────────────────────────────────
+OBJETIVOS PRINCIPALES:
+1. [OBJETIVO] - Métrica: [METRICA] - Meta: [VALOR]
+2. [OBJETIVO] - Métrica: [METRICA] - Meta: [VALOR]
+3. [OBJETIVO] - Métrica: [METRICA] - Meta: [VALOR]
+
+OBJETIVOS SECUNDARIOS:
+1. [OBJETIVO]
+2. [OBJETIVO]
+3. [OBJETIVO]
+
+KPIs A MEDIR:
+Alcance:                  Meta: [NUMERO]
+Impresiones:              Meta: [NUMERO]
+Engagement:               Meta: [NUMERO]
+Clics:                    Meta: [NUMERO]
+Conversiones:             Meta: [NUMERO]
+ROI:                      Meta: [%]
+CPM:                      Meta: [$]
+
+PROPUESTA DE COLABORACIÓN
+────────────────────────────────────────────────────────────────────────────────
+TIPO DE COLABORACIÓN:
+[ ] Post patrocinado
+[ ] Story/Reel patrocinado
+[ ] Video dedicado
+[ ] Unboxing/Review
+[ ] Tutorial/How-to
+[ ] Takeover de cuenta
+[ ] Evento/Experiencia
+[ ] Colaboración a largo plazo
+[ ] Otro: [DESCRIBIR]
+
+ALCANCE DE LA COLABORACIÓN:
+Número de posts/videos:   [NUMERO]
+Plataformas incluidas:    [LISTA]
+Duración:                 [DURACION]
+Derechos de uso:          [SÍ / NO] - Detalles: [DESCRIBIR]
+
+CONTENIDO REQUERIDO:
+Mensajes clave a incluir: [LISTA]
+Hashtags requeridos:      [LISTA]
+Menciones requeridas:     [LISTA]
+CTA requerido:            [DESCRIBIR]
+Restricciones:            [DESCRIBIR]
+Guidelines de marca:      [DESCRIBIR]
+
+ASPECTOS FINANCIEROS
+────────────────────────────────────────────────────────────────────────────────
+PRESUPUESTO:
+Presupuesto total:        [$]
+Presupuesto por post/video: [$]
+Presupuesto adicional:    [$]
+
+PROPUESTA DE PAGO:
+Tarifa propuesta:         [$]
+Forma de pago:            [Pago único / Por post / Mensual / Otro]
+Fechas de pago:           [FECHAS]
+Método de pago:           [Transferencia / PayPal / Otro]
+
+NEGOCIACIÓN:
+Tarifa inicial solicitada: [$]
+Contrapropuesta:          [$]
+Tarifa acordada:          [$]
+Términos adicionales:     [DESCRIBIR]
+
+PRODUCTOS/SERVICIOS:
+Productos a enviar:       [LISTA]
+Valor estimado:           [$]
+Fecha de envío:           [FECHA]
+Tracking:                 [NUMERO_SEGUIMIENTO]
+
+CRONOGRAMA
+────────────────────────────────────────────────────────────────────────────────
+FECHAS CLAVE:
+Fecha contacto inicial:   [FECHA]
+Fecha respuesta:          [FECHA]
+Fecha propuesta enviada:  [FECHA]
+Fecha propuesta aceptada: [FECHA]
+Fecha contrato firmado:   [FECHA]
+Fecha briefing:           [FECHA]
+Fecha entrega contenido:  [FECHA]
+Fecha publicación:        [FECHA]
+Fecha entrega métricas:  [FECHA]
+Fecha pago:               [FECHA]
+
+HITOS:
+Hito                      | Fecha Planificada | Fecha Real | Estado | Notas
+──────────────────────────|───────────────────|────────────|────────|──────
+Contacto inicial          | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+Propuesta enviada         | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+Contrato firmado          | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+Contenido entregado       | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+Publicación               | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+Métricas entregadas       | [FECHA]           | [FECHA]    | [✓/✗]  | [NOTAS]
+
+COMUNICACIÓN
+────────────────────────────────────────────────────────────────────────────────
+HISTORIAL DE CONTACTO:
+
+Contacto Inicial:
+Fecha:                    [FECHA]
+Método:                    [Email / DM / Otro]
+Mensaje:                   [RESUMEN]
+Respuesta:                 [RESUMEN]
+
+Seguimientos:
+1. [FECHA] - [METODO] - [RESUMEN]
+2. [FECHA] - [METODO] - [RESUMEN]
+3. [FECHA] - [METODO] - [RESUMEN]
+
+PUNTOS DE CONTACTO:
+Persona de contacto:      [NOMBRE]
+Email:                    [EMAIL]
+Teléfono:                 [TELEFONO]
+Horario preferido:        [HORARIO]
+
+CONTRATO Y LEGAL
+────────────────────────────────────────────────────────────────────────────────
+ESTADO DEL CONTRATO:
+Contrato enviado:         [FECHA]
+Contrato recibido:        [FECHA]
+Contrato firmado:         [FECHA]
+Estado:                   [Pendiente / Firmado / Rechazado]
+
+TÉRMINOS CLAVE:
+Exclusividad:             [SÍ / NO] - Detalles: [DESCRIBIR]
+Duración:                 [DURACION]
+Derechos de uso:          [DESCRIBIR]
+Aprobación de contenido:  [SÍ / NO]
+Cláusulas especiales:     [DESCRIBIR]
+
+COMPLIANCE:
+[ ] Contrato firmado
+[ ] Disclosure/FTC compliance verificado
+[ ] Guidelines de marca compartidos
+[ ] Política de privacidad compartida
+[ ] Términos y condiciones aceptados
+
+RESULTADOS Y MÉTRICAS
+────────────────────────────────────────────────────────────────────────────────
+MÉTRICAS DE ALCANCE:
+Métrica                   | Meta    | Real    | % Cumplimiento
+──────────────────────────|─────────|─────────|───────────────
+Alcance                   | [NUM]   | [NUM]   | [%]
+Impresiones               | [NUM]   | [NUM]   | [%]
+Vistas                    | [NUM]   | [NUM]   | [%]
+Reproducciones completas  | [NUM]   | [NUM]   | [%]
+
+MÉTRICAS DE ENGAGEMENT:
+Métrica                   | Meta    | Real    | % Cumplimiento
+──────────────────────────|─────────|─────────|───────────────
+Likes                     | [NUM]   | [NUM]   | [%]
+Comentarios               | [NUM]   | [NUM]   | [%]
+Compartidos               | [NUM]   | [NUM]   | [%]
+Guardados                 | [NUM]   | [NUM]   | [%]
+Engagement Rate           | [%]     | [%]     | [%]
+
+MÉTRICAS DE CONVERSIÓN:
+Métrica                   | Meta    | Real    | % Cumplimiento
+──────────────────────────|─────────|─────────|───────────────
+Clics                     | [NUM]   | [NUM]   | [%]
+Conversiones              | [NUM]   | [NUM]   | [%]
+CTR                       | [%]     | [%]     | [%]
+CVR                       | [%]     | [%]     | [%]
+ROI                       | [%]     | [%]     | [%]
+CPM                       | [$]     | [$]     | [%]
+
+ANÁLISIS DE RESULTADOS:
+Fortalezas:
+- [FORTALEZA 1]
+- [FORTALEZA 2]
+
+Áreas de mejora:
+- [MEJORA 1]
+- [MEJORA 2]
+
+Lecciones aprendidas:
+- [LECCION 1]
+- [LECCION 2]
+
+RELACIÓN A LARGO PLAZO
+────────────────────────────────────────────────────────────────────────────────
+Potencial de colaboración futura: [ALTO / MEDIO / BAJO]
+Razón:                            [DESCRIBIR]
+Recomendación:                    [SÍ / NO] - [RAZON]
+
+CHECKLIST DE COLABORACIÓN
+────────────────────────────────────────────────────────────────────────────────
+FASE DE PROSPECCIÓN:
+[ ] Influencer identificado
+[ ] Perfil analizado
+[ ] Métricas verificadas
+[ ] Alineación con marca evaluada
+[ ] Contacto inicial realizado
+
+FASE DE NEGOCIACIÓN:
+[ ] Propuesta enviada
+[ ] Términos negociados
+[ ] Presupuesto aprobado
+[ ] Contrato preparado
+[ ] Contrato firmado
+
+FASE DE EJECUCIÓN:
+[ ] Briefing realizado
+[ ] Productos/servicios enviados
+[ ] Contenido aprobado
+[ ] Publicación realizada
+[ ] Métricas recopiladas
+
+FASE DE SEGUIMIENTO:
+[ ] Resultados analizados
+[ ] Feedback compartido
+[ ] Pago realizado
+[ ] Relación evaluada
+[ ] Documentación completada
+
+NOTAS ADICIONALES
+────────────────────────────────────────────────────────────────────────────────
+[ESPACIO_PARA_NOTAS_LIBRES]
+
+────────────────────────────────────────────────────────────────────────────────
+Última actualización: [FECHA]
+Próxima acción:       [ACCION] - Fecha: [FECHA]
+
+
+

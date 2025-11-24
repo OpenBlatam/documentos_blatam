@@ -1,0 +1,14 @@
+TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+Tipo,Descripción,Longitud,Plataformas,Complejidad,Frecuencia Uso,Tasa Éxito %
+Blog Articles,Artículos largos y detallados,2000-5000 palabras,"Blogs, CMS",Alta,45,94
+Social Media Posts,Contenido conciso y atractivo,50-300 caracteres,"Instagram, Twitter, Facebook",Media,78,96
+Email Marketing,Mensajes con CTA fuerte,100-500 palabras,Email clients,Media,62,92
+Landing Pages,Copy persuasivo y conversión,500-1500 palabras,Websites,Alta,34,89
+Copywriting,Lenguaje persuasivo,Variable,Múltiples,Alta,56,93
+Product Descriptions,Descripciones detalladas,200-800 palabras,E-commerce,Media,48,91
+SEO Content,Optimizado para búsqueda,1500-3000 palabras,Websites,Alta,41,95
+Creative Writing,Contenido creativo,Variable,Múltiples,Variable,29,88
+Technical Documentation,Documentación técnica,Variable,"Docs, Wikis",Alta,37,97
+Content Strategy,Estrategia de contenido,Variable,Múltiples,Alta,25,90
+,,,,,,
+TOTALES Y PROMEDIOS,,,,,,

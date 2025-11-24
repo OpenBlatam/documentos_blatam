@@ -1,0 +1,22 @@
+OPTIMIZACIÓN AVANZADA Y TUNING,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+,,,,,,
+HIPERPARÁMETROS DEL MODELO,,,,,,
+Parámetro,Valor,Descripción,,,,
+Learning Rate,0.001,Tasa de aprendizaje del modelo,,,,
+Batch Size,32,Tamaño del lote de entrenamiento,,,,
+Epochs,100,Número de épocas de entrenamiento,,,,
+Dropout Rate,0.2,Tasa de dropout para regularización,,,,
+Hidden Layers,3,Número de capas ocultas,,,,
+Neurons per Layer,128,Neuronas por capa,,,,
+Optimizer,Adam,Algoritmo de optimización,,,,
+Loss Function,Cross-Entropy,Función de pérdida,,,,
+,,,,,,
+RESULTADOS DE GRID SEARCH,,,,,,
+Learning Rate,Batch Size,Epochs,Accuracy,F1-Score,Tiempo (min),Ranking
+0.001,32,100,0.94,0.9,45,1
+0.001,64,100,0.93,0.89,38,2
+0.0005,32,100,0.92,0.88,52,3
+0.001,32,150,0.95,0.91,68,1
+0.002,32,100,0.91,0.87,42,4
+,,,,,,
+MEJOR COMBINACIÓN:,"Learning Rate: 0.001, Batch: 32, Epochs: 150",,,,,

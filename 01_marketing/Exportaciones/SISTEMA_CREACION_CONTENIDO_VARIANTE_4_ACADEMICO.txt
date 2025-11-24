@@ -1,0 +1,414 @@
+======================================================================
+EXPORTACIÓN DE: SISTEMA_CREACION_CONTENIDO_VARIANTE_4_ACADEMICO.xlsx
+Fecha: 22/11/2025 16:23:13
+======================================================================
+
+
+======================================================================
+HOJA: Resumen Ejecutivo
+======================================================================
+
+                     SISTEMA DE CREACIÓN DE CONTENIDO                       Unnamed: 1            Unnamed: 2       Unnamed: 3 Unnamed: 4
+Variante 4: Académico y Técnico - Dashboard Ejecutivo                              NaN                   NaN              NaN        NaN
+                                                  NaN                              NaN                   NaN              NaN        NaN
+                                             Versión:                              4.0                Fecha:       22/11/2025        NaN
+                                               Autor: Sistema de Documentación Técnica               Estado:           Activo        NaN
+                                       Clasificación:   Documentación de Sistema de IA Última Actualización: 22/11/2025 02:10        NaN
+              INDICADORES CLAVE DE RENDIMIENTO (KPIs)                              NaN                   NaN              NaN        NaN
+                                              Métrica                     Valor Actual              Objetivo     Desviación %     Estado
+                        Tipos de Contenido Soportados                              NaN                   NaN              NaN        NaN
+                              Plataformas Optimizadas                                8                     8              NaN        NaN
+                          Reglas de Formato Definidas                               25                    25              NaN        NaN
+                             Restricciones Operativas                               15                    15              NaN        NaN
+                              Tasa de Completitud (%)                               95                    90              NaN        NaN
+                     Tiempo Generación Promedio (min)                              2.5                     3              NaN        NaN
+                                Tasa de Precisión (%)                               92                    90              NaN        NaN
+                               Tasa de Relevancia (%)                               88                    85              NaN        NaN
+                         Satisfacción del Usuario (%)                               87                    85              NaN        NaN
+                                     PROMEDIO GENERAL                              NaN                   NaN              NaN        NaN
+
+
+======================================================================
+HOJA: Análisis Estadístico
+======================================================================
+
+ANÁLISIS ESTADÍSTICO DEL SISTEMA         Unnamed: 1     Unnamed: 2            Unnamed: 3       Unnamed: 4 Unnamed: 5
+                             NaN                NaN            NaN                   NaN              NaN        NaN
+                             MES Contenido Generado Tasa Éxito (%) Tiempo Promedio (min) Satisfacción (%)    ROI (%)
+                           Enero                120             92                   2.8               85        145
+                         Febrero                145             94                   2.6               87        152
+                           Marzo                138             91                   2.7               86        148
+                           Abril                162             95                   2.4               89        165
+                            Mayo                175             96                   2.3               90        178
+                           Junio                188             97                   2.2               92        185
+                             NaN                NaN            NaN                   NaN              NaN        NaN
+       ESTADÍSTICAS DESCRIPTIVAS                NaN            NaN                   NaN              NaN        NaN
+             Promedio Contenido:                NaN            NaN                   NaN              NaN        NaN
+            Desviación Estándar:                NaN            NaN                   NaN              NaN        NaN
+                         Mínimo:                NaN            NaN                   NaN              NaN        NaN
+                         Máximo:                NaN            NaN                   NaN              NaN        NaN
+                        Mediana:                NaN            NaN                   NaN              NaN        NaN
+            Tasa Éxito Promedio:                NaN            NaN                   NaN              NaN        NaN
+                   ROI Promedio:                NaN            NaN                   NaN              NaN        NaN
+
+
+======================================================================
+HOJA: Casos de Estudio
+======================================================================
+
+CASOS DE ESTUDIO Y RESULTADOS REALES      Unnamed: 1           Unnamed: 2 Unnamed: 3      Unnamed: 4 Unnamed: 5   Unnamed: 6 Unnamed: 7
+                                Caso         Cliente       Tipo Contenido    Volumen Tiempo Ahorrado      ROI % Satisfacción     Estado
+                              Caso 1   TechCorp Inc.        Blog Articles        150             120        185           94 Completado
+                              Caso 2      StartupXYZ         Social Media        500              80        220           91 Completado
+                              Caso 3  Enterprise Ltd      Email Marketing        200              60        165           89 Completado
+                              Caso 4   E-commerce Co Product Descriptions       1000             200        195           93 En Proceso
+                              Caso 5   SaaS Platform        Landing Pages         25              40        210           96 Completado
+                              Caso 6      Agency Pro          Copywriting        300             100        175           88 Completado
+                              Caso 7     Media Group          SEO Content        200              90        190           92 Completado
+                              Caso 8 Consulting Firm       Technical Docs         50              60        155           90 Completado
+                                 NaN             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+              ESTADÍSTICAS AGREGADAS             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+                        Total Casos:             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+                      Volumen Total:             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+      Tiempo Ahorrado Total (horas):             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+                       ROI Promedio:             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+              Satisfacción Promedio:             NaN                  NaN        NaN             NaN        NaN          NaN        NaN
+
+
+======================================================================
+HOJA: Benchmarks
+======================================================================
+
+BENCHMARKS Y COMPARATIVA CON COMPETIDORES   Unnamed: 1   Unnamed: 2   Unnamed: 3   Unnamed: 4   Unnamed: 5 Unnamed: 6
+                                  Métrica Este Sistema Competidor A Competidor B Competidor C        Mejor  Ventaja %
+                       Tipos de Contenido           10            7            8            6 Este Sistema        NaN
+                        Tasa de Éxito (%)           95           88           91           85 Este Sistema        NaN
+                    Tiempo Promedio (min)          2.5          3.8          3.2          4.1 Este Sistema        NaN
+                         Precisión ML (%)           94           89           91           87 Este Sistema        NaN
+                  Costo por Contenido ($)           35           45           40           50 Este Sistema        NaN
+                 Satisfacción Usuario (%)           87           82           84           79 Este Sistema        NaN
+                   Plataformas Soportadas            8            5            6            4 Este Sistema        NaN
+             Tiempo de Respuesta API (ms)          120          180          150          200 Este Sistema        NaN
+
+
+======================================================================
+HOJA: Troubleshooting
+======================================================================
+
+GUÍA DE TROUBLESHOOTING Y SOLUCIÓN DE PROBLEMAS                    Unnamed: 1                    Unnamed: 2                         Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6
+                                       Problema                       Síntoma                Causa Probable                           Solución  Prioridad Frecuencia     Estado
+                           Contenido Incompleto       Falta información clave          Brief poco detallado Proporcionar más contexto en brief       Alta        15%   Resuelto
+                             Formato Incorrecto   No cumple reglas de formato   Query type mal identificado    Especificar tipo explícitamente      Media         8%   Resuelto
+                            Falta de Citaciones               Sin referencias     Research no proporcionado          Incluir research insights      Media        12%   Resuelto
+                             Tono Inconsistente       Voz de marca incorrecta     Brand guidelines ausentes Proporcionar guidelines detalladas       Alta        10%   Resuelto
+                             Contenido Genérico         Falta personalización Falta de detalles específicos          Incluir detalles en brief      Media        18% En Proceso
+                      Tiempo de Respuesta Lento                    >5 minutos        Carga alta del sistema                   Escalar recursos       Alta         5%   Resuelto
+                            Error de Validación           Falla en validación                 Bug en reglas    Actualizar reglas de validación       Alta         3%   Resuelto
+                            Contenido Duplicado Similar a contenido existente         Falta de originalidad  Mejorar algoritmo de originalidad      Media         7% En Proceso
+                                            NaN                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                           RESUMEN DE PROBLEMAS                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                               Total Problemas:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                                     Resueltos:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                                    En Proceso:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                            Tasa de Resolución:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                                Prioridad Alta:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+                           Frecuencia Promedio:                           NaN                           NaN                                NaN        NaN        NaN        NaN
+
+
+======================================================================
+HOJA: Roadmap
+======================================================================
+
+ROADMAP Y PLAN DE EVOLUCIÓN DEL SISTEMA          Unnamed: 1                             Unnamed: 2    Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7
+                                Versión   Fecha Lanzamiento            Características Principales        Estado  Prioridad   Esfuerzo    Impacto         NaN
+                                   v4.0 2025-05-13 00:00:00       ML avanzado, Análisis predictivo       Lanzado       Alta          8       Alto         4.0
+                                   v4.1 2025-06-15 00:00:00                   Soporte multi-idioma En Desarrollo       Alta          6       Alto         4.0
+                                   v4.2 2025-07-20 00:00:00        Integración con más plataformas   Planificado      Media          5      Medio         3.0
+                                   v4.3 2025-08-30 00:00:00     Generación de contenido multimedia   Planificado       Alta          9       Alto         4.0
+                                   v4.4 2025-10-10 00:00:00                  A/B testing integrado   Planificado      Media          4      Medio         3.0
+                                   v5.0 2026-01-15 00:00:00       Arquitectura completamente nueva   Planificado       Alta         12   Muy Alto         5.0
+                                   v5.1 2026-03-01 00:00:00         IA generativa avanzada (GPT-5)   Planificado       Alta         10   Muy Alto         5.0
+                                   v5.2 2026-05-15 00:00:00 Análisis de sentimiento en tiempo real   Planificado      Media          6      Medio         3.0
+
+
+======================================================================
+HOJA: Análisis Predictivo
+======================================================================
+
+ANÁLISIS PREDICTIVO Y FORECASTING     Unnamed: 1         Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5
+                              NaN            NaN                NaN        NaN        NaN        NaN
+                              MES Contenido Real Contenido Predicho    Error %  Tendencia  Confianza
+                            Enero            120                115        NaN  Creciente       0.85
+                          Febrero            145                140        NaN  Creciente       0.88
+                            Marzo            138                142        NaN    Estable       0.82
+                            Abril            162                158        NaN  Creciente        0.9
+                             Mayo            175                170        NaN  Creciente       0.92
+                            Junio            188                185        NaN  Creciente       0.94
+                     Julio (Pred)            NaN                195        NaN  Creciente       0.91
+                    Agosto (Pred)            NaN                205        NaN  Creciente       0.89
+                Septiembre (Pred)            NaN                210        NaN    Estable       0.87
+                              NaN            NaN                NaN        NaN        NaN        NaN
+    PREDICCIÓN (Regresión Lineal)            NaN                NaN        NaN        NaN        NaN
+                   Pendiente (m):            NaN                NaN        NaN        NaN        NaN
+                  Intercepto (b):            NaN                NaN        NaN        NaN        NaN
+  R² (Coeficiente Determinación):            NaN                NaN        NaN        NaN        NaN
+                              NaN            NaN                NaN        NaN        NaN        NaN
+            PRÓXIMAS PREDICCIONES            NaN                NaN        NaN        NaN        NaN
+
+
+======================================================================
+HOJA: ML Metrics
+======================================================================
+
+MÉTRICAS DE MACHINE LEARNING Y OPTIMIZACIÓN         Unnamed: 1         Unnamed: 2 Unnamed: 3 Unnamed: 4           Unnamed: 5 Unnamed: 6
+                                        NaN                NaN                NaN        NaN        NaN                  NaN        NaN
+                                    Métrica       Valor Actual     Valor Objetivo   Mejora %     Estado Última Actualización  Tendencia
+                       Precisión (Accuracy)               0.94                0.9        NaN        NaN           2025-05-13          ↑
+                      Precisión (Precision)               0.91               0.88        NaN        NaN           2025-05-13          ↑
+                      Recall (Sensibilidad)               0.89               0.85        NaN        NaN           2025-05-13          ↑
+                                   F1-Score                0.9               0.86        NaN        NaN           2025-05-13          ↑
+                                    AUC-ROC               0.93                0.9        NaN        NaN           2025-05-13          ↑
+                   Tasa de Falsos Positivos               0.05                0.1        NaN        NaN           2025-05-13          ↓
+              Tiempo de Entrenamiento (min)                 45                 60        NaN        NaN           2025-05-13          ↓
+                                        NaN                NaN                NaN        NaN        NaN                  NaN        NaN
+                        MATRIZ DE CONFUSIÓN                NaN                NaN        NaN        NaN                  NaN        NaN
+                                        NaN Predicho: Positivo Predicho: Negativo        NaN        NaN                  NaN        NaN
+                             Real: Positivo                850                 50        NaN        NaN                  NaN        NaN
+                             Real: Negativo                 45                 55        NaN        NaN                  NaN        NaN
+                                        NaN                NaN                NaN        NaN        NaN                  NaN        NaN
+                      CÁLCULOS DESDE MATRIZ                NaN                NaN        NaN        NaN                  NaN        NaN
+                 Verdaderos Positivos (TP):                NaN                NaN        NaN        NaN                  NaN        NaN
+                     Falsos Positivos (FP):                NaN                NaN        NaN        NaN                  NaN        NaN
+                     Falsos Negativos (FN):                NaN                NaN        NaN        NaN                  NaN        NaN
+                 Verdaderos Negativos (TN):                NaN                NaN        NaN        NaN                  NaN        NaN
+                       Precisión Calculada:                NaN                NaN        NaN        NaN                  NaN        NaN
+                          Recall Calculado:                NaN                NaN        NaN        NaN                  NaN        NaN
+                        F1-Score Calculado:                NaN                NaN        NaN        NaN                  NaN        NaN
+
+
+======================================================================
+HOJA: Optimización Avanzada
+======================================================================
+
+OPTIMIZACIÓN AVANZADA Y TUNING                                   Unnamed: 1                          Unnamed: 2 Unnamed: 3 Unnamed: 4   Unnamed: 5 Unnamed: 6
+                           NaN                                          NaN                                 NaN        NaN        NaN          NaN        NaN
+    HIPERPARÁMETROS DEL MODELO                                          NaN                                 NaN        NaN        NaN          NaN        NaN
+                     Parámetro                                        Valor                         Descripción        NaN        NaN          NaN        NaN
+                 Learning Rate                                        0.001      Tasa de aprendizaje del modelo        NaN        NaN          NaN        NaN
+                    Batch Size                                           32    Tamaño del lote de entrenamiento        NaN        NaN          NaN        NaN
+                        Epochs                                          100   Número de épocas de entrenamiento        NaN        NaN          NaN        NaN
+                  Dropout Rate                                          0.2 Tasa de dropout para regularización        NaN        NaN          NaN        NaN
+                 Hidden Layers                                            3             Número de capas ocultas        NaN        NaN          NaN        NaN
+             Neurons per Layer                                          128                   Neuronas por capa        NaN        NaN          NaN        NaN
+                     Optimizer                                         Adam           Algoritmo de optimización        NaN        NaN          NaN        NaN
+                 Loss Function                                Cross-Entropy                  Función de pérdida        NaN        NaN          NaN        NaN
+                           NaN                                          NaN                                 NaN        NaN        NaN          NaN        NaN
+     RESULTADOS DE GRID SEARCH                                          NaN                                 NaN        NaN        NaN          NaN        NaN
+                 Learning Rate                                   Batch Size                              Epochs   Accuracy   F1-Score Tiempo (min)    Ranking
+                         0.001                                           32                                 100       0.94        0.9           45          1
+                         0.001                                           64                                 100       0.93       0.89           38          2
+                        0.0005                                           32                                 100       0.92       0.88           52          3
+                         0.001                                           32                                 150       0.95       0.91           68          1
+                         0.002                                           32                                 100       0.91       0.87           42          4
+                           NaN                                          NaN                                 NaN        NaN        NaN          NaN        NaN
+            MEJOR COMBINACIÓN: Learning Rate: 0.001, Batch: 32, Epochs: 150                                 NaN        NaN        NaN          NaN        NaN
+
+
+======================================================================
+HOJA: Matriz de Decisión
+======================================================================
+
+MATRIZ DE DECISIÓN: SELECCIÓN DE TIPO DE CONTENIDO Unnamed: 1   Unnamed: 2 Unnamed: 3   Unnamed: 4  Unnamed: 5 Unnamed: 6
+                                          Criterio       Blog Social Media      Email Landing Page Copywriting       Peso
+                                Longitud Requerida          5            1          3            4           3       0.15
+                               Complejidad Técnica          4            2          2            3           3        0.2
+                                          Urgencia          2            5          4            3           3        0.1
+                               Engagement Esperado          3            5          3            4           4       0.25
+                               Costo de Producción          3            2          2            4           3       0.15
+                                      ROI Esperado          4            3          4            5           4       0.15
+                                               NaN        NaN          NaN        NaN          NaN         NaN        NaN
+                              PUNTUACIÓN PONDERADA        NaN          NaN        NaN          NaN         NaN        NaN
+                                               NaN        NaN          NaN        NaN          NaN         NaN        NaN
+                                 TIPO RECOMENDADO:        NaN          NaN        NaN          NaN         NaN        NaN
+
+
+======================================================================
+HOJA: Análisis de Costos
+======================================================================
+
+ANÁLISIS DE COSTOS Y ROI       Unnamed: 1     Unnamed: 2  Unnamed: 3     Unnamed: 4 Unnamed: 5
+          Tipo Contenido Costo Producción Costo Revisión Costo Total Valor Generado      ROI %
+           Blog Articles              150             50         NaN            450        NaN
+      Social Media Posts               25             10         NaN             80        NaN
+         Email Marketing               75             25         NaN            200        NaN
+           Landing Pages              200             75         NaN            600        NaN
+             Copywriting              120             40         NaN            350        NaN
+    Product Descriptions               60             20         NaN            150        NaN
+             SEO Content              180             60         NaN            500        NaN
+ Technical Documentation              250            100         NaN            750        NaN
+                     NaN              NaN            NaN         NaN            NaN        NaN
+                 TOTALES              NaN            NaN         NaN            NaN        NaN
+
+
+======================================================================
+HOJA: Calendario Contenido
+======================================================================
+
+CALENDARIO DE PRODUCCIÓN DE CONTENIDO Unnamed: 1      Unnamed: 2           Unnamed: 3 Unnamed: 4  Unnamed: 5  Unnamed: 6 Unnamed: 7
+                                Fecha        Día            Tipo                 Tema Plataforma      Estado Responsable      Notas
+                  2025-05-13 00:00:00      Lunes    Blog Article Mejores Prácticas IA    Website Planificado    Equipo A        NaN
+                  2025-05-14 00:00:00     Martes    Social Media       Product Launch  Instagram  En Proceso    Equipo B        NaN
+                  2025-05-15 00:00:00  Miércoles Email Marketing   Newsletter Semanal      Email  Completado    Equipo A    Enviado
+                  2025-05-16 00:00:00     Jueves    Landing Page       Nuevo Servicio    Website Planificado    Equipo C        NaN
+                  2025-05-17 00:00:00    Viernes    Social Media          Testimonial   LinkedIn  Completado    Equipo B  Publicado
+                  2025-05-20 00:00:00      Lunes    Blog Article Tendencias Marketing    Website Planificado    Equipo A        NaN
+                  2025-05-21 00:00:00     Martes     Copywriting        Campaign Copy  Múltiples  En Proceso    Equipo C        NaN
+                  2025-05-22 00:00:00  Miércoles     SEO Content        Guía Completa    Website Planificado    Equipo A        NaN
+                  2025-05-23 00:00:00     Jueves    Social Media        Behind Scenes  Instagram Planificado    Equipo B        NaN
+                  2025-05-24 00:00:00    Viernes Email Marketing            Promoción      Email Planificado    Equipo A        NaN
+                                  NaN        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+                                  NaN        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+                   RESUMEN POR ESTADO        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+                               Estado   Cantidad             NaN                  NaN        NaN         NaN         NaN        NaN
+                          Planificado        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+                           En Proceso        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+                           Completado        NaN             NaN                  NaN        NaN         NaN         NaN        NaN
+
+
+======================================================================
+HOJA: Validación y Testing
+======================================================================
+
+MATRIZ DE VALIDACIÓN Y TESTING Unnamed: 1    Unnamed: 2       Unnamed: 3 Unnamed: 4 Unnamed: 5          Unnamed: 6
+        Criterio de Validación  Tipo Test    Frecuencia Resultado Actual   Objetivo     Estado    Última Ejecución
+          Completitud de Brief Automático Por solicitud               95         90        NaN 2025-05-13 00:00:00
+              Formato Correcto Automático Por solicitud               98         95        NaN 2025-05-13 00:00:00
+       Restricciones Cumplidas Automático Por solicitud               97         95        NaN 2025-05-13 00:00:00
+          Calidad de Contenido     Manual       Semanal               92         90        NaN 2025-05-10 00:00:00
+          Satisfacción Usuario     Manual       Mensual               87         85        NaN 2025-05-01 00:00:00
+           Tiempo de Respuesta Automático        Diario              2.5          3        NaN 2025-05-13 00:00:00
+                 Tasa de Error Automático        Diario                2          5        NaN 2025-05-13 00:00:00
+
+
+======================================================================
+HOJA: Tipos de Contenido
+======================================================================
+
+TIPOS DE CONTENIDO SOPORTADOS - ANÁLISIS DETALLADO                    Unnamed: 1         Unnamed: 2                   Unnamed: 3  Unnamed: 4     Unnamed: 5   Unnamed: 6
+                                              Tipo                   Descripción           Longitud                  Plataformas Complejidad Frecuencia Uso Tasa Éxito %
+                                     Blog Articles Artículos largos y detallados 2000-5000 palabras                   Blogs, CMS        Alta             45           94
+                                Social Media Posts Contenido conciso y atractivo  50-300 caracteres Instagram, Twitter, Facebook       Media             78           96
+                                   Email Marketing       Mensajes con CTA fuerte   100-500 palabras                Email clients       Media             62           92
+                                     Landing Pages  Copy persuasivo y conversión  500-1500 palabras                     Websites        Alta             34           89
+                                       Copywriting           Lenguaje persuasivo           Variable                    Múltiples        Alta             56           93
+                              Product Descriptions      Descripciones detalladas   200-800 palabras                   E-commerce       Media             48           91
+                                       SEO Content      Optimizado para búsqueda 1500-3000 palabras                     Websites        Alta             41           95
+                                  Creative Writing            Contenido creativo           Variable                    Múltiples    Variable             29           88
+                           Technical Documentation         Documentación técnica           Variable                  Docs, Wikis        Alta             37           97
+                                  Content Strategy       Estrategia de contenido           Variable                    Múltiples        Alta             25           90
+                                               NaN                           NaN                NaN                          NaN         NaN            NaN          NaN
+                               TOTALES Y PROMEDIOS                           NaN                NaN                          NaN         NaN            NaN          NaN
+
+
+======================================================================
+HOJA: Reglas de Formato
+======================================================================
+
+REGLAS DE FORMATO DEL SISTEMA                            Unnamed: 1  Unnamed: 2 Unnamed: 3
+                    Categoría                                 Regla        Tipo  Prioridad
+                       Inicio          Nunca iniciar con encabezado Restricción       Alta
+                       Inicio Proporcionar gancho o resumen inicial   Requisito       Alta
+                  Encabezados    Usar H2 para secciones principales     Formato       Alta
+                  Encabezados         Usar negrita para subsections     Formato      Media
+                       Listas                Preferir listas planas     Formato      Media
+                       Listas                      No anidar listas Restricción       Alta
+                       Listas   No mezclar ordenadas y desordenadas Restricción       Alta
+                       Tablas        Usar tablas para comparaciones     Formato      Media
+                      Énfasis            Usar negrita moderadamente     Formato      Media
+                       Código   Usar bloques de código con sintaxis     Formato      Media
+                  Matemáticas                    Siempre usar LaTeX     Formato       Alta
+                  Matemáticas                  Nunca usar $ o 42622 Restricción       Alta
+                        Citas Citar fuentes después de cada oración   Requisito       Alta
+                        Citas     No incluir sección de Referencias Restricción       Alta
+                          Fin           Nunca terminar con pregunta Restricción       Alta
+
+
+======================================================================
+HOJA: Análisis y Métricas
+======================================================================
+
+ANÁLISIS DE RENDIMIENTO Y MÉTRICAS   Unnamed: 1     Unnamed: 2   Unnamed: 3
+                               NaN          NaN            NaN          NaN
+                Métrica de Calidad Valor Actual Valor Objetivo Desviación %
+                       Completitud           95             90          NaN
+                         Precisión           92             90          NaN
+                        Relevancia           88             85          NaN
+                      Optimización           90             85          NaN
+                      Originalidad           98             95          NaN
+                           Formato           96             95          NaN
+                               NaN          NaN            NaN          NaN
+                         Promedio:          NaN            NaN          NaN
+
+
+======================================================================
+HOJA: Gráficos
+======================================================================
+
+VISUALIZACIONES DE DATOS         Unnamed: 1
+                     NaN                NaN
+       Tipo de Contenido  Frecuencia de Uso
+           Blog Articles                 45
+            Social Media                 78
+         Email Marketing                 62
+           Landing Pages                 34
+             Copywriting                 56
+    Product Descriptions                 48
+             SEO Content                 41
+          Technical Docs                 29
+                     NaN                NaN
+                     NaN                NaN
+                     NaN                NaN
+                     Mes Contenido Generado
+                     Ene                120
+                     Feb                145
+                     Mar                138
+                     Abr                162
+                     May                175
+                     Jun                188
+                     NaN                NaN
+                     NaN                NaN
+               Categoría     Distribución %
+            Format Rules                 25
+            Restrictions                 20
+             Query Types                 18
+          Planning Rules                 15
+            Output Specs                 12
+                   Other                 10
+
+
+======================================================================
+HOJA: Apéndices
+======================================================================
+
+APÉNDICES Y DATOS DE REFERENCIA                                                         Unnamed: 1
+                            NaN                                                                NaN
+           GLOSARIO DE TÉRMINOS                                                                NaN
+                        Término                                                         Definición
+                          Brief              Documento que especifica los requisitos del contenido
+               Brand Guidelines                     Pautas que definen voz, tono y estilo de marca
+                     Query Type                         Categoría del tipo de contenido solicitado
+                  Content Piece                                  Pieza final de contenido generada
+                       Citation                                 Referencia a fuente de información
+                          LaTeX                   Sistema de composición tipográfica para fórmulas
+                            CTA                               Call to Action - Llamado a la acción
+                            SEO Search Engine Optimization - Optimización para motores de búsqueda
+                            NaN                                                                NaN
+           REFERENCIAS CRUZADAS                                                                NaN
+                     Referencia                                                        Descripción
+                    Sección 2.1                                        Reglas de formato de inicio
+                    Sección 3.1                                          Restricciones de lenguaje
+               Sección 4.1-4.10                              Especificaciones por tipo de consulta
+                    Sección 5.1                                           Proceso de planificación
+                    Sección 6.1                                              Requisitos de calidad
+                    Sección 8.1                                      Arquitectura de procesamiento
+

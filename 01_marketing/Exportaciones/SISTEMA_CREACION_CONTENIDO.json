@@ -1,0 +1,641 @@
+{
+  "📊 Resumen Ejecutivo": [
+    {
+      "✍️ Sistema de Creación de Contenido": "Variante Tech Startup - Resumen Ejecutivo",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Generado: 22/11/2025 02:28",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "KPI",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Tendencia",
+      "Unnamed: 3": "Meta",
+      "Unnamed: 4": "Estado",
+      "Unnamed: 5": "Cálculo"
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Tipos de Contenido Soportados",
+      "Unnamed: 1": 8,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": 10,
+      "Unnamed: 4": "En Progreso",
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Formatos de Salida",
+      "Unnamed: 1": 4,
+      "Unnamed: 2": "→",
+      "Unnamed: 3": 4,
+      "Unnamed: 4": "Completo",
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Reglas de Formato",
+      "Unnamed: 1": 15,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": 20,
+      "Unnamed: 4": "En Progreso",
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Restricciones Críticas",
+      "Unnamed: 1": 12,
+      "Unnamed: 2": "→",
+      "Unnamed: 3": 12,
+      "Unnamed: 4": "Completo",
+      "Unnamed: 5": NaN
+    },
+    {
+      "✍️ Sistema de Creación de Contenido": "Tasa de Éxito",
+      "Unnamed: 1": "95%",
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": "98%",
+      "Unnamed: 4": "Excelente",
+      "Unnamed: 5": NaN
+    }
+  ],
+  "🎯 Dashboard": [
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Métrica",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Fórmula"
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Total Tipos Contenido",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "Cuenta tipos de contenido"
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Contenido Total/Mes",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "Suma de todo el contenido"
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Tasa Aprobación Actual",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "Última tasa de aprobación"
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Promedio Satisfacción",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "Promedio de todas las métricas"
+    },
+    {
+      "📊 Dashboard Interactivo - Sistema de Creación de Contenido": "Máxima Tasa Conversión",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": "Valor máximo de métricas"
+    }
+  ],
+  "📋 Datos Detallados": [
+    {
+      "Tipo de Contenido": "Blog Articles",
+      "Características": "Artículos largos y detallados",
+      "Plataforma": "Web",
+      "Longitud Promedio": "2000-5000",
+      "Tiempo Producción": "2-4h",
+      "Prioridad": "Alta",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Social Media",
+      "Características": "Contenido conciso optimizado",
+      "Plataforma": "Instagram/Twitter",
+      "Longitud Promedio": "50-280",
+      "Tiempo Producción": "15-30min",
+      "Prioridad": "Alta",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Email Marketing",
+      "Características": "Mensajes con CTAs fuertes",
+      "Plataforma": "Email",
+      "Longitud Promedio": "100-500",
+      "Tiempo Producción": "30-60min",
+      "Prioridad": "Media",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Landing Pages",
+      "Características": "Copy persuasivo conversión",
+      "Plataforma": "Web",
+      "Longitud Promedio": "500-1500",
+      "Tiempo Producción": "1-2h",
+      "Prioridad": "Alta",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Copywriting",
+      "Características": "Lenguaje persuasivo",
+      "Plataforma": "Multi-plataforma",
+      "Longitud Promedio": "100-1000",
+      "Tiempo Producción": "1-3h",
+      "Prioridad": "Alta",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Product Descriptions",
+      "Características": "Características y beneficios",
+      "Plataforma": "E-commerce",
+      "Longitud Promedio": "100-300",
+      "Tiempo Producción": "20-40min",
+      "Prioridad": "Media",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "SEO Content",
+      "Características": "Optimizado con keywords",
+      "Plataforma": "Web",
+      "Longitud Promedio": "1500-3000",
+      "Tiempo Producción": "2-3h",
+      "Prioridad": "Alta",
+      "Score Calculado": NaN
+    },
+    {
+      "Tipo de Contenido": "Technical Docs",
+      "Características": "Documentación con código",
+      "Plataforma": "Web/GitHub",
+      "Longitud Promedio": "1000-5000",
+      "Tiempo Producción": "3-6h",
+      "Prioridad": "Media",
+      "Score Calculado": NaN
+    }
+  ],
+  "📈 Análisis y Métricas": [
+    {
+      "Métricas de Rendimiento del Sistema": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Métrica",
+      "Unnamed: 1": "Valor Actual",
+      "Unnamed: 2": "Valor Anterior",
+      "Unnamed: 3": "Cambio %"
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Tasa de Aprobación",
+      "Unnamed: 1": 95,
+      "Unnamed: 2": 92,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Tiempo Promedio Producción",
+      "Unnamed: 1": 2.5,
+      "Unnamed: 2": 3.2,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Satisfacción Usuario",
+      "Unnamed: 1": 4.8,
+      "Unnamed: 2": 4.6,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Contenido Generado/Mes",
+      "Unnamed: 1": 450,
+      "Unnamed: 2": 380,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Tasa de Conversión",
+      "Unnamed: 1": 12.5,
+      "Unnamed: 2": 11.2,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Engagement Rate",
+      "Unnamed: 1": 8.3,
+      "Unnamed: 2": 7.5,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "SEO Ranking Promedio",
+      "Unnamed: 1": 4.2,
+      "Unnamed: 2": 3.8,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Tiempo de Respuesta",
+      "Unnamed: 1": 0.8,
+      "Unnamed: 2": 1.2,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Métricas de Rendimiento del Sistema": "Precisión Brand Voice",
+      "Unnamed: 1": 96,
+      "Unnamed: 2": 94,
+      "Unnamed: 3": NaN
+    }
+  ],
+  "📊 Gráficos": [
+    {
+      "Tipo": "Blog Articles",
+      "Cantidad Mensual": 120,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Social Media",
+      "Cantidad Mensual": 200,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Email Marketing",
+      "Cantidad Mensual": 80,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Landing Pages",
+      "Cantidad Mensual": 30,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Copywriting",
+      "Cantidad Mensual": 50,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Product Descriptions",
+      "Cantidad Mensual": 100,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "SEO Content",
+      "Cantidad Mensual": 90,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Technical Docs",
+      "Cantidad Mensual": 40,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": NaN,
+      "Cantidad Mensual": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": NaN,
+      "Cantidad Mensual": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": NaN,
+      "Cantidad Mensual": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": NaN,
+      "Cantidad Mensual": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": NaN,
+      "Cantidad Mensual": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "Tipo": "Mes",
+      "Cantidad Mensual": "Contenido Generado",
+      "Unnamed: 2": "Tasa Aprobación"
+    },
+    {
+      "Tipo": "Ene",
+      "Cantidad Mensual": 350,
+      "Unnamed: 2": 92
+    },
+    {
+      "Tipo": "Feb",
+      "Cantidad Mensual": 380,
+      "Unnamed: 2": 93
+    },
+    {
+      "Tipo": "Mar",
+      "Cantidad Mensual": 410,
+      "Unnamed: 2": 94
+    },
+    {
+      "Tipo": "Abr",
+      "Cantidad Mensual": 430,
+      "Unnamed: 2": 94.5
+    },
+    {
+      "Tipo": "May",
+      "Cantidad Mensual": 450,
+      "Unnamed: 2": 95
+    },
+    {
+      "Tipo": "Jun",
+      "Cantidad Mensual": 470,
+      "Unnamed: 2": 95.5
+    }
+  ],
+  "📚 Apéndices": [
+    {
+      "Categoría": "Formatos",
+      "Elemento": "Word (.docx)",
+      "Descripción": "Documentos con estilos personalizados",
+      "Referencia": "Hoja: Formatos"
+    },
+    {
+      "Categoría": "Formatos",
+      "Elemento": "PDF",
+      "Descripción": "Alta calidad con marcadores",
+      "Referencia": "Hoja: Formatos"
+    },
+    {
+      "Categoría": "Formatos",
+      "Elemento": "Markdown (.md)",
+      "Descripción": "Sintaxis extendida",
+      "Referencia": "Hoja: Formatos"
+    },
+    {
+      "Categoría": "Formatos",
+      "Elemento": "Excel (.xlsx)",
+      "Descripción": "Múltiples hojas y fórmulas",
+      "Referencia": "Hoja: Formatos"
+    },
+    {
+      "Categoría": "Reglas",
+      "Elemento": "Inicio de Contenido",
+      "Descripción": "Hook o resumen, nunca header",
+      "Referencia": "Hoja: Reglas"
+    },
+    {
+      "Categoría": "Reglas",
+      "Elemento": "Encabezados",
+      "Descripción": "Nivel 2 (##) para secciones",
+      "Referencia": "Hoja: Reglas"
+    },
+    {
+      "Categoría": "Reglas",
+      "Elemento": "Listas",
+      "Descripción": "Planas, sin anidar",
+      "Referencia": "Hoja: Reglas"
+    },
+    {
+      "Categoría": "Reglas",
+      "Elemento": "Tablas",
+      "Descripción": "Para comparaciones",
+      "Referencia": "Hoja: Reglas"
+    },
+    {
+      "Categoría": "Restricciones",
+      "Elemento": "Lenguaje",
+      "Descripción": "Sin moralización",
+      "Referencia": "Hoja: Restricciones"
+    },
+    {
+      "Categoría": "Restricciones",
+      "Elemento": "Contenido",
+      "Descripción": "Sin copyright",
+      "Referencia": "Hoja: Restricciones"
+    },
+    {
+      "Categoría": "Restricciones",
+      "Elemento": "Formato",
+      "Descripción": "Sin emojis en cuerpo",
+      "Referencia": "Hoja: Restricciones"
+    },
+    {
+      "Categoría": "Colores",
+      "Elemento": "Verde Neón",
+      "Descripción": "#10b981",
+      "Referencia": "Tech Startup"
+    },
+    {
+      "Categoría": "Colores",
+      "Elemento": "Negro",
+      "Descripción": "#000000",
+      "Referencia": "Tech Startup"
+    },
+    {
+      "Categoría": "Colores",
+      "Elemento": "Gris Carbón",
+      "Descripción": "#374151",
+      "Referencia": "Tech Startup"
+    }
+  ],
+  "⚙️ Configuración": [
+    {
+      "⚙️ Configuración y Validación de Datos": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "⚙️ Configuración y Validación de Datos": "Parámetro",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Tipo Validación",
+      "Unnamed: 3": "Descripción"
+    },
+    {
+      "⚙️ Configuración y Validación de Datos": "Prioridad Mínima",
+      "Unnamed: 1": "Media",
+      "Unnamed: 2": "Lista: Alta,Media,Baja",
+      "Unnamed: 3": "Prioridad mínima aceptable"
+    },
+    {
+      "⚙️ Configuración y Validación de Datos": "Tiempo Máximo (horas)",
+      "Unnamed: 1": 6,
+      "Unnamed: 2": "Número: 0-24",
+      "Unnamed: 3": "Tiempo máximo de producción"
+    },
+    {
+      "⚙️ Configuración y Validación de Datos": "Longitud Mínima",
+      "Unnamed: 1": 50,
+      "Unnamed: 2": "Número: >0",
+      "Unnamed: 3": "Longitud mínima de contenido"
+    },
+    {
+      "⚙️ Configuración y Validación de Datos": "Tasa Aprobación Mínima",
+      "Unnamed: 1": "90%",
+      "Unnamed: 2": "Porcentaje: 0-100%",
+      "Unnamed: 3": "Tasa mínima de aprobación"
+    }
+  ],
+  "💰 ROI & Costos": [
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Concepto",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Fórmula",
+      "Unnamed: 3": "Resultado",
+      "Unnamed: 4": "Notas"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Costo por Pieza de Contenido",
+      "Unnamed: 1": 50,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Valor fijo",
+      "Unnamed: 4": "Costo promedio de producción"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Piezas Generadas/Mes",
+      "Unnamed: 1": 450,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Del sistema",
+      "Unnamed: 4": "Del dashboard"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Costo Total Mensual",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Cálculo automático",
+      "Unnamed: 4": "Costo total de producción"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Tiempo Ahorrado (horas/mes)",
+      "Unnamed: 1": 200,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Estimado",
+      "Unnamed: 4": "Tiempo ahorrado vs manual"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Valor Hora Trabajo",
+      "Unnamed: 1": 75,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Tarifa estándar",
+      "Unnamed: 4": "Costo por hora de trabajo"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Ahorro en Tiempo ($)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Cálculo automático",
+      "Unnamed: 4": "Ahorro monetario"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "ROI Mensual (%)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Porcentaje",
+      "Unnamed: 4": "Retorno de inversión"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "ROI Anual (%)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Proyección",
+      "Unnamed: 4": "ROI anualizado"
+    },
+    {
+      "💰 Calculadora de ROI y Análisis de Costos": "Break-even (meses)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Cálculo",
+      "Unnamed: 4": "Meses para recuperar inversión"
+    }
+  ],
+  "🔮 Análisis Predictivo": [
+    {
+      "🔮 Análisis Predictivo y Proyecciones": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Métrica",
+      "Unnamed: 1": "Valor Actual",
+      "Unnamed: 2": "Tendencia",
+      "Unnamed: 3": "Proyección 3 Meses"
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Contenido/Mes",
+      "Unnamed: 1": 450,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": NaN
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Tasa Aprobación",
+      "Unnamed: 1": 95,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": NaN
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Tiempo Producción",
+      "Unnamed: 1": 2.5,
+      "Unnamed: 2": "↓",
+      "Unnamed: 3": NaN
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Satisfacción",
+      "Unnamed: 1": 4.8,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": NaN
+    },
+    {
+      "🔮 Análisis Predictivo y Proyecciones": "Engagement Rate",
+      "Unnamed: 1": 8.3,
+      "Unnamed: 2": "↑",
+      "Unnamed: 3": NaN
+    }
+  ],
+  "📝 Plantillas": [
+    {
+      "📝 Plantillas y Ejemplos de Uso": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Tipo de Contenido",
+      "Unnamed: 1": "Plantilla",
+      "Unnamed: 2": "Ejemplo de Uso"
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Blog Article",
+      "Unnamed: 1": "Hook + 3 Secciones + CTA",
+      "Unnamed: 2": "Artículo educativo de 2000 palabras"
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Social Media",
+      "Unnamed: 1": "Hook + Valor + CTA",
+      "Unnamed: 2": "Post de Instagram optimizado"
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Email",
+      "Unnamed: 1": "Asunto + Cuerpo + CTA",
+      "Unnamed: 2": "Newsletter semanal"
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Landing Page",
+      "Unnamed: 1": "Headline + Beneficios + CTA",
+      "Unnamed: 2": "Página de producto"
+    },
+    {
+      "📝 Plantillas y Ejemplos de Uso": "Copywriting",
+      "Unnamed: 1": "Propuesta + Prueba Social + CTA",
+      "Unnamed: 2": "Anuncio publicitario"
+    }
+  ]
+}

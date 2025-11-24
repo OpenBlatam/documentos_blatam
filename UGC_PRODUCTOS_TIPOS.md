@@ -370,3 +370,5 @@ CTA: "Inscríbete al próximo. Link en bio"
 **Uso**: Crear contenido optimizado para cada tipo de producto
 
 
+
+

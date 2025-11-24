@@ -1,0 +1,7 @@
+⚙️ Configuración y Validación de Datos,Unnamed: 1,Unnamed: 2,Unnamed: 3
+,,,
+Parámetro,Valor,Tipo Validación,Descripción
+Prioridad Mínima,Media,"Lista: Alta,Media,Baja",Prioridad mínima aceptable
+Tiempo Máximo (horas),6,Número: 0-24,Tiempo máximo de producción
+Longitud Mínima,50,Número: >0,Longitud mínima de contenido
+Tasa Aprobación Mínima,90%,Porcentaje: 0-100%,Tasa mínima de aprobación

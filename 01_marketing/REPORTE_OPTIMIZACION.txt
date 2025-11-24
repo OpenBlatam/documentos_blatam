@@ -1,0 +1,54 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    REPORTE DE OPTIMIZACIÓN Y COMPRESIÓN                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📅 Fecha: 22/11/2025 16:13:46
+📁 Directorio: /Users/adan/Documents/documentos_blatam/01_marketing
+
+📦 ARCHIVOS COMPRIMIDOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Word:
+    • Archivos: 9
+    • Tamaño original: 0.44 MB
+    • Tamaño comprimido: 0.42 MB
+    • Compresión: 4.5%
+    • Archivo: Word_COMPLETO_20251122.zip
+
+  Excel:
+    • Archivos: 17
+    • Tamaño original: 4.16 MB
+    • Tamaño comprimido: 4.14 MB
+    • Compresión: 0.6%
+    • Archivo: Excel_COMPLETO_20251122.zip
+
+  PowerPoint:
+    • Archivos: 3
+    • Tamaño original: 3.65 MB
+    • Tamaño comprimido: 3.63 MB
+    • Compresión: 0.4%
+    • Archivo: PowerPoint_COMPLETO_20251122.zip
+
+  PDF:
+    • Archivos: 3
+    • Tamaño original: 4.24 MB
+    • Tamaño comprimido: 3.25 MB
+    • Compresión: 23.3%
+    • Archivo: PDF_COMPLETO_20251122.zip
+
+  HTML:
+    • Archivos: 4
+    • Tamaño original: 0.07 MB
+    • Tamaño comprimido: 0.01 MB
+    • Compresión: 81.4%
+    • Archivo: HTML_COMPLETO_20251122.zip
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  TOTAL:
+    • Tamaño original: 12.56 MB
+    • Tamaño comprimido: 11.45 MB
+    • Compresión total: 8.8%
+    • Espacio ahorrado: 1.11 MB
+
+╚══════════════════════════════════════════════════════════════════════════════╝

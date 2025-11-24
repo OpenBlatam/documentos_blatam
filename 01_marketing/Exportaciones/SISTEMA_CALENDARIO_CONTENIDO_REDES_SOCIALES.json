@@ -1,0 +1,1102 @@
+{
+  "00_Portada": [
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "DE REDES SOCIALES",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "Sistema de Prompt para Inteligencia Artificial",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "Versión:",
+      "Unnamed: 1": "1.0",
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "Fecha:",
+      "Unnamed: 1": "November 2025",
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "Categoría:",
+      "Unnamed: 1": "Marketing Digital - Planificación de Contenido",
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "ÍNDICE DE HOJAS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "Hoja",
+      "Unnamed: 1": "Contenido",
+      "Unnamed: 2": "Descripción"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "00_Portada",
+      "Unnamed: 1": "Portada e Índice",
+      "Unnamed: 2": "Información general del documento"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "01_Información",
+      "Unnamed: 1": "Información General",
+      "Unnamed: 2": "Metadatos y versión del sistema"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "02_Objetivo",
+      "Unnamed: 1": "Objetivo del Sistema",
+      "Unnamed: 2": "Descripción del rol y propósito"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "03_Reglas_Formato",
+      "Unnamed: 1": "Reglas de Formato",
+      "Unnamed: 2": "Instrucciones de formato detalladas"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "04_Restricciones",
+      "Unnamed: 1": "Restricciones",
+      "Unnamed: 2": "Lista completa de restricciones"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "05_Tipos_Consulta",
+      "Unnamed: 1": "Tipos de Consulta",
+      "Unnamed: 2": "Tipos de calendarios soportados"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "06_Planificación",
+      "Unnamed: 1": "Reglas de Planificación",
+      "Unnamed: 2": "Proceso de planificación estratégica"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "07_Especificaciones",
+      "Unnamed: 1": "Especificaciones de Salida",
+      "Unnamed: 2": "Requisitos de estructura y calidad"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "08_Checklist",
+      "Unnamed: 1": "Checklist de Calidad",
+      "Unnamed: 2": "Lista de verificación antes de entregar"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "09_Plataformas",
+      "Unnamed: 1": "Estrategias por Plataforma",
+      "Unnamed: 2": "Recomendaciones específicas por plataforma"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "10_Contenido",
+      "Unnamed: 1": "Tipos de Contenido",
+      "Unnamed: 2": "Variedad y balance de contenido"
+    },
+    {
+      "SISTEMA DE CALENDARIO DE CONTENIDO": "11_Métricas",
+      "Unnamed: 1": "Métricas y KPIs",
+      "Unnamed: 2": "Indicadores de rendimiento"
+    }
+  ],
+  "01_Información": [
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Campo",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Descripción"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Versión",
+      "Unnamed: 1": "1.0",
+      "Unnamed: 2": "Versión actual del sistema de prompt"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Fecha de Creación",
+      "Unnamed: 1": "November 2025",
+      "Unnamed: 2": "Fecha de última actualización"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Tipo de Sistema",
+      "Unnamed: 1": "Sistema de Prompt para IA",
+      "Unnamed: 2": "Tipo de documento"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Categoría",
+      "Unnamed: 1": "Marketing Digital",
+      "Unnamed: 2": "Área de aplicación"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Subcategoría",
+      "Unnamed: 1": "Planificación de Contenido",
+      "Unnamed: 2": "Especialización"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Plataformas Soportadas",
+      "Unnamed: 1": "Instagram, Facebook, Twitter/X, LinkedIn, TikTok, YouTube, Pinterest",
+      "Unnamed: 2": "Redes sociales cubiertas"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Idioma Principal",
+      "Unnamed: 1": "Español/Inglés",
+      "Unnamed: 2": "Idiomas de trabajo"
+    },
+    {
+      "INFORMACIÓN GENERAL DEL SISTEMA": "Formato de Salida",
+      "Unnamed: 1": "Markdown con tablas",
+      "Unnamed: 2": "Formato requerido para calendarios"
+    }
+  ],
+  "09_Plataformas": [
+    {
+      "ESTRATEGIAS POR PLATAFORMA": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "Plataforma",
+      "Unnamed: 1": "Mejor Horario",
+      "Unnamed: 2": "Frecuencia Recomendada",
+      "Unnamed: 3": "Tipo de Contenido",
+      "Unnamed: 4": "Hashtags",
+      "Unnamed: 5": "Notas"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "Instagram",
+      "Unnamed: 1": "11 AM - 1 PM (L-V)",
+      "Unnamed: 2": "1-2x/día",
+      "Unnamed: 3": "Visual, Stories, Reels",
+      "Unnamed: 4": "5-10 hashtags",
+      "Unnamed: 5": "Enfoque visual y estético"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "Facebook",
+      "Unnamed: 1": "1-3 PM (L-V)",
+      "Unnamed: 2": "1x/día",
+      "Unnamed: 3": "Comunidad, contenido largo",
+      "Unnamed: 4": "1-2 hashtags",
+      "Unnamed: 5": "Enfoque en comunidad"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "Twitter/X",
+      "Unnamed: 1": "8-9 AM, 12-1 PM",
+      "Unnamed: 2": "3-5x/día",
+      "Unnamed: 3": "Tendencias, mensajes cortos",
+      "Unnamed: 4": "1-2 hashtags",
+      "Unnamed: 5": "Tiempo real, conciso"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "LinkedIn",
+      "Unnamed: 1": "8-9 AM (L-V)",
+      "Unnamed: 2": "1x/día",
+      "Unnamed: 3": "Profesional, liderazgo",
+      "Unnamed: 4": "3-5 hashtags",
+      "Unnamed: 5": "Tono profesional B2B"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "TikTok",
+      "Unnamed: 1": "6-10 AM, 7-9 PM",
+      "Unnamed: 2": "1-3x/día",
+      "Unnamed: 3": "Videos cortos, tendencias",
+      "Unnamed: 4": "3-5 hashtags",
+      "Unnamed: 5": "Autenticidad, tendencias"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "YouTube",
+      "Unnamed: 1": "2-4 PM (L-V)",
+      "Unnamed: 2": "2-3x/semana",
+      "Unnamed: 3": "Educativo, series, tutoriales",
+      "Unnamed: 4": "Títulos optimizados",
+      "Unnamed: 5": "Contenido largo"
+    },
+    {
+      "ESTRATEGIAS POR PLATAFORMA": "Pinterest",
+      "Unnamed: 1": "8-11 PM, 2-4 AM",
+      "Unnamed: 2": "5-10x/día",
+      "Unnamed: 3": "Visual, descubrimiento",
+      "Unnamed: 4": "Rich Pins",
+      "Unnamed: 5": "Búsqueda visual"
+    }
+  ],
+  "10_Contenido": [
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Tipo de Contenido",
+      "Unnamed: 1": "Porcentaje Recomendado",
+      "Unnamed: 2": "Objetivo",
+      "Unnamed: 3": "Ejemplos"
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Educativo",
+      "Unnamed: 1": 30,
+      "Unnamed: 2": "Valor, conocimiento",
+      "Unnamed: 3": "How-tos, tips, insights"
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Entretenimiento",
+      "Unnamed: 1": 25,
+      "Unnamed: 2": "Engagement, diversión",
+      "Unnamed: 3": "Behind-the-scenes, humor"
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Promocional",
+      "Unnamed: 1": 20,
+      "Unnamed: 2": "Conversiones, ventas",
+      "Unnamed: 3": "Productos, ofertas, servicios"
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Construcción de Comunidad",
+      "Unnamed: 1": 15,
+      "Unnamed: 2": "Relación, lealtad",
+      "Unnamed: 3": "Preguntas, polls, UGC"
+    },
+    {
+      "TIPOS DE CONTENIDO Y BALANCE": "Liderazgo de Opinión",
+      "Unnamed: 1": 10,
+      "Unnamed: 2": "Autoridad, confianza",
+      "Unnamed: 3": "Tendencias, comentarios"
+    }
+  ],
+  "11_Métricas": [
+    {
+      "MÉTRICAS Y KPIs": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "MÉTRICAS Y KPIs": "Métrica",
+      "Unnamed: 1": "Plataforma",
+      "Unnamed: 2": "Objetivo",
+      "Unnamed: 3": "Benchmark",
+      "Unnamed: 4": "Fórmula"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Tasa de Engagement",
+      "Unnamed: 1": "Todas",
+      "Unnamed: 2": "3-5%",
+      "Unnamed: 3": "2-3%",
+      "Unnamed: 4": "(Likes+Comentarios+Compartidos)/Alcance"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Alcance",
+      "Unnamed: 1": "Todas",
+      "Unnamed: 2": "Aumentar 20%",
+      "Unnamed: 3": "Baseline",
+      "Unnamed: 4": "Usuarios únicos que ven el contenido"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Clics",
+      "Unnamed: 1": "Facebook, LinkedIn",
+      "Unnamed: 2": "2-3% CTR",
+      "Unnamed: 3": "1-2% CTR",
+      "Unnamed: 4": "Clics/Impresiones"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Conversiones",
+      "Unnamed: 1": "Todas",
+      "Unnamed: 2": "1-2%",
+      "Unnamed: 3": "0.5-1%",
+      "Unnamed: 4": "Conversiones/Visitas"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Crecimiento de Seguidores",
+      "Unnamed: 1": "Todas",
+      "Unnamed: 2": "5-10%/mes",
+      "Unnamed: 3": "3-5%/mes",
+      "Unnamed: 4": "(Nuevos seguidores/Seguidores totales)*100"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Tiempo de Visualización",
+      "Unnamed: 1": "YouTube, TikTok",
+      "Unnamed: 2": ">50% del video",
+      "Unnamed: 3": "30-40%",
+      "Unnamed: 4": "Tiempo promedio/duración total"
+    },
+    {
+      "MÉTRICAS Y KPIs": "Guardados",
+      "Unnamed: 1": "Instagram, Pinterest",
+      "Unnamed: 2": "2-3%",
+      "Unnamed: 3": "1-2%",
+      "Unnamed: 4": "Guardados/Impresiones"
+    }
+  ],
+  "12_Plantilla_Brief": [
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Campo",
+      "Unnamed: 1": "Descripción",
+      "Unnamed: 2": "Ejemplo"
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Marca",
+      "Unnamed: 1": "Nombre de la marca",
+      "Unnamed: 2": "TechStart Inc."
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Plataformas",
+      "Unnamed: 1": "Redes sociales",
+      "Unnamed: 2": "Instagram, LinkedIn"
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Período",
+      "Unnamed: 1": "Duración",
+      "Unnamed: 2": "Semanal o Mensual"
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Objetivos",
+      "Unnamed: 1": "Objetivos marketing",
+      "Unnamed: 2": "Awareness, Engagement"
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Audiencia",
+      "Unnamed: 1": "Descripción",
+      "Unnamed: 2": "Mujeres 25-40"
+    },
+    {
+      "PLANTILLA DE BRIEF PARA CALENDARIO": "Temas",
+      "Unnamed: 1": "Pilares contenido",
+      "Unnamed: 2": "Innovación, Sostenibilidad"
+    }
+  ],
+  "13_Calculadora": [
+    {
+      "CALCULADORA DE FRECUENCIA": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "Plataforma",
+      "Unnamed: 1": "Frecuencia",
+      "Unnamed: 2": "Posts/Semana",
+      "Unnamed: 3": "Posts/Mes"
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "Instagram",
+      "Unnamed: 1": "1-2x/día",
+      "Unnamed: 2": 10.5,
+      "Unnamed: 3": NaN
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "Facebook",
+      "Unnamed: 1": "1x/día",
+      "Unnamed: 2": 7,
+      "Unnamed: 3": NaN
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "Twitter/X",
+      "Unnamed: 1": "3-5x/día",
+      "Unnamed: 2": 28,
+      "Unnamed: 3": NaN
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "LinkedIn",
+      "Unnamed: 1": "1x/día",
+      "Unnamed: 2": 7,
+      "Unnamed: 3": NaN
+    },
+    {
+      "CALCULADORA DE FRECUENCIA": "TikTok",
+      "Unnamed: 1": "1-3x/día",
+      "Unnamed: 2": 14,
+      "Unnamed: 3": NaN
+    }
+  ],
+  "14_Comparativa": [
+    {
+      "COMPARATIVA DE PLATAFORMAS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "Plataforma",
+      "Unnamed: 1": "Horario",
+      "Unnamed: 2": "Frecuencia",
+      "Unnamed: 3": "Formato",
+      "Unnamed: 4": "Hashtags",
+      "Unnamed: 5": "Alcance",
+      "Unnamed: 6": "Engagement"
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "Instagram",
+      "Unnamed: 1": "11 AM-1 PM",
+      "Unnamed: 2": "Alta",
+      "Unnamed: 3": "Visual",
+      "Unnamed: 4": "5-10",
+      "Unnamed: 5": "Alto",
+      "Unnamed: 6": "Alto"
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "Facebook",
+      "Unnamed: 1": "1-3 PM",
+      "Unnamed: 2": "Media",
+      "Unnamed: 3": "Texto/Video",
+      "Unnamed: 4": "1-2",
+      "Unnamed: 5": "Muy Alto",
+      "Unnamed: 6": "Medio"
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "Twitter/X",
+      "Unnamed: 1": "8-9 AM",
+      "Unnamed: 2": "Muy Alta",
+      "Unnamed: 3": "Texto",
+      "Unnamed: 4": "1-2",
+      "Unnamed: 5": "Medio",
+      "Unnamed: 6": "Medio"
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "LinkedIn",
+      "Unnamed: 1": "8-9 AM",
+      "Unnamed: 2": "Baja",
+      "Unnamed: 3": "Texto/Video",
+      "Unnamed: 4": "3-5",
+      "Unnamed: 5": "Medio",
+      "Unnamed: 6": "Alto"
+    },
+    {
+      "COMPARATIVA DE PLATAFORMAS": "TikTok",
+      "Unnamed: 1": "6-10 AM",
+      "Unnamed: 2": "Alta",
+      "Unnamed: 3": "Video",
+      "Unnamed: 4": "3-5",
+      "Unnamed: 5": "Alto",
+      "Unnamed: 6": "Muy Alto"
+    }
+  ],
+  "15_Implementación": [
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Fase",
+      "Unnamed: 1": "Tarea",
+      "Unnamed: 2": "Responsable",
+      "Unnamed: 3": "Estado",
+      "Unnamed: 4": "Fecha"
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Preparación",
+      "Unnamed: 1": "Revisar brief",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Preparación",
+      "Unnamed: 1": "Validar objetivos",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Creación",
+      "Unnamed: 1": "Generar calendario",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Aprobación",
+      "Unnamed: 1": "Revisión interna",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Producción",
+      "Unnamed: 1": "Crear contenido",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    },
+    {
+      "CHECKLIST DE IMPLEMENTACIÓN": "Ejecución",
+      "Unnamed: 1": "Publicar",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": "Pendiente",
+      "Unnamed: 4": NaN
+    }
+  ],
+  "16_Dashboard": [
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Última actualización: 22/11/2025 02:03",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "RESUMEN EJECUTIVO",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Métrica",
+      "Unnamed: 1": "Valor",
+      "Unnamed: 2": "Objetivo",
+      "Unnamed: 3": "Estado",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Posts Programados",
+      "Unnamed: 1": 45,
+      "Unnamed: 2": 50,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Plataformas Activas",
+      "Unnamed: 1": 4,
+      "Unnamed: 2": 4,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Engagement Rate",
+      "Unnamed: 1": "5.2%",
+      "Unnamed: 2": "5.0%",
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Alcance Total",
+      "Unnamed: 1": 12500,
+      "Unnamed: 2": 10000,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Conversiones",
+      "Unnamed: 1": 85,
+      "Unnamed: 2": 80,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "MÉTRICAS POR PLATAFORMA",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Plataforma",
+      "Unnamed: 1": "Posts",
+      "Unnamed: 2": "Engagement",
+      "Unnamed: 3": "Alcance",
+      "Unnamed: 4": "Conversiones",
+      "Unnamed: 5": "ROI"
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Instagram",
+      "Unnamed: 1": 20,
+      "Unnamed: 2": "6.2%",
+      "Unnamed: 3": 8500,
+      "Unnamed: 4": 45,
+      "Unnamed: 5": "320%"
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Facebook",
+      "Unnamed: 1": 15,
+      "Unnamed: 2": "4.8%",
+      "Unnamed: 3": 12000,
+      "Unnamed: 4": 25,
+      "Unnamed: 5": "280%"
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "LinkedIn",
+      "Unnamed: 1": 8,
+      "Unnamed: 2": "5.5%",
+      "Unnamed: 3": 3500,
+      "Unnamed: 4": 12,
+      "Unnamed: 5": "350%"
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Twitter/X",
+      "Unnamed: 1": 12,
+      "Unnamed: 2": "3.2%",
+      "Unnamed: 3": 2800,
+      "Unnamed: 4": 3,
+      "Unnamed: 5": "150%"
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "ANÁLISIS DE CONTENIDO",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Tipo de Contenido",
+      "Unnamed: 1": "Cantidad",
+      "Unnamed: 2": "Engagement Promedio",
+      "Unnamed: 3": "Mejor Performador",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Educativo",
+      "Unnamed: 1": 15,
+      "Unnamed: 2": "6.5%",
+      "Unnamed: 3": "Guía de sostenibilidad",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Entretenimiento",
+      "Unnamed: 1": 12,
+      "Unnamed: 2": "5.2%",
+      "Unnamed: 3": "Behind-the-scenes",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Promocional",
+      "Unnamed: 1": 10,
+      "Unnamed: 2": "4.1%",
+      "Unnamed: 3": "Oferta verano",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    },
+    {
+      "DASHBOARD DE MÉTRICAS - CALENDARIO DE CONTENIDO": "Comunidad",
+      "Unnamed: 1": 8,
+      "Unnamed: 2": "7.8%",
+      "Unnamed: 3": "UGC campaign",
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN
+    }
+  ],
+  "17_Análisis": [
+    {
+      "ANÁLISIS DE RENDIMIENTO": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "RENDIMIENTO SEMANAL",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "Semana",
+      "Unnamed: 1": "Posts",
+      "Unnamed: 2": "Engagement",
+      "Unnamed: 3": "Alcance",
+      "Unnamed: 4": "Tendencia"
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "Semana 1",
+      "Unnamed: 1": 12,
+      "Unnamed: 2": "5.1%",
+      "Unnamed: 3": 8500,
+      "Unnamed: 4": "↑"
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "Semana 2",
+      "Unnamed: 1": 11,
+      "Unnamed: 2": "5.3%",
+      "Unnamed: 3": 9200,
+      "Unnamed: 4": "↑"
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "Semana 3",
+      "Unnamed: 1": 13,
+      "Unnamed: 2": "5.8%",
+      "Unnamed: 3": 10500,
+      "Unnamed: 4": "↑"
+    },
+    {
+      "ANÁLISIS DE RENDIMIENTO": "Semana 4",
+      "Unnamed: 1": 9,
+      "Unnamed: 2": "4.9%",
+      "Unnamed: 3": 7800,
+      "Unnamed: 4": "↓"
+    }
+  ],
+  "18_Validación": [
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "CHECKLIST DE VALIDACIÓN",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Categoría",
+      "Unnamed: 1": "Item",
+      "Unnamed: 2": "Estado",
+      "Unnamed: 3": "Notas",
+      "Unnamed: 4": "Puntos"
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estructura",
+      "Unnamed: 1": "Introducción presente",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estructura",
+      "Unnamed: 1": "Tabla formateada correctamente",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 10
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estructura",
+      "Unnamed: 1": "Resumen presente",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Contenido",
+      "Unnamed: 1": "Completitud (todos los días)",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 10
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Contenido",
+      "Unnamed: 1": "Calidad (específico, no genérico)",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 10
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Contenido",
+      "Unnamed: 1": "Balance (80/20 o especificado)",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 10
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Datos",
+      "Unnamed: 1": "Fechas correctas",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Datos",
+      "Unnamed: 1": "Horarios correctos",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Datos",
+      "Unnamed: 1": "Plataformas correctas",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Datos",
+      "Unnamed: 1": "Datos completos",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 5
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estrategia",
+      "Unnamed: 1": "Alineación con objetivos",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 7
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estrategia",
+      "Unnamed: 1": "Alineación con audiencia",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 7
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Estrategia",
+      "Unnamed: 1": "Alineación con marca",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 6
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Optimización",
+      "Unnamed: 1": "Frecuencia apropiada",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 3
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Optimización",
+      "Unnamed: 1": "Timing optimizado",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 4
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "Optimización",
+      "Unnamed: 1": "Repurposing identificado",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": 3
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "SCORE TOTAL:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "CALIFICACIÓN:",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "PROBLEMAS IDENTIFICADOS",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": "#",
+      "Unnamed: 1": "Problema",
+      "Unnamed: 2": "Severidad",
+      "Unnamed: 3": "Acción Requerida",
+      "Unnamed: 4": "Estado"
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": 1,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": 2,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": 3,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": 4,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    },
+    {
+      "SISTEMA DE VALIDACIÓN DE CALENDARIOS": 5,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN
+    }
+  ]
+}

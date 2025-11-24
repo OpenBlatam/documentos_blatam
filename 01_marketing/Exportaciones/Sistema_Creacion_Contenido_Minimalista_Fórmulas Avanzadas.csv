@@ -1,0 +1,17 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,Fórmulas Avanzadas y Ejemplos,,,
+,──────────────────────────────────────────────────,,,
+,,,,
+,Categoría,Fórmula,Descripción,Ejemplo
+,Búsqueda,BUSCARV(valor;matriz;columna;0),Busca un valor en la primera columna,
+,Búsqueda,INDICE(matriz;fila;columna),Devuelve valor de matriz,
+,Condicional,SUMAR.SI(rango;criterio;suma),Suma con condición,
+,Condicional,CONTAR.SI(rango;criterio),Cuenta con condición,
+,Lógica,SI(condición;verdadero;falso),Lógica condicional,
+,Lógica,SI.ERROR(valor;valor_si_error),Manejo de errores,
+,Texto,CONCATENAR(texto1;texto2),Une textos,
+,Texto,EXTRAE(texto;inicio;longitud),Extrae parte del texto,
+,Fecha,AÑO(fecha),Extrae año,
+,Fecha,MES(fecha),Extrae mes,
+,Estadística,PROMEDIO.SI(rango;criterio),Promedio condicional,
+,Estadística,DESVEST(rango),Desviación estándar,

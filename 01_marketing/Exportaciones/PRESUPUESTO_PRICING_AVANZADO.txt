@@ -1,0 +1,39 @@
+======================================================================
+EXPORTACIÓN DE: PRESUPUESTO_PRICING_AVANZADO.xlsx
+Fecha: 22/11/2025 16:23:08
+======================================================================
+
+
+======================================================================
+HOJA: Dashboard
+======================================================================
+
+/Users/Adan/Documents/Documentos Blatam/01 Marketing/Presupuesto Pricing  Unnamed: 1 Unnamed: 2  Unnamed: 3             Unnamed: 4  Unnamed: 5        Unnamed: 6
+                                                                     NaN         NaN        NaN         NaN                    NaN         NaN               NaN
+                                                         Total Inversión         NaN        ROI         NaN Colaboraciones Activas         NaN Tasa de Respuesta
+                                                                  $2,500         NaN       200%         NaN                      8         NaN               25%
+
+
+======================================================================
+HOJA: Datos Detallados
+======================================================================
+
+     Fecha   Influencer Plataforma   Tipo  Inversión  Resultados  ROI
+2025-01-15 Influencer A  Instagram   Post        200         600 200%
+2025-01-20 Influencer B     TikTok  Video        150         450 200%
+2025-02-01 Influencer C    YouTube Review        500        1500 200%
+2025-02-10 Influencer D  Instagram   Reel        300         900 200%
+2025-02-15 Influencer E     TikTok Series        400        1200 200%
+
+
+======================================================================
+HOJA: Por Plataforma
+======================================================================
+
+Plataforma  Inversión  Resultados  ROI  Colaboraciones
+ Instagram       1000        3000 200%               5
+    TikTok        600        1800 200%               3
+   YouTube        500        1500 200%               2
+   Twitter        200         600 200%               1
+  LinkedIn        200         600 200%               1
+

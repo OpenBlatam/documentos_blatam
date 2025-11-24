@@ -1,0 +1,19 @@
+======================================================================
+EXPORTACIÓN DE: ANALISIS_COMPETITIVO_PROFESIONAL.xlsx
+Fecha: 22/11/2025 16:23:11
+======================================================================
+
+
+======================================================================
+HOJA: Resumen
+======================================================================
+
+/Users/Adan/Documents/Documentos Blatam/01 Marketing/Analisis Competitivo  Unnamed: 1         Unnamed: 2     Unnamed: 3          Unnamed: 4
+                                               Generado: 22/11/2025 15:59         NaN                NaN            NaN                 NaN
+                                                                      NaN         NaN                NaN            NaN                 NaN
+                                                     ANÁLISIS COMPETITIVO         NaN                NaN            NaN                 NaN
+                                                               Competidor Influencers        Plataformas Engagement Avg      Tipo Contenido
+                                                             Competidor A          15  Instagram, TikTok           4.5% Reviews, Tutoriales
+                                                             Competidor B           8  YouTube, LinkedIn           6.2%        Casos de Uso
+                                                             Competidor C          12 Instagram, Twitter           3.8%        Comparativas
+
