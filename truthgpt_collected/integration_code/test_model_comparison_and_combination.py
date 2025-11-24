@@ -177,17 +177,22 @@ class ModelComparisonSuite:
         
         results = []
         
+        # Configurar modelo con contexto máximo
+        max_ctx = max(context_lengths)
+        try:
+            config = config_class(
+                hidden_dim=hidden_dim,
+                base_context_length=2048,
+                extended_context_length=max_ctx
+            )
+            model = model_class(config)
+            model.eval()
+        except Exception as e:
+            print(f"  ❌ Failed to initialize model: {str(e)}")
+            return results
+        
         for ctx_len in context_lengths:
             try:
-                # Configurar modelo
-                config = config_class(
-                    hidden_dim=hidden_dim,
-                    base_context_length=2048,
-                    extended_context_length=ctx_len
-                )
-                model = model_class(config)
-                model.eval()
-                
                 # Crear input
                 hidden_states = torch.randn(batch_size, ctx_len, hidden_dim)
                 
@@ -234,7 +239,7 @@ class ModelComparisonSuite:
                     error=str(e)
                 )
                 results.append(result)
-                print(f"  ❌ Context {ctx_len:6d}: ERROR - {str(e)}")
+                print(f"  ❌ Context {ctx_len:6d}: ERROR - {str(e)[:60]}")
         
         self.results.extend(results)
         return results
