@@ -1,0 +1,54 @@
+{
+  "estandares_calidad": {
+    "longitud_minima": 500,
+    "longitud_maxima": 3000,
+    "encabezados_minimos": 3,
+    "imagenes_recomendadas": 2,
+    "ejemplos_codigo_minimos": 1
+  },
+  "formatos_soportados": [
+    "articulo_tecnico",
+    "documentacion_api", 
+    "guia_usuario",
+    "caso_estudio",
+    "tutorial",
+    "referencia_tecnica"
+  ],
+  "metadatos_requeridos": {
+    "titulo": {
+      "longitud_maxima": 80,
+      "requerido": true
+    },
+    "descripcion": {
+      "longitud_maxima": 160,
+      "requerido": true
+    },
+    "palabras_clave": {
+      "minimo": 3,
+      "maximo": 10,
+      "requerido": true
+    },
+    "categoria": {
+      "opciones": ["tecnica", "guia", "referencia", "tutorial"],
+      "requerido": true
+    },
+    "nivel_dificultad": {
+      "opciones": ["principiante", "intermedio", "avanzado"],
+      "requerido": true
+    }
+  },
+  "reglas_estilo": {
+    "voz": "activa",
+    "tono": "profesional_accesible",
+    "idioma": "es_ES",
+    "longitud_parrafo_maxima": 5,
+    "uso_listas": "recomendado",
+    "uso_tablas": "cuando_corresponda"
+  },
+  "validaciones_automaticas": {
+    "verificar_links_rotos": true,
+    "verificar_codigo_ejecutable": true,
+    "verificar_estructura_logica": true,
+    "verificar_consistencia_terminologia": true
+  }
+}
