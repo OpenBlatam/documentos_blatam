@@ -1,0 +1,7 @@
+python>=3.8
+
+# No dependencies required for core functionality
+# Optional: Add platform-specific SDKs as needed
+# tweepy>=4.14.0
+# instagram-api>=1.0.0
+# python-linkedin>=2.0.0
