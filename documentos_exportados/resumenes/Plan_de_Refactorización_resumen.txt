@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Plan de Refactorización
+======================================================================
+
+Fecha: 24 de November de 2025 20:36
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 1,890
+• Total de Líneas: 468
+• Total de Secciones: 51
+• Bloques de Código: 3
+• Tablas: 0
+• Enlaces: 0
+• Listas: 113
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 16.50
+  ⚠ Complejo
+• Promedio Palabras/Sección: 37
+• Ratio de Código: 4.9%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 51
+
+Principales secciones:
+  • 🔄 Refactoring Plan - Production Code
+    • 📊 Executive Summary
+      • Key Issues Identified
+    • 🎯 Refactoring Goals
+    • 📋 Detailed Refactoring Tasks
+      • Phase 1: Utility Files Consolidation
+        • 1.1 Consolidate `api_utils.py` Files
+      • Phase 2: API Entry Points Consolidation
+        • 2.1 Unify API Entry Points
+      • Phase 3: Import Path Standardization
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Layered (1)
+• Changing (1)
+• Functionality (1)
+• Architecture (1)
+• Ready (1)
+• Documentation (1)
+• Align (1)
+• Consistency (1)
+• Chat (1)
+• Mitigation (1)

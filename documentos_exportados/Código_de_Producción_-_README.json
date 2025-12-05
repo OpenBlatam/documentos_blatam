@@ -1,0 +1,361 @@
+{
+  "title": "Código de Producción - README",
+  "generated_at": "2025-11-24T21:24:39.999262",
+  "metrics": {
+    "reading_time_minutes": 8,
+    "total_links": 0,
+    "total_images": 0,
+    "complexity_score": 299,
+    "complexity_level": "Muy Alta",
+    "quality_score": 65,
+    "quality_level": "Buena",
+    "total_numbers": 66,
+    "max_number": 8000,
+    "avg_number": 215,
+    "percentages": [
+      100,
+      100,
+      2,
+      100
+    ],
+    "max_percentage": 100,
+    "avg_percentage": 75,
+    "total_lines": 591,
+    "total_words": 2187,
+    "total_sections": 101,
+    "code_blocks": 19,
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "sentiment_tone": "Neutro-Técnico",
+    "coherence_score": 80
+  },
+  "sections": [
+    {
+      "title": "Production Code - Modelos de Papers",
+      "level": 1
+    },
+    {
+      "title": "Estructura",
+      "level": 2
+    },
+    {
+      "title": "Características (Production-Ready)",
+      "level": 2
+    },
+    {
+      "title": "Uso",
+      "level": 2
+    },
+    {
+      "title": "Ejemplo Básico",
+      "level": 3
+    },
+    {
+      "title": "Crear configuración",
+      "level": 1
+    },
+    {
+      "title": "Crear modelo",
+      "level": 1
+    },
+    {
+      "title": "Usar modelo",
+      "level": 1
+    },
+    {
+      "title": "Guardar y Cargar Modelos",
+      "level": 3
+    },
+    {
+      "title": "Guardar modelo",
+      "level": 1
+    },
+    {
+      "title": "Cargar modelo",
+      "level": 1
+    },
+    {
+      "title": "Obtener Información del Modelo",
+      "level": 3
+    },
+    {
+      "title": "Información completa",
+      "level": 1
+    },
+    {
+      "title": "Contar parámetros",
+      "level": 1
+    },
+    {
+      "title": "Métricas",
+      "level": 3
+    },
+    {
+      "title": "Obtener métricas acumuladas",
+      "level": 1
+    },
+    {
+      "title": "Resetear métricas",
+      "level": 1
+    },
+    {
+      "title": "Experiment Tracking",
+      "level": 3
+    },
+    {
+      "title": "Inicializar tracking",
+      "level": 1
+    },
+    {
+      "title": "Gestión de Configuración",
+      "level": 3
+    },
+    {
+      "title": "Cargar desde YAML",
+      "level": 1
+    },
+    {
+      "title": "Obtener valores",
+      "level": 1
+    },
+    {
+      "title": "Establecer valores",
+      "level": 1
+    },
+    {
+      "title": "Guardar configuración",
+      "level": 1
+    },
+    {
+      "title": "Caching y Retry",
+      "level": 3
+    },
+    {
+      "title": "Operación con retry",
+      "level": 1
+    },
+    {
+      "title": "Operación con cache",
+      "level": 1
+    },
+    {
+      "title": "Procesamiento de Datos",
+      "level": 3
+    },
+    {
+      "title": "Convertir tensor a DataFrame",
+      "level": 1
+    },
+    {
+      "title": "Normalizar tensor",
+      "level": 1
+    },
+    {
+      "title": "Análisis estadístico",
+      "level": 1
+    },
+    {
+      "title": "Visualizar distribución",
+      "level": 1
+    },
+    {
+      "title": "APIs",
+      "level": 3
+    },
+    {
+      "title": "Crear API FastAPI",
+      "level": 1
+    },
+    {
+      "title": "Petición HTTP",
+      "level": 1
+    },
+    {
+      "title": "Arquitectura en Capas",
+      "level": 2
+    },
+    {
+      "title": "✅ Mejoras Arquitectónicas Completadas",
+      "level": 3
+    },
+    {
+      "title": "Computación Distribuida",
+      "level": 3
+    },
+    {
+      "title": "Inicializar Ray",
+      "level": 1
+    },
+    {
+      "title": "Operaciones paralelas",
+      "level": 1
+    },
+    {
+      "title": "Entrenamiento distribuido",
+      "level": 1
+    },
+    {
+      "title": "Mejoras con Librerías Modernas",
+      "level": 2
+    },
+    {
+      "title": "Core",
+      "level": 3
+    },
+    {
+      "title": "Configuración y Gestión",
+      "level": 3
+    },
+    {
+      "title": "Experiment Tracking",
+      "level": 3
+    },
+    {
+      "title": "Performance y Utilidades",
+      "level": 3
+    },
+    {
+      "title": "Procesamiento de Datos",
+      "level": 3
+    },
+    {
+      "title": "Visualización",
+      "level": 3
+    },
+    {
+      "title": "Computación Distribuida",
+      "level": 3
+    },
+    {
+      "title": "APIs y Servicios Web",
+      "level": 3
+    }
+  ],
+  "quality_analysis": {
+    "scores": {
+      "structure": 25,
+      "content": 25,
+      "links": 0,
+      "tables": 0,
+      "code": 15
+    },
+    "issues": [
+      "Pocos enlaces (menos de 5)"
+    ],
+    "recommendations": [
+      "Agregar más enlaces a recursos relacionados"
+    ],
+    "overall_score": 65,
+    "errors": [
+      "Header sin contenido: ## Uso",
+      "Header sin contenido: ## Nuevas Funcionalidades"
+    ],
+    "quality_level": "Buena"
+  },
+  "readability": {
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "avg_sentence_length": 56.53,
+    "avg_syllables_per_word": 2.58,
+    "sentence_count": 19,
+    "word_count": 1074
+  },
+  "sentiment": {
+    "primary_tone": "Neutro-Técnico",
+    "positive_words": 1,
+    "negative_words": 2,
+    "technical_words": 6,
+    "sentiment_score": -1
+  },
+  "coherence": {
+    "score": 80,
+    "level": "Alta",
+    "issues": [
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "para",
+      "count": 30
+    },
+    {
+      "word": "python",
+      "count": 28
+    },
+    {
+      "word": "modelos",
+      "count": 23
+    },
+    {
+      "word": "sistema",
+      "count": 16
+    },
+    {
+      "word": "core",
+      "count": 15
+    },
+    {
+      "word": "mejoras",
+      "count": 15
+    },
+    {
+      "word": "import",
+      "count": 12
+    },
+    {
+      "word": "config",
+      "count": 11
+    },
+    {
+      "word": "model",
+      "count": 11
+    },
+    {
+      "word": "datos",
+      "count": 10
+    },
+    {
+      "word": "completos",
+      "count": 9
+    },
+    {
+      "word": "papers",
+      "count": 8
+    },
+    {
+      "word": "utilidades",
+      "count": 8
+    },
+    {
+      "word": "chat",
+      "count": 8
+    },
+    {
+      "word": "nuevo",
+      "count": 8
+    },
+    {
+      "word": "modelo",
+      "count": 8
+    },
+    {
+      "word": "print",
+      "count": 8
+    },
+    {
+      "word": "procesamiento",
+      "count": 8
+    },
+    {
+      "word": "module",
+      "count": 8
+    },
+    {
+      "word": "archivos",
+      "count": 7
+    }
+  ],
+  "links_count": 0,
+  "images_count": 0
+}

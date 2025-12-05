@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros Financieros - Banco de México</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            border: 1px solid #1a252f;
+        }
+        
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 13px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #e8f4f8;
+            transition: background-color 0.3s;
+        }
+        
+        .year {
+            font-weight: bold;
+            color: #2c3e50;
+            background-color: #ecf0f1 !important;
+        }
+        
+        .note {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            font-size: 12px;
+            color: #856404;
+        }
+        
+        .header-info {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+        }
+        
+        .header-info p {
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        
+        .header-info strong {
+            color: #2c3e50;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            
+            tr:hover {
+                background-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuadros Financieros</h1>
+        <p class="subtitle">Datos del Banco de México</p>
+        
+        <div class="header-info">
+            <p><strong>Fecha:</strong> 19/06/2022</p>
+            <p><strong>Estudiantes:</strong> Margarita del Carmen Baca Vite, José Enrique Castrejón Visuet, Cesar Armando Regis Padilla, Octavio Alexis Sosa Cortes</p>
+            <p><strong>Docente:</strong> Angel Cinco Zamora</p>
+        </div>
+        
+        <h2>CUADRO A - Indicadores Económicos Principales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Índice Nacional de Precios al Consumidor,<br>variación anual (%)</th>
+                    <th>TIIE* a 28 días,<br>Tasa de interés en por ciento anual</th>
+                    <th>Tipo de cambio<br>pesos por dólar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year">2015<br>(diciembre)</td>
+                    <td>2.13000000</td>
+                    <td>3.4151</td>
+                    <td>17.06662</td>
+                </tr>
+                <tr>
+                    <td class="year">2016<br>(diciembre)</td>
+                    <td>3.36000000</td>
+                    <td>5.8390</td>
+                    <td>20.52058</td>
+                </tr>
+                <tr>
+                    <td class="year">2017<br>(diciembre)</td>
+                    <td>6.77000000</td>
+                    <td>7.5052</td>
+                    <td>19.18122</td>
+                </tr>
+                <tr>
+                    <td class="year">2018<br>(diciembre)</td>
+                    <td>4.83000000</td>
+                    <td>8.4103</td>
+                    <td>20.13673</td>
+                </tr>
+                <tr>
+                    <td class="year">2019<br>(diciembre)</td>
+                    <td>2.83000000</td>
+                    <td>7.6965</td>
+                    <td>19.10709</td>
+                </tr>
+                <tr>
+                    <td class="year">2020<br>(diciembre)</td>
+                    <td>3.15000000</td>
+                    <td>4.4857</td>
+                    <td>19.96508</td>
+                </tr>
+                <tr>
+                    <td class="year">2021<br>(febrero o 31 de marzo)</td>
+                    <td>3.76000000</td>
+                    <td>4.2875</td>
+                    <td>20.44000</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <strong>Nota:</strong> *Tasa de interés interbancaria de equilibrio
+        </div>
+        
+        <h2>CUADRO B - Divisas</h2>
+        <p style="margin-bottom: 15px; color: #555; font-size: 14px;">
+            <strong>Actividad:</strong> Completa el Cuadro B, relativo a las divisas, que se presenta a continuación con datos publicados en el portal del Banco de México.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Dólar EUA</th>
+                    <th>Euro</th>
+                    <th>Yen japonés</th>
+                    <th>Libra esterlina</th>
+                    <th>Yuan chino</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year">31/12/2015</td>
+                    <td>17.2487</td>
+                    <td>18.7873</td>
+                    <td>0.1433</td>
+                    <td>25.5608</td>
+                    <td>N/E</td>
+                </tr>
+                <tr>
+                    <td class="year">30/12/2016</td>
+                    <td>20.6194</td>
+                    <td>21.7741</td>
+                    <td>0.1763</td>
+                    <td>25.3660</td>
+                    <td>2.9581</td>
+                </tr>
+                <tr>
+                    <td class="year">29/12/2017</td>
+                    <td>19.6629</td>
+                    <td>23.5729</td>
+                    <td>0.1748</td>
+                    <td>26.5675</td>
+                    <td>3.0172</td>
+                </tr>
+                <tr>
+                    <td class="year">28/12/2018</td>
+                    <td>19.6566</td>
+                    <td>22.5383</td>
+                    <td>0.1782</td>
+                    <td>24.9550</td>
+                    <td>2.8566</td>
+                </tr>
+                <tr>
+                    <td class="year">31/12/2019</td>
+                    <td>18.8642</td>
+                    <td>21.1751</td>
+                    <td>0.1736</td>
+                    <td>24.9903</td>
+                    <td>2.7084</td>
+                </tr>
+                <tr>
+                    <td class="year">31/12/2020</td>
+                    <td>19.9087</td>
+                    <td>24.3593</td>
+                    <td>0.1928</td>
+                    <td>27.2142</td>
+                    <td>3.0645</td>
+                </tr>
+                <tr>
+                    <td class="year">31/03/2021</td>
+                    <td>20.4400</td>
+                    <td>23.9863</td>
+                    <td>0.1847</td>
+                    <td>28.1336</td>
+                    <td>3.1150</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <strong>Nota:</strong> N/E = No disponible / No existe
+        </div>
+        
+        <div class="footer">
+            <p>Datos obtenidos del Banco de México</p>
+            <p>Resuelve los ejercicios aplicando los conocimientos sobre divisas</p>
+        </div>
+    </div>
+</body>
+</html>
+
+

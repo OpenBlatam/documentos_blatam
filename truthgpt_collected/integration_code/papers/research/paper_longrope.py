@@ -252,22 +252,26 @@ class LongRoPEModule(BasePaperModule):
             
             # NOTACIÓN: Valores de coseno y seno para frecuencia j
             # cos_val[i] = cos(θ_j · p'_i), sin_val[i] = sin(θ_j · p'_i)
-            cos_j = cos_theta_p[:, j].unsqueeze(-1).unsqueeze(-1)  # [N, 1, 1]
-            sin_j = sin_theta_p[:, j].unsqueeze(-1).unsqueeze(-1)  # [N, 1, 1]
+            # NOTACIÓN EN CÓDIGO: cos_j y sin_j deben tener forma compatible con x [B, N, G, d_rope]
+            # Broadcasting: [N] -> [B, N, G, 1] para multiplicar con [B, N, G, d_rope]
+            cos_j = cos_theta_p[:, j].unsqueeze(0).unsqueeze(-1).unsqueeze(-1)  # [1, N, 1, 1]
+            cos_j = cos_j.expand(B, -1, G, -1)  # [B, N, G, 1] para broadcasting
+            sin_j = sin_theta_p[:, j].unsqueeze(0).unsqueeze(-1).unsqueeze(-1)  # [1, N, 1, 1]
+            sin_j = sin_j.expand(B, -1, G, -1)  # [B, N, G, 1] para broadcasting
             
             # NOTACIÓN DEL PAPER: Rotación 2D
             # x'_{2j} = x_{2j} · cos(θ_j·p') - x_{2j+1} · sin(θ_j·p')
             # NOTACIÓN EN CÓDIGO: x_rotated[b, i, g, 2j] = x[b, i, g, 2j]·cos - x[b, i, g, 2j+1]·sin
             x_rotated[:, :, :, dim_2j] = (
-                x[:, :, :, dim_2j] * cos_j -
-                x[:, :, :, dim_2j_plus_1] * sin_j
+                x[:, :, :, dim_2j] * cos_j.squeeze(-1) -
+                x[:, :, :, dim_2j_plus_1] * sin_j.squeeze(-1)
             )
             
             # NOTACIÓN DEL PAPER: x'_{2j+1} = x_{2j} · sin(θ_j·p') + x_{2j+1} · cos(θ_j·p')
             # NOTACIÓN EN CÓDIGO: x_rotated[b, i, g, 2j+1] = x[b, i, g, 2j]·sin + x[b, i, g, 2j+1]·cos
             x_rotated[:, :, :, dim_2j_plus_1] = (
-                x[:, :, :, dim_2j] * sin_j +
-                x[:, :, :, dim_2j_plus_1] * cos_j
+                x[:, :, :, dim_2j] * sin_j.squeeze(-1) +
+                x[:, :, :, dim_2j_plus_1] * cos_j.squeeze(-1)
             )
         
         # NOTACIÓN: Reshape de vuelta a [B, N, d]
@@ -315,14 +319,21 @@ class LongRoPEModule(BasePaperModule):
         # PASO 2: Aplicar LongRoPE con escalado no uniforme
         # NOTACIÓN DEL PAPER: h' = RoPE(h, p') donde p' = α · s(p) + β
         # NOTACIÓN EN CÓDIGO: 
-        #   Para aplicar RoPE, necesitamos p como tensor 1D: p[0] ∈ Z^N
+        #   Para aplicar RoPE, necesitamos p como tensor 1D para cada batch
         #   output[b, i, :] = RoPE(H[b, i, :], p'_i)
         #   output ∈ R^(B×N×d)
         if p.dim() > 1:
-            p_1d = p[0]  # p_1d ∈ Z^N (tomamos primer batch)
+            # Aplicar RoPE a cada batch por separado
+            h_prime_list = []
+            for b in range(B):
+                p_1d = p[b]  # p_1d ∈ Z^N para batch b
+                h_b = H[b:b+1]  # H[b] ∈ R^(1×N×d)
+                h_prime_b = self.apply_rope(h_b, p_1d)  # h'[b] ∈ R^(1×N×d)
+                h_prime_list.append(h_prime_b)
+            h_prime = torch.cat(h_prime_list, dim=0)  # h' ∈ R^(B×N×d)
         else:
             p_1d = p  # p_1d ∈ Z^N
-        h_prime = self.apply_rope(H, p_1d)  # h' = RoPE(h, p') ∈ R^(B×N×d)
+            h_prime = self.apply_rope(H, p_1d)  # h' = RoPE(h, p') ∈ R^(B×N×d)
         
         # Metadata para tracking
         L_base = self.config.base_context_length

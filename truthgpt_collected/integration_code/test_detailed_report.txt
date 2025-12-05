@@ -1,0 +1,16 @@
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 16384 tokens
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 16384
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 8192
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 8192
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 8192
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 16384 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_longreward:LongReward initialized: 2048 → 16384 tokens

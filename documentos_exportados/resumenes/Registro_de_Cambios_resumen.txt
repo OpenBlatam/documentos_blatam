@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Registro de Cambios
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 472
+• Total de Líneas: 147
+• Total de Secciones: 23
+• Bloques de Código: 0
+• Tablas: 0
+• Enlaces: 3
+• Listas: 71
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 7.20
+  ✓ Moderado
+• Promedio Palabras/Sección: 21
+• Ratio de Código: 0.0%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 23
+
+Principales secciones:
+  • 📝 Changelog - Documentos BLATAM
+    • [Unreleased]
+      • Agregado
+      • Mejorado
+    • [1.0.0] - 2025-01-XX
+      • Agregado
+        • Documentación Principal
+        • Marketing
+        • Ventas
+        • Inteligencia Artificial
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Errores (1)
+• Inteligencia (1)
+• Nuevas (1)
+• Google (1)
+• Documentos (1)
+• Principal (1)
+• Sistema (1)
+• Artificial (1)
+• Estrategias (1)
+• Troubleshooting (1)

@@ -1,0 +1,50 @@
+{
+  "document": "truthgpt_collected/integration_code/production_code/REFACTORING_PLAN.md",
+  "generated_at": "2025-11-24T20:35:48.699479",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 3,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 113.86,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 8.25,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 1.0,
+    "positive_words": 2,
+    "negative_words": 0
+  },
+  "structure": {
+    "has_toc": false,
+    "has_summary": true,
+    "has_conclusion": false,
+    "header_distribution": {
+      "1": 3,
+      "2": 12,
+      "3": 26,
+      "4": 10
+    },
+    "list_items": 205,
+    "code_blocks": 3,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "tecnología": 127,
+      "ia": 31,
+      "datos": 2
+    },
+    "primary_topic": "tecnología",
+    "topic_diversity": 4
+  },
+  "quality_score": 45
+}

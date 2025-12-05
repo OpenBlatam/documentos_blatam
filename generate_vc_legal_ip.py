@@ -32,3 +32,8 @@ if __name__ == "__main__":
     create_ip_agreement("Ventura_Capital_IP_Assignment_Template.docx")
 
 
+
+
+
+
+

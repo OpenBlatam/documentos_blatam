@@ -91,3 +91,8 @@ info = extractor.extract(paper_file)
 **Estado**: ✅ **Refactorización Completa - Lista para Usar**
 
 
+
+
+
+
+

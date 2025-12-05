@@ -155,3 +155,8 @@ No intentes hacer todo en un solo mensaje. Abre una conversación con la IA y di
 La clave es la **ITERACIÓN**.
 
 
+
+
+
+
+

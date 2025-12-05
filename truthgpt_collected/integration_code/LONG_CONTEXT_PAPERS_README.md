@@ -191,3 +191,8 @@ from truthgpt_optimized_integration import TruthGPTOptimized
 Cada paper incluye referencias a los papers originales en sus docstrings. Los arXiv IDs están marcados como "[ID pendiente]" y deben actualizarse cuando estén disponibles.
 
 
+
+
+
+
+

@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Estrategias y Frameworks
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 1,169
+• Total de Líneas: 354
+• Total de Secciones: 53
+• Bloques de Código: 0
+• Tablas: 0
+• Enlaces: 63
+• Listas: 174
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 22.20
+  ⚠ Complejo
+• Promedio Palabras/Sección: 22
+• Ratio de Código: 0.0%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 53
+
+Principales secciones:
+  • 🎯 BUSINESS STRATEGY - Strategy Hub
+    • *Your Complete Resource for Strategic Planning & Execution*
+      • 📋 **Overview**
+    • 🚀 **START HERE - Essential Resources**
+      • **🔥 NEW (January 2025)**
+      • **📚 Core Strategy Playbooks**
+      • **📝 Strategic Templates**
+    • 📁 **STRATEGIC PLANNING**
+      • **Vision & Strategy**
+      • **Market Analysis**
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Category (1)
+• Adapt (1)
+• Market (1)
+• Your (1)
+• Sales (1)
+• Pricing (1)
+• Rollout (1)
+• Minutes (1)
+• Modern (1)
+• Execution (1)

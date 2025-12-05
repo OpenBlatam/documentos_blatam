@@ -279,3 +279,8 @@ if __name__ == "__main__":
     create_enhanced_pitch_deck("Ventura_Capital_Pitch_Deck_V2.pptx")
 
 
+
+
+
+
+

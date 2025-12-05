@@ -1,0 +1,84 @@
+
+REPORTE COMPARATIVO - DOCUMENTOS BLATAM
+======================================================================
+
+Fecha de Generación: 24 de November de 2025 20:39
+
+ANÁLISIS COMPARATIVO
+----------------------------------------------------------------------
+
+DOCUMENTOS POR TAMAÑO (Palabras)
+----------------------------------------------------------------------
+ 1. Guía de Automatización con Airflow                     24,181 palabras
+ 2. Código de Producción - README                           2,187 palabras
+ 3. Documentación Principal - Documentos BLATAM             2,181 palabras
+ 4. Plan de Refactorización                                 1,890 palabras
+ 5. Mejoras Arquitectónicas                                 1,577 palabras
+ 6. Arquitectura del Proyecto                               1,205 palabras
+ 7. Resumen del Ecosistema Empresarial                      1,180 palabras
+ 8. Estrategias y Frameworks                                1,169 palabras
+ 9. Estrategias y Frameworks Completos                      1,169 palabras
+10. Guía de Contribución                                    1,154 palabras
+11. Resumen Final Completo - Documentos BLATAM                957 palabras
+12. Mejores Prácticas                                         912 palabras
+13. Preguntas Frecuentes                                      808 palabras
+14. Índice Maestro de Documentación                           764 palabras
+15. Registro de Cambios                                       472 palabras
+16. Índice de Documentación Técnica                           427 palabras
+
+DOCUMENTOS POR LEGIBILIDAD
+----------------------------------------------------------------------
+ 1. Guía de Automatización con Airflow                  100.0/100
+ 2. Arquitectura del Proyecto                           100.0/100
+ 3. Documentación Principal - Documentos BLATAM         100.0/100
+ 4. Mejoras Arquitectónicas                             100.0/100
+ 5. Plan de Refactorización                             100.0/100
+ 6. Código de Producción - README                       100.0/100
+ 7. Resumen Final Completo - Documentos BLATAM          100.0/100
+ 8. Resumen del Ecosistema Empresarial                  100.0/100
+ 9. Estrategias y Frameworks                            100.0/100
+10. Mejores Prácticas                                   100.0/100
+11. Registro de Cambios                                 100.0/100
+12. Guía de Contribución                                100.0/100
+13. Índice Maestro de Documentación                     100.0/100
+14. Índice de Documentación Técnica                     100.0/100
+15. Estrategias y Frameworks Completos                  100.0/100
+16. Preguntas Frecuentes                                100.0/100
+
+DOCUMENTOS POR COMPLEJIDAD
+----------------------------------------------------------------------
+ 1. Código de Producción - README                       39.40
+ 2. Documentación Principal - Documentos BLATAM         38.00
+ 3. Mejores Prácticas                                   27.20
+ 4. Estrategias y Frameworks                            22.20
+ 5. Estrategias y Frameworks Completos                  22.20
+ 6. Guía de Contribución                                21.00
+ 7. Preguntas Frecuentes                                20.90
+ 8. Arquitectura del Proyecto                           18.20
+ 9. Resumen del Ecosistema Empresarial                  17.30
+10. Resumen Final Completo - Documentos BLATAM          16.70
+11. Plan de Refactorización                             16.50
+12. Índice Maestro de Documentación                     14.40
+13. Índice de Documentación Técnica                     13.10
+14. Mejoras Arquitectónicas                             12.50
+15. Registro de Cambios                                  7.20
+16. Guía de Automatización con Airflow                   0.70
+
+RANKING GENERAL (Promedio de métricas normalizadas)
+----------------------------------------------------------------------
+ 1. Código de Producción - README                        72.7 pts
+ 2. Documentación Principal - Documentos BLATAM          66.0 pts
+ 3. Guía de Automatización con Airflow                   60.5 pts
+ 4. Mejores Prácticas                                    58.5 pts
+ 5. Estrategias y Frameworks                             52.7 pts
+ 6. Estrategias y Frameworks Completos                   52.7 pts
+ 7. Guía de Contribución                                 52.7 pts
+ 8. Preguntas Frecuentes                                 51.8 pts
+ 9. Plan de Refactorización                              50.3 pts
+10. Arquitectura del Proyecto                            49.2 pts
+11. Resumen del Ecosistema Empresarial                   48.5 pts
+12. Índice Maestro de Documentación                      47.3 pts
+13. Resumen Final Completo - Documentos BLATAM           45.9 pts
+14. Mejoras Arquitectónicas                              45.7 pts
+15. Índice de Documentación Técnica                      42.3 pts
+16. Registro de Cambios                                  38.6 pts

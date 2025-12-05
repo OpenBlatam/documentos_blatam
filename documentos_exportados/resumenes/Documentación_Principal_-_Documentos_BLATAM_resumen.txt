@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Documentación Principal - Documentos BLATAM
+======================================================================
+
+Fecha: 24 de November de 2025 20:36
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 2,181
+• Total de Líneas: 505
+• Total de Secciones: 74
+• Bloques de Código: 5
+• Tablas: 9
+• Enlaces: 120
+• Listas: 108
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 38.00
+  ⚠ Complejo
+• Promedio Palabras/Sección: 29
+• Ratio de Código: 10.7%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 74
+
+Principales secciones:
+  • 📚 Documentos BLATAM - Ecosistema Completo de Documentación Empresarial
+    • 🎯 ¿Qué es Documentos BLATAM?
+      • ✨ Características Principales
+      • 🎨 Áreas Cubiertas
+    • 🚀 Inicio Rápido
+      • ⚡ Para Nuevos Usuarios (5 minutos)
+  • 1. Clona o navega al repositorio
+  • 2. Lee la guía de inicio
+  • 3. Explora según tu necesidad
+      • 🎯 Para Casos Específicos
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Soporte (1)
+• Empezar (1)
+• Inteligencia (1)
+• Google (1)
+• Documentos (1)
+• Tokens (1)
+• Directorios (1)
+• Sales (1)
+• Checklists (1)
+• Proyecto (1)

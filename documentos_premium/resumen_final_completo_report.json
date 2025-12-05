@@ -1,0 +1,49 @@
+{
+  "document": "06_documentation/resumen_final_completo.md",
+  "generated_at": "2025-11-24T20:35:48.710294",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 17,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 107.45,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 14.57,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 1.0,
+    "positive_words": 7,
+    "negative_words": 0
+  },
+  "structure": {
+    "has_toc": true,
+    "has_summary": true,
+    "has_conclusion": true,
+    "header_distribution": {
+      "1": 1,
+      "2": 10,
+      "3": 22
+    },
+    "list_items": 74,
+    "code_blocks": 17,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "ia": 64,
+      "tecnología": 41,
+      "negocio": 14
+    },
+    "primary_topic": "ia",
+    "topic_diversity": 6
+  },
+  "quality_score": 55
+}

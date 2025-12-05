@@ -1,0 +1,49 @@
+{
+  "document": "06_documentation/Master_documents/indice_maestro_documentacion.md",
+  "generated_at": "2025-11-24T20:35:48.714676",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 0,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 115.01,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 7.12,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 0.83,
+    "positive_words": 5,
+    "negative_words": 1
+  },
+  "structure": {
+    "has_toc": true,
+    "has_summary": false,
+    "has_conclusion": false,
+    "header_distribution": {
+      "1": 1,
+      "2": 16,
+      "3": 31
+    },
+    "list_items": 120,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "ia": 79,
+      "tecnología": 41,
+      "negocio": 36
+    },
+    "primary_topic": "ia",
+    "topic_diversity": 6
+  },
+  "quality_score": 40
+}

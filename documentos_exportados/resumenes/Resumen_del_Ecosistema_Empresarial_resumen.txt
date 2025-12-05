@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Resumen del Ecosistema Empresarial
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 1,180
+• Total de Líneas: 244
+• Total de Secciones: 44
+• Bloques de Código: 0
+• Tablas: 0
+• Enlaces: 41
+• Listas: 126
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 17.30
+  ⚠ Complejo
+• Promedio Palabras/Sección: 27
+• Ratio de Código: 0.0%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 44
+
+Principales secciones:
+  • 🌟 Documentos Blatam - Ecosystem Summary
+    • 📚 Complete Documentation Ecosystem Overview
+      • 🎯 **Ecosystem Statistics**
+    • 🚀 **Core Business Domains**
+      • **🤖 AI & Machine Learning**
+      • **🏢 Business Strategy & Planning**
+      • **💻 Technology & Digital**
+      • **⚙️ Operations & Management**
+      • **📋 Project & Delivery**
+      • **👥 Human Resources & Leadership**
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Documentos (1)
+• Other (1)
+• Documentation (1)
+• Market (1)
+• Sales (1)
+• Quality (1)
+• Guide (1)
+• Types (1)
+• Cybersecurity (1)
+• Change (1)

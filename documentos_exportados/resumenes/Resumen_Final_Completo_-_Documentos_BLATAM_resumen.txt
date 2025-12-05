@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Resumen Final Completo - Documentos BLATAM
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 957
+• Total de Líneas: 399
+• Total de Secciones: 33
+• Bloques de Código: 17
+• Tablas: 0
+• Enlaces: 0
+• Listas: 10
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 16.70
+  ⚠ Complejo
+• Promedio Palabras/Sección: 29
+• Ratio de Código: 70.7%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 33
+
+Principales secciones:
+  • 📊 Resumen Final Completo - Documentos BLATAM
+    • 🎯 **Visión General del Proyecto**
+      • **Objetivo Cumplido**
+      • **Alcance del Proyecto**
+    • 📚 **Inventario Completo de Documentos**
+      • **🏢 Documentos Empresariales (15 documentos)**
+      • **🔧 Documentos Técnicos (20 documentos)**
+      • **🏭 Documentos de Industrias (10 documentos)**
+      • **📋 Documentos de Gestión (5 documentos)**
+    • 📊 **Métricas de Éxito**
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Architecture (1)
+• Documentos (1)
+• Market (1)
+• Impacto (1)
+• Quality (1)
+• Formar (1)
+• Proyecto (1)
+• Response (1)
+• Personalization (1)
+• Detallados (1)

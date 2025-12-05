@@ -249,3 +249,8 @@ Pillow (PIL)         # Procesamiento de imágenes
 
 
 
+
+
+
+
+

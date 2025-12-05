@@ -1,0 +1,44 @@
+
+RESUMEN AUTOMÁTICO - Guía de Automatización con Airflow
+======================================================================
+
+Fecha: 24 de November de 2025 20:36
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 24,181
+• Total de Líneas: 4,235
+• Total de Secciones: 1
+• Bloques de Código: 1
+• Tablas: 0
+• Enlaces: 0
+• Listas: 1749
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 0.70
+  ✓ Simple
+• Promedio Palabras/Sección: 24181
+• Ratio de Código: 0.6%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 1
+
+Principales secciones:
+  • # Your deployment script here
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Chatbot (1)
+• Google (1)
+• Filing (1)
+• Immutable (1)
+• Your (1)
+• Interpolation (1)
+• Completed (1)
+• Never (1)
+• Scripting (1)
+• Workspace (1)

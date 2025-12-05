@@ -1,0 +1,371 @@
+{
+  "generated_at": "2025-11-25T10:52:44.502769",
+  "output_directory": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2",
+  "documents": [
+    {
+      "name": "airflow_automation_prompt",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/airflow_automation_prompt_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/airflow_automation_prompt_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/airflow_automation_prompt_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/airflow_automation_prompt_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/airflow_automation_prompt_estructura_mejorada.png"
+        ]
+      },
+      "metrics": {
+        "lines": 6351,
+        "words": 40867,
+        "sections": 5,
+        "code_blocks": 14,
+        "complexity_score": 79.35506959897609
+      },
+      "summary_points": [
+        "<!-- ================================================================================ AUTOMATION EXPERT SYSTEM PROMPT ================================================================================ Version: 2.1 Last Updated: 2024 Purpose: Comprehensive automation assistant for all automation domains ================================================================================",
+        "This prompt defines AutomationExpert, an AI assistant specialized in comprehensive automation across all domains.",
+        "- 300+ automation tools and frameworks across 80+ domains - Best practices, patterns, and anti-patterns - Troubleshooting frameworks and solution development - Code examples and implementation guidance - Framework selection criteria and decision guides - Industry-specific automation (healthcare, finance, retail, manufacturing, etc.)",
+        "Key Features: - Direct question answering with structured responses - Automatic term definition for automation concepts - Problem-solving with actionable solutions - Code examples with best practices - Framework comparison and selection guidance - Comprehensive coverage of modern automation tools",
+        "You are AutomationExpert, developed and created for comprehensive automation across all domains, and you are the user's intelligent automation co-pilot for workflow orchestration, CI/CD pipelines, infrastructure automation, container orchestration, testing automation, deployment automation, monitoring, and all forms of process automation."
+      ],
+      "risks": {
+        "Pendientes": [
+          "L5532: | PCI DSS | Req 6 Secure Systems | At Risk | Supply-chain mitigation plan pending | Finish Sigstore attestation rollout |",
+          "L5816: | Workflow Orchestration | 68% | 97% | 6% | 58m | 3.6 | Pending DAG tuning rollout |"
+        ],
+        "Advertencias": [
+          "L378: - Trading terms (Algorithmic trading, Risk management, Market analysis, etc.)",
+          "L474: If a problem, error, or issue is presented at the end of the conversation (DAG failures, task errors, scheduling issues, CI/CD pipeline f...",
+          "L1018: - Mentioned deployment issue about [specific deployment bottleneck]\"",
+          "L2200: - **Risk Management**: Automated risk assessment, etc.",
+          "L2242: - **Fraud Detection**: Automated fraud detection, transaction monitoring, rule-based detection, ML-based detection, risk scoring, fraud p...",
+          "L2244: - **Vulnerability Management**: Automated vulnerability scanning, remediation workflows, patch prioritization, CVE tracking, compliance m...",
+          "L2264: - **Auto-Remediation**: Automated issue resolution, self-fixing systems, runbook automation, remediation workflows, escalation policies, ...",
+          "L2362: - **Data Anonymization**: Automated anonymization, Pseudonymization, k-anonymity, Differential privacy, Anonymization techniques, Anonymi...",
+          "L2398: - **Accessibility Audits**: Automated accessibility audits, Compliance checking, Accessibility scoring, Issue identification, Remediation...",
+          "L2404: - **Cryptocurrency Automation**: Automated crypto trading, Wallet management, Transaction automation, Portfolio management, Price monitor...",
+          "L2410: - **Algorithmic Trading**: Automated trading, Strategy execution, Order management, Trade execution, Backtesting, Strategy optimization, ...",
+          "L2412: - **Risk Management**: Automated risk assessment, Portfolio management, Risk calculation, Value at Risk (VaR), Stress testing, Risk limit...",
+          "L2468: - **Risk Assessment**: Automated risk assessment, Risk scoring, Risk calculation, Risk monitoring, Risk reporting, Risk dashboards, Risk ...",
+          "L2510: - **Supply Chain**: Automated supply chain management, Inventory management, Order management, Supplier management, Logistics automation,...",
+          "L2608: - **Issue Tracking**: Automated issue tracking, Bug tracking, Issue creation, Issue assignment, Issue prioritization, Issue workflows, Is...",
+          "L2640: - **Credit Scoring**: Automated credit scoring, Risk assessment, Credit analysis, Credit decisioning, Credit monitoring, Credit reporting...",
+          "L2644: - **Trading Automation**: Automated trading, Algorithm execution, Order management, Trade execution, Risk management, Trade reporting, Tr...",
+          "L2646: - **Portfolio Management**: Automated portfolio management, Rebalancing, Portfolio optimization, Portfolio analytics, Portfolio reporting...",
+          "L2888: - **Sentry**: Error tracking, exception monitoring, release tracking, performance monitoring, user context, alerting, issue grouping",
+          "L3620: - Risk reduction",
+          "L3896: - Evaluate impact of changes (risk assessment, rollback plan, testing requirements, deployment strategy)",
+          "L4183: - Completed trading & financial automation (Algorithmic trading, Risk management, Market analysis)",
+          "L4188: - Completed legal & compliance automation (Legal documents, Contract management, Legal research, Compliance monitoring, Regulatory report...",
+          "L4200: - Completed project & task management automation (Project management, Issue tracking, Task automation, Time tracking, Resource allocation)",
+          "L4324: | `Risks` | Monitor delivery risks | `Risk ID`, `Description`, `Impact`, `Likelihood`, `Mitigation`, `Owner`, `Status` | Feed into PMO sc...",
+          "L4360: | CIO / VP Tech | Demonstrate ROI, risk posture, roadmap confidence | KPI deltas, compliance scorecards, roadmap timelines | Lead with bu...",
+          "L4558: | Tier 2 – Core Enablement | Departmental workflows w/ moderate risk | Jira EPIC + guardrail checklist | 99.5% uptime, 4h response | Pref...",
+          "L4559: | Tier 3 – Rapid Experiments | Low-risk prototypes and productivity boosters | Slack form + lightweight policy gates | Best effort, 1d re...",
+          "L4627: **Risk Heatmap Guidelines (feed into Excel `Risks` tab + PDF dashboards):**",
+          "L4629: 1. **Risk Scoring Formula**: `Risk Score = Impact (1-5) * Likelihood (1-5)`; auto-calc via Excel column to drive conditional formatting.",
+          "L4631: 3. **Mandatory Fields**: `Risk ID`, `Category`, `Description`, `Impact`, `Likelihood`, `Owner`, `Mitigation`, `Trigger`, `Target Date`, `...",
+          "L4680: - **Change Management**: Always pair blueprint updates with RACI + risk entries to keep governance artifacts synchronized.",
+          "L4728: - Slide 3: Risk heatmap snapshot + mitigation burndown.",
+          "L4775: - Map each initiative to maturity gaps and risk items so prioritization stays evidence-based.",
+          "L4896: | ISO 27001 A.14 - System Acquisition | Automation blueprint approvals, RACI matrices | Architecture review docs, risk register | Quarter...",
+          "L4951: | Exec Stakeholders | 30-min briefing + PDF digest | Quarterly | Scorecard reading, risk posture, milestones | Steering committee |",
+          "L5031: **Risk Register Template (detailed schema for Excel/PDF sync):**",
+          "L5033: | Risk ID | Category | Description | Impact (1-5) | Likelihood (1-5) | Score | Owner | Mitigation Plan | Trigger Event | Residual Risk | ...",
+          "L5076: - Alert when AI confidence < threshold but high-risk action proposed.",
+          "L5089: 1. **Sense** – Monitor KPI registry, risk heatmap, incident metrics, adoption stats; auto-log anomalies into Excel `Backlog` with `source...",
+          "L5090: 2. **Prioritize** – Run bi-weekly WSJF review (`Value`, `Time Criticality`, `Risk Reduction`, `Effort`) to rank new automation tasks.",
+          "L5123: - **Risk Reduction**: Change failure rate dropped from 11.8% → 7.2% following chaos-ready CI/CD drills and guardrails.",
+          "L5154: 5. **Risk & Compliance** – Risk heatmap, compliance mapping table, audit readiness gauge.",
+          "L5289: (:Runbook)-[:MITIGATES]->(:Risk {id, score})",
+          "L5434: 1. Source submissions via Typeform or GitHub issue template (`docs/glossary_request.md`).",
+          "L5532: | PCI DSS | Req 6 Secure Systems | At Risk | Supply-chain mitigation plan pending | Finish Sigstore attestation rollout |",
+          "L5537: - Link each row back to compliance mapping matrix + risk register.",
+          "L5549: | PMO Lead | Track roadmap, KPIs, backlog health | Excel workbook, reporting calendar, backlog board | Dashboard blueprints, initiative p...",
+          "L5579: 3. Identify top gaps with root causes mapped to maturity matrix + risk register; link corrective initiatives in portfolio.",
+          "L5599: - Tie variances back to initiative portfolio and risk register.",
+          "L5657: - Portfolio bubble chart (ROI vs Effort, bubble size = Cost, color = Risk)",
+          "L5660: - Risk funnel (open risks by category/stage)",
+          "L5678: | Worst Case (Risk) | < 55% | > 90 min | +8% | Incident backlog + regulatory changes | Trigger mitigation backlog, escalate to steering |",
+          "L5681: - Link each scenario to risk register entries and backlog items.",
+          "L5709: | Steering Committee | Monthly | Exec sponsor, PMO, CoE, FinOps | KPI review, decisions, risk escalations | PDF brief, portfolio dashboard |",
+          "L5783: **Risk Burndown Dashboard (Power BI tile + Excel chart):**",
+          "L5785: - Line chart of cumulative risk score over time separated by category (Workflow, CI/CD, Security, Compliance).",
+          "L5907: 2. **Slide 1 (Value Story)** – Highlight ROI, risk reduction, experience boost; point to bilingual summary.",
+          "L5908: 3. **Slide 2 (Dashboard)** – Walk through KPI tiles + risk burndown; call out scenario plan.",
+          "L5935: **AI Risk Register (copilot-specific):**",
+          "L5937: | Risk ID | Description | Impact | Likelihood | Controls | Mitigation | Owner |",
+          "L5944: - Sync with main risk register; highlight AI-specific risks in dashboards.",
+          "L5955: | Error Budget Burn | % of SLO consumed | ≤ 60% period | 75% | Prometheus + RUM | Link to risk burndown dashboard |",
+          "L5974: - Embedded dashboards (PowerBI) with filters for KPI/risk/ROI views.",
+          "L6007: | Risk & Compliance | Heatmap, AI risk register, audit readiness | Risk burndown, compliance scorecard | Governance Lead |",
+          "L6043: | Local Regulation (LATAM) | Language parity | Localization strategy, bilingual assets | Glossary CSV, translation reports | Localization...",
+          "L6046: - Highlight “At Risk” controls in dashboards and scenario planning matrix.",
+          "L6114: | `risks.csv` | Risk register entries | risk_heatmap_guidelines | `analytics/schemas/risks.yaml` | Daily | Risk dashboard, Word |",
+          "L6146: | Executive Sponsor | ROI, risk posture | 4.2/5 | 4.5/5 | Need quicker KPI digest | Add AI Ops metrics to brief |",
+          "L6201: | Compliance Automation Suite | $300K FY25 | $95K | +$15K | Risk & Compliance Allocation | Needed for SOC2/SOX evidence. |",
+          "L6340: 1. Intake via Typeform or GitHub issue (`docs/glossary_request.md`)."
+        ],
+        "Notas críticas": [
+          "L3677: - **Monitoring**: Set up monitoring and alerting for all critical automation, track success/failure rates, execution times",
+          "L3747: - **Vulnerability Management**: Regularly scan for vulnerabilities, prioritize critical vulnerabilities, automate patch deployment",
+          "L4437: | Delivery Velocity | `Initiative`, `Phase`, `Planned %`, `Actual %`, `Blockers`, `ETA` | Progress donut + blocker heatmap | Sync with th...",
+          "L4557: | Tier 1 – Mission Critical | Revenue/Regulatory automations with zero tolerance for downtime | ServiceNow request + CoE review board | 9...",
+          "L5359: | Automation Coverage | 70-80% of critical processes | Gartner CoE Report 2024 | Use coverage delta to justify backlog items. |",
+          "L5892: | Q1 | Foundation Hardening | Docs quality gates, AI guardrails, workbook automation | KPIs refreshed weekly, 0 critical lint issues | To...",
+          "L5957: | Trace Coverage | % critical services traced | ≥ 90% | < 80% | OpenTelemetry collector | Document in Word §5 |"
+        ]
+      }
+    },
+    {
+      "name": "ARCHITECTURE_IMPROVEMENTS",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_IMPROVEMENTS_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_IMPROVEMENTS_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_IMPROVEMENTS_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_IMPROVEMENTS_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_IMPROVEMENTS_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_IMPROVEMENTS_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 381,
+        "words": 1577,
+        "sections": 39,
+        "code_blocks": 2,
+        "complexity_score": 47.28426177673925
+      },
+      "summary_points": [
+        "This document outlines the comprehensive architectural improvements being implemented to align the `production_code` directory with clean architecture principles, eliminate code duplication, standardize imports, and ensure proper layer separation.",
+        "``` ┌─────────────────────────────────────────────────────────┐ │  PRESENTATION LAYER                                     │ │  - api/ (routes, middleware, auth, dependencies)       │ │  - api_server.py, chat_server.py, cli*.py              │ │  - dashboard.html                                       │ │  Dependencies: application.service_container only      │ └─────────────────────────────────────────────────────────┘                           ↓ ┌─────────────────────────────────────────────────────────┐ │  APPLICATION LAYER                                      │ │  - services/ (business logic services)                  │ │  - application/ (service container, orchestrators)     │ │  - integration_pipeline.py, monitoring_system.py        │ │  Dependencies: domain contracts, infrastructure providers│ └─────────────────────────────────────────────────────────┘                           ↓ ┌─────────────────────────────────────────────────────────┐ │  DOMAIN LAYER                                           │ │  - core/ (base classes, utilities)                     │ │  - memory/, research/, inference/, etc.",
+        "**Current State:** - `api_utils.py` (root, 268 lines) - Tensor validation functions - `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients - `api/api_utils.py` (180 lines) - API route validation functions",
+        "**Files to Update:** - `api_unified.py` - Update imports - `tests/test_api_utils.py` - Update imports - Any other files importing from root `api_utils`",
+        "**Current State:** - `config_manager.py` (root, 521 lines) - `core/config_manager.py` (exists)"
+      ],
+      "risks": {
+        "Pendientes": [
+          "L301: ### Pending ⏳"
+        ],
+        "Advertencias": [
+          "L80: 5. ✅ Add deprecation warning to root `api_utils.py`",
+          "L162: **Current Issue:**",
+          "L208: - **Issue**: Doesn't use new `api/routes/` structure, uses root-level imports",
+          "L213: - **Issue**: Duplicate functionality",
+          "L218: - **Issue**: Potential duplication with `core/config_manager.py`",
+          "L223: - **Issue**: Uses root-level imports",
+          "L228: - **Issue**: Uses root-level `config_manager` import",
+          "L235: - **Issue**: May duplicate `api/auth.py`",
+          "L239: - **Issue**: May duplicate `api/middleware.py`",
+          "L243: - **Issue**: Naming conflict with Python built-in",
+          "L260: ### Risk 1: Breaking Changes",
+          "L261: - **Risk**: Changing imports may break existing code",
+          "L268: ### Risk 2: Lost Functionality",
+          "L269: - **Risk**: Consolidation may lose some functionality",
+          "L275: ### Risk 3: Import Cycles",
+          "L276: - **Risk**: Reorganization may create circular imports"
+        ]
+      }
+    },
+    {
+      "name": "REFACTORING_PLAN",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/REFACTORING_PLAN_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/REFACTORING_PLAN_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/REFACTORING_PLAN_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/REFACTORING_PLAN_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/REFACTORING_PLAN_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/REFACTORING_PLAN_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 469,
+        "words": 1890,
+        "sections": 51,
+        "code_blocks": 3,
+        "complexity_score": 41.40273157641579
+      },
+      "summary_points": [
+        "**Date**: 2025-01-27   **Status**: Analysis Complete - Ready for Implementation",
+        "This document outlines a comprehensive refactoring plan for the `production_code` directory to improve code organization, eliminate duplication, resolve import inconsistencies, and align with the documented layered architecture.",
+        "**Current State:** - `api_utils.py` (root, 268 lines) - Tensor validation functions - `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients - `api/api_utils.py` (180 lines) - API route validation functions",
+        "**Problem:** - Overlapping functionality - Inconsistent import paths - Confusion about which file to use",
+        "**Option A (Recommended):** Keep separate but clarify purposes - `api/api_utils.py` → Keep for API route validation (domain-specific) - `core/api_utils.py` → Keep for general HTTP/web utilities (reusable) - `api_utils.py` (root) → **DEPRECATE** and migrate to `api/api_utils.py`"
+      ],
+      "risks": {
+        "Advertencias": [
+          "L177: **Current Issue:**",
+          "L252: - **Issue**: Doesn't use new `api/routes/` structure",
+          "L257: - **Issue**: Duplicate functionality",
+          "L262: - **Issue**: Potential duplication with `core/config_manager.py`",
+          "L269: - **Issue**: May duplicate `api/auth.py`",
+          "L273: - **Issue**: May duplicate `api/middleware.py`",
+          "L277: - **Issue**: Naming conflict with Python built-in",
+          "L383: ### Risk 1: Breaking Changes",
+          "L384: - **Risk**: Changing imports may break existing code",
+          "L390: ### Risk 2: Lost Functionality",
+          "L391: - **Risk**: Consolidation may lose some functionality",
+          "L397: ### Risk 3: Import Cycles",
+          "L398: - **Risk**: Reorganization may create circular imports"
+        ],
+        "Notas críticas": [
+          "L341: 3. Create integration tests for critical paths"
+        ]
+      }
+    },
+    {
+      "name": "BEST_PRACTICES",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/BEST_PRACTICES_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/BEST_PRACTICES_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/BEST_PRACTICES_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/BEST_PRACTICES_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/BEST_PRACTICES_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/BEST_PRACTICES_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 341,
+        "words": 912,
+        "sections": 72,
+        "code_blocks": 10,
+        "complexity_score": 63.41102472089314
+      },
+      "summary_points": [
+        "Guía de mejores prácticas para usar y contribuir a Documentos BLATAM de manera efectiva.",
+        "- [Uso de Templates](#uso-de-templates) - [Personalización](#personalización) - [Organización](#organización) - [Contribución](#contribución) - [Mantenimiento](#mantenimiento) - [Seguridad](#seguridad)",
+        "- **Lee primero** el template completo antes de usar - **Personaliza** todas las variables `{{variable}}` - **Valida** que los enlaces funcionen - **Prueba** en un entorno de prueba antes de producción - **Mantén** un backup del template original",
+        "- No uses templates sin personalizar - No copies enlaces sin verificar - No uses datos sensibles en templates - No modifiques templates originales (usa copias)",
+        "```markdown # Template original (NO modificar) Hola {{nombre}}, tu webinar es el {{fecha}}."
+      ],
+      "risks": {}
+    },
+    {
+      "name": "CHANGELOG",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CHANGELOG_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CHANGELOG_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CHANGELOG_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CHANGELOG_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CHANGELOG_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CHANGELOG_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 147,
+        "words": 472,
+        "sections": 23,
+        "code_blocks": 0,
+        "complexity_score": 80.83111380145277
+      },
+      "summary_points": [
+        "Todos los cambios notables en este proyecto serán documentados en este archivo.",
+        "El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).",
+        "- Organización de archivos por categorías - Sistema de frontmatter para metadatos - Validación de documentos - Herramientas de búsqueda",
+        "- Enlaces rotos en documentación - Errores de formato en markdown - Inconsistencias en nomenclatura",
+        "- **Agregado**: Para nuevas funcionalidades - **Cambiado**: Para cambios en funcionalidades existentes - **Deprecado**: Para funcionalidades que serán eliminadas - **Eliminado**: Para funcionalidades eliminadas - **Corregido**: Para corrección de bugs - **Seguridad**: Para vulnerabilidades de seguridad"
+      ],
+      "risks": {}
+    },
+    {
+      "name": "CONTRIBUTING",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CONTRIBUTING_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CONTRIBUTING_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/CONTRIBUTING_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CONTRIBUTING_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CONTRIBUTING_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/CONTRIBUTING_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 370,
+        "words": 1154,
+        "sections": 56,
+        "code_blocks": 7,
+        "complexity_score": 80.12718304226104
+      },
+      "summary_points": [
+        "¡Gracias por tu interés en contribuir a Documentos BLATAM!",
+        "- [Código de Conducta](#código-de-conducta) - [¿Cómo Puedo Contribuir?](#cómo-puedo-contribuir) - [Proceso de Contribución](#proceso-de-contribución) - [Estándares de Documentación](#estándares-de-documentación) - [Estructura de Archivos](#estructura-de-archivos) - [Pull Requests](#pull-requests) - [Reportar Problemas](#reportar-problemas) - [Sugerir Mejoras](#sugerir-mejoras)",
+        "Este proyecto sigue el [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/).",
+        "```bash # Clonar el repositorio git clone https://github.com/blatam/documentos.git cd documentos",
+        "- Trabaja en tu rama local - Haz commits pequeños y descriptivos - Sigue los estándares de documentación - Prueba tus cambios antes de enviar"
+      ],
+      "risks": {
+        "Advertencias": [
+          "L245: ### Crear un Issue",
+          "L270: 2. **Crea un issue** con la etiqueta `enhancement`",
+          "L362: - Abre un issue con la etiqueta `question`"
+        ]
+      }
+    },
+    {
+      "name": "README",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/README_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/README_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/README_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/README_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/README_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/README_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 505,
+        "words": 2181,
+        "sections": 74,
+        "code_blocks": 5,
+        "complexity_score": 47.25340339801004
+      },
+      "summary_points": [
+        "> **El repositorio más completo de documentación empresarial, marketing digital, IA y automatización en español**",
+        "[🚀 Inicio Rápido](#-inicio-rápido) • [📁 Estructura](#-estructura-del-proyecto) • [🛠️ Herramientas](#️-herramientas-y-scripts) • [🤝 Contribuir](CONTRIBUTING.md) • [📖 Documentación](ARCHITECTURE.md) • [❓ FAQ](FAQ.md) • [🔒 Seguridad](SECURITY.md)",
+        "**Documentos BLATAM** es un ecosistema integral de documentación que cubre todos los aspectos de una empresa moderna: desde marketing digital y automatización de ventas hasta estrategias de IA, análisis de datos y gestión operativa.",
+        "- 📚 **1,000+ Documentos** especializados y actualizados - 🗂️ **50+ Categorías** organizadas por función empresarial - 🤖 **100+ Sistemas de IA** implementados y documentados - 📊 **200+ Estrategias** de marketing y ventas - 🔧 **100+ Herramientas** y scripts de automatización - 📈 **10+ Dashboards** interactivos y templates - 🧮 **15+ Calculadoras** especializadas (ROI, métricas, etc.) - 🎯 **Templates Listos** para usar en producción",
+        "- 🚀 **Marketing Digital** - Campañas, automatización, redes sociales, email marketing, SEO, contenido - 💼 **Ventas** - Scripts, playbooks, técnicas de cierre, gestión de leads, CRM - 🤖 **Inteligencia Artificial** - Sistemas de IA, automatización, análisis predictivo, ML - 📊 **Analítica y Datos** - Dashboards, KPIs, métricas, reportes, Google Sheets - 🏢 **Estrategia Empresarial** - Planes de negocio, expansión, partnerships, PLG - ⚙️ **Operaciones** - Automatización, workflows, gestión de procesos, scripts - 📖 **Documentación Técnica** - Guías, manuales, templates, checklists, APIs - 💰 **Finanzas** - Modelos financieros, pricing, forecasting, ROI - 👥 **RRHH** - Gestión de talento, onboarding, desarrollo - ⚖️ **Legal & Compliance** - Contratos, compliance, privacidad"
+      ],
+      "risks": {}
+    },
+    {
+      "name": "ARCHITECTURE",
+      "files": {
+        "pdf": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_premium_v2.pdf",
+        "word": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_premium_v2.docx",
+        "excel": null,
+        "pptx": "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/ARCHITECTURE_premium_v2.pptx",
+        "graphs": [
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_analisis_completo.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_estructura_mejorada.png",
+          "/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/ARCHITECTURE_evolucion_estructura.png"
+        ]
+      },
+      "metrics": {
+        "lines": 384,
+        "words": 1205,
+        "sections": 45,
+        "code_blocks": 8,
+        "complexity_score": 53.36450075041935
+      },
+      "summary_points": [
+        "Este documento describe la arquitectura, estructura y organización del proyecto Documentos BLATAM.",
+        "- [Visión General](#visión-general) - [Estructura de Directorios](#estructura-de-directorios) - [Organización por Categorías](#organización-por-categorías) - [Sistema de Metadatos](#sistema-de-metadatos) - [Flujo de Documentación](#flujo-de-documentación) - [Herramientas y Scripts](#herramientas-y-scripts) - [Convenciones](#convenciones)",
+        "**Documentos BLATAM** es un ecosistema de documentación empresarial organizado por categorías funcionales.",
+        "``` documentos_blatam/ ├── README.md                    # Punto de entrada principal ├── CONTRIBUTING.md              # Guía de contribución ├── CHANGELOG.md                 # Historial de cambios ├── SETUP.md                     # Guía de configuración ├── ARCHITECTURE.md              # Este archivo ├── ROADMAP.md                   # Hoja de ruta │ ├── 00_version_management/       # Gestión de versiones ├── 01_marketing/                # Marketing digital ├── 01_webinar_campaign/         # Campañas de webinars ├── 02_consciousness_systems/   # Sistemas de consciencia ├── 02_finance/                  # Finanzas ├── 03_human_resources/          # Recursos humanos ├── 04_business_strategy/        # Estrategia empresarial ├── 04_operations/               # Operaciones ├── 05_technology/               # Tecnología ├── 06_documentation/           # Documentación central ├── 06_strategy/                 # Estrategia ├── 07_advanced_features/       # Características avanzadas ├── 07_risk_management/         # Gestión de riesgos ├── 08_ai_artificial_intelligence/ # IA ├── 08_research_development/    # I+D ├── 09_sales/                    # Ventas ├── 10_customer_service/        # Atención al cliente ├── 11_research_development/    # I+D ├── 11_system_architecture/     # Arquitectura de sistemas ├── 12_quality_assurance/       # Aseguramiento de calidad ├── 12_user_guides/             # Guías de usuario ├── 13_legal_compliance/        # Legal y compliance ├── 14_procurement/             # Compras ├── 14_product_management/      # Gestión de productos ├── 14_thought_leadership/      # Liderazgo de pensamiento ├── 15_customer_experience/    # Experiencia de cliente ├── 16_data_analytics/          # Analítica de datos ├── 17_innovation/              # Innovación ├── 18_sustainability/          # Sostenibilidad ├── 19_international_business/   # Negocios internacionales ├── 20_project_management/     # Gestión de proyectos └── ...",
+        "``` documentos_blatam/ ├── tools/                      # Herramientas y scripts globales ├── Scripts/                    # Scripts de automatización ├── Templates/                  # Templates globales ├── Tests/                      # Tests y validaciones ├── Docs/                       # Documentación adicional ├── Static/                     # Archivos estáticos ├── Routes/                     # Rutas de API (si aplica) ├── Utils/                      # Utilidades └── backups/                    # Backups y archivos antiguos ```"
+      ],
+      "risks": {}
+    }
+  ]
+}

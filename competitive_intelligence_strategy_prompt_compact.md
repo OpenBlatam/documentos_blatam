@@ -271,3 +271,8 @@ Return the competitive intelligence operational plan ONLY in the specified table
 
 
 
+
+
+
+
+

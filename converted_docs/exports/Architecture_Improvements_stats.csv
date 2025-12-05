@@ -1,0 +1,72 @@
+Métrica,Valor
+Total Lines,381
+Total Words,1577
+Total Chars,12580
+Total Chars No Spaces,10784
+Sections,39
+Code Blocks,2
+Links,0
+Images,0
+Readability Score,58
+Complexity Score,23
+
+Palabra Clave,Frecuencia
+imports,33
+root,26
+files,21
+import,21
+update,18
+layer,17
+phase,17
+application,16
+code,15
+action,15
+architecture,14
+dependencies,12
+core,12
+from,12
+domain,11
+level,11
+plan,10
+directory,10
+lines,10
+duplication,9
+
+Sección,Nivel,Palabras,Código,Enlaces
+🏗️ Architectural Improvements - Implementation Pla,1,7,0,0
+📋 Executive Summary,2,29,1,0
+🎯 Improvement Goals,2,57,0,0
+🏛️ Target Architecture,2,0,0,0
+Layer Structure,3,1,0,0
+📝 Implementation Tasks,2,0,0,0
+Phase 1: File Consolidation ✅,3,0,0,0
+Task 1.1: Consolidate `api_utils.py` Files,4,103,12,0
+Task 1.2: Consolidate `config_manager.py` Files,4,61,10,0
+Phase 2: Import Standardization ✅,3,0,0,0
+Task 2.1: Standardize Import Paths,4,37,0,0
+Phase 3: File Organization ✅,3,0,0,0
+Task 3.1: Move Root-Level Files to Appropriate Lay,4,94,15,0
+Task 3.2: Resolve `code/` Directory Naming Conflic,4,42,6,0
+Phase 4: Architecture Alignment ✅,3,0,0,0
+Task 4.1: Update Application Factory,4,38,2,0
+Task 4.2: Verify Layer Compliance,4,68,3,4
+🔍 Detailed File Analysis,2,0,0,0
+High Priority Files,3,114,13,0
+Medium Priority Files,3,52,6,0
+📊 Success Metrics,2,42,0,0
+⚠️ Risks and Mitigation,2,0,0,0
+Risk 1: Breaking Changes,3,27,0,0
+Risk 2: Lost Functionality,3,20,0,0
+Risk 3: Import Cycles,3,24,0,0
+🚀 Implementation Status,2,0,0,0
+Completed ✅,3,66,0,9
+In Progress 🔄,3,16,0,2
+Pending ⏳,3,27,0,4
+Phase 2: API Entry Points ✅,3,37,4,5
+Phase 3: Import Standardization ✅,3,53,4,7
+Phase 5: Directory Structure ✅,3,48,5,6
+📚 Related Documents,2,39,5,0
+🎉 Estado Final,2,0,0,0
+✅ Todas las Fases Completadas,3,47,0,6
+📊 Resultados,3,27,1,0
+🚀 Próximas Mejoras Recomendadas,2,46,1,0

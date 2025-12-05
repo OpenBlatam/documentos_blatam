@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Documentos Importantes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; background: #f6f8fb; color: #2c3e50; }
+        h1, h2 { color: #1a5276; }
+        .stats { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+        .stat { background: #fff; border-radius: 12px; padding: 1rem 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+        th, td { padding: 0.75rem 1rem; text-align: left; vertical-align: top; }
+        th { background: #154360; color: #fff; position: sticky; top: 0; }
+        tr:nth-child(even) { background: #f2f4f7; }
+        .cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .card { background: #fff; padding: 0.5rem; border-radius: 10px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 240px; }
+        .card img { width: 100%; border-radius: 8px; }
+        footer { margin-top: 2rem; font-size: 0.9rem; color: #566573; }
+    </style>
+</head>
+<body>
+    <h1>Dashboard de Documentos Importantes</h1>
+    <p>Generado el 25/11/2025 10:52:44</p>
+    <section class="stats">
+        <div class="stat">
+            <h3>Total documentos</h3>
+            <p><strong>8</strong></p>
+        </div>
+        <div class="stat">
+            <h3>Total de palabras</h3>
+            <p><strong>50,258</strong></p>
+        </div>
+        <div class="stat">
+            <h3>Total de líneas</h3>
+            <p><strong>8,948</strong></p>
+        </div>
+        <div class="stat">
+            <h3>Complejidad promedio</h3>
+            <p><strong>61.6</strong></p>
+        </div>
+    </section>
+    <section><h2>Indicadores Interactivos</h2><div class="cards">
+                        <div class="card">
+                            <iframe src="/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/interactive_gauge_0.html" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe src="/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/interactive_gauge_1.html" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                        
+                        <div class="card">
+                            <iframe src="/Users/adan/Documents/documentos_blatam/documentos_importantes_premium_v2/graficas/interactive_gauge_2.html" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                        </div></section>
+    <section>
+        <h2>Detalle de documentos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Documento</th>
+                    <th>Líneas</th>
+                    <th>Palabras</th>
+                    <th>Secciones</th>
+                    <th>Código</th>
+                    <th>Complejidad</th>
+                    <th>Puntos clave</th>
+                    <th>Alertas</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>airflow_automation_prompt</td>
+                    <td>6,351</td>
+                    <td>40,867</td>
+                    <td>5</td>
+                    <td>14</td>
+                    <td>79.4</td>
+                    <td>• <!-- ================================================================================ AUTOMATION EXPERT SYSTEM PROMPT ================================================================================ Version: 2.1 Last Updated: 2024 Purpose: Comprehensive automation assistant for all automation domains ================================================================================<br>• This prompt defines AutomationExpert, an AI assistant specialized in comprehensive automation across all domains.<br>• - 300+ automation tools and frameworks across 80+ domains - Best practices, patterns, and anti-patterns - Troubleshooting frameworks and solution development - Code examples and implementation guidance - Framework selection criteria and decision guides - Industry-specific automation (healthcare, finance, retail, manufacturing, etc.)</td>
+                    <td><strong>Pendientes:</strong> L5532: | PCI DSS | Req 6 Secure Systems | At Risk | Supply-chain mitigation plan pending | Finish Sigstore attestation rollout |, L5816: | Workflow Orchestration | 68% | 97% | 6% | 58m | 3.6 | Pending DAG tuning rollout |<br><strong>Advertencias:</strong> L378: - Trading terms (Algorithmic trading, Risk management, Market analysis, etc.), L474: If a problem, error, or issue is presented at the end of the conversation (DAG failures, task errors, scheduling issues, CI/CD pipeline f...<br><strong>Notas críticas:</strong> L3677: - **Monitoring**: Set up monitoring and alerting for all critical automation, track success/failure rates, execution times, L3747: - **Vulnerability Management**: Regularly scan for vulnerabilities, prioritize critical vulnerabilities, automate patch deployment</td>
+                </tr>
+                
+                <tr>
+                    <td>ARCHITECTURE_IMPROVEMENTS</td>
+                    <td>381</td>
+                    <td>1,577</td>
+                    <td>39</td>
+                    <td>2</td>
+                    <td>47.3</td>
+                    <td>• This document outlines the comprehensive architectural improvements being implemented to align the `production_code` directory with clean architecture principles, eliminate code duplication, standardize imports, and ensure proper layer separation.<br>• ``` ┌─────────────────────────────────────────────────────────┐ │  PRESENTATION LAYER                                     │ │  - api/ (routes, middleware, auth, dependencies)       │ │  - api_server.py, chat_server.py, cli*.py              │ │  - dashboard.html                                       │ │  Dependencies: application.service_container only      │ └─────────────────────────────────────────────────────────┘                           ↓ ┌─────────────────────────────────────────────────────────┐ │  APPLICATION LAYER                                      │ │  - services/ (business logic services)                  │ │  - application/ (service container, orchestrators)     │ │  - integration_pipeline.py, monitoring_system.py        │ │  Dependencies: domain contracts, infrastructure providers│ └─────────────────────────────────────────────────────────┘                           ↓ ┌─────────────────────────────────────────────────────────┐ │  DOMAIN LAYER                                           │ │  - core/ (base classes, utilities)                     │ │  - memory/, research/, inference/, etc.<br>• **Current State:** - `api_utils.py` (root, 268 lines) - Tensor validation functions - `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients - `api/api_utils.py` (180 lines) - API route validation functions</td>
+                    <td><strong>Pendientes:</strong> L301: ### Pending ⏳<br><strong>Advertencias:</strong> L80: 5. ✅ Add deprecation warning to root `api_utils.py`, L162: **Current Issue:**</td>
+                </tr>
+                
+                <tr>
+                    <td>REFACTORING_PLAN</td>
+                    <td>469</td>
+                    <td>1,890</td>
+                    <td>51</td>
+                    <td>3</td>
+                    <td>41.4</td>
+                    <td>• **Date**: 2025-01-27   **Status**: Analysis Complete - Ready for Implementation<br>• This document outlines a comprehensive refactoring plan for the `production_code` directory to improve code organization, eliminate duplication, resolve import inconsistencies, and align with the documented layered architecture.<br>• **Current State:** - `api_utils.py` (root, 268 lines) - Tensor validation functions - `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients - `api/api_utils.py` (180 lines) - API route validation functions</td>
+                    <td><strong>Advertencias:</strong> L177: **Current Issue:**, L252: - **Issue**: Doesn't use new `api/routes/` structure<br><strong>Notas críticas:</strong> L341: 3. Create integration tests for critical paths</td>
+                </tr>
+                
+                <tr>
+                    <td>BEST_PRACTICES</td>
+                    <td>341</td>
+                    <td>912</td>
+                    <td>72</td>
+                    <td>10</td>
+                    <td>63.4</td>
+                    <td>• Guía de mejores prácticas para usar y contribuir a Documentos BLATAM de manera efectiva.<br>• - [Uso de Templates](#uso-de-templates) - [Personalización](#personalización) - [Organización](#organización) - [Contribución](#contribución) - [Mantenimiento](#mantenimiento) - [Seguridad](#seguridad)<br>• - **Lee primero** el template completo antes de usar - **Personaliza** todas las variables `{{variable}}` - **Valida** que los enlaces funcionen - **Prueba** en un entorno de prueba antes de producción - **Mantén** un backup del template original</td>
+                    <td>—</td>
+                </tr>
+                
+                <tr>
+                    <td>CHANGELOG</td>
+                    <td>147</td>
+                    <td>472</td>
+                    <td>23</td>
+                    <td>0</td>
+                    <td>80.8</td>
+                    <td>• Todos los cambios notables en este proyecto serán documentados en este archivo.<br>• El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).<br>• - Organización de archivos por categorías - Sistema de frontmatter para metadatos - Validación de documentos - Herramientas de búsqueda</td>
+                    <td>—</td>
+                </tr>
+                
+                <tr>
+                    <td>CONTRIBUTING</td>
+                    <td>370</td>
+                    <td>1,154</td>
+                    <td>56</td>
+                    <td>7</td>
+                    <td>80.1</td>
+                    <td>• ¡Gracias por tu interés en contribuir a Documentos BLATAM!<br>• - [Código de Conducta](#código-de-conducta) - [¿Cómo Puedo Contribuir?](#cómo-puedo-contribuir) - [Proceso de Contribución](#proceso-de-contribución) - [Estándares de Documentación](#estándares-de-documentación) - [Estructura de Archivos](#estructura-de-archivos) - [Pull Requests](#pull-requests) - [Reportar Problemas](#reportar-problemas) - [Sugerir Mejoras](#sugerir-mejoras)<br>• Este proyecto sigue el [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/).</td>
+                    <td><strong>Advertencias:</strong> L245: ### Crear un Issue, L270: 2. **Crea un issue** con la etiqueta `enhancement`</td>
+                </tr>
+                
+                <tr>
+                    <td>README</td>
+                    <td>505</td>
+                    <td>2,181</td>
+                    <td>74</td>
+                    <td>5</td>
+                    <td>47.3</td>
+                    <td>• > **El repositorio más completo de documentación empresarial, marketing digital, IA y automatización en español**<br>• [🚀 Inicio Rápido](#-inicio-rápido) • [📁 Estructura](#-estructura-del-proyecto) • [🛠️ Herramientas](#️-herramientas-y-scripts) • [🤝 Contribuir](CONTRIBUTING.md) • [📖 Documentación](ARCHITECTURE.md) • [❓ FAQ](FAQ.md) • [🔒 Seguridad](SECURITY.md)<br>• **Documentos BLATAM** es un ecosistema integral de documentación que cubre todos los aspectos de una empresa moderna: desde marketing digital y automatización de ventas hasta estrategias de IA, análisis de datos y gestión operativa.</td>
+                    <td>—</td>
+                </tr>
+                
+                <tr>
+                    <td>ARCHITECTURE</td>
+                    <td>384</td>
+                    <td>1,205</td>
+                    <td>45</td>
+                    <td>8</td>
+                    <td>53.4</td>
+                    <td>• Este documento describe la arquitectura, estructura y organización del proyecto Documentos BLATAM.<br>• - [Visión General](#visión-general) - [Estructura de Directorios](#estructura-de-directorios) - [Organización por Categorías](#organización-por-categorías) - [Sistema de Metadatos](#sistema-de-metadatos) - [Flujo de Documentación](#flujo-de-documentación) - [Herramientas y Scripts](#herramientas-y-scripts) - [Convenciones](#convenciones)<br>• **Documentos BLATAM** es un ecosistema de documentación empresarial organizado por categorías funcionales.</td>
+                    <td>—</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        Dashboard generado automáticamente por DocumentGeneratorPremiumV2.
+    </footer>
+</body>
+</html>
+        

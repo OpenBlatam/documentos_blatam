@@ -1,0 +1,53 @@
+{
+  "total_papers": 8,
+  "by_year": {
+    "2025": 5,
+    "2024": 3
+  },
+  "by_category": {
+    "agents": 4,
+    "autonomous_driving": 2,
+    "survey": 2
+  },
+  "by_venue": {
+    "arXiv": 3,
+    "ICLR Workshop": 1,
+    "LXL Sword": 2,
+    "SpringerLink": 1,
+    "sciencedirect.com": 1
+  },
+  "total_authors": 35,
+  "techniques_count": {
+    "Simulative Reasoning Architecture": 1,
+    "LLM-Based World Model": 1,
+    "Goal-Oriented Planning": 1,
+    "Concurrent Modular Architecture": 1,
+    "Inter-module Communication": 1,
+    "Shared Global State": 1,
+    "Formal Language Integration": 1,
+    "Formal Automata": 1,
+    "Plan Validation": 1,
+    "Controllable Agent Generation": 1,
+    "Safety Verification": 1,
+    "Autonomous Driving Planning": 1,
+    "Complex Scenario Handling": 1,
+    "Memory Enhancement": 1,
+    "Reflective Self-improvement": 1,
+    "Three-component Architecture": 1,
+    "Optimized Memory": 1,
+    "Multi-Agent Architecture": 1,
+    "Sensor Integration": 1,
+    "Reasoning Agents": 1,
+    "Urgent Maneuver Decision Making": 1,
+    "Systematic Review": 1,
+    "Memory Analysis": 1,
+    "Planning Analysis": 1,
+    "Tool Usage": 1,
+    "Evaluation Methods": 1,
+    "Survey on Autonomous Driving": 1,
+    "Reasoning Enhancement": 1,
+    "Decision Making": 1,
+    "Environment Interpretation": 1
+  },
+  "unique_techniques": 30
+}

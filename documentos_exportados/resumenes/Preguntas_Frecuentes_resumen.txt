@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Preguntas Frecuentes
+======================================================================
+
+Fecha: 24 de November de 2025 20:39
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 808
+• Total de Líneas: 277
+• Total de Secciones: 54
+• Bloques de Código: 5
+• Tablas: 0
+• Enlaces: 27
+• Listas: 43
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 20.90
+  ⚠ Complejo
+• Promedio Palabras/Sección: 15
+• Ratio de Código: 6.5%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 54
+
+Principales secciones:
+  • ❓ Preguntas Frecuentes (FAQ) - Documentos BLATAM
+    • 📋 Tabla de Contenidos
+    • 🌐 General
+      • ¿Qué es Documentos BLATAM?
+      • ¿Es gratuito?
+      • ¿Necesito instalar algo?
+      • ¿Qué idiomas están disponibles?
+    • 📝 Uso
+      • ¿Por dónde empiezo?
+      • ¿Cómo encuentro lo que busco?
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Node (1)
+• Preguntas (1)
+• Nuevas (1)
+• Google (1)
+• Documentos (1)
+• Troubleshooting (1)
+• Email (1)
+• Bash (1)
+• Consulta (1)
+• Considera (1)

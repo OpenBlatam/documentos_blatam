@@ -1,0 +1,250 @@
+[
+  {
+    "title": "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model",
+    "authors": [
+      "Deng",
+      "Hou",
+      "Shen",
+      "Jin",
+      "Neubig",
+      "Hu",
+      "Xing"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Proponen un 'world-model' basado en LLM para hacer simulaciones mental-lingüísticas, planear acciones y razonar como agente general.",
+    "key_contributions": [
+      "World-model basado en LLM",
+      "Simulaciones mental-lingüísticas",
+      "Planificación de acciones",
+      "Razonamiento como agente general"
+    ],
+    "techniques": [
+      "Simulative Reasoning Architecture",
+      "LLM-Based World Model",
+      "Goal-Oriented Planning"
+    ],
+    "architecture": "Simulative Reasoning Architecture con World Model",
+    "category": "agents",
+    "paper_id": "simura-towards-general-goal-oriented-agent-via-sim"
+  },
+  {
+    "title": "A Concurrent Modular Agent: Framework for Autonomous LLM Agents",
+    "authors": [
+      "Maruyama",
+      "Yoshida",
+      "Sato",
+      "Masumori",
+      "Ikegami"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Presentan una arquitectura de agente con módulos concurrentes que operan de forma autónoma, comunicación entre módulos y un 'estado global' compartido.",
+    "key_contributions": [
+      "Arquitectura modular concurrente",
+      "Módulos autónomos",
+      "Comunicación entre módulos",
+      "Estado global compartido"
+    ],
+    "techniques": [
+      "Concurrent Modular Architecture",
+      "Inter-module Communication",
+      "Shared Global State"
+    ],
+    "architecture": "Concurrent Modular Agent Framework",
+    "category": "agents",
+    "paper_id": "a-concurrent-modular-agent-framework-for-autonomou"
+  },
+  {
+    "title": "Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents",
+    "authors": [
+      "Li",
+      "Hua",
+      "Wang",
+      "Zhu",
+      "Zhang"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Integran lenguaje formal con natural para guiar a agentes LLM en generar planes válidos, evitando planes inválidos a través de un autómata formal.",
+    "key_contributions": [
+      "Integración de lenguaje formal y natural",
+      "Generación de planes válidos",
+      "Prevención de planes inválidos",
+      "Autómata formal para control"
+    ],
+    "techniques": [
+      "Formal Language Integration",
+      "Formal Automata",
+      "Plan Validation",
+      "Controllable Agent Generation"
+    ],
+    "architecture": "Formal-LLM con autómata formal",
+    "category": "agents",
+    "paper_id": "formal-llm-integrating-formal-language-and-natural"
+  },
+  {
+    "title": "EMPOWERING AUTONOMOUS DRIVING WITH LARGE LANGUAGE MODELS: A SAFETY PERSPECTIVE",
+    "authors": [
+      "Wang",
+      "Jiao",
+      "Zhan",
+      "Lang",
+      "Huang",
+      "Wang",
+      "Yang",
+      "Zhu"
+    ],
+    "year": 2024,
+    "venue": "ICLR Workshop",
+    "arxiv_id": null,
+    "url": "OpenReview",
+    "description": "Usan LLMs para planificación en conducción autónoma y proponen un 'verificador de seguridad' para planes generados por el agente, mejorando comportamientos en escenarios complejos.",
+    "key_contributions": [
+      "Planificación con LLMs en conducción autónoma",
+      "Verificador de seguridad para planes",
+      "Mejora de comportamientos en escenarios complejos",
+      "Perspectiva de seguridad"
+    ],
+    "techniques": [
+      "Safety Verification",
+      "Autonomous Driving Planning",
+      "Complex Scenario Handling"
+    ],
+    "architecture": "LLM-based Planning con Safety Verifier",
+    "category": "autonomous_driving",
+    "paper_id": "empowering-autonomous-driving-with-large-language-"
+  },
+  {
+    "title": "MARS: Memory-Enhanced Agents with Reflective Self-improvement",
+    "authors": [
+      "Liang",
+      "Tao",
+      "Xia",
+      "Wang",
+      "Li",
+      "Wang",
+      "Yang",
+      "Shi",
+      "Wang",
+      "Zhang"
+    ],
+    "year": 2025,
+    "venue": "LXL Sword",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Proponen un agente con tres componentes: usuario, asistente y verificador ('checker'), usando memoria optimizada y reflexión para mejorar con el tiempo.",
+    "key_contributions": [
+      "Arquitectura de tres componentes (usuario, asistente, verificador)",
+      "Memoria optimizada",
+      "Reflexión para auto-mejora",
+      "Mejora continua con el tiempo"
+    ],
+    "techniques": [
+      "Memory Enhancement",
+      "Reflective Self-improvement",
+      "Three-component Architecture",
+      "Optimized Memory"
+    ],
+    "architecture": "MARS: Usuario + Asistente + Verificador con memoria",
+    "category": "agents",
+    "paper_id": "mars-memory-enhanced-agents-with-reflective-self-i"
+  },
+  {
+    "title": "DriveAgent: LLM-Driven Multi-Agent Autonomous Driving",
+    "authors": [
+      "Hou",
+      "Wang",
+      "Yang",
+      "Lin",
+      "Feng",
+      "Min",
+      "Zhao"
+    ],
+    "year": 2025,
+    "venue": "LXL Sword",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Un framework de agente modular para conducción autónoma: sensores (cámaras, LiDAR, GPS) + agentes de razonamiento + agente decisor para maniobras urgentes.",
+    "key_contributions": [
+      "Framework modular multi-agente",
+      "Integración de sensores (cámaras, LiDAR, GPS)",
+      "Agentes de razonamiento",
+      "Agente decisor para maniobras urgentes"
+    ],
+    "techniques": [
+      "Multi-Agent Architecture",
+      "Sensor Integration",
+      "Reasoning Agents",
+      "Urgent Maneuver Decision Making"
+    ],
+    "architecture": "Modular Multi-Agent: Sensores + Razonamiento + Decisor",
+    "category": "autonomous_driving",
+    "paper_id": "driveagent-llm-driven-multi-agent-autonomous-drivi"
+  },
+  {
+    "title": "A Survey on Large Language Model Based Autonomous Agents",
+    "authors": [
+      "Tang",
+      "Chen",
+      "Yue",
+      "Fan",
+      "Zhou",
+      "Li",
+      "Zhang",
+      "Zhao"
+    ],
+    "year": 2024,
+    "venue": "SpringerLink",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Revisión sistemática del estado de agentes LLMs: memoria, planificación, uso de herramientas, evaluación y desafíos.",
+    "key_contributions": [
+      "Revisión sistemática de agentes LLM",
+      "Análisis de memoria",
+      "Análisis de planificación",
+      "Uso de herramientas",
+      "Evaluación y desafíos"
+    ],
+    "techniques": [
+      "Systematic Review",
+      "Memory Analysis",
+      "Planning Analysis",
+      "Tool Usage",
+      "Evaluation Methods"
+    ],
+    "architecture": "Survey Paper",
+    "category": "survey",
+    "paper_id": "a-survey-on-large-language-model-based-autonomous-"
+  },
+  {
+    "title": "A Survey on Large Language Model-Powered Autonomous Driving",
+    "authors": [],
+    "year": 2025,
+    "venue": "sciencedirect.com",
+    "arxiv_id": null,
+    "url": null,
+    "description": "Estudio que revisa cómo se están usando LLMs en vehículos autónomos para mejorar el razonamiento, la toma de decisiones y la interpretación del entorno.",
+    "key_contributions": [
+      "Revisión de LLMs en vehículos autónomos",
+      "Mejora del razonamiento",
+      "Toma de decisiones",
+      "Interpretación del entorno"
+    ],
+    "techniques": [
+      "Survey on Autonomous Driving",
+      "Reasoning Enhancement",
+      "Decision Making",
+      "Environment Interpretation"
+    ],
+    "architecture": "Survey Paper",
+    "category": "survey",
+    "paper_id": "a-survey-on-large-language-model-powered-autonomou"
+  }
+]

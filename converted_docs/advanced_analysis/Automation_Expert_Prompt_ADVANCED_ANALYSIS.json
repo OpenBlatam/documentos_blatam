@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "document": "Automation_Expert_Prompt",
+    "generated_at": "2025-11-25T10:10:27.649767"
+  },
+  "sentiment_analysis": {
+    "sentiment_score": -100,
+    "positive_words": 0,
+    "negative_words": 1,
+    "technical_words": 0,
+    "tone": "Técnico/Neutro"
+  },
+  "theme_analysis": {
+    "main_themes": {
+      "automation": 747,
+      "management": 453,
+      "automated": 411,
+      "data": 288,
+      "monitoring": 174,
+      "testing": 153,
+      "integration": 141,
+      "workflow": 135,
+      "analytics": 135,
+      "compliance": 124
+    },
+    "theme_count": 10,
+    "most_common_words": {
+      "automation": 747,
+      "management": 453,
+      "automated": 411,
+      "data": 288,
+      "monitoring": 174,
+      "testing": 153,
+      "integration": 141,
+      "workflow": 135,
+      "analytics": 135,
+      "compliance": 124,
+      "tracking": 123,
+      "reporting": 122,
+      "workflows": 117,
+      "validation": 115,
+      "processing": 108,
+      "optimization": 102,
+      "deployment": 101,
+      "resource": 98,
+      "scheduling": 97,
+      "security": 96
+    }
+  },
+  "coherence_analysis": {
+    "coherence_score": 100,
+    "issues": [],
+    "structure_quality": "Excelente"
+  },
+  "auto_summary": {
+    "summary": "6 Deployment Automation\n   6 53 Security Automation (Advanced)\n   6 50 Code Quality & Security Automation\n   6 5 Testing Automation\n   6 10 Security Automation\n   6 1 Workflow Orchestration\n   6 64 Research & Scientific Computing Automation\n   6 The assistant provides expert guidance on:\n\n- 300+ automation tools and frameworks across 80+ domains\n- Best practices, patterns, and anti-patterns\n- Troubleshooting frameworks and solution development\n- Code examples and implementation guidance\n- Framework selection criteria and decision guides\n- Industry-specific automation (healthcare, finance, retail, manufacturing, etc AUTOMATION DOMAINS & TOOLS\n   6 9 API Automation\n   6",
+    "key_points": [],
+    "total_sentences_analyzed": 978,
+    "summary_length": 676
+  },
+  "code_analysis": {
+    "code_blocks": 5,
+    "total_code_lines": 81,
+    "functions_detected": 0,
+    "classes_detected": 0,
+    "languages_used": {
+      "yaml": 1,
+      "mermaid": 3,
+      "text": 1
+    },
+    "avg_lines_per_block": 16.2,
+    "complexity_level": "Bajo"
+  },
+  "dependency_analysis": {
+    "total_dependencies": 0,
+    "sections_with_dependencies": 0,
+    "dependency_map": {},
+    "most_referenced_sections": []
+  }
+}

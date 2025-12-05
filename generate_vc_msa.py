@@ -53,3 +53,8 @@ if __name__ == "__main__":
     create_msa("Ventura_Capital_SaaS_MSA.docx")
 
 
+
+
+
+
+

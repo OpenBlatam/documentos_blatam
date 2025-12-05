@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "batch_size": 2,
+    "seq_len": 128,
+    "hidden_dim": 512
+  },
+  "performance": {
+    "execution_time": 0.09486007690429688,
+    "throughput": 2698.711706277396
+  },
+  "improvements": {
+    "precision_improvement_percent": 19.999999999999996,
+    "efficiency_improvement_percent": 14.999999999999991,
+    "quality_improvement_percent": 25.0
+  },
+  "metadata": {
+    "solar": {
+      "selected_paradigm": "tree",
+      "precision_estimate": 0.34521692991256714,
+      "efficiency_estimate": 0.5
+    },
+    "adaptive_got": {
+      "num_nodes": 15,
+      "num_edges": 0.0,
+      "dag_density": 0.0,
+      "num_reasoned_nodes": 0.0,
+      "reasoning_ratio": 0.0
+    },
+    "forest": {
+      "num_trees": 4,
+      "num_selected": 2,
+      "selection_ratio": 0.5
+    },
+    "beyond_cot": {
+      "graph_nodes": 10,
+      "fusion_method": "attention",
+      "non_sequential_layers": 2
+    },
+    "knot": {
+      "num_thoughts": 12,
+      "num_connections": 0,
+      "network_density": 0.0,
+      "guide_entropy": 2.4840903282165527
+    }
+  }
+}

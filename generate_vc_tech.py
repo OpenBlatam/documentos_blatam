@@ -74,3 +74,8 @@ if __name__ == "__main__":
     create_tech_brief("Ventura_Capital_Tech_Brief.docx")
 
 
+
+
+
+
+

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Code Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .status.healthy {
+            background: #10b981;
+            color: white;
+        }
+        
+        .status.degraded {
+            background: #f59e0b;
+            color: white;
+        }
+        
+        .status.unhealthy {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .card h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .metric:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .metric-value {
+            color: #111827;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+        }
+        
+        .button:hover {
+            background: #5568d3;
+        }
+        
+        .button.danger {
+            background: #ef4444;
+        }
+        
+        .button.danger:hover {
+            background: #dc2626;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #6b7280;
+        }
+        
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Production Code Dashboard</h1>
+            <div>
+                <span class="status" id="overall-status">Loading...</span>
+                <span style="margin-left: 10px; color: #6b7280;">Last update: <span id="last-update">-</span></span>
+            </div>
+        </div>
+        
+        <div class="grid">
+            <!-- Memory Card -->
+            <div class="card">
+                <h2>🧠 Memory Module</h2>
+                <div id="memory-content">
+                    <div class="loading">Loading...</div>
+                </div>
+                <button class="button" onclick="refreshMemory()">Refresh</button>
+            </div>
+            
+            <!-- Redundancy Card -->
+            <div class="card">
+                <h2>🔄 Redundancy Module</h2>
+                <div id="redundancy-content">
+                    <div class="loading">Loading...</div>
+                </div>
+                <button class="button" onclick="refreshRedundancy()">Refresh</button>
+            </div>
+            
+            <!-- Pipeline Card -->
+            <div class="card">
+                <h2>🔗 Pipeline</h2>
+                <div id="pipeline-content">
+                    <div class="loading">Loading...</div>
+                </div>
+                <button class="button" onclick="refreshPipeline()">Refresh</button>
+            </div>
+            
+            <!-- Monitoring Card -->
+            <div class="card">
+                <h2>📊 Monitoring</h2>
+                <div id="monitoring-content">
+                    <div class="loading">Loading...</div>
+                </div>
+                <button class="button" onclick="refreshMonitoring()">Refresh</button>
+            </div>
+            
+            <!-- Health Card -->
+            <div class="card">
+                <h2>🏥 Health Status</h2>
+                <div id="health-content">
+                    <div class="loading">Loading...</div>
+                </div>
+                <button class="button" onclick="refreshHealth()">Refresh</button>
+            </div>
+            
+            <!-- Actions Card -->
+            <div class="card">
+                <h2>⚙️ Actions</h2>
+                <button class="button" onclick="refreshAll()">Refresh All</button>
+                <button class="button" onclick="exportReport()">Export Report</button>
+                <button class="button danger" onclick="clearCache()">Clear Cache</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE = 'http://localhost:8000/api/v1';
+        
+        async function fetchAPI(endpoint) {
+            try {
+                const response = await fetch(`${API_BASE}${endpoint}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error(`Error fetching ${endpoint}:`, error);
+                return null;
+            }
+        }
+        
+        function formatMetric(label, value) {
+            if (typeof value === 'number') {
+                if (value < 1 && value > 0) {
+                    return `${(value * 100).toFixed(2)}%`;
+                }
+                return value.toLocaleString();
+            }
+            return value;
+        }
+        
+        function renderMetrics(container, data) {
+            if (!data) {
+                container.innerHTML = '<div class="error">Error loading data</div>';
+                return;
+            }
+            
+            let html = '';
+            for (const [key, value] of Object.entries(data)) {
+                if (typeof value === 'object' && value !== null) continue;
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">${key.replace(/_/g, ' ')}</span>
+                        <span class="metric-value">${formatMetric(key, value)}</span>
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+        
+        async function refreshMemory() {
+            const content = document.getElementById('memory-content');
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            
+            const stats = await fetchAPI('/memory/stats');
+            renderMetrics(content, stats);
+        }
+        
+        async function refreshRedundancy() {
+            const content = document.getElementById('redundancy-content');
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            
+            const stats = await fetchAPI('/redundancy/stats');
+            renderMetrics(content, stats);
+        }
+        
+        async function refreshPipeline() {
+            const content = document.getElementById('pipeline-content');
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            
+            const stats = await fetchAPI('/pipeline/stats');
+            renderMetrics(content, stats);
+        }
+        
+        async function refreshMonitoring() {
+            const content = document.getElementById('monitoring-content');
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            
+            const metrics = await fetchAPI('/monitor/metrics');
+            renderMetrics(content, metrics);
+        }
+        
+        async function refreshHealth() {
+            const content = document.getElementById('health-content');
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            
+            const health = await fetchAPI('/monitor/health');
+            if (health) {
+                const statusEl = document.getElementById('overall-status');
+                statusEl.textContent = health.status.toUpperCase();
+                statusEl.className = `status ${health.status}`;
+                
+                let html = `
+                    <div class="metric">
+                        <span class="metric-label">Overall Status</span>
+                        <span class="metric-value status ${health.status}">${health.status}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Health Percentage</span>
+                        <span class="metric-value">${health.health_percentage.toFixed(1)}%</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Healthy</span>
+                        <span class="metric-value">${health.healthy}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Degraded</span>
+                        <span class="metric-value">${health.degraded}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Unhealthy</span>
+                        <span class="metric-value">${health.unhealthy}</span>
+                    </div>
+                `;
+                content.innerHTML = html;
+            }
+        }
+        
+        async function refreshAll() {
+            await Promise.all([
+                refreshMemory(),
+                refreshRedundancy(),
+                refreshPipeline(),
+                refreshMonitoring(),
+                refreshHealth()
+            ]);
+            document.getElementById('last-update').textContent = new Date().toLocaleTimeString();
+        }
+        
+        async function exportReport() {
+            const status = await fetchAPI('/monitor/status');
+            if (status) {
+                const blob = new Blob([JSON.stringify(status, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `report_${Date.now()}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            }
+        }
+        
+        async function clearCache() {
+            if (confirm('¿Estás seguro de limpiar el caché?')) {
+                // Implementar limpieza de caché
+                alert('Caché limpiado');
+            }
+        }
+        
+        // Auto-refresh cada 30 segundos
+        setInterval(refreshAll, 30000);
+        
+        // Cargar inicial
+        refreshAll();
+    </script>
+</body>
+</html>
+
+

@@ -95,7 +95,7 @@
       "context_length": 2048,
       "batch_size": 2,
       "hidden_dim": 768,
-      "forward_time_ms": 0.041961669921875,
+      "forward_time_ms": 0.09918212890625,
       "memory_mb": 24.0,
       "output_shape": [
         2,
@@ -117,7 +117,7 @@
       "context_length": 4096,
       "batch_size": 2,
       "hidden_dim": 768,
-      "forward_time_ms": 1167.773962020874,
+      "forward_time_ms": 2730.4670810699463,
       "memory_mb": 48.0,
       "output_shape": [
         2,
@@ -139,7 +139,7 @@
       "context_length": 8192,
       "batch_size": 2,
       "hidden_dim": 768,
-      "forward_time_ms": 1234.799861907959,
+      "forward_time_ms": 2114.896059036255,
       "memory_mb": 96.0,
       "output_shape": [
         2,
@@ -161,7 +161,7 @@
       "context_length": 16384,
       "batch_size": 2,
       "hidden_dim": 768,
-      "forward_time_ms": 2274.1901874542236,
+      "forward_time_ms": 4241.045951843262,
       "memory_mb": 192.0,
       "output_shape": [
         2,
@@ -237,7 +237,7 @@
     },
     "performance_summary": {
       "CEPE": {
-        "avg_time_ms": 1169.2014932632446,
+        "avg_time_ms": 2271.6270685195923,
         "avg_memory_mb": 90.0,
         "max_context_tested": 16384,
         "num_tests": 4

@@ -1,0 +1,84 @@
+Métrica,Valor
+Total Lines,468
+Total Words,1890
+Total Chars,14018
+Total Chars No Spaces,12357
+Sections,51
+Code Blocks,3
+Links,0
+Images,0
+Readability Score,63
+Complexity Score,23
+
+Palabra Clave,Frecuencia
+import,42
+update,41
+imports,35
+files,29
+root,26
+architecture,23
+from,22
+core,19
+code,18
+phase,17
+application,17
+documentation,13
+lines,12
+routes,12
+duplication,11
+layer,11
+with,10
+paths,10
+entry,10
+structure,10
+
+Sección,Nivel,Palabras,Código,Enlaces
+🔄 Refactoring Plan - Production Code,1,10,0,0
+📊 Executive Summary,2,27,1,0
+Key Issues Identified,3,48,2,0
+🎯 Refactoring Goals,2,50,0,0
+📋 Detailed Refactoring Tasks,2,0,0,0
+Phase 1: Utility Files Consolidation,3,0,0,0
+1.1 Consolidate `api_utils.py` Files,4,151,17,0
+Phase 2: API Entry Points Consolidation,3,0,0,0
+2.1 Unify API Entry Points,4,160,23,0
+Phase 3: Import Path Standardization,3,0,0,0
+3.1 Standardize Import Paths,4,74,11,0
+Phase 4: Config Manager Consolidation,3,0,0,0
+4.1 Resolve Config Manager Duplication,4,76,8,0
+Phase 5: Directory Structure Alignment,3,0,0,0
+5.1 Resolve `code/` Directory Naming Conflict,4,61,10,0
+5.2 Move Root-Level Files to Appropriate Layers,4,97,18,0
+Phase 6: Architecture Alignment,3,0,0,0
+6.1 Ensure Layered Architecture Compliance,4,84,6,4
+🔍 Detailed File Analysis,2,0,0,0
+Files Requiring Immediate Attention,3,0,0,0
+High Priority,4,70,9,0
+Medium Priority,4,51,6,0
+Low Priority,4,16,3,0
+📝 Implementation Checklist,2,0,0,0
+Phase 1: Utility Consolidation,3,44,5,6
+Phase 2: API Consolidation,3,47,6,6
+Phase 3: Import Standardization,3,36,0,4
+Phase 4: Config Manager,3,33,3,5
+Phase 5: Directory Structure,3,38,6,5
+Phase 6: Architecture Verification,3,41,0,6
+🧪 Testing Strategy,2,0,0,0
+Before Refactoring,3,19,0,0
+During Refactoring,3,17,0,0
+After Refactoring,3,25,0,0
+📚 Documentation Updates,2,0,0,0
+Files to Update,3,53,4,0
+⚠️ Risks and Mitigation,2,0,0,0
+Risk 1: Breaking Changes,3,24,0,0
+Risk 2: Lost Functionality,3,20,0,0
+Risk 3: Import Cycles,3,24,0,0
+🚀 Migration Timeline,2,0,0,0
+Week 1: Analysis & Planning,3,14,0,0
+Week 2: Phase 1 & 2,3,10,0,0
+Week 3: Phase 3 & 4,3,10,0,0
+Week 4: Phase 5 & 6,3,9,0,0
+Week 5: Testing & Cleanup,3,12,0,0
+📊 Success Metrics,2,42,0,0
+🔗 Related Documents,2,30,5,0
+📝 Notes,2,51,0,0

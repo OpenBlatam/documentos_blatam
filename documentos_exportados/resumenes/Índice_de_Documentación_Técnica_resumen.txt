@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Índice de Documentación Técnica
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 427
+• Total de Líneas: 132
+• Total de Secciones: 27
+• Bloques de Código: 0
+• Tablas: 0
+• Enlaces: 50
+• Listas: 42
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 13.10
+  ✓ Moderado
+• Promedio Palabras/Sección: 16
+• Ratio de Código: 0.0%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 27
+
+Principales secciones:
+  • 📚 Neural Marketing Consciousness Platform - Documentation Index
+    • 🎯 Overview
+    • 📋 Core Documentation
+      • 🏗️ Technical Architecture
+      • 💼 Business Documentation
+      • 🚀 Implementation Guides
+    • 🧠 AI & Consciousness Documentation
+      • Core AI Systems
+      • AI Marketing Systems
+    • 📊 Business & Strategy Documentation
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Architecture (1)
+• Other (1)
+• Platform (1)
+• Started (1)
+• Documentation (1)
+• Guides (1)
+• Market (1)
+• Developers (1)
+• Examples (1)
+• Managers (1)

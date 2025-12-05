@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada - Fundamentos de Finanzas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .red-bar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 100%;
+            background-color: #C8102E;
+            z-index: 1;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 60px 80px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo-section {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .logo-uvm {
+            font-size: 72px;
+            font-weight: bold;
+            color: #000000;
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .university-name {
+            font-size: 18px;
+            color: #000000;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        
+        .laureate {
+            font-size: 12px;
+            color: #000000;
+            font-weight: normal;
+        }
+        
+        .assignment-info {
+            margin-top: 50px;
+        }
+        
+        .info-row {
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+        
+        .label {
+            color: #FF6600;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .value {
+            color: #000000;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+        
+        .students-list {
+            color: #000000;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        
+        .students-list div {
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                height: auto;
+            }
+            
+            .container {
+                padding: 40px 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="red-bar"></div>
+    
+    <div class="container">
+        <div class="logo-section">
+            <div class="logo-uvm">UVM</div>
+            <div class="university-name">Universidad del Valle de México</div>
+            <div class="laureate">LAUREATE INTERNATIONAL UNIVERSITIES</div>
+        </div>
+        
+        <div class="assignment-info">
+            <div class="info-row">
+                <span class="label">MATERIA:</span>
+                <span class="value">Fundamentos de finanzas</span>
+            </div>
+            
+            <div class="info-row">
+                <span class="label">ACTIVIDAD 6:</span>
+            </div>
+            
+            <div class="info-row">
+                <span class="label">INTEGRANTES:</span>
+                <div class="students-list">
+                    <div>Valeria Carvajal Roblero</div>
+                    <div>Muñoz Pablo Adan</div>
+                    <div>Jimena Morán Valenzuela</div>
+                </div>
+            </div>
+            
+            <div class="info-row">
+                <span class="label">NOMBRE DEL DOCENTE:</span>
+                <span class="value">Karla Sandria Oliveros</span>
+            </div>
+            
+            <div class="info-row">
+                <span class="label">FECHA:</span>
+                <span class="value">24-11-2025</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -315,3 +315,8 @@ if __name__ == "__main__":
     print(f"   Verification score: {metadata['verification_score']:.4f}")
 
 
+
+
+
+
+

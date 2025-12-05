@@ -133,3 +133,8 @@ La colección definitiva de **100 Arquitecturas de Prompt**.
 *(Nota: Para usar cualquiera de estos, copia el bloque XML correspondiente de las versiones anteriores o pídele a tu IA que "active el protocolo [Nombre]" y pegue la identidad core descrita arriba).*
 
 
+
+
+
+
+

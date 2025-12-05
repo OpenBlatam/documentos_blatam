@@ -236,3 +236,8 @@ from papers.core.paper_registry_refactored import get_registry
 **Estado**: ✅ **Refactorización Completa - Lista para Usar**
 
 
+
+
+
+
+

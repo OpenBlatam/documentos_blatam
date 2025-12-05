@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Arquitectura del Proyecto
+======================================================================
+
+Fecha: 24 de November de 2025 20:36
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 1,205
+• Total de Líneas: 384
+• Total de Secciones: 45
+• Bloques de Código: 8
+• Tablas: 1
+• Enlaces: 13
+• Listas: 49
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 18.20
+  ⚠ Complejo
+• Promedio Palabras/Sección: 27
+• Ratio de Código: 44.2%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 45
+
+Principales secciones:
+  • 🏗️ Arquitectura del Proyecto - Documentos BLATAM
+    • 📋 Tabla de Contenidos
+    • 🎯 Visión General
+      • Principios de Diseño
+    • 📁 Estructura de Directorios
+      • Estructura Principal
+      • Directorios Especiales
+    • 🗂️ Organización por Categorías
+      • Sistema de Numeración
+      • Estructura Interna de Categorías
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Documentos (1)
+• Other (1)
+• Verificar (1)
+• Documentation (1)
+• Directorios (1)
+• Campo (1)
+• Checklists (1)
+• Convenciones (1)
+• Descubrimiento (1)
+• Proyecto (1)

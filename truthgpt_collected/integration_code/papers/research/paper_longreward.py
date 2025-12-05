@@ -207,9 +207,9 @@ class DependencyTracker(nn.Module):
         #   donde Q=K=V=H (self-attention), d_k = d / H
         # NOTACIÓN EN CÓDIGO:
         #   enhanced[b, i, :] = Attention(H[b, i, :], H[b, :, :], H[b, :, :])
-        #   enhanced ∈ R^(B×N×d), attention_weights ∈ R^(B×H×N×N)
+        #   enhanced ∈ R^(B×N×d), attention_weights ∈ R^(B×H×N×N) o R^(N×N) dependiendo de la implementación
         enhanced, attention_weights = self.dependency_attention(
-            hidden_states, hidden_states, hidden_states
+            hidden_states, hidden_states, hidden_states, average_attn_weights=False
         )
         
         # EN EL PAPER: Cálculo de scores de dependencia
@@ -218,15 +218,46 @@ class DependencyTracker(nn.Module):
         # NOTACIÓN EN CÓDIGO:
         #   dependency_scores[b, i] = mean_h(mean_j(attention_weights[b, h, i, j]))
         #   dependency_scores ∈ R^(B×N)
-        dependency_scores = attention_weights.mean(dim=1)  # [B, N, N] (promedio sobre heads H)
-        dependency_scores = dependency_scores.mean(dim=-1)  # [B, N] (promedio sobre posiciones j)
+        #   MultiheadAttention devuelve attention_weights en forma [N, N] o [B*H, N, N]
+        #   Necesitamos manejarlo correctamente
+        if attention_weights is not None:
+            # attention_weights puede tener forma [N, N] o [B*H, N, N] o [B, H, N, N]
+            if attention_weights.dim() == 2:
+                # [N, N] - expandir para batch
+                B, N = hidden_states.shape[0], hidden_states.shape[1]
+                attention_weights = attention_weights.unsqueeze(0).expand(B, -1, -1)  # [B, N, N]
+                dependency_scores = attention_weights.mean(dim=-1)  # [B, N] (promedio sobre posiciones j)
+            elif attention_weights.dim() == 3:
+                # [B*H, N, N] o [B, H, N, N] - verificar
+                B, N = hidden_states.shape[0], hidden_states.shape[1]
+                if attention_weights.shape[0] == B * 8:  # B*H
+                    # Reshape a [B, H, N, N]
+                    H = 8
+                    attention_weights = attention_weights.view(B, H, N, N)
+                    dependency_scores = attention_weights.mean(dim=1)  # [B, N, N] (promedio sobre heads)
+                    dependency_scores = dependency_scores.mean(dim=-1)  # [B, N] (promedio sobre posiciones j)
+                else:
+                    # Asumir [B, N, N]
+                    dependency_scores = attention_weights.mean(dim=-1)  # [B, N]
+            elif attention_weights.dim() == 4:
+                # [B, H, N, N]
+                dependency_scores = attention_weights.mean(dim=1)  # [B, N, N] (promedio sobre heads H)
+                dependency_scores = dependency_scores.mean(dim=-1)  # [B, N] (promedio sobre posiciones j)
+            else:
+                # Fallback: usar forma simple
+                B, N = hidden_states.shape[0], hidden_states.shape[1]
+                dependency_scores = torch.ones(B, N, device=hidden_states.device) * 0.5
+        else:
+            # Si no hay attention_weights, usar valores por defecto
+            B, N = hidden_states.shape[0], hidden_states.shape[1]
+            dependency_scores = torch.ones(B, N, device=hidden_states.device) * 0.5
         
         # EN EL PAPER: Proyección de estados mejorados
         # NOTACIÓN DEL PAPER: h' = W_p · enhanced donde W_p ∈ R^(d×d)
         # NOTACIÓN EN CÓDIGO: enhanced[b, i, :] = enhanced[b, i, :] · W_p^T
         enhanced = self.dependency_proj(enhanced)  # [B, N, d]
         
-        return D, h_prime  # D ∈ R^(B×N), h_prime ∈ R^(B×N×d)
+        return dependency_scores, enhanced  # dependency_scores ∈ R^(B×N), enhanced ∈ R^(B×N×d)
 
 
 class LongRewardModule(BasePaperModule):
@@ -388,7 +419,8 @@ class LongRewardModule(BasePaperModule):
             'reward_guidance': self.config.use_reward_guidance,
             'avg_reward': avg_reward,
             'dependency_window': self.config.dependency_window,
-            'max_context': self.config.extended_context_length
+            'max_context': self.config.extended_context_length,
+            'dependency_scores': dependency_scores  # Añadir dependency_scores al metadata
         }
         
         self._update_metrics(

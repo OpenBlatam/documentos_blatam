@@ -1,0 +1,276 @@
+{
+  "title": "Resumen Final - Mejoras Arquitectónicas",
+  "generated_at": "2025-11-24T21:24:42.970210",
+  "metrics": {
+    "reading_time_minutes": 3,
+    "total_links": 0,
+    "total_images": 0,
+    "complexity_score": 66,
+    "complexity_level": "Alta",
+    "quality_score": 60,
+    "quality_level": "Buena",
+    "total_numbers": 91,
+    "max_number": 2025,
+    "avg_number": 72,
+    "percentages": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      80
+    ],
+    "max_percentage": 100,
+    "avg_percentage": 96,
+    "total_lines": 233,
+    "total_words": 974,
+    "total_sections": 29,
+    "code_blocks": 1,
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "sentiment_tone": "Positivo",
+    "coherence_score": 80
+  },
+  "sections": [
+    {
+      "title": "📋 Resumen Final - Mejoras Arquitectónicas",
+      "level": 1
+    },
+    {
+      "title": "🎯 Resumen Ejecutivo",
+      "level": 2
+    },
+    {
+      "title": "✅ Estado de Todas las Fases",
+      "level": 2
+    },
+    {
+      "title": "📊 Métricas Totales",
+      "level": 2
+    },
+    {
+      "title": "Archivos y Código",
+      "level": 3
+    },
+    {
+      "title": "Calidad",
+      "level": 3
+    },
+    {
+      "title": "Documentación",
+      "level": 3
+    },
+    {
+      "title": "🏗️ Arquitectura Final",
+      "level": 2
+    },
+    {
+      "title": "📚 Documentación Disponible",
+      "level": 2
+    },
+    {
+      "title": "Documentos Principales",
+      "level": 3
+    },
+    {
+      "title": "Documentos por Fase",
+      "level": 3
+    },
+    {
+      "title": "Documentos de Referencia",
+      "level": 3
+    },
+    {
+      "title": "🎯 Logros Principales",
+      "level": 2
+    },
+    {
+      "title": "✅ Eliminación de Duplicación",
+      "level": 3
+    },
+    {
+      "title": "✅ Estandarización",
+      "level": 3
+    },
+    {
+      "title": "✅ Organización",
+      "level": 3
+    },
+    {
+      "title": "✅ Compatibilidad",
+      "level": 3
+    },
+    {
+      "title": "🚀 Próximos Pasos Recomendados",
+      "level": 2
+    },
+    {
+      "title": "Inmediato (Opcional)",
+      "level": 3
+    },
+    {
+      "title": "Corto Plazo (1-3 meses)",
+      "level": 3
+    },
+    {
+      "title": "Mediano Plazo (3-6 meses)",
+      "level": 3
+    },
+    {
+      "title": "📈 Impacto de las Mejoras",
+      "level": 2
+    },
+    {
+      "title": "Antes",
+      "level": 3
+    },
+    {
+      "title": "Después",
+      "level": 3
+    },
+    {
+      "title": "🎓 Lecciones Aprendidas",
+      "level": 2
+    },
+    {
+      "title": "✅ Checklist Final",
+      "level": 2
+    },
+    {
+      "title": "Completado",
+      "level": 3
+    },
+    {
+      "title": "Pendiente (Opcional)",
+      "level": 3
+    },
+    {
+      "title": "🎉 Conclusión",
+      "level": 2
+    }
+  ],
+  "quality_analysis": {
+    "scores": {
+      "structure": 25,
+      "content": 15,
+      "links": 0,
+      "tables": 10,
+      "code": 10
+    },
+    "issues": [
+      "Pocos enlaces (menos de 5)"
+    ],
+    "recommendations": [
+      "Agregar más enlaces a recursos relacionados"
+    ],
+    "overall_score": 60,
+    "errors": [],
+    "quality_level": "Buena"
+  },
+  "readability": {
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "avg_sentence_length": 15.41,
+    "avg_syllables_per_word": 3.01,
+    "sentence_count": 34,
+    "word_count": 524
+  },
+  "sentiment": {
+    "primary_tone": "Positivo",
+    "positive_words": 2,
+    "negative_words": 1,
+    "technical_words": 4,
+    "sentiment_score": 1
+  },
+  "coherence": {
+    "score": 80,
+    "level": "Alta",
+    "issues": [
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "imports",
+      "count": 13
+    },
+    {
+      "word": "phase",
+      "count": 12
+    },
+    {
+      "word": "archivos",
+      "count": 11
+    },
+    {
+      "word": "completa",
+      "count": 10
+    },
+    {
+      "word": "mejoras",
+      "count": 9
+    },
+    {
+      "word": "shims",
+      "count": 7
+    },
+    {
+      "word": "arquitectura",
+      "count": 6
+    },
+    {
+      "word": "consolidation",
+      "count": 6
+    },
+    {
+      "word": "final",
+      "count": 5
+    },
+    {
+      "word": "estructura",
+      "count": 5
+    },
+    {
+      "word": "conflictos",
+      "count": 5
+    },
+    {
+      "word": "total",
+      "count": 5
+    },
+    {
+      "word": "application",
+      "count": 5
+    },
+    {
+      "word": "deprecated",
+      "count": 5
+    },
+    {
+      "word": "resumen",
+      "count": 4
+    },
+    {
+      "word": "completadas",
+      "count": 4
+    },
+    {
+      "word": "fases",
+      "count": 4
+    },
+    {
+      "word": "estandarizados",
+      "count": 4
+    },
+    {
+      "word": "entry",
+      "count": 4
+    },
+    {
+      "word": "config",
+      "count": 4
+    }
+  ],
+  "links_count": 0,
+  "images_count": 0
+}

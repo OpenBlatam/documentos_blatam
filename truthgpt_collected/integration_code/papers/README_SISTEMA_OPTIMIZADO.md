@@ -432,3 +432,8 @@ for paper_id in registry.registry.keys():
 **Estado**: ✅ **Sistema Optimizado Completo**
 
 
+
+
+
+
+

@@ -76,3 +76,8 @@ Al interactuar con pares, mantenga un enfoque constructivo y basado en evidencia
 > "Estimado [Nombre], su análisis sobre la practicidad de TCP/IP es acertado. Sin embargo, considero que subestimar el modelo OSI podría limitar nuestra capacidad de diagnóstico en fallos de capa física, donde la abstracción de TCP/IP es insuficiente. ¿Ha considerado cómo esto impacta en el mantenimiento de cableado estructurado?"
 
 
+
+
+
+
+

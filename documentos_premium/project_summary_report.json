@@ -1,0 +1,50 @@
+{
+  "document": "06_documentation/Other/Summaries/project_summary.md",
+  "generated_at": "2025-11-24T20:35:48.742530",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 1,
+    "links": 45,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 101.53,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 20.4,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 0.89,
+    "positive_words": 8,
+    "negative_words": 1
+  },
+  "structure": {
+    "has_toc": true,
+    "has_summary": true,
+    "has_conclusion": false,
+    "header_distribution": {
+      "1": 1,
+      "2": 13,
+      "3": 41,
+      "4": 12
+    },
+    "list_items": 213,
+    "code_blocks": 1,
+    "tables": 0,
+    "images": 0,
+    "links": 45
+  },
+  "topics": {
+    "topics": {
+      "ia": 99,
+      "tecnología": 56,
+      "datos": 53
+    },
+    "primary_topic": "ia",
+    "topic_diversity": 6
+  },
+  "quality_score": 55
+}

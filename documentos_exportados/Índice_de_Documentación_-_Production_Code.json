@@ -1,0 +1,292 @@
+{
+  "title": "Índice de Documentación - Production Code",
+  "generated_at": "2025-11-24T21:24:57.262907",
+  "metrics": {
+    "reading_time_minutes": 2,
+    "total_links": 0,
+    "total_images": 0,
+    "complexity_score": 70,
+    "complexity_level": "Alta",
+    "quality_score": 35,
+    "quality_level": "Necesita Mejora",
+    "total_numbers": 29,
+    "max_number": 2025,
+    "avg_number": 143,
+    "total_lines": 219,
+    "total_words": 617,
+    "total_sections": 35,
+    "code_blocks": 0,
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "sentiment_tone": "Positivo",
+    "coherence_score": 80
+  },
+  "sections": [
+    {
+      "title": "📚 Índice de Documentación - Production Code",
+      "level": 1
+    },
+    {
+      "title": "🎯 Documentación Principal",
+      "level": 2
+    },
+    {
+      "title": "Arquitectura y Mejoras",
+      "level": 3
+    },
+    {
+      "title": "📋 Documentación por Fase",
+      "level": 2
+    },
+    {
+      "title": "Phase 1: API Utils Consolidation",
+      "level": 3
+    },
+    {
+      "title": "Phase 2: API Entry Points",
+      "level": 3
+    },
+    {
+      "title": "Phase 3: Import Standardization",
+      "level": 3
+    },
+    {
+      "title": "Phase 4: Config Manager",
+      "level": 3
+    },
+    {
+      "title": "Phase 5: Directory Structure",
+      "level": 3
+    },
+    {
+      "title": "🔧 Documentación Técnica",
+      "level": 2
+    },
+    {
+      "title": "Estándares y Guías",
+      "level": 3
+    },
+    {
+      "title": "Arquitectura Detallada",
+      "level": 3
+    },
+    {
+      "title": "📖 Documentación de Usuario",
+      "level": 2
+    },
+    {
+      "title": "Guías de Uso",
+      "level": 3
+    },
+    {
+      "title": "🗂️ Documentación por Categoría",
+      "level": 2
+    },
+    {
+      "title": "Mejoras y Refactoring",
+      "level": 3
+    },
+    {
+      "title": "Arquitectura",
+      "level": 3
+    },
+    {
+      "title": "Fases Completadas",
+      "level": 3
+    },
+    {
+      "title": "Estándares",
+      "level": 3
+    },
+    {
+      "title": "🚀 Guías de Inicio Rápido",
+      "level": 2
+    },
+    {
+      "title": "Para Nuevos Desarrolladores",
+      "level": 3
+    },
+    {
+      "title": "Para Refactoring",
+      "level": 3
+    },
+    {
+      "title": "Para Contribuir",
+      "level": 3
+    },
+    {
+      "title": "📊 Estado de Documentación",
+      "level": 2
+    },
+    {
+      "title": "✅ Completa y Actualizada",
+      "level": 3
+    },
+    {
+      "title": "🔄 En Progreso",
+      "level": 3
+    },
+    {
+      "title": "⏳ Pendiente",
+      "level": 3
+    },
+    {
+      "title": "🔍 Búsqueda Rápida",
+      "level": 2
+    },
+    {
+      "title": "¿Cómo importar módulos?",
+      "level": 3
+    },
+    {
+      "title": "¿Cuál es la arquitectura?",
+      "level": 3
+    },
+    {
+      "title": "¿Qué mejoras se han hecho?",
+      "level": 3
+    },
+    {
+      "title": "¿Qué mejoras se pueden hacer?",
+      "level": 3
+    },
+    {
+      "title": "¿Cómo usar la API?",
+      "level": 3
+    },
+    {
+      "title": "¿Cómo funciona el sistema de rutas?",
+      "level": 3
+    },
+    {
+      "title": "📝 Notas",
+      "level": 2
+    }
+  ],
+  "quality_analysis": {
+    "scores": {
+      "structure": 25,
+      "content": 10,
+      "links": 0,
+      "tables": 0,
+      "code": 0
+    },
+    "issues": [
+      "Pocos enlaces (menos de 5)",
+      "Se menciona código pero no hay bloques de código"
+    ],
+    "recommendations": [
+      "Agregar más enlaces a recursos relacionados",
+      "Agregar ejemplos de código cuando se mencionen"
+    ],
+    "overall_score": 35,
+    "errors": [],
+    "quality_level": "Necesita Mejora"
+  },
+  "readability": {
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "avg_sentence_length": 16.45,
+    "avg_syllables_per_word": 2.88,
+    "sentence_count": 22,
+    "word_count": 362
+  },
+  "sentiment": {
+    "primary_tone": "Positivo",
+    "positive_words": 1,
+    "negative_words": 0,
+    "technical_words": 3,
+    "sentiment_score": 1
+  },
+  "coherence": {
+    "score": 80,
+    "level": "Alta",
+    "issues": [
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "mejoras",
+      "count": 10
+    },
+    {
+      "word": "architecture",
+      "count": 9
+    },
+    {
+      "word": "docs",
+      "count": 8
+    },
+    {
+      "word": "arquitectura",
+      "count": 7
+    },
+    {
+      "word": "phase",
+      "count": 6
+    },
+    {
+      "word": "fases",
+      "count": 5
+    },
+    {
+      "word": "layers",
+      "count": 5
+    },
+    {
+      "word": "ejemplos",
+      "count": 5
+    },
+    {
+      "word": "leer",
+      "count": 5
+    },
+    {
+      "word": "estado",
+      "count": 4
+    },
+    {
+      "word": "capas",
+      "count": 4
+    },
+    {
+      "word": "imports",
+      "count": 4
+    },
+    {
+      "word": "refactoring",
+      "count": 4
+    },
+    {
+      "word": "para",
+      "count": 4
+    },
+    {
+      "word": "todas",
+      "count": 3
+    },
+    {
+      "word": "cada",
+      "count": 3
+    },
+    {
+      "word": "fase",
+      "count": 3
+    },
+    {
+      "word": "sistema",
+      "count": 3
+    },
+    {
+      "word": "estructura",
+      "count": 3
+    },
+    {
+      "word": "reglas",
+      "count": 3
+    }
+  ],
+  "links_count": 0,
+  "images_count": 0
+}

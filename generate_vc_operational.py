@@ -109,3 +109,8 @@ if __name__ == "__main__":
     create_esg_policy("Ventura_Capital_ESG_Policy.docx")
 
 
+
+
+
+
+

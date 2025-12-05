@@ -1,0 +1,552 @@
+{
+  "generated_at": "2025-11-24T20:35:48.752410",
+  "total_documents": 11,
+  "summary": {
+    "total_words": 34915,
+    "total_sections": 504,
+    "total_code_blocks": 61,
+    "total_links": 178,
+    "avg_quality_score": 50.45454545454545
+  },
+  "documents": [
+    {
+      "document": "ARCHITECTURE.md",
+      "generated_at": "2025-11-24T20:35:48.687092",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 8,
+        "links": 13,
+        "images": 0,
+        "tables": 4
+      },
+      "readability": {
+        "flesch_score": 111.78,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 10.3,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 0.67,
+        "positive_words": 4,
+        "negative_words": 2
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": false,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 2,
+          "2": 17,
+          "3": 26
+        },
+        "list_items": 69,
+        "code_blocks": 8,
+        "tables": 3,
+        "images": 0,
+        "links": 13
+      },
+      "topics": {
+        "topics": {
+          "ia": 33,
+          "negocio": 21,
+          "tecnología": 18
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 65
+    },
+    {
+      "document": "README.md",
+      "generated_at": "2025-11-24T20:35:48.692400",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 5,
+        "links": 120,
+        "images": 4,
+        "tables": 32
+      },
+      "readability": {
+        "flesch_score": 113.68,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 8.43,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 0.8,
+        "positive_words": 4,
+        "negative_words": 1
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 13,
+          "2": 16,
+          "3": 37,
+          "4": 8
+        },
+        "list_items": 134,
+        "code_blocks": 5,
+        "tables": 24,
+        "images": 4,
+        "links": 120
+      },
+      "topics": {
+        "topics": {
+          "ia": 122,
+          "negocio": 78,
+          "datos": 74
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 70
+    },
+    {
+      "document": "airflow_automation_prompt.md",
+      "generated_at": "2025-11-24T20:35:48.697154",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 1,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 97.31,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 24.56,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Neutral",
+        "score": 0.5,
+        "positive_words": 1,
+        "negative_words": 1
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {},
+        "list_items": 1984,
+        "code_blocks": 1,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "ia": 753,
+          "datos": 530,
+          "tecnología": 276
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 40
+    },
+    {
+      "document": "truthgpt_collected/integration_code/production_code/ARCHITECTURE_IMPROVEMENTS.md",
+      "generated_at": "2025-11-24T20:35:48.698460",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 2,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 112.63,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 9.46,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 1.0,
+        "positive_words": 4,
+        "negative_words": 0
+      },
+      "structure": {
+        "has_toc": false,
+        "has_summary": true,
+        "has_conclusion": true,
+        "header_distribution": {
+          "1": 3,
+          "2": 11,
+          "3": 18,
+          "4": 7
+        },
+        "list_items": 160,
+        "code_blocks": 2,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "tecnología": 82,
+          "ia": 38,
+          "proceso": 7
+        },
+        "primary_topic": "tecnología",
+        "topic_diversity": 5
+      },
+      "quality_score": 50
+    },
+    {
+      "document": "truthgpt_collected/integration_code/production_code/REFACTORING_PLAN.md",
+      "generated_at": "2025-11-24T20:35:48.699479",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 3,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 113.86,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 8.25,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 1.0,
+        "positive_words": 2,
+        "negative_words": 0
+      },
+      "structure": {
+        "has_toc": false,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 3,
+          "2": 12,
+          "3": 26,
+          "4": 10
+        },
+        "list_items": 205,
+        "code_blocks": 3,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "tecnología": 127,
+          "ia": 31,
+          "datos": 2
+        },
+        "primary_topic": "tecnología",
+        "topic_diversity": 4
+      },
+      "quality_score": 45
+    },
+    {
+      "document": "truthgpt_collected/integration_code/production_code/ARCHITECTURE.md",
+      "generated_at": "2025-11-24T20:35:48.700944",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 5,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 113.8,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 8.31,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 0.67,
+        "positive_words": 2,
+        "negative_words": 1
+      },
+      "structure": {
+        "has_toc": false,
+        "has_summary": false,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 1,
+          "2": 6,
+          "3": 4
+        },
+        "list_items": 12,
+        "code_blocks": 5,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "tecnología": 30,
+          "negocio": 14,
+          "ia": 5
+        },
+        "primary_topic": "tecnología",
+        "topic_diversity": 6
+      },
+      "quality_score": 40
+    },
+    {
+      "document": "truthgpt_collected/integration_code/production_code/README.md",
+      "generated_at": "2025-11-24T20:35:48.703388",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 19,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 108.45,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 13.58,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Neutral",
+        "score": 0.6,
+        "positive_words": 3,
+        "negative_words": 2
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 44,
+          "2": 12,
+          "3": 45
+        },
+        "list_items": 156,
+        "code_blocks": 19,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "tecnología": 84,
+          "ia": 81,
+          "datos": 40
+        },
+        "primary_topic": "tecnología",
+        "topic_diversity": 6
+      },
+      "quality_score": 50
+    },
+    {
+      "document": "truthgpt_collected/integration_code/production_code/INDICE_DOCUMENTACION.md",
+      "generated_at": "2025-11-24T20:35:48.705773",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 115.22,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 6.91,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 1.0,
+        "positive_words": 4,
+        "negative_words": 0
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 1,
+          "2": 9,
+          "3": 25
+        },
+        "list_items": 106,
+        "code_blocks": 0,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "tecnología": 25,
+          "proceso": 22,
+          "datos": 3
+        },
+        "primary_topic": "tecnología",
+        "topic_diversity": 4
+      },
+      "quality_score": 45
+    },
+    {
+      "document": "06_documentation/resumen_final_completo.md",
+      "generated_at": "2025-11-24T20:35:48.710294",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 17,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 107.45,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 14.57,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 1.0,
+        "positive_words": 7,
+        "negative_words": 0
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": true,
+        "header_distribution": {
+          "1": 1,
+          "2": 10,
+          "3": 22
+        },
+        "list_items": 74,
+        "code_blocks": 17,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "ia": 64,
+          "tecnología": 41,
+          "negocio": 14
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 55
+    },
+    {
+      "document": "06_documentation/Master_documents/indice_maestro_documentacion.md",
+      "generated_at": "2025-11-24T20:35:48.714676",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 115.01,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 7.12,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 0.83,
+        "positive_words": 5,
+        "negative_words": 1
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": false,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 1,
+          "2": 16,
+          "3": 31
+        },
+        "list_items": 120,
+        "code_blocks": 0,
+        "tables": 0,
+        "images": 0,
+        "links": 0
+      },
+      "topics": {
+        "topics": {
+          "ia": 79,
+          "tecnología": 41,
+          "negocio": 36
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 40
+    },
+    {
+      "document": "06_documentation/Other/Summaries/project_summary.md",
+      "generated_at": "2025-11-24T20:35:48.742530",
+      "statistics": {
+        "words": 0,
+        "sections": 0,
+        "code_blocks": 1,
+        "links": 45,
+        "images": 0,
+        "tables": 0
+      },
+      "readability": {
+        "flesch_score": 101.53,
+        "reading_level": "Muy Fácil",
+        "avg_sentence_length": 20.4,
+        "avg_syllables_per_word": 1.0
+      },
+      "sentiment": {
+        "sentiment": "Positivo",
+        "score": 0.89,
+        "positive_words": 8,
+        "negative_words": 1
+      },
+      "structure": {
+        "has_toc": true,
+        "has_summary": true,
+        "has_conclusion": false,
+        "header_distribution": {
+          "1": 1,
+          "2": 13,
+          "3": 41,
+          "4": 12
+        },
+        "list_items": 213,
+        "code_blocks": 1,
+        "tables": 0,
+        "images": 0,
+        "links": 45
+      },
+      "topics": {
+        "topics": {
+          "ia": 99,
+          "tecnología": 56,
+          "datos": 53
+        },
+        "primary_topic": "ia",
+        "topic_diversity": 6
+      },
+      "quality_score": 55
+    }
+  ]
+}

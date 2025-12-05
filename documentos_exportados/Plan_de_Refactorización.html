@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Refactorización</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin: -20px -20px 30px -20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header .meta {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .metric-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2E86AB;
+        }
+        .metric-card h3 {
+            color: #2E86AB;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .graphs-section {
+            margin: 40px 0;
+        }
+        .graphs-section h2 {
+            color: #2E86AB;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2E86AB;
+        }
+        .graph-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .graph-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .content-section {
+            margin: 40px 0;
+        }
+        .content-section h2 {
+            color: #A23B72;
+            margin: 30px 0 15px 0;
+        }
+        .content-section h3 {
+            color: #F18F01;
+            margin: 20px 0 10px 0;
+        }
+        .content-section p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+        .quality-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .quality-excellent { background: #C6E0B4; color: #2d5016; }
+        .quality-good { background: #FFE699; color: #856404; }
+        .quality-regular { background: #F8CBAD; color: #854d0e; }
+        .quality-poor { background: #F4B084; color: #843c0c; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        table th {
+            background: #2E86AB;
+            color: white;
+        }
+        table tr:hover {
+            background: #f5f5f5;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Plan de Refactorización</h1>
+            <div class="meta">
+                Generado el 24 de November de 2025
+            </div>
+        </div>
+        
+        <div class="metrics-grid">
+
+            <div class="metric-card">
+                <h3>Líneas</h3>
+                <div class="value">468</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Palabras</h3>
+                <div class="value">1,890</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Secciones</h3>
+                <div class="value">51</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Calidad</h3>
+                <div class="value">50/100</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Legibilidad</h3>
+                <div class="value">Difícil</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Tiempo Lectura</h3>
+                <div class="value">~7 min</div>
+            </div>
+
+        </div>
+        
+        <div class="graphs-section">
+            <h2>📊 Visualizaciones</h2>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_secciones.png" alt="Plan_de_Refactorización_secciones.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_metricas.png" alt="Plan_de_Refactorización_metricas.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_distribucion.png" alt="Plan_de_Refactorización_distribucion.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_calidad.png" alt="Plan_de_Refactorización_calidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_legibilidad.png" alt="Plan_de_Refactorización_legibilidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Plan_de_Refactorización_keywords.png" alt="Plan_de_Refactorización_keywords.png">
+            </div>
+
+        </div>
+        
+        <div class="content-section">
+            <h2>📄 Contenido del Documento</h2>
+<h1>🔄 Refactoring Plan - Production Code</h1>
+<p><strong>Date</strong>: 2025-01-27<br />
+<strong>Status</strong>: Analysis Complete - Ready for Implementation</p>
+<hr />
+<h2>📊 Executive Summary</h2>
+<p>This document outlines a comprehensive refactoring plan for the <code>production_code</code> directory to improve code organization, eliminate duplication, resolve import inconsistencies, and align with the documented layered architecture.</p>
+<h3>Key Issues Identified</h3>
+<ol>
+<li><strong>Duplicate Utility Files</strong> (3 instances of <code>api_utils.py</code>)</li>
+<li><strong>Import Inconsistencies</strong> (mixed import paths)</li>
+<li><strong>Multiple API Entry Points</strong> (3 different files)</li>
+<li><strong>Architecture Misalignment</strong> (old structure vs. new layered architecture)</li>
+<li><strong>Directory Naming Conflict</strong> (<code>code/</code> conflicts with Python built-in)</li>
+<li><strong>Config Manager Duplication</strong> (root vs. core)</li>
+</ol>
+<hr />
+<h2>🎯 Refactoring Goals</h2>
+<ol>
+<li><strong>Eliminate Code Duplication</strong>: Consolidate duplicate utility files</li>
+<li><strong>Standardize Imports</strong>: Use consistent import paths throughout</li>
+<li><strong>Align with Architecture</strong>: Follow the documented layered architecture</li>
+<li><strong>Improve Maintainability</strong>: Clear separation of concerns</li>
+<li><strong>Resolve Naming Conflicts</strong>: Fix Python built-in module conflicts</li>
+<li><strong>Enhance Testability</strong>: Better structure for unit testing</li>
+</ol>
+<hr />
+<h2>📋 Detailed Refactoring Tasks</h2>
+<h3>Phase 1: Utility Files Consolidation</h3>
+<h4>1.1 Consolidate <code>api_utils.py</code> Files</h4>
+<p><strong>Current State:</strong>
+- <code>api_utils.py</code> (root, 268 lines) - Tensor validation functions
+- <code>core/api_utils.py</code> (231 lines) - FastAPI/Flask helpers, HTTP clients
+- <code>api/api_utils.py</code> (180 lines) - API route validation functions</p>
+<p><strong>Problem:</strong>
+- Overlapping functionality
+- Inconsistent import paths
+- Confusion about which file to use</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Option A (Recommended):</strong> Keep separate but clarify purposes
+- <code>api/api_utils.py</code> → Keep for API route validation (domain-specific)
+- <code>core/api_utils.py</code> → Keep for general HTTP/web utilities (reusable)
+- <code>api_utils.py</code> (root) → <strong>DEPRECATE</strong> and migrate to <code>api/api_utils.py</code></p>
+<p><strong>Migration Steps:</strong>
+1. Move tensor validation functions from root <code>api_utils.py</code> to <code>api/api_utils.py</code>
+2. Update all imports in <code>api_unified.py</code> and other files
+3. Add deprecation warnings to root <code>api_utils.py</code>
+4. Remove root <code>api_utils.py</code> after migration period</p>
+<p><strong>Files to Update:</strong>
+- <code>api_unified.py</code> (line 38: <code>from api_utils import ...</code>)
+- <code>tests/test_api_utils.py</code> (line 13: <code>from api_utils import ...</code>)</p>
+<p><strong>Option B:</strong> Merge all into <code>core/api_utils.py</code>
+- More consolidation but larger file
+- Less domain-specific organization</p>
+<hr />
+<h3>Phase 2: API Entry Points Consolidation</h3>
+<h4>2.1 Unify API Entry Points</h4>
+<p><strong>Current State:</strong>
+- <code>api_unified.py</code> (1237 lines) - Full API implementation (old structure)
+- <code>application.py</code> (122 lines) - Application factory (new layered architecture)
+- <code>api_server.py</code> (53 lines) - Simple wrapper using <code>application.py</code></p>
+<p><strong>Problem:</strong>
+- <code>api_unified.py</code> doesn't use the new <code>api/routes/</code> structure
+- Duplicate API implementations
+- Confusion about which entry point to use</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Recommended Approach:</strong>
+1. <strong>Keep <code>application.py</code></strong> as the primary application factory (already follows layered architecture)
+2. <strong>Keep <code>api_server.py</code></strong> as the entry point script (uses <code>application.py</code>)
+3. <strong>Migrate <code>api_unified.py</code></strong> functionality to <code>api/routes/</code> structure
+4. <strong>Deprecate <code>api_unified.py</code></strong> after migration</p>
+<p><strong>Migration Steps:</strong>
+1. Review endpoints in <code>api_unified.py</code> that aren't in <code>api/routes/</code>
+2. Create missing route files in <code>api/routes/</code> if needed
+3. Update <code>application.py</code> to include all routes
+4. Add compatibility shim in <code>api_unified.py</code> that imports from <code>application.py</code>
+5. Update documentation to use <code>api_server.py</code> or <code>application.py</code>
+6. Remove <code>api_unified.py</code> after migration period</p>
+<p><strong>Files to Review:</strong>
+- Compare endpoints in <code>api_unified.py</code> vs. <code>api/routes/*.py</code>
+- Ensure all functionality is covered in new structure</p>
+<hr />
+<h3>Phase 3: Import Path Standardization</h3>
+<h4>3.1 Standardize Import Paths</h4>
+<p><strong>Current Issues:</strong>
+- Mixed imports: <code>from api_utils import ...</code> vs <code>from core.api_utils import ...</code>
+- Inconsistent use of root-level imports vs. module imports</p>
+<p><strong>Solution:</strong></p>
+<p><strong>Import Standards:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># ✅ CORRECT - Use module paths</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">api.api_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">validate_episode_data</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">core.api_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">create_fastapi_app</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">core.config_manager</span><span class="w"> </span><span class="kn">import</span> <span class="n">ConfigManager</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">services.memory_service</span><span class="w"> </span><span class="kn">import</span> <span class="n">MemoryService</span>
+
+<span class="c1"># ❌ INCORRECT - Root-level imports (deprecated)</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">api_utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">validate_episode_data</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">config_manager</span><span class="w"> </span><span class="kn">import</span> <span class="n">ConfigManager</span>
+</code></pre></div>
+
+<p><strong>Files to Update:</strong>
+1. <code>api_unified.py</code> - Update all root-level imports
+2. <code>tests/test_api_utils.py</code> - Update imports
+3. <code>infrastructure/providers/pipeline_provider.py</code> - Update <code>config_manager</code> import
+4. <code>application/service_container.py</code> - Update <code>config_manager</code> import
+5. <code>cli_unified.py</code> - Update <code>config_manager</code> import
+6. <code>examples/example_config.py</code> - Update imports
+7. Any other files with root-level imports</p>
+<p><strong>Search Pattern:</strong>
+```bash
+grep -r "from (api_utils|config_manager|api_au</p>
+        </div>
+        
+        <div class="footer">
+            <p>Documento generado automáticamente con análisis avanzado</p>
+        </div>
+    </div>
+</body>
+</html>

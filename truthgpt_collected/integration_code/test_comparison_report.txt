@@ -1,0 +1,171 @@
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 16384 tokens
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 32768
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 16384 tokens
+INFO:papers.research.paper_longreward:LongReward initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_adagrope:AdaGroPE initialized (training-free): 2048 → 8192
+INFO:papers.research.paper_longreward:LongReward initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_longrope:LongRoPE initialized: 2048 → 8192 tokens
+INFO:papers.research.paper_cepe:CEPE initialized: 2048 → 8192 tokens
+
+================================================================================
+MODEL COMPARISON TABLE
+================================================================================
+
+Model           Max Ctx      Training     Speed      Memory      
+--------------------------------------------------------------------------------
+LongRoPE        2M           Required     fast       Efficient   
+AdaGroPE        32K          Free         fast       Efficient   
+CEPE            131K         Free         medium     Efficient   
+LongReward      32K          Required     slow       Heavy       
+
+================================================================================
+BEST FOR:
+================================================================================
+
+LongRoPE:
+  • Contextos muy largos (hasta 2M tokens)
+  • Aplicaciones que requieren fine-tuning
+  • Cuando se necesita precisión en posiciones cercanas
+
+AdaGroPE:
+  • Plug-and-play sin entrenamiento
+  • Extensión rápida de contexto
+  • Cuando no se puede hacer fine-tuning
+
+CEPE:
+  • Contextos largos sin fine-tuning
+  • Cuando se necesita compresión eficiente
+  • Procesamiento paralelo de chunks
+
+LongReward:
+  • Optimización de dependencias largas
+  • Cuando se necesita guía de atención
+  • Mejora de calidad en contextos largos
+
+================================================================================
+LIMITATIONS:
+================================================================================
+
+LongRoPE:
+  ⚠ Requiere fine-tuning (1000 pasos)
+  ⚠ Escalado no uniforme puede afectar posiciones lejanas
+
+AdaGroPE:
+  ⚠ Contexto máximo menor (32K vs 2M)
+  ⚠ Granularidad gruesa en posiciones lejanas
+
+CEPE:
+  ⚠ Velocidad media (procesa chunks)
+  ⚠ Requiere encoder adicional
+
+LongReward:
+  ⚠ Requiere entrenamiento del reward model
+  ⚠ Más lento (reward computation)
+  ⚠ Mayor uso de memoria
+
+================================================================================
+PERFORMANCE TESTS
+================================================================================
+
+============================================================
+Testing LongRoPE
+============================================================
+  ❌ Context   2048: ERROR - The size of tensor a (2) must match the size of tensor b (20
+  ❌ Context   4096: ERROR - The size of tensor a (2) must match the size of tensor b (40
+  ❌ Context   8192: ERROR - The size of tensor a (2) must match the size of tensor b (81
+  ❌ Context  16384: ERROR - The size of tensor a (2) must match the size of tensor b (16
+
+============================================================
+Testing AdaGroPE
+============================================================
+  ❌ Context   2048: ERROR - local variable 'p_base' referenced before assignment
+  ❌ Context   4096: ERROR - local variable 'p_base' referenced before assignment
+  ❌ Context   8192: ERROR - local variable 'p_base' referenced before assignment
+  ❌ Context  16384: ERROR - local variable 'p_base' referenced before assignment
+  ❌ Context  32768: ERROR - local variable 'p_base' referenced before assignment
+
+============================================================
+Testing CEPE
+============================================================
+  ✅ Context   2048:   0.10ms,  24.00MB
+  ✅ Context   4096: 2730.47ms,  48.00MB
+  ✅ Context   8192: 2114.90ms,  96.00MB
+  ✅ Context  16384: 4241.05ms, 192.00MB
+
+============================================================
+Testing LongReward
+============================================================
+  ❌ Context   2048: ERROR - name 'D' is not defined
+  ❌ Context   4096: ERROR - name 'D' is not defined
+  ❌ Context   8192: ERROR - name 'D' is not defined
+
+================================================================================
+COMBINATION TESTS
+================================================================================
+
+============================================================
+Testing Combination: AdaGroPE + LongReward
+============================================================
+  ❌ Combination failed: local variable 'p_base' referenced before assignment
+
+============================================================
+Testing Combination: LongRoPE + CEPE
+============================================================
+  ❌ Combination failed: The size of tensor a (2) must match the size of tensor b (8192) at non-singleton dimension 0
+
+============================================================
+RECOMMENDATIONS
+============================================================
+
+================================================================================
+RECOMMENDATIONS BY USE CASE
+================================================================================
+
+Very Long Context 2M:
+  Best: LongRoPE
+  Reason: Único que soporta hasta 2M tokens
+  Alternatives: CEPE (128K)
+
+No Training:
+  Best: AdaGroPE
+  Reason: Training-free, plug-and-play
+  Alternatives: CEPE
+
+Memory Constrained:
+  Best: AdaGroPE
+  Reason: Más eficiente en memoria
+  Alternatives: CEPE, LongRoPE
+
+Quality Optimization:
+  Best: LongReward
+  Reason: Optimiza dependencias largas
+  Alternatives: LongRoPE + LongReward
+
+Fast Inference:
+  Best: AdaGroPE
+  Reason: Más rápido, sin overhead
+  Alternatives: LongRoPE
+
+================================================================================
+RECOMMENDED COMBINATIONS
+================================================================================
+
+AdaGroPE + LongReward:
+  Description: Extensión sin training + optimización de calidad
+  Use Case: Cuando necesitas contexto largo con alta calidad
+  Tradeoff: Más lento pero mejor calidad
+
+LongRoPE + CEPE:
+  Description: Escalado RoPE + compresión paralela
+  Use Case: Contextos extremadamente largos con eficiencia
+  Tradeoff: Complejidad pero máxima extensión
+
+CEPE + LongReward:
+  Description: Compresión + optimización
+  Use Case: Contextos largos con mejor manejo de dependencias
+  Tradeoff: Balance entre eficiencia y calidad
+
+================================================================================
+✅ All tests completed!
+Results saved to: model_comparison_results.json
+================================================================================

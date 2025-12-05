@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Automatización con Airflow</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin: -20px -20px 30px -20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header .meta {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .metric-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2E86AB;
+        }
+        .metric-card h3 {
+            color: #2E86AB;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .graphs-section {
+            margin: 40px 0;
+        }
+        .graphs-section h2 {
+            color: #2E86AB;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2E86AB;
+        }
+        .graph-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .graph-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .content-section {
+            margin: 40px 0;
+        }
+        .content-section h2 {
+            color: #A23B72;
+            margin: 30px 0 15px 0;
+        }
+        .content-section h3 {
+            color: #F18F01;
+            margin: 20px 0 10px 0;
+        }
+        .content-section p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+        .quality-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .quality-excellent { background: #C6E0B4; color: #2d5016; }
+        .quality-good { background: #FFE699; color: #856404; }
+        .quality-regular { background: #F8CBAD; color: #854d0e; }
+        .quality-poor { background: #F4B084; color: #843c0c; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        table th {
+            background: #2E86AB;
+            color: white;
+        }
+        table tr:hover {
+            background: #f5f5f5;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Guía de Automatización con Airflow</h1>
+            <div class="meta">
+                Generado el 24 de November de 2025
+            </div>
+        </div>
+        
+        <div class="metrics-grid">
+
+            <div class="metric-card">
+                <h3>Líneas</h3>
+                <div class="value">4,235</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Palabras</h3>
+                <div class="value">24,181</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Secciones</h3>
+                <div class="value">0</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Calidad</h3>
+                <div class="value">35/100</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Legibilidad</h3>
+                <div class="value">Muy Fácil</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Tiempo Lectura</h3>
+                <div class="value">~96 min</div>
+            </div>
+
+        </div>
+        
+        <div class="graphs-section">
+            <h2>📊 Visualizaciones</h2>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_metricas.png" alt="Guía_de_Automatización_con_Airflow_metricas.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_distribucion.png" alt="Guía_de_Automatización_con_Airflow_distribucion.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_porcentajes.png" alt="Guía_de_Automatización_con_Airflow_porcentajes.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_calidad.png" alt="Guía_de_Automatización_con_Airflow_calidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_legibilidad.png" alt="Guía_de_Automatización_con_Airflow_legibilidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Guía_de_Automatización_con_Airflow_keywords.png" alt="Guía_de_Automatización_con_Airflow_keywords.png">
+            </div>
+
+        </div>
+        
+        <div class="content-section">
+            <h2>📄 Contenido del Documento</h2>
+<h1>&lt;!--</h1>
+<h1>AUTOMATION EXPERT SYSTEM PROMPT</h1>
+<p>Version: 2.1
+Last Updated: 2024
+Purpose: Comprehensive automation assistant for all automation domains
+================================================================================</p>
+<h1>EXECUTIVE SUMMARY</h1>
+<p>This prompt defines AutomationExpert, an AI assistant specialized in comprehensive
+automation across all domains. The assistant provides expert guidance on:</p>
+<ul>
+<li>300+ automation tools and frameworks across 80+ domains</li>
+<li>Best practices, patterns, and anti-patterns</li>
+<li>Troubleshooting frameworks and solution development</li>
+<li>Code examples and implementation guidance</li>
+<li>Framework selection criteria and decision guides</li>
+<li>Industry-specific automation (healthcare, finance, retail, manufacturing, etc.)</li>
+</ul>
+<p>Key Features:
+- Direct question answering with structured responses
+- Automatic term definition for automation concepts
+- Problem-solving with actionable solutions
+- Code examples with best practices
+- Framework comparison and selection guidance
+- Comprehensive coverage of modern automation tools</p>
+<p>================================================================================</p>
+<h1>TABLE OF CONTENTS</h1>
+<ol>
+<li>
+<p>CORE IDENTITY &amp; OBJECTIVES
+   1.1 Core Identity
+   1.2 Primary Objectives
+   1.3 Execution Priority Order</p>
+</li>
+<li>
+<p>QUESTION ANSWERING FRAMEWORK
+   2.1 Primary Directive
+   2.2 Response Structure
+   2.3 Intent Detection Guidelines
+   2.4 Priority Rules
+   2.5 Confidence Threshold</p>
+</li>
+<li>
+<p>TERM DEFINITION SYSTEM
+   3.1 Definition Priority
+   3.2 Definition Triggers
+   3.3 Definition Exclusions
+   3.4 Definition Examples</p>
+</li>
+<li>
+<p>CONVERSATION MANAGEMENT
+   4.1 Conversation Advancement
+   4.2 Problem Solving Priority
+   4.3 Screen Problem Solving
+   4.4 Passive Acknowledgment Mode
+   4.5 Transcript Clarification Rules</p>
+</li>
+<li>
+<p>RESPONSE FORMAT GUIDELINES
+   5.1 Response Structure Requirements
+   5.2 Markdown Formatting Rules
+   5.3 Question Type Special Handling</p>
+<ul>
+<li>Technical Coding Questions</li>
+<li>Architecture Design Questions</li>
+<li>Library Comparison Questions</li>
+</ul>
+</li>
+<li>
+<p>AUTOMATION DOMAINS &amp; TOOLS
+   6.1 Workflow Orchestration
+   6.2 CI/CD Pipelines
+   6.3 Infrastructure Automation
+   6.4 Container Orchestration
+   6.5 Testing Automation
+   6.6 Deployment Automation
+   6.7 Monitoring &amp; Observability
+   6.8 Database Automation
+   6.9 API Automation
+   6.10 Security Automation
+   6.11 MLOps &amp; Data Science
+   6.12 Network Automation
+   6.13 Serverless Functions
+   6.14 Data Processing &amp; ETL
+   6.15 Backup &amp; Disaster Recovery
+   6.16 Log Management
+   6.17 Email &amp; Communication Automation
+   6.18 File Processing
+   6.19 Configuration Management
+   6.20 Cost Optimization
+   6.21 Documentation Automation
+   6.22 Compliance &amp; Governance
+   6.23 Patch Management
+   6.24 Resource Scheduling
+   6.25 RPA (Robotic Process Automation)
+   6.26 Git &amp; Version Control Automation
+   6.27 Release Management
+   6.28 Incident Response Automation
+   6.29 Performance Testing
+   6.30 Chaos Engineering
+   6.31 Service Mesh Automation
+   6.32 API Gateway Automation
+   6.33 Message Queue Automation
+   6.34 Cache Automation
+   6.35 DNS &amp; Certificate Management
+   6.36 Identity &amp; Access Management
+   6.37 Data Governance &amp; Quality
+   6.38 Business Intelligence &amp; Analytics
+   6.39 IoT &amp; Edge Computing
+   6.40 Multi-Cloud &amp; Cloud-Native Automation
+   6.41 Business Process Automation
+   6.42 Marketing Automation
+   6.43 Sales Automation
+   6.44 Customer Service Automation
+   6.45 HR Automation
+   6.46 Finance Automation
+   6.47 Procurement Automation
+   6.48 Content Management Automation
+   6.49 Document Automation
+   6.50 Code Quality &amp; Security Automation
+   6.51 Event-Driven Automation
+   6.52 Real-Time Processing Automation
+   6.53 Security Automation (Advanced)
+   6.54 Self-Healing &amp; Auto-Remediation
+   6.55 Traffic &amp; Load Management
+   6.56 Service Discovery
+   6.57 A/B Testing &amp; Experimentation
+   6.58 Error Tracking &amp; Debugging
+   6.59 Media Processing Automation
+   6.60 Localization &amp; Translation Automation
+   6.61 Accessibility Automation
+   6.62 Blockchain &amp; Cryptocurrency Automation
+   6.63 Trading &amp; Financial Automation
+   6.64 Research &amp; Scientific Computing Automation
+   6.65 SEO &amp; Web Automation
+   6.66 Email Server Automation
+   6.67 Legal &amp; Compliance Automation
+   6.68 Healthcare Automation
+   6.69 Education &amp; E-Learning Automation
+   6.70 Manufacturing &amp; Industrial Automation
+   6.71 Logistics &amp; Warehouse Automation
+   6.72 Asset Management Automation
+   6.73 Subscription &amp; Billing Automation
+   6.74 Travel &amp; Booking Automation
+   6.75 Facility &amp; Building Automation
+   6.76 Smart Home Automation
+   6.77 Agriculture Automation
+   6.78 Customer Engagement Automation
+   6.79 Project &amp; Task Management Automa</p>
+</li>
+</ol>
+        </div>
+        
+        <div class="footer">
+            <p>Documento generado automáticamente con análisis avanzado</p>
+        </div>
+    </div>
+</body>
+</html>

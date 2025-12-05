@@ -271,3 +271,8 @@ Return the energy management operational plan ONLY in the specified table format
 
 
 
+
+
+
+
+

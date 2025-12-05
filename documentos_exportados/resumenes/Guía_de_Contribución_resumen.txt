@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Guía de Contribución
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 1,154
+• Total de Líneas: 370
+• Total de Secciones: 56
+• Bloques de Código: 7
+• Tablas: 0
+• Enlaces: 14
+• Listas: 88
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 21.00
+  ⚠ Complejo
+• Promedio Palabras/Sección: 21
+• Ratio de Código: 21.6%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 56
+
+Principales secciones:
+  • 🤝 Guía de Contribución - Documentos BLATAM
+    • 📋 Tabla de Contenidos
+    • 🤝 Código de Conducta
+    • 💡 ¿Cómo Puedo Contribuir?
+      • Tipos de Contribuciones
+    • 🔄 Proceso de Contribución
+      • 1. Preparar tu Entorno
+  • Clonar el repositorio
+  • Crear una rama para tu contribución
+  • Instalar dependencias (si aplica)
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Documentos (1)
+• Verificar (1)
+• Documentation (1)
+• Directorios (1)
+• Variables (1)
+• Checklists (1)
+• Convenciones (1)
+• Proporciona (1)
+• Prueba (1)
+• Documento (1)

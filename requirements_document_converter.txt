@@ -1,0 +1,52 @@
+# Requisitos para el Sistema Avanzado de Conversión de Documentos
+# ================================================================
+# Instalar con: pip install -r requirements_document_converter.txt
+
+# PDF - Múltiples opciones
+reportlab>=4.0.0          # Generación de PDFs programáticamente
+fpdf2>=2.7.0              # FPDF2 - Biblioteca ligera para PDFs
+weasyprint>=60.0           # HTML/CSS a PDF (alta calidad)
+pdfkit>=1.0.0             # Wrapper para wkhtmltopdf
+pypdf>=3.0.0              # Manipulación de PDFs existentes
+PyMuPDF>=1.23.0           # PyMuPDF (fitz) - Rápido y potente
+xhtml2pdf>=0.2.11         # HTML/XHTML a PDF
+docx2pdf>=0.1.8           # Conversión directa DOCX a PDF
+
+# Word - Documentos .docx
+python-docx>=1.1.0        # Creación y edición de documentos Word
+mammoth>=1.6.0            # Conversión DOCX a HTML/Markdown
+docx2txt>=0.8             # Extracción de texto de DOCX
+
+# Excel - Hojas de cálculo
+openpyxl>=3.1.0           # Lectura/escritura de Excel moderno (.xlsx)
+xlsxwriter>=3.1.0         # Escritura avanzada de Excel
+pandas>=2.0.0             # Manipulación de datos (incluye Excel)
+xlrd>=2.0.1               # Lectura de Excel antiguo (.xls)
+xlwt>=1.3.0               # Escritura de Excel antiguo (.xls)
+pyexcel>=0.7.0            # Interfaz unificada para Excel
+pyexcel-xlsx>=0.6.0       # Soporte XLSX para pyexcel
+pyexcel-xls>=0.7.0        # Soporte XLS para pyexcel
+
+# Utilidades y procesamiento
+markdown>=3.4.0           # Procesamiento de Markdown
+Pillow>=10.0.0            # Procesamiento de imágenes
+matplotlib>=3.7.0         # Gráficas y visualizaciones
+seaborn>=0.12.0           # Visualizaciones estadísticas
+beautifulsoup4>=4.12.0    # Parsing HTML/XML
+lxml>=4.9.0               # Parser XML/HTML rápido
+
+# Opcionales pero recomendados
+pypandoc>=1.12            # Wrapper para Pandoc (conversión universal)
+# Nota: Pandoc requiere instalación del sistema: https://pandoc.org/installing.html
+
+# Para conversión con herramientas del sistema
+# LibreOffice (instalación del sistema requerida)
+# - macOS: brew install --cask libreoffice
+# - Linux: sudo apt-get install libreoffice
+# - Windows: Descargar desde https://www.libreoffice.org/
+
+# Para pdfkit (requiere wkhtmltopdf)
+# - macOS: brew install wkhtmltopdf
+# - Linux: sudo apt-get install wkhtmltopdf
+# - Windows: Descargar desde https://wkhtmltopdf.org/downloads.html
+

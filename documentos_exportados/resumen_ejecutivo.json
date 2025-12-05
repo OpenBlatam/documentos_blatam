@@ -1,0 +1,24 @@
+{
+  "generated_date": "2025-11-24T20:39:13.911676",
+  "total_documents": 16,
+  "total_metrics": {
+    "total_words": 42233,
+    "total_sections": 779,
+    "total_code_blocks": 77,
+    "total_links": 408,
+    "total_tables": 11
+  },
+  "average_metrics": {
+    "avg_words_per_doc": 2639.5625,
+    "avg_sections_per_doc": 48.6875,
+    "avg_readability": 100.0,
+    "avg_complexity": 19.218749999999996
+  },
+  "categories": {
+    "Automatización": 1,
+    "Arquitectura": 2,
+    "Documentación": 8,
+    "Desarrollo": 2,
+    "Estrategia": 3
+  }
+}

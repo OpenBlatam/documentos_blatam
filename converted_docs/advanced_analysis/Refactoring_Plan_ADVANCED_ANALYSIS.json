@@ -1,0 +1,573 @@
+{
+  "metadata": {
+    "document": "Refactoring_Plan",
+    "generated_at": "2025-11-25T10:10:27.782518"
+  },
+  "sentiment_analysis": {
+    "sentiment_score": 100,
+    "positive_words": 1,
+    "negative_words": 0,
+    "technical_words": 0,
+    "tone": "Positivo"
+  },
+  "theme_analysis": {
+    "main_themes": {
+      "import": 42,
+      "update": 41,
+      "imports": 35,
+      "files": 29,
+      "root": 26,
+      "architecture": 23,
+      "from": 22,
+      "core": 19,
+      "code": 18,
+      "phase": 17
+    },
+    "theme_count": 10,
+    "most_common_words": {
+      "import": 42,
+      "update": 41,
+      "imports": 35,
+      "files": 29,
+      "root": 26,
+      "architecture": 23,
+      "from": 22,
+      "core": 19,
+      "code": 18,
+      "phase": 17,
+      "application": 17,
+      "documentation": 13,
+      "lines": 12,
+      "routes": 12,
+      "duplication": 11,
+      "layer": 11,
+      "paths": 10,
+      "entry": 10,
+      "structure": 10,
+      "domain": 10
+    }
+  },
+  "coherence_analysis": {
+    "coherence_score": 62,
+    "issues": [
+      "14 secciones sin contenido",
+      "Distribución desigual de contenido entre secciones"
+    ],
+    "structure_quality": "Buena"
+  },
+  "auto_summary": {
+    "summary": "py` (if not already in services/)\n- `integration_pipeline py` (already exists, check for duplication)\n\n**To `services/` (Application Layer):**\n- `monitoring_system **Enhance Testability**: Better structure for unit testing\n\n---\n\n## 📋 Detailed Refactoring Tasks\n\n### Phase 1: Utility Files Consolidation\n\n#### 1 py` → `services/monitoring_service `infrastructure/providers/pipeline_provider py`** as the primary application factory (already follows layered architecture)\n2 py`** as the entry point script (uses `application py` → Keep for general HTTP/web utilities (reusable)\n- `api_utils py` → Keep for API route validation (domain-specific)\n- `core/api_utils py` → Keep at root (or move to `services/` if it's a service)\n\n**To `core/` (Domain Layer):**\n- Utility functions that are domain-agnostic\n\n**Keep at Root:**\n- `api_server",
+    "key_points": [
+      "🔄 Refactoring Plan - Production Code",
+      "📊 Executive Summary",
+      "Key Issues Identified",
+      "🎯 Refactoring Goals",
+      "📋 Detailed Refactoring Tasks"
+    ],
+    "total_sentences_analyzed": 168,
+    "summary_length": 832
+  },
+  "code_analysis": {
+    "code_blocks": 3,
+    "total_code_lines": 16,
+    "functions_detected": 0,
+    "classes_detected": 0,
+    "languages_used": {
+      "python": 1,
+      "bash": 1
+    },
+    "avg_lines_per_block": 5.333333333333333,
+    "complexity_level": "Bajo"
+  },
+  "dependency_analysis": {
+    "total_dependencies": 83,
+    "sections_with_dependencies": 24,
+    "dependency_map": {
+      "1": [
+        {
+          "target_section": 0,
+          "target_title": "🔄 Refactoring Plan - Production Code",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 2
+        },
+        {
+          "target_section": 14,
+          "target_title": "5.1 Resolve `code/` Directory Naming Conflict",
+          "match_score": 2
+        },
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        }
+      ],
+      "2": [
+        {
+          "target_section": 5,
+          "target_title": "Phase 1: Utility Files Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 6,
+          "target_title": "1.1 Consolidate `api_utils.py` Files",
+          "match_score": 2
+        },
+        {
+          "target_section": 7,
+          "target_title": "Phase 2: API Entry Points Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 8,
+          "target_title": "2.1 Unify API Entry Points",
+          "match_score": 2
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 3
+        },
+        {
+          "target_section": 13,
+          "target_title": "Phase 5: Directory Structure Alignment",
+          "match_score": 3
+        },
+        {
+          "target_section": 14,
+          "target_title": "5.1 Resolve `code/` Directory Naming Conflict",
+          "match_score": 4
+        },
+        {
+          "target_section": 16,
+          "target_title": "Phase 6: Architecture Alignment",
+          "match_score": 2
+        },
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        },
+        {
+          "target_section": 27,
+          "target_title": "Phase 4: Config Manager",
+          "match_score": 2
+        },
+        {
+          "target_section": 28,
+          "target_title": "Phase 5: Directory Structure",
+          "match_score": 2
+        }
+      ],
+      "3": [
+        {
+          "target_section": 5,
+          "target_title": "Phase 1: Utility Files Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 6,
+          "target_title": "1.1 Consolidate `api_utils.py` Files",
+          "match_score": 2
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 3
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 2
+        },
+        {
+          "target_section": 14,
+          "target_title": "5.1 Resolve `code/` Directory Naming Conflict",
+          "match_score": 3
+        },
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        }
+      ],
+      "6": [
+        {
+          "target_section": 5,
+          "target_title": "Phase 1: Utility Files Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "8": [
+        {
+          "target_section": 7,
+          "target_title": "Phase 2: API Entry Points Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 3
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "10": [
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 2
+        },
+        {
+          "target_section": 15,
+          "target_title": "5.2 Move Root-Level Files to Appropriate Layers",
+          "match_score": 2
+        },
+        {
+          "target_section": 27,
+          "target_title": "Phase 4: Config Manager",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "12": [
+        {
+          "target_section": 6,
+          "target_title": "1.1 Consolidate `api_utils.py` Files",
+          "match_score": 2
+        },
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 27,
+          "target_title": "Phase 4: Config Manager",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "14": [
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "15": [
+        {
+          "target_section": 5,
+          "target_title": "Phase 1: Utility Files Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 7,
+          "target_title": "Phase 2: API Entry Points Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 8,
+          "target_title": "2.1 Unify API Entry Points",
+          "match_score": 2
+        }
+      ],
+      "17": [
+        {
+          "target_section": 29,
+          "target_title": "Phase 6: Architecture Verification",
+          "match_score": 2
+        }
+      ],
+      "20": [
+        {
+          "target_section": 6,
+          "target_title": "1.1 Consolidate `api_utils.py` Files",
+          "match_score": 3
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 3
+        },
+        {
+          "target_section": 27,
+          "target_title": "Phase 4: Config Manager",
+          "match_score": 2
+        }
+      ],
+      "21": [
+        {
+          "target_section": 14,
+          "target_title": "5.1 Resolve `code/` Directory Naming Conflict",
+          "match_score": 4
+        }
+      ],
+      "22": [
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "24": [
+        {
+          "target_section": 6,
+          "target_title": "1.1 Consolidate `api_utils.py` Files",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "26": [
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        }
+      ],
+      "27": [
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 2
+        }
+      ],
+      "32": [
+        {
+          "target_section": 9,
+          "target_title": "Phase 3: Import Path Standardization",
+          "match_score": 2
+        },
+        {
+          "target_section": 26,
+          "target_title": "Phase 3: Import Standardization",
+          "match_score": 2
+        }
+      ],
+      "35": [
+        {
+          "target_section": 7,
+          "target_title": "Phase 2: API Entry Points Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 8,
+          "target_title": "2.1 Unify API Entry Points",
+          "match_score": 2
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 15,
+          "target_title": "5.2 Move Root-Level Files to Appropriate Layers",
+          "match_score": 2
+        }
+      ],
+      "39": [
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        }
+      ],
+      "43": [
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 12,
+          "target_title": "4.1 Resolve Config Manager Duplication",
+          "match_score": 2
+        },
+        {
+          "target_section": 27,
+          "target_title": "Phase 4: Config Manager",
+          "match_score": 2
+        }
+      ],
+      "44": [
+        {
+          "target_section": 29,
+          "target_title": "Phase 6: Architecture Verification",
+          "match_score": 2
+        },
+        {
+          "target_section": 34,
+          "target_title": "📚 Documentation Updates",
+          "match_score": 2
+        }
+      ],
+      "46": [
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 15,
+          "target_title": "5.2 Move Root-Level Files to Appropriate Layers",
+          "match_score": 2
+        },
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ],
+      "47": [
+        {
+          "target_section": 17,
+          "target_title": "6.1 Ensure Layered Architecture Compliance",
+          "match_score": 2
+        }
+      ],
+      "48": [
+        {
+          "target_section": 5,
+          "target_title": "Phase 1: Utility Files Consolidation",
+          "match_score": 4
+        },
+        {
+          "target_section": 7,
+          "target_title": "Phase 2: API Entry Points Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 9,
+          "target_title": "Phase 3: Import Path Standardization",
+          "match_score": 2
+        },
+        {
+          "target_section": 10,
+          "target_title": "3.1 Standardize Import Paths",
+          "match_score": 2
+        },
+        {
+          "target_section": 11,
+          "target_title": "Phase 4: Config Manager Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 24,
+          "target_title": "Phase 1: Utility Consolidation",
+          "match_score": 3
+        },
+        {
+          "target_section": 25,
+          "target_title": "Phase 2: API Consolidation",
+          "match_score": 2
+        },
+        {
+          "target_section": 26,
+          "target_title": "Phase 3: Import Standardization",
+          "match_score": 2
+        },
+        {
+          "target_section": 32,
+          "target_title": "During Refactoring",
+          "match_score": 2
+        },
+        {
+          "target_section": 35,
+          "target_title": "Files to Update",
+          "match_score": 2
+        }
+      ]
+    },
+    "most_referenced_sections": [
+      [
+        2,
+        13
+      ],
+      [
+        48,
+        10
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        20,
+        5
+      ]
+    ]
+  }
+}

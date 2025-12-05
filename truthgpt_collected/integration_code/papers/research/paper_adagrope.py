@@ -251,50 +251,73 @@ class AdaGroPEModule(BasePaperModule):
         # FÓRMULA: base_pos = f(g_i, p_i) donde f es el mapeo del paper
         # CÓDIGO: Calculamos la posición base para cada posición en el batch
         base_positions = torch.zeros_like(positions)
+        L_base = self.config.base_context_length
+        L_extended = self.config.extended_context_length
         
-        for i in range(seq_len):
-            if positions.dim() > 1:
-                pos = int(positions[0, i].item())
-            else:
-                pos = int(positions[i].item())
-            
-            # EN EL PAPER: Si la posición está en el contexto base, usar directamente
-            # FÓRMULA: Si p_i < L_base: base_pos = p_i
-            # CÓDIGO: No hay transformación necesaria
-            if pos < self.config.base_context_length:
-                base_pos = pos
-            else:
-                # EN EL PAPER: Para posiciones extendidas, usar el grupo para mapear
-                # FÓRMULA: base_pos = representante(G(p_i))
-                # donde representante es una posición base del grupo
-                # CÓDIGO: Obtenemos el grupo y usamos posición representativa
-                group = self.group_assignments[min(pos, len(self.group_assignments) - 1)].item()
-                group_positions = self.position_to_group[group]
+        # Vectorizar el cálculo para todos los batches
+        if positions.dim() > 1:
+            # Para cada posición en la secuencia, calcular base_pos para todos los batches
+            for i in range(seq_len):
+                # Todas las filas del batch tienen la misma posición i
+                pos = int(positions[0, i].item())  # Posición es la misma para todos los batches
                 
-                if group_positions:
-                    # EN EL PAPER: Usamos posición mediana del grupo como representante
-                    # CÓDIGO: Tomamos la posición del medio del grupo
-                    base_pos = group_positions[len(group_positions) // 2]
+                # EN EL PAPER: Si la posición está en el contexto base, usar directamente
+                # FÓRMULA: Si p_i < L_base: base_pos = p_i
+                if pos < L_base:
+                    base_pos = pos
                 else:
-                    # EN EL PAPER: Fallback - interpolación lineal
-                    # FÓRMULA: base_pos = floor((p_i / L_extended) * L_base)
-                    # CÓDIGO: Calculamos proporcionalmente
-                    ratio = pos / self.config.extended_context_length
-                    base_pos = int(ratio * self.config.base_context_length)
-                    base_pos = min(base_pos, self.config.base_context_length - 1)
-            
-            if positions.dim() > 1:
-                base_positions[0, i] = base_pos
-            else:
+                    # EN EL PAPER: Para posiciones extendidas, usar el grupo para mapear
+                    # FÓRMULA: base_pos = representante(G(p_i))
+                    # donde representante es una posición base del grupo
+                    # CÓDIGO: Obtenemos el grupo y usamos posición representativa
+                    group = self.group_assignments[min(pos, len(self.group_assignments) - 1)].item()
+                    group_positions = self.position_to_group[group]
+                    
+                    if group_positions:
+                        # EN EL PAPER: Usamos posición mediana del grupo como representante
+                        # CÓDIGO: Tomamos la posición del medio del grupo
+                        base_pos = group_positions[len(group_positions) // 2]
+                    else:
+                        # EN EL PAPER: Fallback - interpolación lineal
+                        # FÓRMULA: base_pos = floor((p_i / L_extended) * L_base)
+                        # CÓDIGO: Calculamos proporcionalmente
+                        ratio = pos / L_extended
+                        base_pos = int(ratio * L_base)
+                        base_pos = min(base_pos, L_base - 1)
+                
+                # Asignar a todos los batches (misma posición para todos)
+                base_positions[:, i] = base_pos
+        else:
+            # Caso 1D: una sola secuencia
+            for i in range(seq_len):
+                pos = int(positions[i].item())
+                
+                if pos < L_base:
+                    base_pos = pos
+                else:
+                    group = self.group_assignments[min(pos, len(self.group_assignments) - 1)].item()
+                    group_positions = self.position_to_group[group]
+                    
+                    if group_positions:
+                        base_pos = group_positions[len(group_positions) // 2]
+                    else:
+                        ratio = pos / L_extended
+                        base_pos = int(ratio * L_base)
+                        base_pos = min(base_pos, L_base - 1)
+                
                 base_positions[i] = base_pos
         
         # PASO 3: Obtener embeddings posicionales
         # NOTACIÓN DEL PAPER: PE(p) = PE_base[map(p)]
         #   donde PE_base ∈ R^(L_base × d) y map(p) ∈ [0, L_base)
-        # NOTACIÓN EN CÓDIGO: PE[b, i, :] = PE_base[p_base[b, i], :]
+        # NOTACIÓN EN CÓDIGO: PE[b, i, :] = PE_base[base_positions[b, i], :]
         #   PE ∈ R^(B×N×d)
-        p_base = p_base.clamp(0, L_base - 1).long()  # Asegurar p_base ∈ [0, L_base)
-        PE = self.base_position_embeddings(p_base)  # PE_base[map(p)] ∈ R^(B×N×d)
+        L_base = self.config.base_context_length
+        base_positions = base_positions.clamp(0, L_base - 1).long()  # Asegurar base_positions ∈ [0, L_base)
+        
+        # Obtener embeddings para cada posición en el batch
+        # NOTACIÓN: PE[b, i, :] = PE_base[base_positions[b, i], :]
+        PE = self.base_position_embeddings(base_positions)  # PE_base[map(p)] ∈ R^(B×N×d)
         
         return PE  # PE(p) ∈ R^(B×N×d)
     

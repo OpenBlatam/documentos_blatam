@@ -1,0 +1,226 @@
+[
+  {
+    "title": "SOLAR: Scalable Optimization of Large-scale Architecture for Reasoning",
+    "authors": [
+      "Chen",
+      "Li",
+      "Luo",
+      "Bolimera",
+      "Ahmed",
+      "Srinivasan",
+      "Gokhale",
+      "Savvides"
+    ],
+    "year": 2025,
+    "description": "Introduce un framework para adaptar dinámicamente entre chain, tree y graph de pensamiento para mejorar precisión y eficiencia.",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2503.04530",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Tree-of-Thought",
+      "Chain-of-Thought",
+      "Adaptive Reasoning",
+      "Dynamic Architecture",
+      "Multi-Paradigm Reasoning"
+    ],
+    "reported_improvements": {
+      "accuracy_improvement": "Variable según tarea",
+      "efficiency_improvement": "Mejora adaptativa"
+    }
+  },
+  {
+    "title": "Adaptive Graph of Thoughts: Test-Time Adaptive Reasoning",
+    "authors": [
+      "Pandey",
+      "Ghukasyan",
+      "Goktas",
+      "Radha"
+    ],
+    "year": 2025,
+    "description": "Usan un DAG dinámico para razonar solo donde es necesario, uniendo chain, tree y graph en inferencia.",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Tree-of-Thought",
+      "Chain-of-Thought",
+      "DAG Reasoning",
+      "Test-Time Adaptation",
+      "Dynamic DAG"
+    ],
+    "reported_improvements": {
+      "reasoning_quality": "Mejora selectiva",
+      "compute_efficiency": "Reduce computación innecesaria"
+    }
+  },
+  {
+    "title": "What Makes a Good Reasoning Chain? Uncovering Structural Patterns in Long Chain-of-Thought Reasoning",
+    "authors": [
+      "LCoT2Tree"
+    ],
+    "year": 2025,
+    "description": "Analiza patrones estructurales (exploración, backtracking, verificación) en cadenas de razonamiento largo para predecir cuándo son correctas.",
+    "venue": "ACL Anthology",
+    "url": "https://aclanthology.org/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Network-of-Thoughts",
+      "Chain-of-Thought",
+      "Backtracking",
+      "Verification",
+      "Structural Pattern Analysis",
+      "LCoT2Tree"
+    ],
+    "reported_improvements": {
+      "prediction_accuracy": "Mejora en predicción de cadenas correctas"
+    }
+  },
+  {
+    "title": "Disentangling Memory and Reasoning Ability in Large Language Models",
+    "authors": [
+      "Yao",
+      "Yu",
+      "Zhang",
+      "Narasimhan"
+    ],
+    "year": 2025,
+    "description": "Estudia cómo separar la capacidad de memoria de la capacidad de razonamiento en LLMs para ver qué parte del razonamiento es \"memoria latente\" vs \"pensamiento activo\".",
+    "venue": "ACL Anthology",
+    "url": "https://aclanthology.org/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Memory-Rasoning Disentanglement",
+      "Memory Analysis",
+      "Reasoning Analysis"
+    ],
+    "reported_improvements": {
+      "understanding": "Separación memoria vs razonamiento"
+    }
+  },
+  {
+    "title": "Self-guided Knowledgeable Network of Thoughts (kNoT)",
+    "authors": [
+      "Chen",
+      "Yeh",
+      "Chen",
+      "Yang",
+      "Ming-Syan"
+    ],
+    "year": 2024,
+    "description": "Introduce una red de \"pensamientos\" como nodo de un grafo (no solo cadena o árbol), permitiendo planes de razonamiento más complejos y flexibles.",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Network-of-Thoughts",
+      "Tree-of-Thought",
+      "Chain-of-Thought",
+      "Knowledge Graph",
+      "Network Structure"
+    ],
+    "reported_improvements": {
+      "reasoning_complexity": "Soporta razonamiento más complejo"
+    }
+  },
+  {
+    "title": "Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs",
+    "authors": [
+      "Jin",
+      "Xie",
+      "Zhang"
+    ],
+    "year": 2024,
+    "description": "Propone razonar sobre grafos de conocimiento; cada paso del modelo interactúa con un grafo para generar pensamiento más estructurado.",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Knowledge Graph Reasoning",
+      "Graph Interaction"
+    ],
+    "reported_improvements": {
+      "structured_reasoning": "Razonamiento más estructurado"
+    }
+  },
+  {
+    "title": "Demystifying Chains, Trees, and Graphs of Thoughts",
+    "authors": [
+      "Besta",
+      "Memedi",
+      "Zhang"
+    ],
+    "year": 2024,
+    "description": "Análisis teórico y estructural de las diferentes formas de pensamiento (chain, tree, graph) para entender qué paradigmas funcionan mejor según la tarea.",
+    "venue": "emergentmind.com",
+    "url": "https://emergentmind.com/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Tree-of-Thought",
+      "Chain-of-Thought",
+      "Theoretical Analysis",
+      "Paradigm Comparison"
+    ],
+    "reported_improvements": {
+      "understanding": "Análisis comparativo de paradigmas"
+    }
+  },
+  {
+    "title": "Forest-of-Thought: Scaling Test-Time Compute for Enhancing LLM Reasoning",
+    "authors": [
+      "Bi",
+      "Han",
+      "Liu",
+      "Tang",
+      "Wang"
+    ],
+    "year": 2024,
+    "description": "Introducen un framework que mantiene múltiples árboles de razonamiento en paralelo (\"forest\"), activando solo los más relevantes para mejorar precisión/eficiencia.",
+    "venue": "Kingy AI",
+    "url": "https://kingy.ai/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Tree-of-Thought",
+      "Forest-of-Thought",
+      "Parallel Trees",
+      "Selective Activation"
+    ],
+    "reported_improvements": {
+      "accuracy": "Mejora con múltiples árboles",
+      "efficiency": "Solo activa árboles relevantes"
+    }
+  },
+  {
+    "title": "Beyond Chain-of-Thought: Effective Graph-of-Thought Reasoning in Language Models",
+    "authors": [
+      "Yao",
+      "Li",
+      "Zhao"
+    ],
+    "year": 2024,
+    "description": "Propone un encoder para grafo de pensamientos que se fusiona con la entrada original para permitir razonamiento no secuencial.",
+    "venue": "bohrium.dp.tech",
+    "url": "https://bohrium.dp.tech/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Graph-of-Thought",
+      "Graph Encoder",
+      "Non-Sequential Reasoning"
+    ],
+    "reported_improvements": {
+      "reasoning_flexibility": "Razonamiento no secuencial"
+    }
+  },
+  {
+    "title": "Table as Thought: Exploring Structured Thoughts in LLM Reasoning",
+    "authors": [
+      "TRL 2025"
+    ],
+    "year": 2025,
+    "description": "Proponen organizar \"pensamientos\" en una estructura de tabla para razonar con LLMs, una nueva forma de estructurar la inferencia.",
+    "venue": "ACL Anthology",
+    "url": "https://aclanthology.org/[ID_PENDIENTE]",
+    "key_techniques": [
+      "Tabular Structure",
+      "Structured Inference"
+    ],
+    "reported_improvements": {
+      "reasoning_organization": "Nueva forma de estructurar inferencia"
+    }
+  }
+]

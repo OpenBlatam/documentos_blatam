@@ -1,0 +1,45 @@
+{
+  "document": "airflow_automation_prompt.md",
+  "generated_at": "2025-11-24T20:35:48.697154",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 1,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 97.31,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 24.56,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Neutral",
+    "score": 0.5,
+    "positive_words": 1,
+    "negative_words": 1
+  },
+  "structure": {
+    "has_toc": true,
+    "has_summary": true,
+    "has_conclusion": false,
+    "header_distribution": {},
+    "list_items": 1984,
+    "code_blocks": 1,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "ia": 753,
+      "datos": 530,
+      "tecnología": 276
+    },
+    "primary_topic": "ia",
+    "topic_diversity": 6
+  },
+  "quality_score": 40
+}

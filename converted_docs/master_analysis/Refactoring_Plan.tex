@@ -1,0 +1,924 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,english]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\title{Refactoring Plan}
+\author{Generado automáticamente}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{🔄 Refactoring Plan - Production Code}
+
+**Date**: 2025-01-27  
+
+**Status**: Analysis Complete - Ready for Implementation
+
+---
+
+\subsection{📊 Executive Summary}
+
+This document outlines a comprehensive refactoring plan for the `production\_code` directory to improve code organization, eliminate duplication, resolve import inconsistencies, and align with the documented layered architecture.
+
+\subsubsection{Key Issues Identified}
+
+1. **Duplicate Utility Files** (3 instances of `api\_utils.py`)
+
+2. **Import Inconsistencies** (mixed import paths)
+
+3. **Multiple API Entry Points** (3 different files)
+
+4. **Architecture Misalignment** (old structure vs. new layered architecture)
+
+5. **Directory Naming Conflict** (`code/` conflicts with Python built-in)
+
+6. **Config Manager Duplication** (root vs. core)
+
+---
+
+\subsection{🎯 Refactoring Goals}
+
+1. **Eliminate Code Duplication**: Consolidate duplicate utility files
+
+2. **Standardize Imports**: Use consistent import paths throughout
+
+3. **Align with Architecture**: Follow the documented layered architecture
+
+4. **Improve Maintainability**: Clear separation of concerns
+
+5. **Resolve Naming Conflicts**: Fix Python built-in module conflicts
+
+6. **Enhance Testability**: Better structure for unit testing
+
+---
+
+\subsection{📋 Detailed Refactoring Tasks}
+
+\subsubsection{Phase 1: Utility Files Consolidation}
+
+\paragraph{1.1 Consolidate `api_utils.py` Files}
+
+**Current State:**
+
+\begin{itemize}
+\item `api_utils.py` (root, 268 lines) - Tensor validation functions
+\end{itemize}
+
+\begin{itemize}
+\item `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients
+\end{itemize}
+
+\begin{itemize}
+\item `api/api_utils.py` (180 lines) - API route validation functions
+\end{itemize}
+
+**Problem:**
+
+\begin{itemize}
+\item Overlapping functionality
+\end{itemize}
+
+\begin{itemize}
+\item Inconsistent import paths
+\end{itemize}
+
+\begin{itemize}
+\item Confusion about which file to use
+\end{itemize}
+
+**Solution:**
+
+**Option A (Recommended):** Keep separate but clarify purposes
+
+\begin{itemize}
+\item `api/api_utils.py` → Keep for API route validation (domain-specific)
+\end{itemize}
+
+\begin{itemize}
+\item `core/api_utils.py` → Keep for general HTTP/web utilities (reusable)
+\end{itemize}
+
+\begin{itemize}
+\item `api_utils.py` (root) → **DEPRECATE** and migrate to `api/api_utils.py`
+\end{itemize}
+
+**Migration Steps:**
+
+1. Move tensor validation functions from root `api\_utils.py` to `api/api\_utils.py`
+
+2. Update all imports in `api\_unified.py` and other files
+
+3. Add deprecation warnings to root `api\_utils.py`
+
+4. Remove root `api\_utils.py` after migration period
+
+**Files to Update:**
+
+\begin{itemize}
+\item `api_unified.py` (line 38: `from api_utils import ...`)
+\end{itemize}
+
+\begin{itemize}
+\item `tests/test_api_utils.py` (line 13: `from api_utils import ...`)
+\end{itemize}
+
+**Option B:** Merge all into `core/api\_utils.py`
+
+\begin{itemize}
+\item More consolidation but larger file
+\end{itemize}
+
+\begin{itemize}
+\item Less domain-specific organization
+\end{itemize}
+
+---
+
+\subsubsection{Phase 2: API Entry Points Consolidation}
+
+\paragraph{2.1 Unify API Entry Points}
+
+**Current State:**
+
+\begin{itemize}
+\item `api_unified.py` (1237 lines) - Full API implementation (old structure)
+\end{itemize}
+
+\begin{itemize}
+\item `application.py` (122 lines) - Application factory (new layered architecture)
+\end{itemize}
+
+\begin{itemize}
+\item `api_server.py` (53 lines) - Simple wrapper using `application.py`
+\end{itemize}
+
+**Problem:**
+
+\begin{itemize}
+\item `api_unified.py` doesn't use the new `api/routes/` structure
+\end{itemize}
+
+\begin{itemize}
+\item Duplicate API implementations
+\end{itemize}
+
+\begin{itemize}
+\item Confusion about which entry point to use
+\end{itemize}
+
+**Solution:**
+
+**Recommended Approach:**
+
+1. **Keep `application.py`** as the primary application factory (already follows layered architecture)
+
+2. **Keep `api\_server.py`** as the entry point script (uses `application.py`)
+
+3. **Migrate `api\_unified.py`** functionality to `api/routes/` structure
+
+4. **Deprecate `api\_unified.py`** after migration
+
+**Migration Steps:**
+
+1. Review endpoints in `api\_unified.py` that aren't in `api/routes/`
+
+2. Create missing route files in `api/routes/` if needed
+
+3. Update `application.py` to include all routes
+
+4. Add compatibility shim in `api\_unified.py` that imports from `application.py`
+
+5. Update documentation to use `api\_server.py` or `application.py`
+
+6. Remove `api\_unified.py` after migration period
+
+**Files to Review:**
+
+\begin{itemize}
+\item Compare endpoints in `api_unified.py` vs. `api/routes/*.py`
+\end{itemize}
+
+\begin{itemize}
+\item Ensure all functionality is covered in new structure
+\end{itemize}
+
+---
+
+\subsubsection{Phase 3: Import Path Standardization}
+
+\paragraph{3.1 Standardize Import Paths}
+
+**Current Issues:**
+
+\begin{itemize}
+\item Mixed imports: `from api_utils import ...` vs `from core.api_utils import ...`
+\end{itemize}
+
+\begin{itemize}
+\item Inconsistent use of root-level imports vs. module imports
+\end{itemize}
+
+**Solution:**
+
+**Import Standards:**
+
+\# ✅ CORRECT - Use module paths
+
+from api.api\_utils import validate\_episode\_data
+
+from core.api\_utils import create\_fastapi\_app
+
+from core.config\_manager import ConfigManager
+
+from services.memory\_service import MemoryService
+
+\# ❌ INCORRECT - Root-level imports (deprecated)
+
+from api\_utils import validate\_episode\_data
+
+from config\_manager import ConfigManager
+
+**Files to Update:**
+
+1. `api\_unified.py` - Update all root-level imports
+
+2. `tests/test\_api\_utils.py` - Update imports
+
+3. `infrastructure/providers/pipeline\_provider.py` - Update `config\_manager` import
+
+4. `application/service\_container.py` - Update `config\_manager` import
+
+5. `cli\_unified.py` - Update `config\_manager` import
+
+6. `examples/example\_config.py` - Update imports
+
+7. Any other files with root-level imports
+
+**Search Pattern:**
+
+grep -r "from (api\_utils|config\_manager|api\_auth|api\_middleware) import" --include="*.py"
+
+---
+
+\subsubsection{Phase 4: Config Manager Consolidation}
+
+\paragraph{4.1 Resolve Config Manager Duplication}
+
+**Current State:**
+
+\begin{itemize}
+\item `config_manager.py` (root, 521 lines)
+\end{itemize}
+
+\begin{itemize}
+\item `core/config_manager.py` (mentioned in README but may not exist)
+\end{itemize}
+
+**Problem:**
+
+\begin{itemize}
+\item Unclear which config manager to use
+\end{itemize}
+
+\begin{itemize}
+\item Potential duplication
+\end{itemize}
+
+**Solution:**
+
+1. Check if `core/config\_manager.py` exists
+
+2. If it exists, compare functionality
+
+3. Consolidate into single location: `core/config\_manager.py`
+
+4. Update all imports to use `core.config\_manager`
+
+5. Remove root `config\_manager.py` after migration
+
+**Files to Update:**
+
+\begin{itemize}
+\item All files importing from root `config_manager`
+\end{itemize}
+
+\begin{itemize}
+\item Update to `from core.config_manager import ...`
+\end{itemize}
+
+---
+
+\subsubsection{Phase 5: Directory Structure Alignment}
+
+\paragraph{5.1 Resolve `code/` Directory Naming Conflict}
+
+**Current Issue:**
+
+\begin{itemize}
+\item `code/` directory conflicts with Python's built-in `code` module
+\end{itemize}
+
+\begin{itemize}
+\item Causes import issues when torch tries to import built-in `code`
+\end{itemize}
+
+**Solution:**
+
+1. Rename `code/` → `code\_modules/` or `code\_models/`
+
+2. Update all imports referencing `code.`
+
+3. Update documentation
+
+**Files to Update:**
+
+\begin{itemize}
+\item All files with `from code import ...` or `import code.`
+\end{itemize}
+
+\begin{itemize}
+\item Update to `from code_modules import ...`
+\end{itemize}
+
+---
+
+\paragraph{5.2 Move Root-Level Files to Appropriate Layers}
+
+**Files to Consider Moving:**
+
+**To `api/` (Presentation Layer):**
+
+\begin{itemize}
+\item `api_auth.py` → `api/auth.py` (already exists, check for duplication)
+\end{itemize}
+
+\begin{itemize}
+\item `api_middleware.py` → `api/middleware.py` (already exists, check for duplication)
+\end{itemize}
+
+**To `services/` (Application Layer):**
+
+\begin{itemize}
+\item `monitoring_system.py` → `services/monitoring_service.py` (if not already in services/)
+\end{itemize}
+
+\begin{itemize}
+\item `integration_pipeline.py` → Keep at root (or move to `services/` if it's a service)
+\end{itemize}
+
+**To `core/` (Domain Layer):**
+
+\begin{itemize}
+\item Utility functions that are domain-agnostic
+\end{itemize}
+
+**Keep at Root:**
+
+\begin{itemize}
+\item `api_server.py` - Entry point script
+\end{itemize}
+
+\begin{itemize}
+\item `application.py` - Application factory
+\end{itemize}
+
+\begin{itemize}
+\item `cli.py`, `cli_unified.py` - CLI entry points
+\end{itemize}
+
+\begin{itemize}
+\item `chat_server.py` - Chat server entry point
+\end{itemize}
+
+\begin{itemize}
+\item `README.md`, `ARCHITECTURE.md` - Documentation
+\end{itemize}
+
+---
+
+\subsubsection{Phase 6: Architecture Alignment}
+
+\paragraph{6.1 Ensure Layered Architecture Compliance}
+
+**Current Architecture (from ARCHITECTURE.md):**
+
+Presentation (api/, api\_*.py, cli*.py, dashboard.html)
+
+    ↓
+
+Application (services/, integration\_pipeline.py, monitoring\_system.py)
+
+    ↓
+
+Domain (core/, memory/, research/, inference/, etc.)
+
+    ↓
+
+Infrastructure (infrastructure/, providers/)
+
+**Verification Checklist:**
+
+\begin{itemize}
+\item [ ] Presentation layer doesn't import directly from Domain
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Application layer uses ServiceContainer for dependencies
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Domain layer has no framework dependencies
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Infrastructure implements domain contracts
+\end{itemize}
+
+**Files to Review:**
+
+\begin{itemize}
+\item Check imports in `api/routes/*.py` - should only import from `services/` and `api/`
+\end{itemize}
+
+\begin{itemize}
+\item Check imports in `services/*.py` - should only import from `core/` and domain modules
+\end{itemize}
+
+\begin{itemize}
+\item Check imports in `core/*.py` - should not import FastAPI, Flask, etc.
+\end{itemize}
+
+---
+
+\subsection{🔍 Detailed File Analysis}
+
+\subsubsection{Files Requiring Immediate Attention}
+
+\paragraph{High Priority}
+
+1. **`api\_unified.py`** (1237 lines)
+
+   - **Issue**: Doesn't use new `api/routes/` structure
+
+   - **Action**: Migrate endpoints to `api/routes/` or deprecate
+
+   - **Dependencies**: Used by some tests/examples
+
+2. **`api\_utils.py`** (root, 268 lines)
+
+   - **Issue**: Duplicate functionality
+
+   - **Action**: Migrate to `api/api\_utils.py` and remove
+
+   - **Dependencies**: Used by `api\_unified.py`, `tests/test\_api\_utils.py`
+
+3. **`config\_manager.py`** (root, 521 lines)
+
+   - **Issue**: Potential duplication with `core/config\_manager.py`
+
+   - **Action**: Consolidate and standardize imports
+
+   - **Dependencies**: Used by many files
+
+\paragraph{Medium Priority}
+
+4. **`api\_auth.py`** (root, 313 lines)
+
+   - **Issue**: May duplicate `api/auth.py`
+
+   - **Action**: Check for duplication, consolidate if needed
+
+5. **`api\_middleware.py`** (root, 158 lines)
+
+   - **Issue**: May duplicate `api/middleware.py`
+
+   - **Action**: Check for duplication, consolidate if needed
+
+6. **`code/` directory**
+
+   - **Issue**: Naming conflict with Python built-in
+
+   - **Action**: Rename to `code\_modules/`
+
+\paragraph{Low Priority}
+
+7. **Documentation files**
+
+   - **Action**: Update references to moved/renamed files
+
+   - **Files**: `README.md`, `ARCHITECTURE.md`, `docs/*.md`
+
+---
+
+\subsection{📝 Implementation Checklist}
+
+\subsubsection{Phase 1: Utility Consolidation}
+
+\begin{itemize}
+\item [ ] Analyze differences between three `api_utils.py` files
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Migrate root `api_utils.py` functions to `api/api_utils.py`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update all imports from root `api_utils`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Add deprecation warnings
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Remove root `api_utils.py`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update tests
+\end{itemize}
+
+\subsubsection{Phase 2: API Consolidation}
+
+\begin{itemize}
+\item [ ] Compare endpoints in `api_unified.py` vs. `api/routes/`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Migrate missing endpoints to `api/routes/`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update `application.py` to include all routes
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Create compatibility shim in `api_unified.py`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update documentation
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Remove `api_unified.py` after migration period
+\end{itemize}
+
+\subsubsection{Phase 3: Import Standardization}
+
+\begin{itemize}
+\item [ ] Create import standards document
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update all root-level imports to module paths
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Run linter to verify no root-level imports remain
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update documentation with import examples
+\end{itemize}
+
+\subsubsection{Phase 4: Config Manager}
+
+\begin{itemize}
+\item [ ] Check if `core/config_manager.py` exists
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Compare functionality if both exist
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Consolidate into `core/config_manager.py`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update all imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Remove root `config_manager.py`
+\end{itemize}
+
+\subsubsection{Phase 5: Directory Structure}
+
+\begin{itemize}
+\item [ ] Rename `code/` to `code_modules/`
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update all imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Move `api_auth.py` to `api/auth.py` (if not duplicate)
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Move `api_middleware.py` to `api/middleware.py` (if not duplicate)
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update documentation
+\end{itemize}
+
+\subsubsection{Phase 6: Architecture Verification}
+
+\begin{itemize}
+\item [ ] Verify presentation layer imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Verify application layer imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Verify domain layer imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Verify infrastructure layer imports
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Fix any violations
+\end{itemize}
+
+\begin{itemize}
+\item [ ] Update architecture documentation
+\end{itemize}
+
+---
+
+\subsection{🧪 Testing Strategy}
+
+\subsubsection{Before Refactoring}
+
+1. Run full test suite to establish baseline
+
+2. Document current behavior
+
+3. Create integration tests for critical paths
+
+\subsubsection{During Refactoring}
+
+1. Run tests after each phase
+
+2. Fix any broken imports immediately
+
+3. Verify functionality hasn't changed
+
+\subsubsection{After Refactoring}
+
+1. Run full test suite
+
+2. Run linter (ruff, mypy)
+
+3. Check for circular imports
+
+4. Verify all imports resolve correctly
+
+5. Integration testing
+
+---
+
+\subsection{📚 Documentation Updates}
+
+\subsubsection{Files to Update}
+
+1. **`README.md`**
+
+   - Update import examples
+
+   - Update entry point instructions
+
+   - Remove references to deprecated files
+
+2. **`ARCHITECTURE.md`**
+
+   - Update file locations
+
+   - Update import examples
+
+   - Clarify entry points
+
+3. **`docs/API\_README.md`**
+
+   - Update API usage examples
+
+   - Update import paths
+
+4. **`docs/architecture/layers.md`**
+
+   - Update file mappings
+
+   - Update import rules
+
+---
+
+\subsection{⚠️ Risks and Mitigation}
+
+\subsubsection{Risk 1: Breaking Changes}
+
+\begin{itemize}
+\item **Risk**: Changing imports may break existing code
+\end{itemize}
+
+\begin{itemize}
+\item **Mitigation**: 
+\end{itemize}
+
+  - Use compatibility shims during transition
+
+  - Deprecation warnings before removal
+
+  - Gradual migration
+
+\subsubsection{Risk 2: Lost Functionality}
+
+\begin{itemize}
+\item **Risk**: Consolidation may lose some functionality
+\end{itemize}
+
+\begin{itemize}
+\item **Mitigation**:
+\end{itemize}
+
+  - Comprehensive comparison before consolidation
+
+  - Test coverage
+
+  - Code review
+
+\subsubsection{Risk 3: Import Cycles}
+
+\begin{itemize}
+\item **Risk**: Reorganization may create circular imports
+\end{itemize}
+
+\begin{itemize}
+\item **Mitigation**:
+\end{itemize}
+
+  - Follow layered architecture strictly
+
+  - Use dependency injection
+
+  - Test imports after changes
+
+---
+
+\subsection{🚀 Migration Timeline}
+
+\subsubsection{Week 1: Analysis & Planning}
+
+\begin{itemize}
+\item Complete file comparison
+\end{itemize}
+
+\begin{itemize}
+\item Create detailed migration scripts
+\end{itemize}
+
+\begin{itemize}
+\item Set up test baseline
+\end{itemize}
+
+\subsubsection{Week 2: Phase 1 & 2}
+
+\begin{itemize}
+\item Consolidate utilities
+\end{itemize}
+
+\begin{itemize}
+\item Migrate API endpoints
+\end{itemize}
+
+\begin{itemize}
+\item Update imports
+\end{itemize}
+
+\subsubsection{Week 3: Phase 3 & 4}
+
+\begin{itemize}
+\item Standardize imports
+\end{itemize}
+
+\begin{itemize}
+\item Consolidate config manager
+\end{itemize}
+
+\begin{itemize}
+\item Update tests
+\end{itemize}
+
+\subsubsection{Week 4: Phase 5 & 6}
+
+\begin{itemize}
+\item Directory reorganization
+\end{itemize}
+
+\begin{itemize}
+\item Architecture verification
+\end{itemize}
+
+\begin{itemize}
+\item Documentation updates
+\end{itemize}
+
+\subsubsection{Week 5: Testing & Cleanup}
+
+\begin{itemize}
+\item Full test suite
+\end{itemize}
+
+\begin{itemize}
+\item Remove deprecated files
+\end{itemize}
+
+\begin{itemize}
+\item Final documentation
+\end{itemize}
+
+---
+
+\subsection{📊 Success Metrics}
+
+1. **Code Duplication**: Reduce duplicate files to 0
+
+2. **Import Consistency**: 100\% of imports use module paths
+
+3. **Architecture Compliance**: All layers follow dependency rules
+
+4. **Test Coverage**: Maintain or improve test coverage
+
+5. **Documentation**: All docs updated with new structure
+
+---
+
+\subsection{🔗 Related Documents}
+
+\begin{itemize}
+\item `ARCHITECTURE.md` - Layered architecture documentation
+\end{itemize}
+
+\begin{itemize}
+\item `docs/architecture/layers.md` - Detailed layer rules
+\end{itemize}
+
+\begin{itemize}
+\item `CLEANUP_SUMMARY.md` - Previous cleanup efforts
+\end{itemize}
+
+\begin{itemize}
+\item `CODE_CLEANUP_SUMMARY.md` - Code quality improvements
+\end{itemize}
+
+\begin{itemize}
+\item `MEJORAS_MODULOS_V2.md` - Module improvements
+\end{itemize}
+
+---
+
+\subsection{📝 Notes}
+
+\begin{itemize}
+\item This refactoring should be done incrementally
+\end{itemize}
+
+\begin{itemize}
+\item Maintain backward compatibility during transition
+\end{itemize}
+
+\begin{itemize}
+\item Use feature flags if needed for gradual rollout
+\end{itemize}
+
+\begin{itemize}
+\item Communicate changes to all team members
+\end{itemize}
+
+\begin{itemize}
+\item Update CI/CD pipelines if import paths change
+\end{itemize}
+
+---
+
+**Status**: ✅ Analysis Complete  
+
+**Next Step**: Begin Phase 1 - Utility Files Consolidation
+
+\end{document}

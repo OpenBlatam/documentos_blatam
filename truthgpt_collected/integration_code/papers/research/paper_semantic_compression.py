@@ -109,19 +109,48 @@ class SemanticCompressor(nn.Module):
         # Filtrar tokens redundantes
         batch_size, seq_len, hidden_dim = hidden_states.shape
         
-        # Aplicar máscara
-        keep_indices = keep_mask.nonzero(as_tuple=True)[1]  # Índices a mantener
+        # Aplicar máscara por batch
+        compressed_list = []
+        max_compressed_len = 0
         
-        if len(keep_indices) == 0:
-            # Si no hay tokens a mantener, usar promedio
-            compressed = hidden_states.mean(dim=1, keepdim=True)
-        else:
-            # Seleccionar tokens relevantes
-            relevant_tokens = hidden_states[:, keep_indices, :]  # [batch, num_relevant, hidden_dim]
+        # Primera pasada: encontrar longitud máxima
+        for b in range(batch_size):
+            keep_indices = keep_mask[b].nonzero(as_tuple=False).squeeze(-1)
+            if len(keep_indices) == 0:
+                compressed_len = 1
+            else:
+                compressed_len = len(keep_indices)
+            max_compressed_len = max(max_compressed_len, compressed_len)
+        
+        # Segunda pasada: comprimir y hacer padding
+        for b in range(batch_size):
+            # Obtener índices a mantener para este batch
+            keep_indices = keep_mask[b].nonzero(as_tuple=False).squeeze(-1)  # [num_keep]
             
-            # Comprimir
-            compressed = self.compressor(relevant_tokens)
-            compressed = self.output_proj(compressed)
+            if len(keep_indices) == 0:
+                # Si no hay tokens a mantener, usar promedio
+                compressed_b = hidden_states[b:b+1].mean(dim=1, keepdim=True)  # [1, 1, hidden_dim]
+            else:
+                # Seleccionar tokens relevantes para este batch
+                relevant_tokens = hidden_states[b:b+1, keep_indices, :]  # [1, num_relevant, hidden_dim]
+                
+                # Comprimir
+                compressed_b = self.compressor(relevant_tokens)  # [1, num_relevant, hidden_dim]
+                compressed_b = self.output_proj(compressed_b)  # [1, num_relevant, hidden_dim]
+            
+            # Padding a la longitud máxima si es necesario
+            current_len = compressed_b.shape[1]
+            if current_len < max_compressed_len:
+                padding_size = max_compressed_len - current_len
+                # Padding con ceros al final
+                padding = torch.zeros(1, padding_size, compressed_b.shape[2], 
+                                    device=compressed_b.device, dtype=compressed_b.dtype)
+                compressed_b = torch.cat([compressed_b, padding], dim=1)  # [1, max_len, hidden_dim]
+            
+            compressed_list.append(compressed_b)
+        
+        # Concatenar resultados de todos los batches
+        compressed = torch.cat(compressed_list, dim=0)  # [batch, max_compressed_len, hidden_dim]
         
         return compressed
 
@@ -271,5 +300,6 @@ if __name__ == "__main__":
     print(f"   Input shape: {hidden_states.shape}")
     print(f"   Output shape: {output.shape}")
     print(f"   Compression ratio: {metadata['compression_ratio']:.4f}")
+
 
 

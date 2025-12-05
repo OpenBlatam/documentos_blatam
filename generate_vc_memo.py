@@ -100,3 +100,8 @@ if __name__ == "__main__":
     create_investment_memo("Ventura_Capital_Investment_Memo.docx")
 
 
+
+
+
+
+

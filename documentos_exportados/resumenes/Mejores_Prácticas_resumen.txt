@@ -1,0 +1,53 @@
+
+RESUMEN AUTOMÁTICO - Mejores Prácticas
+======================================================================
+
+Fecha: 24 de November de 2025 20:38
+
+MÉTRICAS PRINCIPALES
+----------------------------------------------------------------------
+• Total de Palabras: 912
+• Total de Líneas: 341
+• Total de Secciones: 72
+• Bloques de Código: 10
+• Tablas: 1
+• Enlaces: 14
+• Listas: 83
+
+ANÁLISIS DE CALIDAD
+----------------------------------------------------------------------
+• Legibilidad: 100.0/100
+  ✓ Excelente
+• Complejidad: 27.20
+  ⚠ Complejo
+• Promedio Palabras/Sección: 13
+• Ratio de Código: 26.1%
+
+ESTRUCTURA
+----------------------------------------------------------------------
+Total de secciones: 72
+
+Principales secciones:
+  • ✨ Mejores Prácticas - Documentos BLATAM
+    • 📋 Tabla de Contenidos
+    • 📝 Uso de Templates
+      • ✅ Hacer
+      • ❌ Evitar
+      • 💡 Ejemplo Correcto
+  • Template original (NO modificar)
+  • Tu versión personalizada (SÍ modificar)
+    • 🎨 Personalización
+      • Variables Comunes
+
+PALABRAS CLAVE
+----------------------------------------------------------------------
+• Probar (1)
+• Documentos (1)
+• Verificar (1)
+• Tokens (1)
+• Variables (1)
+• Checklists (1)
+• Convenciones (1)
+• Prueba (1)
+• Patch (1)
+• Variable (1)

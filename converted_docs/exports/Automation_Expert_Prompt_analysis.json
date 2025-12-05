@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "document_name": "Automation_Expert_Prompt",
+    "generated_at": "2025-11-24T20:25:28.755572",
+    "source_file": "/Users/adan/Documents/documentos_blatam/airflow_automation_prompt.md"
+  },
+  "statistics": {
+    "total_lines": 4235,
+    "total_words": 24181,
+    "total_chars": 209190,
+    "total_chars_no_spaces": 186759,
+    "sections": 1,
+    "code_blocks": 1,
+    "links": 0,
+    "images": 0,
+    "top_keywords": {
+      "automation": 728,
+      "management": 453,
+      "automated": 410,
+      "data": 273,
+      "monitoring": 174,
+      "testing": 152,
+      "integration": 141,
+      "analytics": 135,
+      "workflow": 132,
+      "tracking": 122,
+      "reporting": 122,
+      "compliance": 119,
+      "workflows": 116,
+      "validation": 112,
+      "processing": 108,
+      "optimization": 101,
+      "deployment": 98,
+      "resource": 98,
+      "scheduling": 97,
+      "security": 93
+    },
+    "section_analysis": {
+      "total": 1,
+      "by_level": {
+        "0": 1
+      },
+      "avg_words_per_section": 24043.0,
+      "sections_with_code": 1,
+      "sections_with_links": 1
+    },
+    "readability_score": 26,
+    "complexity_score": 100,
+    "reading_time": {
+      "minutes": 120.905,
+      "hours": 2,
+      "remaining_minutes": 0
+    }
+  },
+  "structure": {
+    "total_sections": 1,
+    "sections": [
+      {
+        "title": "",
+        "level": 0,
+        "word_count": 24043,
+        "code_blocks": 24,
+        "links": 6,
+        "content_preview": "<!--\n================================================================================\nAUTOMATION EXPERT SYSTEM PROMPT\n================================================================================\nV"
+      }
+    ]
+  },
+  "analysis": {
+    "reading_time": {
+      "minutes": 120.905,
+      "hours": 2,
+      "remaining_minutes": 0
+    },
+    "readability": {
+      "score": 26,
+      "level": "Bajo"
+    },
+    "complexity": {
+      "score": 100,
+      "level": "Alto"
+    }
+  }
+}

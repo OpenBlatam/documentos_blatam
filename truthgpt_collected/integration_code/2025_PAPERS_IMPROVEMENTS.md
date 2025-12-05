@@ -129,3 +129,8 @@ print(f"Variants per problem: {ladder_info['technical_details']['num_variants_pe
 - JSON Consolidado: `scraped_papers/2025_papers/2025_top_papers.json`
 
 
+
+
+
+
+

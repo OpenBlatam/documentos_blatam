@@ -1,0 +1,49 @@
+{
+  "document": "truthgpt_collected/integration_code/production_code/INDICE_DOCUMENTACION.md",
+  "generated_at": "2025-11-24T20:35:48.705773",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 0,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 115.22,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 6.91,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 1.0,
+    "positive_words": 4,
+    "negative_words": 0
+  },
+  "structure": {
+    "has_toc": true,
+    "has_summary": true,
+    "has_conclusion": false,
+    "header_distribution": {
+      "1": 1,
+      "2": 9,
+      "3": 25
+    },
+    "list_items": 106,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "tecnología": 25,
+      "proceso": 22,
+      "datos": 3
+    },
+    "primary_topic": "tecnología",
+    "topic_diversity": 4
+  },
+  "quality_score": 45
+}

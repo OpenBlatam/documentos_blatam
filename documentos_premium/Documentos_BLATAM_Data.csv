@@ -1,0 +1,26 @@
+Métrica,Valor
+Total de Palabras,34915
+Total de Secciones,504
+Bloques de Código,61
+Enlaces,178
+Imágenes,4
+Tablas,36
+Documentos Procesados,11
+Palabras por Sección,69.28
+Densidad de Código,1.7471
+Legibilidad,100.00
+Complejidad,18.24
+Sentimiento Promedio,0.3548
+
+Documento,Palabras,Secciones,Código,Enlaces,Legibilidad,Complejidad,Sentimiento,Temas
+ARCHITECTURE.md,968,45,8,13,100.00,18.80,0.2066,"scripts, enlaces, estructura"
+README.md,1830,74,5,120,100.00,42.60,0.1639,"06_documentation, scripts, templates"
+airflow_automation_prompt.md,23132,0,1,0,100.00,0.40,0.0000,"automation, management, automated"
+ARCHITECTURE_IMPROVEMENTS.md,1381,39,2,0,100.00,12.50,0.2172,"imports, root, files"
+REFACTORING_PLAN.md,1725,51,3,0,100.00,16.50,0.1159,"import, update, imports"
+ARCHITECTURE.md,349,11,5,0,100.00,5.30,0.2865,"servicios, capa, http"
+README.md,1996,101,19,0,100.00,37.90,0.1002,"python, modelos, sistema"
+INDICE_DOCUMENTACION.md,518,35,0,0,100.00,10.50,0.9653,"documentación, mejoras, architecture"
+resumen_final_completo.md,874,33,17,0,100.00,16.70,0.8009,"documentos, yaml, frameworks"
+indice_maestro_documentacion.md,612,48,0,0,100.00,14.40,0.6536,"gestión, documentación, marketing"
+project_summary.md,1530,67,1,45,100.00,25.00,0.3922,"readme, 06_documentation, marketing"

@@ -139,3 +139,8 @@ with st.sidebar:
         st.download_button("💾 Descargar Chat (.txt)", chat_str, file_name=f"chat_{expert_name}.txt")
 
 
+
+
+
+
+

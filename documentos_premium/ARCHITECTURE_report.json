@@ -1,0 +1,49 @@
+{
+  "document": "truthgpt_collected/integration_code/production_code/ARCHITECTURE.md",
+  "generated_at": "2025-11-24T20:35:48.700944",
+  "statistics": {
+    "words": 0,
+    "sections": 0,
+    "code_blocks": 5,
+    "links": 0,
+    "images": 0,
+    "tables": 0
+  },
+  "readability": {
+    "flesch_score": 113.8,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 8.31,
+    "avg_syllables_per_word": 1.0
+  },
+  "sentiment": {
+    "sentiment": "Positivo",
+    "score": 0.67,
+    "positive_words": 2,
+    "negative_words": 1
+  },
+  "structure": {
+    "has_toc": false,
+    "has_summary": false,
+    "has_conclusion": false,
+    "header_distribution": {
+      "1": 1,
+      "2": 6,
+      "3": 4
+    },
+    "list_items": 12,
+    "code_blocks": 5,
+    "tables": 0,
+    "images": 0,
+    "links": 0
+  },
+  "topics": {
+    "topics": {
+      "tecnología": 30,
+      "negocio": 14,
+      "ia": 5
+    },
+    "primary_topic": "tecnología",
+    "topic_diversity": 6
+  },
+  "quality_score": 40
+}

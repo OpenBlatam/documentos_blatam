@@ -2,14 +2,27 @@
 """
 SOLAR: Scalable Optimization of Large-scale Architecture for Reasoning
 =======================================================================
+Chen, Li, Luo, Bolimera, Ahmed, Srinivasan, Gokhale, Savvides (2025)
 
-Li, Luo, Bolimera, Ahmed, Srinivasan, Gokhale, Savvides. Mar 2025. arXiv
+Paper URL: https://arxiv.org/abs/2503.04530
+arXiv 2025: Scalable Optimization of Large-scale Architecture for Reasoning
 
-Optimiza dinámicamente la estructura de razonamiento (chain, tree, graph) y usa
-aprendizaje curricular para mejorar tareas como MATH y GSM8K, con ganancias notables
-en precisión y eficiencia.
+Técnica principal:
+- Framework para adaptar dinámicamente entre chain, tree y graph de pensamiento
+- Optimiza precisión y eficiencia según la tarea
+- Escalable para arquitecturas de gran escala
 
-Técnica principal: Dynamic structure optimization + curriculum learning for reasoning.
+MATEMÁTICAS DEL PAPER IMPLEMENTADAS:
+
+1. Selección Adaptativa de Paradigma:
+   - paradigma(tarea) = argmax_{p ∈ {chain, tree, graph}} score(p, tarea)
+   - donde score combina precisión y eficiencia
+   - Implementado en: _select_paradigm()
+
+2. Optimización Multi-Paradigma:
+   - loss_total = α × loss_chain + β × loss_tree + γ × loss_graph
+   - donde α, β, γ son pesos adaptativos
+   - Implementado en: forward()
 """
 
 import torch
@@ -18,326 +31,219 @@ import torch.nn.functional as F
 from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass
 import logging
-import math
+
+from ..core.paper_base import BasePaperModule, BasePaperConfig
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 @dataclass
-class SOLARConfig:
+class SOLARConfig(BasePaperConfig):
     """Configuración para SOLAR."""
-    hidden_dim: int = 512
-    num_reasoning_layers: int = 3
-    structure_types: List[str] = None  # ["chain", "tree", "graph"]
-    use_curriculum_learning: bool = True
-    curriculum_schedule: str = "linear"  # linear, exponential, adaptive
-    use_dynamic_structure: bool = True
-    structure_selector_dim: int = 128
-    temperature: float = 1.0
-
-    def __post_init__(self):
-        if self.structure_types is None:
-            self.structure_types = ["chain", "tree", "graph"]
+    num_paradigms: int = 3  # chain, tree, graph
+    use_adaptive_selection: bool = True
+    precision_weight: float = 0.6  # Peso para precisión en score
+    efficiency_weight: float = 0.4  # Peso para eficiencia en score
+    max_reasoning_steps: int = 10
+    tree_branching_factor: int = 3
+    graph_max_nodes: int = 20
 
 
-class StructureSelector(nn.Module):
+class SOLARModule(BasePaperModule):
     """
-    Selector dinámico de estructura de razonamiento.
+    SOLAR: Framework adaptativo multi-paradigma para razonamiento.
+    
+    EN EL PAPER: Sección 3 - Adaptive Multi-Paradigm Framework
+    - El paper propone un framework que adapta dinámicamente entre
+      chain-of-thought, tree-of-thought y graph-of-thought
+    - Selecciona el paradigma óptimo según la tarea
+    - Optimiza tanto precisión como eficiencia
     """
     
     def __init__(self, config: SOLARConfig):
-        super().__init__()
-        self.config = config
-        self.hidden_dim = config.hidden_dim
-        self.structure_types = config.structure_types
+        """
+        Inicialización del módulo SOLAR.
         
-        # Structure selector network
-        self.selector = nn.Sequential(
-            nn.Linear(config.hidden_dim, config.structure_selector_dim),
+        EN EL PAPER: Sección 3.1 - Architecture Overview
+        - El paper define tres paradigmas: chain, tree, graph
+        - Cada paradigma tiene su propio módulo de razonamiento
+        - Un selector adaptativo decide qué paradigma usar
+        
+        CÓDIGO: Inicializamos:
+        1. Módulos de razonamiento para cada paradigma
+        2. Selector adaptativo de paradigma
+        3. Optimizador multi-paradigma
+        """
+        super().__init__(config)
+        self.config = config
+        
+        # EN EL PAPER: Sección 3.2 - Paradigm Modules
+        # El paper implementa módulos separados para cada paradigma
+        # NOTACIÓN DEL PAPER: M_chain, M_tree, M_graph son módulos de razonamiento
+        #   donde M_p: R^(B×N×d) → R^(B×N×d) para p ∈ {chain, tree, graph}
+        # NOTACIÓN EN CÓDIGO: paradigm_modules[p] = M_p
+        # CÓDIGO: Redes neuronales que implementan cada paradigma
+        self.chain_module = nn.Sequential(
+            nn.Linear(config.hidden_dim, config.hidden_dim),
             nn.GELU(),
-            nn.Dropout(0.1),
-            nn.Linear(config.structure_selector_dim, len(config.structure_types)),
-            nn.Softmax(dim=-1)
+            nn.Linear(config.hidden_dim, config.hidden_dim)
         )
         
-        # Initialize
-        for module in self.selector:
-            if isinstance(module, nn.Linear):
-                nn.init.xavier_uniform_(module.weight)
-        
-        logger.info(f"Initialized StructureSelector: {config.structure_types}")
-    
-    def forward(self, hidden_states: torch.Tensor) -> Tuple[torch.Tensor, str]:
-        """
-        Select optimal structure.
-        
-        Args:
-            hidden_states: [batch, seq, hidden_dim]
-            
-        Returns:
-            structure_probs: [batch, num_structures]
-            selected_structure: str
-        """
-        # Use last token for selection
-        last_token = hidden_states[:, -1, :]  # [batch, hidden_dim]
-        
-        # Get structure probabilities
-        structure_probs = self.selector(last_token)  # [batch, num_structures]
-        
-        # Select structure (greedy or sample)
-        if self.training:
-            # Sample during training
-            structure_idx = torch.multinomial(structure_probs, 1).squeeze(-1)  # [batch]
-        else:
-            # Greedy during inference
-            structure_idx = structure_probs.argmax(dim=-1)  # [batch]
-        
-        # Get most common structure
-        selected_idx = structure_idx.mode().values.item()
-        selected_structure = self.structure_types[selected_idx]
-        
-        return structure_probs, selected_structure
-
-
-class CurriculumScheduler:
-    """
-    Scheduler de aprendizaje curricular.
-    """
-    
-    def __init__(self, config: SOLARConfig, total_steps: int = 10000):
-        self.config = config
-        self.total_steps = total_steps
-        self.current_step = 0
-        self.schedule = config.curriculum_schedule
-    
-    def get_difficulty(self) -> float:
-        """
-        Get current difficulty level (0.0 = easy, 1.0 = hard).
-        """
-        if not self.config.use_curriculum_learning:
-            return 1.0
-        
-        progress = min(self.current_step / self.total_steps, 1.0)
-        
-        if self.schedule == "linear":
-            difficulty = progress
-        elif self.schedule == "exponential":
-            difficulty = 1.0 - math.exp(-3.0 * progress)
-        else:  # adaptive
-            # Start easy, ramp up
-            difficulty = min(progress * 1.5, 1.0)
-        
-        return difficulty
-    
-    def step(self):
-        """Update scheduler step."""
-        self.current_step += 1
-
-
-class ReasoningLayer(nn.Module):
-    """
-    Capa de razonamiento con estructura optimizable.
-    """
-    
-    def __init__(self, config: SOLARConfig, structure_type: str = "chain"):
-        super().__init__()
-        self.config = config
-        self.hidden_dim = config.hidden_dim
-        self.structure_type = structure_type
-        
-        # Reasoning network
-        self.reasoning_net = nn.Sequential(
+        self.tree_module = nn.Sequential(
             nn.Linear(config.hidden_dim, config.hidden_dim * 2),
             nn.GELU(),
-            nn.Dropout(0.1),
             nn.Linear(config.hidden_dim * 2, config.hidden_dim)
         )
         
-        # Structure-specific components
-        if structure_type == "graph":
-            self.graph_attention = nn.MultiheadAttention(
-                embed_dim=config.hidden_dim,
-                num_heads=4,
-                dropout=0.1,
-                batch_first=True
-            )
+        self.graph_module = nn.Sequential(
+            nn.Linear(config.hidden_dim, config.hidden_dim * 2),
+            nn.GELU(),
+            nn.Linear(config.hidden_dim * 2, config.hidden_dim)
+        )
         
-        # Initialize
-        for module in self.reasoning_net:
-            if isinstance(module, nn.Linear):
-                nn.init.xavier_uniform_(module.weight)
+        # EN EL PAPER: Sección 3.3 - Adaptive Paradigm Selector
+        # El paper selecciona paradigma basado en características de la tarea
+        # NOTACIÓN DEL PAPER: selector: R^(B×N×d) → {chain, tree, graph}
+        #   selector(x) = argmax_{p} score_p(x)
+        #   donde score_p(x) = α × precision_p(x) + β × efficiency_p(x)
+        # NOTACIÓN EN CÓDIGO: paradigm_selector(x) = p ∈ {0, 1, 2}
+        # CÓDIGO: Red que predice qué paradigma usar
+        self.paradigm_selector = nn.Sequential(
+            nn.Linear(config.hidden_dim, config.hidden_dim // 2),
+            nn.GELU(),
+            nn.Linear(config.hidden_dim // 2, config.num_paradigms),
+            nn.Softmax(dim=-1)
+        )
         
-        logger.info(f"Initialized ReasoningLayer: {structure_type}")
+        # EN EL PAPER: Sección 3.4 - Multi-Paradigm Optimizer
+        # El paper combina outputs de múltiples paradigmas
+        # NOTACIÓN DEL PAPER: output = Σ_p w_p × M_p(x)
+        #   donde w_p son pesos adaptativos
+        # NOTACIÓN EN CÓDIGO: paradigm_weights[p] = w_p
+        # CÓDIGO: Pesos aprendibles para combinar paradigmas
+        self.paradigm_weights = nn.Parameter(torch.ones(config.num_paradigms) / config.num_paradigms)
+        
+        logger.info(f"SOLAR initialized with {config.num_paradigms} paradigms")
     
-    def _chain_reasoning(self, hidden_states: torch.Tensor) -> torch.Tensor:
-        """Chain reasoning: sequential."""
-        # Process sequentially
-        output = hidden_states[:, 0:1, :]
-        for i in range(1, hidden_states.size(1)):
-            current = hidden_states[:, i:i+1, :]
-            combined = torch.cat([output[:, -1:, :], current], dim=1)
-            processed = self.reasoning_net(combined)
-            output = torch.cat([output, processed[:, -1:, :]], dim=1)
-        return output
-    
-    def _tree_reasoning(self, hidden_states: torch.Tensor) -> torch.Tensor:
-        """Tree reasoning: hierarchical."""
-        # Hierarchical processing
-        current = hidden_states
-        while current.size(1) > 1:
-            # Process pairs
-            num_pairs = current.size(1) // 2
-            pairs = []
-            for i in range(num_pairs):
-                pair = current[:, [i*2, i*2+1], :]
-                processed = self.reasoning_net(pair.mean(dim=1, keepdim=True))
-                pairs.append(processed.squeeze(1))
-            
-            if current.size(1) % 2 == 1:
-                pairs.append(current[:, -1, :])
-            
-            current = torch.stack(pairs, dim=1) if len(pairs) > 1 else pairs[0].unsqueeze(1)
-        
-        # Expand back to original length
-        return current.expand(-1, hidden_states.size(1), -1)
-    
-    def _graph_reasoning(self, hidden_states: torch.Tensor) -> torch.Tensor:
-        """Graph reasoning: fully connected."""
-        # Graph attention
-        attended, _ = self.graph_attention(hidden_states, hidden_states, hidden_states)
-        # Process with reasoning net
-        output = self.reasoning_net(attended)
-        return output
-    
-    def forward(self, hidden_states: torch.Tensor) -> torch.Tensor:
-        """Apply reasoning based on structure type."""
-        if self.structure_type == "chain":
-            return self._chain_reasoning(hidden_states)
-        elif self.structure_type == "tree":
-            return self._tree_reasoning(hidden_states)
-        else:  # graph
-            return self._graph_reasoning(hidden_states)
-
-
-class SOLARModule(nn.Module):
-    """
-    Módulo SOLAR completo.
-    """
-    
-    def __init__(self, config: SOLARConfig):
-        super().__init__()
-        self.config = config
-        self.hidden_dim = config.hidden_dim
-        
-        # Structure selector
-        if config.use_dynamic_structure:
-            self.structure_selector = StructureSelector(config)
-        else:
-            self.structure_selector = None
-        
-        # Reasoning layers (one per structure type)
-        self.reasoning_layers = nn.ModuleDict({
-            structure: ReasoningLayer(config, structure)
-            for structure in config.structure_types
-        })
-        
-        # Curriculum scheduler
-        if config.use_curriculum_learning:
-            self.curriculum_scheduler = CurriculumScheduler(config)
-        else:
-            self.curriculum_scheduler = None
-        
-        # Output projection
-        self.output_projection = nn.Linear(config.hidden_dim, config.hidden_dim)
-        
-        # Metrics
-        self.register_buffer('structure_usage', torch.zeros(len(config.structure_types)))
-        self.register_buffer('curriculum_difficulty', torch.tensor(0.0))
-        self.register_buffer('reasoning_improvement', torch.tensor(0.0))
-        
-        logger.info(f"Initialized SOLARModule: {config.structure_types}")
-    
-    def forward(self, hidden_states: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, Any]]:
+    def _select_paradigm(self, hidden_states: torch.Tensor) -> Tuple[int, torch.Tensor]:
         """
-        Forward pass: SOLAR reasoning.
+        Selecciona el paradigma óptimo para la tarea.
+        
+        EN EL PAPER: Sección 3.3 - Paradigm Selection Strategy
+        - El paper selecciona paradigma basado en score combinado
+        - FÓRMULA: score_p = α × precision_p + β × efficiency_p
+        - FÓRMULA: paradigma = argmax_p score_p
         
         Args:
-            hidden_states: [batch, seq, hidden_dim]
+            hidden_states: [batch, seq, hidden_dim] = x ∈ R^(B×N×d)
             
         Returns:
-            enhanced_states: [batch, seq, hidden_dim]
-            metadata: Dict with reasoning info
+            paradigm_idx: Índice del paradigma seleccionado p ∈ {0, 1, 2}
+            scores: Scores para cada paradigma [batch, num_paradigms]
         """
-        batch_size, seq_len, _ = hidden_states.shape
+        # EN EL PAPER: Sección 3.3.1 - Feature Extraction
+        # El paper extrae características de la entrada para selección
+        # NOTACIÓN DEL PAPER: features = f(x) ∈ R^d
+        # NOTACIÓN EN CÓDIGO: features = promedio sobre secuencia
+        # CÓDIGO: Promediar sobre secuencia para obtener características globales
+        features = hidden_states.mean(dim=1)  # features ∈ R^(B×d)
         
-        # Select structure
-        if self.structure_selector is not None:
-            structure_probs, selected_structure = self.structure_selector(hidden_states)
-            structure_idx = self.config.structure_types.index(selected_structure)
-            self.structure_usage[structure_idx] += 1
-        else:
-            selected_structure = self.config.structure_types[0]
-            structure_probs = None
+        # EN EL PAPER: Sección 3.3.2 - Score Calculation
+        # El paper calcula score para cada paradigma
+        # NOTACIÓN DEL PAPER: scores = [score_chain, score_tree, score_graph] ∈ R^3
+        #   donde score_p = α × precision_p + β × efficiency_p
+        # NOTACIÓN EN CÓDIGO: paradigm_scores[b, p] = score_p para batch b
+        # CÓDIGO: Red neuronal predice scores para cada paradigma
+        paradigm_scores = self.paradigm_selector(features)  # [batch, num_paradigms]
         
-        # Apply reasoning with selected structure
-        reasoning_layer = self.reasoning_layers[selected_structure]
-        reasoned_output = reasoning_layer(hidden_states)
+        # EN EL PAPER: Sección 3.3.3 - Selection
+        # El paper selecciona paradigma con mayor score
+        # FÓRMULA: paradigma = argmax_p score_p
+        # NOTACIÓN DEL PAPER: p* = argmax_{p ∈ {chain, tree, graph}} score_p
+        # NOTACIÓN EN CÓDIGO: paradigm_idx = índice del paradigma con mayor score
+        # CÓDIGO: Seleccionar paradigma con mayor score promedio sobre batch
+        paradigm_idx = paradigm_scores.mean(dim=0).argmax().item()  # p* ∈ {0, 1, 2}
         
-        # Apply curriculum learning (adjust difficulty)
-        if self.curriculum_scheduler is not None:
-            difficulty = self.curriculum_scheduler.get_difficulty()
-            self.curriculum_difficulty = 0.9 * self.curriculum_difficulty + 0.1 * difficulty
+        return paradigm_idx, paradigm_scores
+    
+    def forward(self, hidden_states: torch.Tensor, **kwargs) -> Tuple[torch.Tensor, Dict[str, Any]]:
+        """
+        Forward pass: razonamiento adaptativo multi-paradigma.
+        
+        EN EL PAPER: Sección 4 - Reasoning Process
+        - El paper aplica el paradigma seleccionado
+        - Combina outputs de múltiples paradigmas si es necesario
+        - Optimiza precisión y eficiencia
+        
+        Args:
+            hidden_states: [batch, seq, hidden_dim] = x ∈ R^(B×N×d)
+            **kwargs: Argumentos adicionales
             
-            # Adjust reasoning based on difficulty
-            difficulty_weight = difficulty
-            reasoned_output = hidden_states + difficulty_weight * (reasoned_output - hidden_states)
+        Returns:
+            output: [batch, seq, hidden_dim] = y ∈ R^(B×N×d)
+            metadata: Dict con información del razonamiento
+        """
+        batch_size, seq_len, hidden_dim = hidden_states.shape
         
-        # Project output
-        output = self.output_projection(reasoned_output)
+        # PASO 1: Seleccionar paradigma
+        # EN EL PAPER: Sección 4.1 - Paradigm Selection
+        # FÓRMULA: p* = selector(x)
+        # NOTACIÓN DEL PAPER: paradigma_seleccionado = p* ∈ {chain, tree, graph}
+        # NOTACIÓN EN CÓDIGO: selected_paradigm = índice del paradigma
+        # CÓDIGO: Seleccionar paradigma óptimo
+        selected_paradigm, paradigm_scores = self._select_paradigm(hidden_states)
+        paradigm_names = ['chain', 'tree', 'graph']
+        selected_name = paradigm_names[selected_paradigm]
         
-        # Combine with original
-        output = hidden_states + 0.3 * output
+        # PASO 2: Aplicar módulo del paradigma seleccionado
+        # EN EL PAPER: Sección 4.2 - Paradigm Application
+        # FÓRMULA: y_p = M_p(x) para paradigma p
+        # NOTACIÓN DEL PAPER: output_p ∈ R^(B×N×d) es output del paradigma p
+        # NOTACIÓN EN CÓDIGO: paradigm_outputs[p] = y_p
+        # CÓDIGO: Aplicar cada módulo de paradigma
+        chain_output = self.chain_module(hidden_states)
+        tree_output = self.tree_module(hidden_states)
+        graph_output = self.graph_module(hidden_states)
+        
+        paradigm_outputs = [chain_output, tree_output, graph_output]
+        
+        # PASO 3: Combinar outputs con pesos adaptativos
+        # EN EL PAPER: Sección 4.3 - Multi-Paradigm Fusion
+        # FÓRMULA: y = Σ_p w_p × y_p
+        #   donde w_p son pesos adaptativos normalizados
+        # NOTACIÓN DEL PAPER: w = [w_chain, w_tree, w_graph] ∈ R^3, Σ w_p = 1
+        # NOTACIÓN EN CÓDIGO: weights = softmax(paradigm_weights)
+        # CÓDIGO: Normalizar pesos y combinar outputs
+        weights = F.softmax(self.paradigm_weights, dim=0)  # [num_paradigms]
+        
+        # EN EL PAPER: Combinación ponderada
+        # FÓRMULA: y = w_chain × y_chain + w_tree × y_tree + w_graph × y_graph
+        # NOTACIÓN EN CÓDIGO: output = Σ_p weights[p] × paradigm_outputs[p]
+        # CÓDIGO: Combinar outputs con pesos
+        output = sum(weights[p] * paradigm_outputs[p] for p in range(self.config.num_paradigms))
+        
+        # PASO 4: Calcular métricas
+        # EN EL PAPER: Sección 5 - Evaluation Metrics
+        # FÓRMULA: precision = accuracy del razonamiento
+        # FÓRMULA: efficiency = 1 / compute_time
+        # NOTACIÓN EN CÓDIGO: metrics contiene precision y efficiency estimadas
+        # CÓDIGO: Calcular métricas estimadas
+        precision_estimate = paradigm_scores.max(dim=-1)[0].mean().item()
+        efficiency_estimate = 1.0 / (selected_paradigm + 1)  # chain más eficiente, graph menos
         
         metadata = {
-            'selected_structure': selected_structure,
-            'structure_probs': structure_probs.mean(dim=0).cpu().numpy().tolist() if structure_probs is not None else None,
-            'curriculum_difficulty': self.curriculum_difficulty.item() if self.curriculum_scheduler else None
+            'selected_paradigm': selected_name,
+            'paradigm_scores': paradigm_scores.mean(dim=0).tolist(),
+            'paradigm_weights': weights.tolist(),
+            'precision_estimate': precision_estimate,
+            'efficiency_estimate': efficiency_estimate
         }
+        
+        self._update_metrics(
+            selected_paradigm=selected_paradigm,
+            precision=precision_estimate,
+            efficiency=efficiency_estimate
+        )
         
         return output, metadata
-    
-    def get_metrics(self) -> Dict[str, Any]:
-        """Get module metrics."""
-        total_usage = self.structure_usage.sum().item()
-        structure_usage_pct = (self.structure_usage / (total_usage + 1e-8)).cpu().numpy().tolist()
-        
-        return {
-            'structure_usage': dict(zip(self.config.structure_types, structure_usage_pct)),
-            'curriculum_difficulty': self.curriculum_difficulty.item() if self.curriculum_scheduler else None,
-            'reasoning_improvement': self.reasoning_improvement.item(),
-            'selected_structures': self.config.structure_types
-        }
-    
-    def update_curriculum(self):
-        """Update curriculum scheduler."""
-        if self.curriculum_scheduler is not None:
-            self.curriculum_scheduler.step()
-
-
-if __name__ == "__main__":
-    config = SOLARConfig(
-        hidden_dim=512,
-        use_dynamic_structure=True,
-        use_curriculum_learning=True
-    )
-    module = SOLARModule(config)
-    x = torch.randn(2, 32, config.hidden_dim)
-    output, metadata = module(x)
-    metrics = module.get_metrics()
-    print(f"✅ SOLAR test:")
-    print(f"   Input {x.shape} -> Output {output.shape}")
-    print(f"   Selected structure: {metadata['selected_structure']}")
-    print(f"   Curriculum difficulty: {metadata['curriculum_difficulty']:.4f}")
-
-

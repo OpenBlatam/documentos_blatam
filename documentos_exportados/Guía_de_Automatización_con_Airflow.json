@@ -1,0 +1,159 @@
+{
+  "title": "Guía de Automatización con Airflow",
+  "generated_at": "2025-11-24T21:24:25.674138",
+  "metrics": {
+    "reading_time_minutes": 96,
+    "total_links": 0,
+    "total_images": 0,
+    "complexity_score": 29,
+    "complexity_level": "Media",
+    "quality_score": 35,
+    "quality_level": "Necesita Mejora",
+    "total_numbers": 345,
+    "max_number": 2024,
+    "avg_number": 38,
+    "percentages": [
+      50,
+      70,
+      70
+    ],
+    "max_percentage": 70,
+    "avg_percentage": 63,
+    "total_lines": 4235,
+    "total_words": 24181,
+    "total_sections": 0,
+    "code_blocks": 1,
+    "flesch_score": 100,
+    "reading_level": "Muy Fácil",
+    "sentiment_tone": "Negativo",
+    "coherence_score": 0
+  },
+  "sections": [],
+  "quality_analysis": {
+    "scores": {
+      "structure": 0,
+      "content": 25,
+      "links": 0,
+      "tables": 0,
+      "code": 10
+    },
+    "issues": [
+      "Pocas secciones (menos de 3)",
+      "Pocos enlaces (menos de 5)"
+    ],
+    "recommendations": [
+      "Agregar más secciones para mejorar la estructura",
+      "Agregar más enlaces a recursos relacionados"
+    ],
+    "overall_score": 35,
+    "errors": [],
+    "quality_level": "Necesita Mejora"
+  },
+  "readability": {
+    "flesch_score": 100,
+    "reading_level": "Muy Fácil",
+    "avg_sentence_length": 24.23,
+    "avg_syllables_per_word": 0.14,
+    "sentence_count": 916,
+    "word_count": 22197
+  },
+  "sentiment": {
+    "primary_tone": "Negativo",
+    "positive_words": 0,
+    "negative_words": 2,
+    "technical_words": 0,
+    "sentiment_score": -2
+  },
+  "coherence": {
+    "score": 0,
+    "level": "Baja",
+    "issues": [
+      "Muy pocas secciones (menos de 3)",
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "automation",
+      "count": 728
+    },
+    {
+      "word": "management",
+      "count": 453
+    },
+    {
+      "word": "automated",
+      "count": 410
+    },
+    {
+      "word": "data",
+      "count": 273
+    },
+    {
+      "word": "monitoring",
+      "count": 174
+    },
+    {
+      "word": "testing",
+      "count": 152
+    },
+    {
+      "word": "integration",
+      "count": 141
+    },
+    {
+      "word": "analytics",
+      "count": 135
+    },
+    {
+      "word": "workflow",
+      "count": 132
+    },
+    {
+      "word": "tracking",
+      "count": 122
+    },
+    {
+      "word": "reporting",
+      "count": 122
+    },
+    {
+      "word": "compliance",
+      "count": 119
+    },
+    {
+      "word": "workflows",
+      "count": 116
+    },
+    {
+      "word": "validation",
+      "count": 112
+    },
+    {
+      "word": "processing",
+      "count": 108
+    },
+    {
+      "word": "optimization",
+      "count": 101
+    },
+    {
+      "word": "deployment",
+      "count": 98
+    },
+    {
+      "word": "resource",
+      "count": 98
+    },
+    {
+      "word": "scheduling",
+      "count": 97
+    },
+    {
+      "word": "security",
+      "count": 93
+    }
+  ],
+  "links_count": 0,
+  "images_count": 0
+}

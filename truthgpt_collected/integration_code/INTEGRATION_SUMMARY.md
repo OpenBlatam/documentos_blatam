@@ -186,3 +186,8 @@ Todo basado en papers de investigación y repositorios de código abierto, listo
 
 
 
+
+
+
+
+

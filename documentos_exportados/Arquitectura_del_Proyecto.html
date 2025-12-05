@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura del Proyecto</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin: -20px -20px 30px -20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header .meta {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .metric-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2E86AB;
+        }
+        .metric-card h3 {
+            color: #2E86AB;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .graphs-section {
+            margin: 40px 0;
+        }
+        .graphs-section h2 {
+            color: #2E86AB;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2E86AB;
+        }
+        .graph-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .graph-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .content-section {
+            margin: 40px 0;
+        }
+        .content-section h2 {
+            color: #A23B72;
+            margin: 30px 0 15px 0;
+        }
+        .content-section h3 {
+            color: #F18F01;
+            margin: 20px 0 10px 0;
+        }
+        .content-section p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+        .quality-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .quality-excellent { background: #C6E0B4; color: #2d5016; }
+        .quality-good { background: #FFE699; color: #856404; }
+        .quality-regular { background: #F8CBAD; color: #854d0e; }
+        .quality-poor { background: #F4B084; color: #843c0c; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        table th {
+            background: #2E86AB;
+            color: white;
+        }
+        table tr:hover {
+            background: #f5f5f5;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Arquitectura del Proyecto</h1>
+            <div class="meta">
+                Generado el 24 de November de 2025
+            </div>
+        </div>
+        
+        <div class="metrics-grid">
+
+            <div class="metric-card">
+                <h3>Líneas</h3>
+                <div class="value">384</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Palabras</h3>
+                <div class="value">1,205</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Secciones</h3>
+                <div class="value">45</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Calidad</h3>
+                <div class="value">75/100</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Legibilidad</h3>
+                <div class="value">Difícil</div>
+            </div>
+
+            <div class="metric-card">
+                <h3>Tiempo Lectura</h3>
+                <div class="value">~4 min</div>
+            </div>
+
+        </div>
+        
+        <div class="graphs-section">
+            <h2>📊 Visualizaciones</h2>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_secciones.png" alt="Arquitectura_del_Proyecto_secciones.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_metricas.png" alt="Arquitectura_del_Proyecto_metricas.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_distribucion.png" alt="Arquitectura_del_Proyecto_distribucion.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_calidad.png" alt="Arquitectura_del_Proyecto_calidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_legibilidad.png" alt="Arquitectura_del_Proyecto_legibilidad.png">
+            </div>
+
+            <div class="graph-container">
+                <img src="documentos_exportados/graficas/Arquitectura_del_Proyecto_keywords.png" alt="Arquitectura_del_Proyecto_keywords.png">
+            </div>
+
+        </div>
+        
+        <div class="content-section">
+            <h2>📄 Contenido del Documento</h2>
+<h1>🏗️ Arquitectura del Proyecto - Documentos BLATAM</h1>
+<p>Este documento describe la arquitectura, estructura y organización del proyecto Documentos BLATAM.</p>
+<hr />
+<h2>📋 Tabla de Contenidos</h2>
+<ul>
+<li><a href="#visión-general">Visión General</a></li>
+<li><a href="#estructura-de-directorios">Estructura de Directorios</a></li>
+<li><a href="#organización-por-categorías">Organización por Categorías</a></li>
+<li><a href="#sistema-de-metadatos">Sistema de Metadatos</a></li>
+<li><a href="#flujo-de-documentación">Flujo de Documentación</a></li>
+<li><a href="#herramientas-y-scripts">Herramientas y Scripts</a></li>
+<li><a href="#convenciones">Convenciones</a></li>
+</ul>
+<hr />
+<h2>🎯 Visión General</h2>
+<p><strong>Documentos BLATAM</strong> es un ecosistema de documentación empresarial organizado por categorías funcionales. Cada categoría contiene documentación especializada, scripts, templates y recursos relacionados.</p>
+<h3>Principios de Diseño</h3>
+<ol>
+<li><strong>Modularidad</strong>: Cada categoría es independiente pero interconectada</li>
+<li><strong>Escalabilidad</strong>: Fácil agregar nuevas categorías y contenido</li>
+<li><strong>Navegabilidad</strong>: Sistema de índices y enlaces claro</li>
+<li><strong>Mantenibilidad</strong>: Estructura consistente y documentada</li>
+</ol>
+<hr />
+<h2>📁 Estructura de Directorios</h2>
+<h3>Estructura Principal</h3>
+<div class="codehilite"><pre><span></span><code>documentos_blatam/
+├── README.md                    # Punto de entrada principal
+├── CONTRIBUTING.md              # Guía de contribución
+├── CHANGELOG.md                 # Historial de cambios
+├── SETUP.md                     # Guía de configuración
+├── ARCHITECTURE.md              # Este archivo
+├── ROADMAP.md                   # Hoja de ruta
+│
+├── 00_version_management/       # Gestión de versiones
+├── 01_marketing/                # Marketing digital
+├── 01_webinar_campaign/         # Campañas de webinars
+├── 02_consciousness_systems/   # Sistemas de consciencia
+├── 02_finance/                  # Finanzas
+├── 03_human_resources/          # Recursos humanos
+├── 04_business_strategy/        # Estrategia empresarial
+├── 04_operations/               # Operaciones
+├── 05_technology/               # Tecnología
+├── 06_documentation/           # Documentación central
+├── 06_strategy/                 # Estrategia
+├── 07_advanced_features/       # Características avanzadas
+├── 07_risk_management/         # Gestión de riesgos
+├── 08_ai_artificial_intelligence/ # IA
+├── 08_research_development/    # I+D
+├── 09_sales/                    # Ventas
+├── 10_customer_service/        # Atención al cliente
+├── 11_research_development/    # I+D
+├── 11_system_architecture/     # Arquitectura de sistemas
+├── 12_quality_assurance/       # Aseguramiento de calidad
+├── 12_user_guides/             # Guías de usuario
+├── 13_legal_compliance/        # Legal y compliance
+├── 14_procurement/             # Compras
+├── 14_product_management/      # Gestión de productos
+├── 14_thought_leadership/      # Liderazgo de pensamiento
+├── 15_customer_experience/    # Experiencia de cliente
+├── 16_data_analytics/          # Analítica de datos
+├── 17_innovation/              # Innovación
+├── 18_sustainability/          # Sostenibilidad
+├── 19_international_business/   # Negocios internacionales
+├── 20_project_management/     # Gestión de proyectos
+└── ... (más categorías)
+</code></pre></div>
+
+<h3>Directorios Especiales</h3>
+<div class="codehilite"><pre><span></span><code><span class="n">documentos_blatam</span><span class="o">/</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">tools</span><span class="o">/</span><span class="w">                      </span><span class="c1"># Herramientas y scripts globales</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Scripts</span><span class="o">/</span><span class="w">                    </span><span class="c1"># Scripts de automatización</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Templates</span><span class="o">/</span><span class="w">                  </span><span class="c1"># Templates globales</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Tests</span><span class="o">/</span><span class="w">                      </span><span class="c1"># Tests y validaciones</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Docs</span><span class="o">/</span><span class="w">                       </span><span class="c1"># Documentación adicional</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Static</span><span class="o">/</span><span class="w">                     </span><span class="c1"># Archivos estáticos</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Routes</span><span class="o">/</span><span class="w">                     </span><span class="c1"># Rutas de API (si aplica)</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Utils</span><span class="o">/</span><span class="w">                      </span><span class="c1"># Utilidades</span>
+<span class="err">└──</span><span class="w"> </span><span class="n">backups</span><span class="o">/</span><span class="w">                    </span><span class="c1"># Backups y archivos antiguos</span>
+</code></pre></div>
+
+<hr />
+<h2>🗂️ Organización por Categorías</h2>
+<h3>Sistema de Numeración</h3>
+<p>Las categorías principales usan numeración de dos dígitos:
+- <code>00-09</code>: Infraestructura y gestión
+- <code>01-09</code>: Funciones principales de negocio
+- <code>10-19</code>: Funciones de soporte
+- <code>20+</code>: Categorías especializadas</p>
+<h3>Estructura Interna de Categorías</h3>
+<p>Cada categoría típicamente contiene:</p>
+<div class="codehilite"><pre><span></span><code>categoria/
+├── readme.md                   # README de la categoría
+├── Documentation/              # Documentación técnica
+├── Guides/                    # Guías de usuario
+├── Templates/                 # Templates específicos
+├── Scripts/                   # Scripts relacionados
+├── Examples/                  # Ejemplos prácticos
+├── Checklists/                # Checklists
+└── Other/                     # Otros recursos
+</code></pre></div>
+
+<h3>Ejemplo: Categoría de Marketing</h3>
+<div class="codehilite"><pre><span></span><code><span class="mf">01</span><span class="n">_marketing</span><span class="o">/</span>
+<span class="err">├──</span><span class="w"> </span><span class="kr">read</span><span class="n">me</span><span class="mf">.</span><span class="n">md</span><span class="w">                  </span><span class="err">#</span><span class="w"> </span><span class="n">Índice</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">marketing</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Campaigns</span><span class="o">/</span><span class="w">                 </span><span class="err">#</span><span class="w"> </span><span class="n">Campañas</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Automations</span><span class="o">/</span><span class="w">               </span><span class="err">#</span><span class="w"> </span><span class="n">Automatizaciones</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Sequences</span><span class="o">/</span><span class="w">                 </span><span class="err">#</span><span class="w"> </span><span class="n">Secuencias</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">email</span><span class="o">/</span><span class="n">DM</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Scripts</span><span class="o">/</span><span class="w">                   </span><span class="err">#</span><span class="w"> </span><span class="n">Scripts</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">marketing</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Templates</span><span class="o">/</span><span class="w">                 </span><span class="err">#</span><span class="w"> </span><span class="n">Templates</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="kr">cont</span><span class="n">enido</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Guides</span><span class="o">/</span><span class="w">                    </span><span class="err">#</span><span class="w"> </span><span class="n">Guías</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">marketing</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Analytics</span><span class="o">/</span><span class="w">                 </span><span class="err">#</span><span class="w"> </span><span class="n">Analítica</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">marketing</span>
+<span class="err">└──</span><span class="w"> </span><span class="n">Other</span><span class="o">/</span><span class="w">                     </span><span class="err">#</span><span class="w"> </span><span class="n">Otros</span><span class="w"> </span><span class="n">recursos</span>
+</code></pre></div>
+
+<hr />
+<h2>📊 Sistema de Metadatos</h2>
+<h3>Frontmatt</h3>
+        </div>
+        
+        <div class="footer">
+            <p>Documento generado automáticamente con análisis avanzado</p>
+        </div>
+    </div>
+</body>
+</html>

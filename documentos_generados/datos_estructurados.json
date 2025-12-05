@@ -1,0 +1,516 @@
+{
+  "metadata": {
+    "fecha_generacion": "2025-11-24T20:36:48.260092",
+    "version": "2.0",
+    "total_documentos": 11
+  },
+  "estadisticas": {
+    "total_secciones": 463,
+    "total_tablas": 15,
+    "total_palabras": 41949,
+    "tiempo_total": 181.32901692390442,
+    "tiempo_promedio": 16.48445608399131
+  },
+  "documentos": [
+    {
+      "name": "ARCHITECTURE",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/ARCHITECTURE.md",
+      "sections_count": 11,
+      "tables_count": 0,
+      "words_count": 433,
+      "metrics": {},
+      "processing_time": 23.089729070663452,
+      "graph_files": 2
+    },
+    {
+      "name": "RESUMEN_FINAL_MEJORAS",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/RESUMEN_FINAL_MEJORAS.md",
+      "sections_count": 29,
+      "tables_count": 1,
+      "words_count": 974,
+      "metrics": {
+        "archivos": [
+          "3",
+          "1",
+          "2",
+          "3",
+          "2",
+          "5"
+        ],
+        "lineas": [
+          "181",
+          "456"
+        ],
+        "fases": [
+          "6",
+          "6"
+        ],
+        "porcentajes": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "80"
+        ],
+        "mas_de": [
+          "18",
+          "30",
+          "25",
+          "900",
+          "30",
+          "10",
+          "30"
+        ],
+        "tablas": [
+          {
+            "rows": 7,
+            "cols": 4,
+            "numbers": [
+              1,
+              3,
+              12,
+              2,
+              1,
+              1,
+              181,
+              3,
+              18,
+              30,
+              4,
+              2,
+              456,
+              5,
+              1,
+              6
+            ]
+          }
+        ]
+      },
+      "processing_time": 30.547580242156982,
+      "graph_files": 4
+    },
+    {
+      "name": "MEJORAS_ARQUITECTURA_COMPLETAS",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/MEJORAS_ARQUITECTURA_COMPLETAS.md",
+      "sections_count": 41,
+      "tables_count": 2,
+      "words_count": 1408,
+      "metrics": {
+        "archivos": [
+          "3",
+          "2",
+          "11",
+          "2",
+          "3",
+          "2",
+          "0"
+        ],
+        "lineas": [
+          "56"
+        ],
+        "fases": [
+          "6"
+        ],
+        "porcentajes": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "700",
+          "0"
+        ],
+        "documentos": [
+          "8"
+        ],
+        "mas_de": [
+          "5",
+          "30",
+          "18",
+          "30",
+          "200",
+          "30"
+        ],
+        "tablas": [
+          {
+            "rows": 6,
+            "cols": 2,
+            "numbers": [
+              18,
+              30,
+              5,
+              4,
+              8
+            ]
+          },
+          {
+            "rows": 7,
+            "cols": 4,
+            "numbers": [
+              5,
+              0,
+              100,
+              30,
+              0,
+              100,
+              0,
+              8,
+              0,
+              4,
+              1,
+              8,
+              700,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "processing_time": 32.25702404975891,
+      "graph_files": 4
+    },
+    {
+      "name": "INDICE_DOCUMENTACION",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/INDICE_DOCUMENTACION.md",
+      "sections_count": 35,
+      "tables_count": 0,
+      "words_count": 617,
+      "metrics": {},
+      "processing_time": 7.0548176765441895,
+      "graph_files": 3
+    },
+    {
+      "name": "QUICK_START",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/QUICK_START.md",
+      "sections_count": 40,
+      "tables_count": 0,
+      "words_count": 476,
+      "metrics": {},
+      "processing_time": 6.439807891845703,
+      "graph_files": 3
+    },
+    {
+      "name": "README",
+      "path": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/README.md",
+      "sections_count": 101,
+      "tables_count": 0,
+      "words_count": 2187,
+      "metrics": {
+        "archivos": [
+          "5",
+          "5"
+        ],
+        "lineas": [
+          "900"
+        ],
+        "fases": [
+          "6",
+          "6",
+          "6"
+        ],
+        "porcentajes": [
+          "100",
+          "100",
+          "2",
+          "100"
+        ],
+        "mas_de": [
+          "25"
+        ]
+      },
+      "processing_time": 16.692041873931885,
+      "graph_files": 4
+    },
+    {
+      "name": "Analisis_Financiero_Banxico",
+      "path": "/Users/adan/Documents/documentos_blatam/Analisis_Financiero_Banxico.md",
+      "sections_count": 22,
+      "tables_count": 2,
+      "words_count": 2281,
+      "metrics": {
+        "tablas": [
+          {
+            "rows": 6,
+            "cols": 4,
+            "numbers": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024
+            ]
+          },
+          {
+            "rows": 6,
+            "cols": 6,
+            "numbers": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024
+            ]
+          }
+        ]
+      },
+      "processing_time": 9.921571016311646,
+      "graph_files": 3
+    },
+    {
+      "name": "TOTAL_SUMMARY",
+      "path": "/Users/adan/Documents/documentos_blatam/infra/terraform/TOTAL_SUMMARY.md",
+      "sections_count": 39,
+      "tables_count": 1,
+      "words_count": 1003,
+      "metrics": {
+        "archivos": [
+          "17"
+        ],
+        "porcentajes": [
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        "documentos": [
+          "17",
+          "17"
+        ],
+        "mas_de": [
+          "40",
+          "54",
+          "40",
+          "54",
+          "40",
+          "54",
+          "40",
+          "40",
+          "54"
+        ],
+        "tablas": [
+          {
+            "rows": 7,
+            "cols": 2,
+            "numbers": [
+              40,
+              17,
+              54,
+              6,
+              100,
+              100
+            ]
+          }
+        ]
+      },
+      "processing_time": 12.96681809425354,
+      "graph_files": 3
+    },
+    {
+      "name": "README",
+      "path": "/Users/adan/Documents/documentos_blatam/README.md",
+      "sections_count": 74,
+      "tables_count": 9,
+      "words_count": 2181,
+      "metrics": {
+        "mas_de": [
+          "1000",
+          "50",
+          "000",
+          "50",
+          "100",
+          "200",
+          "100",
+          "10",
+          "15",
+          "50",
+          "000",
+          "100",
+          "200",
+          "50",
+          "100",
+          "10",
+          "15",
+          "30",
+          "40",
+          "200",
+          "50",
+          "30",
+          "150",
+          "40",
+          "25",
+          "100",
+          "50",
+          "20",
+          "80",
+          "15",
+          "30",
+          "100",
+          "40",
+          "20"
+        ],
+        "tablas": [
+          {
+            "rows": 9,
+            "cols": 3,
+            "numbers": [
+              1,
+              1,
+              5,
+              9,
+              9,
+              15,
+              16,
+              16,
+              30,
+              8,
+              8,
+              1,
+              4,
+              4,
+              30,
+              4,
+              4,
+              20,
+              16,
+              16,
+              10,
+              6,
+              6
+            ]
+          },
+          {
+            "rows": 11,
+            "cols": 3,
+            "numbers": [
+              1,
+              9,
+              8,
+              16,
+              4,
+              4,
+              2,
+              3,
+              13,
+              12
+            ]
+          },
+          {
+            "rows": 6,
+            "cols": 2,
+            "numbers": [
+              1,
+              1,
+              9,
+              9,
+              8,
+              8,
+              16,
+              16,
+              4,
+              4
+            ]
+          },
+          {
+            "rows": 6,
+            "cols": 3,
+            "numbers": [
+              6,
+              6,
+              6,
+              6
+            ]
+          },
+          {
+            "rows": 4,
+            "cols": 3,
+            "numbers": [
+              16,
+              16,
+              16,
+              16,
+              16,
+              16
+            ]
+          },
+          {
+            "rows": 11,
+            "cols": 3,
+            "numbers": [
+              50,
+              1,
+              0,
+              100,
+              200,
+              50,
+              100,
+              10,
+              15,
+              30,
+              40
+            ]
+          },
+          {
+            "rows": 7,
+            "cols": 3,
+            "numbers": [
+              4,
+              4,
+              20,
+              9,
+              9,
+              30,
+              16,
+              16,
+              30,
+              8,
+              8,
+              1,
+              4,
+              4,
+              45,
+              1,
+              1,
+              30
+            ]
+          }
+        ]
+      },
+      "processing_time": 15.986806154251099,
+      "graph_files": 3
+    },
+    {
+      "name": "INTEGRATION_SUMMARY",
+      "path": "/Users/adan/Documents/documentos_blatam/infra/terraform/INTEGRATION_SUMMARY.md",
+      "sections_count": 26,
+      "tables_count": 0,
+      "words_count": 902,
+      "metrics": {},
+      "processing_time": 13.142961740493774,
+      "graph_files": 2
+    },
+    {
+      "name": "FINAL_SUMMARY",
+      "path": "/Users/adan/Documents/documentos_blatam/06_documentation/FINAL_SUMMARY.md",
+      "sections_count": 45,
+      "tables_count": 0,
+      "words_count": 926,
+      "metrics": {
+        "mas_de": [
+          "70",
+          "50",
+          "20",
+          "6",
+          "530",
+          "70",
+          "70",
+          "70"
+        ]
+      },
+      "processing_time": 13.229859113693237,
+      "graph_files": 3
+    }
+  ]
+}

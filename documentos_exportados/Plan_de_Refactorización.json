@@ -1,0 +1,366 @@
+{
+  "title": "Plan de Refactorización",
+  "generated_at": "2025-11-24T21:24:37.019112",
+  "metrics": {
+    "reading_time_minutes": 7,
+    "total_links": 0,
+    "total_images": 0,
+    "complexity_score": 118,
+    "complexity_level": "Muy Alta",
+    "quality_score": 50,
+    "quality_level": "Regular",
+    "total_numbers": 130,
+    "max_number": 2025,
+    "avg_number": 58,
+    "percentages": [
+      100
+    ],
+    "max_percentage": 100,
+    "avg_percentage": 100,
+    "total_lines": 468,
+    "total_words": 1890,
+    "total_sections": 51,
+    "code_blocks": 3,
+    "flesch_score": 21.56,
+    "reading_level": "Difícil",
+    "sentiment_tone": "Positivo",
+    "coherence_score": 80
+  },
+  "sections": [
+    {
+      "title": "🔄 Refactoring Plan - Production Code",
+      "level": 1
+    },
+    {
+      "title": "📊 Executive Summary",
+      "level": 2
+    },
+    {
+      "title": "Key Issues Identified",
+      "level": 3
+    },
+    {
+      "title": "🎯 Refactoring Goals",
+      "level": 2
+    },
+    {
+      "title": "📋 Detailed Refactoring Tasks",
+      "level": 2
+    },
+    {
+      "title": "Phase 1: Utility Files Consolidation",
+      "level": 3
+    },
+    {
+      "title": "1.1 Consolidate `api_utils.py` Files",
+      "level": 4
+    },
+    {
+      "title": "Phase 2: API Entry Points Consolidation",
+      "level": 3
+    },
+    {
+      "title": "2.1 Unify API Entry Points",
+      "level": 4
+    },
+    {
+      "title": "Phase 3: Import Path Standardization",
+      "level": 3
+    },
+    {
+      "title": "3.1 Standardize Import Paths",
+      "level": 4
+    },
+    {
+      "title": "✅ CORRECT - Use module paths",
+      "level": 1
+    },
+    {
+      "title": "❌ INCORRECT - Root-level imports (deprecated)",
+      "level": 1
+    },
+    {
+      "title": "Phase 4: Config Manager Consolidation",
+      "level": 3
+    },
+    {
+      "title": "4.1 Resolve Config Manager Duplication",
+      "level": 4
+    },
+    {
+      "title": "Phase 5: Directory Structure Alignment",
+      "level": 3
+    },
+    {
+      "title": "5.1 Resolve `code/` Directory Naming Conflict",
+      "level": 4
+    },
+    {
+      "title": "5.2 Move Root-Level Files to Appropriate Layers",
+      "level": 4
+    },
+    {
+      "title": "Phase 6: Architecture Alignment",
+      "level": 3
+    },
+    {
+      "title": "6.1 Ensure Layered Architecture Compliance",
+      "level": 4
+    },
+    {
+      "title": "🔍 Detailed File Analysis",
+      "level": 2
+    },
+    {
+      "title": "Files Requiring Immediate Attention",
+      "level": 3
+    },
+    {
+      "title": "High Priority",
+      "level": 4
+    },
+    {
+      "title": "Medium Priority",
+      "level": 4
+    },
+    {
+      "title": "Low Priority",
+      "level": 4
+    },
+    {
+      "title": "📝 Implementation Checklist",
+      "level": 2
+    },
+    {
+      "title": "Phase 1: Utility Consolidation",
+      "level": 3
+    },
+    {
+      "title": "Phase 2: API Consolidation",
+      "level": 3
+    },
+    {
+      "title": "Phase 3: Import Standardization",
+      "level": 3
+    },
+    {
+      "title": "Phase 4: Config Manager",
+      "level": 3
+    },
+    {
+      "title": "Phase 5: Directory Structure",
+      "level": 3
+    },
+    {
+      "title": "Phase 6: Architecture Verification",
+      "level": 3
+    },
+    {
+      "title": "🧪 Testing Strategy",
+      "level": 2
+    },
+    {
+      "title": "Before Refactoring",
+      "level": 3
+    },
+    {
+      "title": "During Refactoring",
+      "level": 3
+    },
+    {
+      "title": "After Refactoring",
+      "level": 3
+    },
+    {
+      "title": "📚 Documentation Updates",
+      "level": 2
+    },
+    {
+      "title": "Files to Update",
+      "level": 3
+    },
+    {
+      "title": "⚠️ Risks and Mitigation",
+      "level": 2
+    },
+    {
+      "title": "Risk 1: Breaking Changes",
+      "level": 3
+    },
+    {
+      "title": "Risk 2: Lost Functionality",
+      "level": 3
+    },
+    {
+      "title": "Risk 3: Import Cycles",
+      "level": 3
+    },
+    {
+      "title": "🚀 Migration Timeline",
+      "level": 2
+    },
+    {
+      "title": "Week 1: Analysis & Planning",
+      "level": 3
+    },
+    {
+      "title": "Week 2: Phase 1 & 2",
+      "level": 3
+    },
+    {
+      "title": "Week 3: Phase 3 & 4",
+      "level": 3
+    },
+    {
+      "title": "Week 4: Phase 5 & 6",
+      "level": 3
+    },
+    {
+      "title": "Week 5: Testing & Cleanup",
+      "level": 3
+    },
+    {
+      "title": "📊 Success Metrics",
+      "level": 2
+    },
+    {
+      "title": "🔗 Related Documents",
+      "level": 2
+    }
+  ],
+  "quality_analysis": {
+    "scores": {
+      "structure": 25,
+      "content": 15,
+      "links": 0,
+      "tables": 0,
+      "code": 10
+    },
+    "issues": [
+      "Pocos enlaces (menos de 5)"
+    ],
+    "recommendations": [
+      "Agregar más enlaces a recursos relacionados"
+    ],
+    "overall_score": 50,
+    "errors": [
+      "Header sin contenido: ## 📋 Detailed Refactoring Tasks",
+      "Header sin contenido: ### Phase 1: Utility Files Consolidation",
+      "Header sin contenido: ### Phase 2: API Entry Points Consolidation",
+      "Header sin contenido: ### Phase 3: Import Path Standardization",
+      "Header sin contenido: ### Phase 4: Config Manager Consolidation",
+      "Header sin contenido: ### Phase 5: Directory Structure Alignment",
+      "Header sin contenido: ### Phase 6: Architecture Alignment",
+      "Header sin contenido: ## 🔍 Detailed File Analysis",
+      "Header sin contenido: ### Files Requiring Immediate Attention",
+      "Header sin contenido: ## 📚 Documentation Updates"
+    ],
+    "quality_level": "Regular"
+  },
+  "readability": {
+    "flesch_score": 21.56,
+    "reading_level": "Difícil",
+    "avg_sentence_length": 14.32,
+    "avg_syllables_per_word": 2.02,
+    "sentence_count": 84,
+    "word_count": 1203
+  },
+  "sentiment": {
+    "primary_tone": "Positivo",
+    "positive_words": 1,
+    "negative_words": 0,
+    "technical_words": 0,
+    "sentiment_score": 1
+  },
+  "coherence": {
+    "score": 80,
+    "level": "Alta",
+    "issues": [
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "import",
+      "count": 42
+    },
+    {
+      "word": "update",
+      "count": 41
+    },
+    {
+      "word": "imports",
+      "count": 35
+    },
+    {
+      "word": "files",
+      "count": 29
+    },
+    {
+      "word": "root",
+      "count": 26
+    },
+    {
+      "word": "architecture",
+      "count": 23
+    },
+    {
+      "word": "core",
+      "count": 19
+    },
+    {
+      "word": "code",
+      "count": 18
+    },
+    {
+      "word": "phase",
+      "count": 17
+    },
+    {
+      "word": "application",
+      "count": 17
+    },
+    {
+      "word": "documentation",
+      "count": 13
+    },
+    {
+      "word": "lines",
+      "count": 12
+    },
+    {
+      "word": "routes",
+      "count": 12
+    },
+    {
+      "word": "duplication",
+      "count": 11
+    },
+    {
+      "word": "layer",
+      "count": 11
+    },
+    {
+      "word": "paths",
+      "count": 10
+    },
+    {
+      "word": "entry",
+      "count": 10
+    },
+    {
+      "word": "structure",
+      "count": 10
+    },
+    {
+      "word": "domain",
+      "count": 10
+    },
+    {
+      "word": "migration",
+      "count": 10
+    }
+  ],
+  "links_count": 0,
+  "images_count": 0
+}

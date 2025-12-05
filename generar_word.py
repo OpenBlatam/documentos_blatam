@@ -82,3 +82,8 @@ if __name__ == "__main__":
     create_word_doc("Adan_Munoz_Pablo_Entregable_1.docx")
 
 
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "truthgpt_base": {
+    "error": "'TruthGPTOptimizationCore' object has no attribute 'eval'"
+  },
+  "truthgpt_ultimate": {
+    "error": "'TruthGPTUltimateCore' object has no attribute 'eval'"
+  },
+  "truthgpt_ultimate_tf": {
+    "error": "'TruthGPTUltimateCore' object has no attribute 'eval'"
+  }
+}

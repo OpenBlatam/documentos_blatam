@@ -116,3 +116,8 @@ if __name__ == "__main__":
     create_brand_guidelines("Ventura_Capital_Brand_Guidelines.pptx")
 
 
+
+
+
+
+

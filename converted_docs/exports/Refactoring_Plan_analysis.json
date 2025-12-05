@@ -1,0 +1,470 @@
+{
+  "metadata": {
+    "document_name": "Refactoring_Plan",
+    "generated_at": "2025-11-24T20:25:28.762635",
+    "source_file": "/Users/adan/Documents/documentos_blatam/truthgpt_collected/integration_code/production_code/REFACTORING_PLAN.md"
+  },
+  "statistics": {
+    "total_lines": 468,
+    "total_words": 1890,
+    "total_chars": 14018,
+    "total_chars_no_spaces": 12357,
+    "sections": 51,
+    "code_blocks": 3,
+    "links": 0,
+    "images": 0,
+    "top_keywords": {
+      "import": 42,
+      "update": 41,
+      "imports": 35,
+      "files": 29,
+      "root": 26,
+      "architecture": 23,
+      "from": 22,
+      "core": 19,
+      "code": 18,
+      "phase": 17,
+      "application": 17,
+      "documentation": 13,
+      "lines": 12,
+      "routes": 12,
+      "duplication": 11,
+      "layer": 11,
+      "with": 10,
+      "paths": 10,
+      "entry": 10,
+      "structure": 10
+    },
+    "section_analysis": {
+      "total": 49,
+      "by_level": {
+        "1": 1,
+        "2": 12,
+        "3": 26,
+        "4": 10
+      },
+      "avg_words_per_section": 32.12244897959184,
+      "sections_with_code": 18,
+      "sections_with_links": 7
+    },
+    "readability_score": 63,
+    "complexity_score": 23,
+    "reading_time": {
+      "minutes": 9.45,
+      "hours": 0,
+      "remaining_minutes": 9
+    }
+  },
+  "structure": {
+    "total_sections": 49,
+    "sections": [
+      {
+        "title": "🔄 Refactoring Plan - Production Code",
+        "level": 1,
+        "word_count": 10,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n**Date**: 2025-01-27  \n**Status**: Analysis Complete - Ready for Implementation\n\n---\n\n"
+      },
+      {
+        "title": "📊 Executive Summary",
+        "level": 2,
+        "word_count": 27,
+        "code_blocks": 1,
+        "links": 0,
+        "content_preview": "\nThis document outlines a comprehensive refactoring plan for the `production_code` directory to improve code organization, eliminate duplication, resolve import inconsistencies, and align with the doc"
+      },
+      {
+        "title": "Key Issues Identified",
+        "level": 3,
+        "word_count": 48,
+        "code_blocks": 2,
+        "links": 0,
+        "content_preview": "\n1. **Duplicate Utility Files** (3 instances of `api_utils.py`)\n2. **Import Inconsistencies** (mixed import paths)\n3. **Multiple API Entry Points** (3 different files)\n4. **Architecture Misalignment**"
+      },
+      {
+        "title": "🎯 Refactoring Goals",
+        "level": 2,
+        "word_count": 50,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n1. **Eliminate Code Duplication**: Consolidate duplicate utility files\n2. **Standardize Imports**: Use consistent import paths throughout\n3. **Align with Architecture**: Follow the documented layered"
+      },
+      {
+        "title": "📋 Detailed Refactoring Tasks",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Phase 1: Utility Files Consolidation",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "1.1 Consolidate `api_utils.py` Files",
+        "level": 4,
+        "word_count": 151,
+        "code_blocks": 17,
+        "links": 0,
+        "content_preview": "\n**Current State:**\n- `api_utils.py` (root, 268 lines) - Tensor validation functions\n- `core/api_utils.py` (231 lines) - FastAPI/Flask helpers, HTTP clients\n- `api/api_utils.py` (180 lines) - API rout"
+      },
+      {
+        "title": "Phase 2: API Entry Points Consolidation",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "2.1 Unify API Entry Points",
+        "level": 4,
+        "word_count": 160,
+        "code_blocks": 23,
+        "links": 0,
+        "content_preview": "\n**Current State:**\n- `api_unified.py` (1237 lines) - Full API implementation (old structure)\n- `application.py` (122 lines) - Application factory (new layered architecture)\n- `api_server.py` (53 line"
+      },
+      {
+        "title": "Phase 3: Import Path Standardization",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "3.1 Standardize Import Paths",
+        "level": 4,
+        "word_count": 74,
+        "code_blocks": 11,
+        "links": 0,
+        "content_preview": "\n**Current Issues:**\n- Mixed imports: `from api_utils import ...` vs `from core.api_utils import ...`\n- Inconsistent use of root-level imports vs. module imports\n\n**Solution:**\n\n**Import Standards:**\n"
+      },
+      {
+        "title": "Phase 4: Config Manager Consolidation",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "4.1 Resolve Config Manager Duplication",
+        "level": 4,
+        "word_count": 76,
+        "code_blocks": 8,
+        "links": 0,
+        "content_preview": "\n**Current State:**\n- `config_manager.py` (root, 521 lines)\n- `core/config_manager.py` (mentioned in README but may not exist)\n\n**Problem:**\n- Unclear which config manager to use\n- Potential duplicati"
+      },
+      {
+        "title": "Phase 5: Directory Structure Alignment",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "5.1 Resolve `code/` Directory Naming Conflict",
+        "level": 4,
+        "word_count": 61,
+        "code_blocks": 10,
+        "links": 0,
+        "content_preview": "\n**Current Issue:**\n- `code/` directory conflicts with Python's built-in `code` module\n- Causes import issues when torch tries to import built-in `code`\n\n**Solution:**\n1. Rename `code/` → `code_module"
+      },
+      {
+        "title": "5.2 Move Root-Level Files to Appropriate Layers",
+        "level": 4,
+        "word_count": 97,
+        "code_blocks": 18,
+        "links": 0,
+        "content_preview": "\n**Files to Consider Moving:**\n\n**To `api/` (Presentation Layer):**\n- `api_auth.py` → `api/auth.py` (already exists, check for duplication)\n- `api_middleware.py` → `api/middleware.py` (already exists,"
+      },
+      {
+        "title": "Phase 6: Architecture Alignment",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "6.1 Ensure Layered Architecture Compliance",
+        "level": 4,
+        "word_count": 84,
+        "code_blocks": 6,
+        "links": 4,
+        "content_preview": "\n**Current Architecture (from ARCHITECTURE.md):**\n\nPresentation (api/, api_*.py, cli*.py, dashboard.html)\n    ↓\nApplication (services/, integration_pipeline.py, monitoring_system.py)\n    ↓\nDomain (cor"
+      },
+      {
+        "title": "🔍 Detailed File Analysis",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Files Requiring Immediate Attention",
+        "level": 3,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "High Priority",
+        "level": 4,
+        "word_count": 70,
+        "code_blocks": 9,
+        "links": 0,
+        "content_preview": "\n1. **`api_unified.py`** (1237 lines)\n   - **Issue**: Doesn't use new `api/routes/` structure\n   - **Action**: Migrate endpoints to `api/routes/` or deprecate\n   - **Dependencies**: Used by some tests"
+      },
+      {
+        "title": "Medium Priority",
+        "level": 4,
+        "word_count": 51,
+        "code_blocks": 6,
+        "links": 0,
+        "content_preview": "\n4. **`api_auth.py`** (root, 313 lines)\n   - **Issue**: May duplicate `api/auth.py`\n   - **Action**: Check for duplication, consolidate if needed\n\n5. **`api_middleware.py`** (root, 158 lines)\n   - **I"
+      },
+      {
+        "title": "Low Priority",
+        "level": 4,
+        "word_count": 16,
+        "code_blocks": 3,
+        "links": 0,
+        "content_preview": "\n7. **Documentation files**\n   - **Action**: Update references to moved/renamed files\n   - **Files**: `README.md`, `ARCHITECTURE.md`, `docs/*.md`\n\n---\n\n"
+      },
+      {
+        "title": "📝 Implementation Checklist",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Phase 1: Utility Consolidation",
+        "level": 3,
+        "word_count": 44,
+        "code_blocks": 5,
+        "links": 6,
+        "content_preview": "- [ ] Analyze differences between three `api_utils.py` files\n- [ ] Migrate root `api_utils.py` functions to `api/api_utils.py`\n- [ ] Update all imports from root `api_utils`\n- [ ] Add deprecation warn"
+      },
+      {
+        "title": "Phase 2: API Consolidation",
+        "level": 3,
+        "word_count": 47,
+        "code_blocks": 6,
+        "links": 6,
+        "content_preview": "- [ ] Compare endpoints in `api_unified.py` vs. `api/routes/`\n- [ ] Migrate missing endpoints to `api/routes/`\n- [ ] Update `application.py` to include all routes\n- [ ] Create compatibility shim in `a"
+      },
+      {
+        "title": "Phase 3: Import Standardization",
+        "level": 3,
+        "word_count": 36,
+        "code_blocks": 0,
+        "links": 4,
+        "content_preview": "- [ ] Create import standards document\n- [ ] Update all root-level imports to module paths\n- [ ] Run linter to verify no root-level imports remain\n- [ ] Update documentation with import examples\n\n"
+      },
+      {
+        "title": "Phase 4: Config Manager",
+        "level": 3,
+        "word_count": 33,
+        "code_blocks": 3,
+        "links": 5,
+        "content_preview": "- [ ] Check if `core/config_manager.py` exists\n- [ ] Compare functionality if both exist\n- [ ] Consolidate into `core/config_manager.py`\n- [ ] Update all imports\n- [ ] Remove root `config_manager.py`\n"
+      },
+      {
+        "title": "Phase 5: Directory Structure",
+        "level": 3,
+        "word_count": 38,
+        "code_blocks": 6,
+        "links": 5,
+        "content_preview": "- [ ] Rename `code/` to `code_modules/`\n- [ ] Update all imports\n- [ ] Move `api_auth.py` to `api/auth.py` (if not duplicate)\n- [ ] Move `api_middleware.py` to `api/middleware.py` (if not duplicate)\n-"
+      },
+      {
+        "title": "Phase 6: Architecture Verification",
+        "level": 3,
+        "word_count": 41,
+        "code_blocks": 0,
+        "links": 6,
+        "content_preview": "- [ ] Verify presentation layer imports\n- [ ] Verify application layer imports\n- [ ] Verify domain layer imports\n- [ ] Verify infrastructure layer imports\n- [ ] Fix any violations\n- [ ] Update archite"
+      },
+      {
+        "title": "🧪 Testing Strategy",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Before Refactoring",
+        "level": 3,
+        "word_count": 19,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "1. Run full test suite to establish baseline\n2. Document current behavior\n3. Create integration tests for critical paths\n\n"
+      },
+      {
+        "title": "During Refactoring",
+        "level": 3,
+        "word_count": 17,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "1. Run tests after each phase\n2. Fix any broken imports immediately\n3. Verify functionality hasn't changed\n\n"
+      },
+      {
+        "title": "After Refactoring",
+        "level": 3,
+        "word_count": 25,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "1. Run full test suite\n2. Run linter (ruff, mypy)\n3. Check for circular imports\n4. Verify all imports resolve correctly\n5. Integration testing\n\n---\n\n"
+      },
+      {
+        "title": "📚 Documentation Updates",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Files to Update",
+        "level": 3,
+        "word_count": 53,
+        "code_blocks": 4,
+        "links": 0,
+        "content_preview": "\n1. **`README.md`**\n   - Update import examples\n   - Update entry point instructions\n   - Remove references to deprecated files\n\n2. **`ARCHITECTURE.md`**\n   - Update file locations\n   - Update import "
+      },
+      {
+        "title": "⚠️ Risks and Mitigation",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Risk 1: Breaking Changes",
+        "level": 3,
+        "word_count": 24,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- **Risk**: Changing imports may break existing code\n- **Mitigation**: \n  - Use compatibility shims during transition\n  - Deprecation warnings before removal\n  - Gradual migration\n\n"
+      },
+      {
+        "title": "Risk 2: Lost Functionality",
+        "level": 3,
+        "word_count": 20,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- **Risk**: Consolidation may lose some functionality\n- **Mitigation**:\n  - Comprehensive comparison before consolidation\n  - Test coverage\n  - Code review\n\n"
+      },
+      {
+        "title": "Risk 3: Import Cycles",
+        "level": 3,
+        "word_count": 24,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- **Risk**: Reorganization may create circular imports\n- **Mitigation**:\n  - Follow layered architecture strictly\n  - Use dependency injection\n  - Test imports after changes\n\n---\n\n"
+      },
+      {
+        "title": "🚀 Migration Timeline",
+        "level": 2,
+        "word_count": 0,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n"
+      },
+      {
+        "title": "Week 1: Analysis & Planning",
+        "level": 3,
+        "word_count": 14,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- Complete file comparison\n- Create detailed migration scripts\n- Set up test baseline\n\n"
+      },
+      {
+        "title": "Week 2: Phase 1 & 2",
+        "level": 3,
+        "word_count": 10,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- Consolidate utilities\n- Migrate API endpoints\n- Update imports\n\n"
+      },
+      {
+        "title": "Week 3: Phase 3 & 4",
+        "level": 3,
+        "word_count": 10,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- Standardize imports\n- Consolidate config manager\n- Update tests\n\n"
+      },
+      {
+        "title": "Week 4: Phase 5 & 6",
+        "level": 3,
+        "word_count": 9,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- Directory reorganization\n- Architecture verification\n- Documentation updates\n\n"
+      },
+      {
+        "title": "Week 5: Testing & Cleanup",
+        "level": 3,
+        "word_count": 12,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "- Full test suite\n- Remove deprecated files\n- Final documentation\n\n---\n\n"
+      },
+      {
+        "title": "📊 Success Metrics",
+        "level": 2,
+        "word_count": 42,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n1. **Code Duplication**: Reduce duplicate files to 0\n2. **Import Consistency**: 100% of imports use module paths\n3. **Architecture Compliance**: All layers follow dependency rules\n4. **Test Coverage*"
+      },
+      {
+        "title": "🔗 Related Documents",
+        "level": 2,
+        "word_count": 30,
+        "code_blocks": 5,
+        "links": 0,
+        "content_preview": "\n- `ARCHITECTURE.md` - Layered architecture documentation\n- `docs/architecture/layers.md` - Detailed layer rules\n- `CLEANUP_SUMMARY.md` - Previous cleanup efforts\n- `CODE_CLEANUP_SUMMARY.md` - Code qu"
+      },
+      {
+        "title": "📝 Notes",
+        "level": 2,
+        "word_count": 51,
+        "code_blocks": 0,
+        "links": 0,
+        "content_preview": "\n- This refactoring should be done incrementally\n- Maintain backward compatibility during transition\n- Use feature flags if needed for gradual rollout\n- Communicate changes to all team members\n- Updat"
+      }
+    ]
+  },
+  "analysis": {
+    "reading_time": {
+      "minutes": 9.45,
+      "hours": 0,
+      "remaining_minutes": 9
+    },
+    "readability": {
+      "score": 63,
+      "level": "Medio"
+    },
+    "complexity": {
+      "score": 23,
+      "level": "Bajo"
+    }
+  }
+}

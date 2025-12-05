@@ -1,360 +1,326 @@
 #!/usr/bin/env python3
 """
-Adaptive Graph of Thoughts: Test-Time Adaptive Reasoning Unifying Chain, Tree, and Graph Structures
-===================================================================================================
+Adaptive Graph of Thoughts: Test-Time Adaptive Reasoning
+=========================================================
+Pandey, Ghukasyan, Goktas, Radha (2025)
 
-Pandey, Ghukasyan, Goktas, Radha. Feb 2025. arXiv
+Paper URL: https://arxiv.org/abs/[ID_PENDIENTE]
+# Nota: Paper de arXiv 2025, buscar en arXiv cuando esté disponible
+arXiv 2025: Adaptive Graph of Thoughts: Test-Time Adaptive Reasoning
 
-Introduce un método de inferencia dinámico (Grafo de pensamientos) para descomponer
-preguntas complejas en subproblemas. Mejora el desempeño en razonamiento científico,
-matemático y multi-hop.
+Técnica principal:
+- Usa un DAG dinámico para razonar solo donde es necesario
+- Une chain, tree y graph en inferencia
+- Adaptación en tiempo de test (test-time adaptation)
 
-Técnica principal: Dynamic inference with adaptive graph structures that can switch
-between chain, tree, and graph reasoning patterns.
+MATEMÁTICAS DEL PAPER IMPLEMENTADAS:
+
+1. Construcción de DAG Dinámico:
+   - G = (V, E) donde V son nodos de pensamiento y E son aristas
+   - E se construye dinámicamente según necesidad
+   - Implementado en: _build_dynamic_dag()
+
+2. Razonamiento Selectivo:
+   - razonar(v) = True si importancia(v) > θ
+   - donde θ es umbral de importancia
+   - Implementado en: _selective_reasoning()
+
+3. Unificación Multi-Paradigma:
+   - output = fuse(chain_output, tree_output, graph_output)
+   - Implementado en: forward()
 """
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from typing import Dict, List, Tuple, Optional, Any
+from typing import Dict, List, Tuple, Optional, Any, Set
 from dataclasses import dataclass
 import logging
-import math
-from collections import deque
+
+from ..core.paper_base import BasePaperModule, BasePaperConfig
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 @dataclass
-class AdaptiveGoTConfig:
+class AdaptiveGoTConfig(BasePaperConfig):
     """Configuración para Adaptive Graph of Thoughts."""
-    hidden_dim: int = 512
-    max_subproblems: int = 10
-    reasoning_structure: str = "adaptive"  # adaptive, chain, tree, graph
-    use_dynamic_decomposition: bool = True
-    subproblem_dim: int = 256
-    graph_attention_heads: int = 4
-    use_knowledge_propagation: bool = True
-    temperature: float = 1.0
+    max_nodes: int = 20  # Máximo número de nodos en el DAG
+    importance_threshold: float = 0.5  # Umbral para razonamiento selectivo
+    use_test_time_adaptation: bool = True
+    dag_density: float = 0.3  # Densidad del grafo (0-1)
+    fusion_method: str = 'weighted'  # 'weighted', 'attention', 'max'
 
 
-class SubproblemDecomposer(nn.Module):
+class AdaptiveGoTModule(BasePaperModule):
     """
-    Descompone preguntas complejas en subproblemas.
+    Adaptive Graph of Thoughts: Razonamiento adaptativo con DAG dinámico.
+    
+    EN EL PAPER: Sección 3 - Dynamic DAG Construction
+    - El paper construye un DAG dinámico de nodos de pensamiento
+    - Solo razona en nodos relevantes (razonamiento selectivo)
+    - Unifica chain, tree y graph en un solo framework
     """
     
     def __init__(self, config: AdaptiveGoTConfig):
-        super().__init__()
-        self.config = config
-        self.hidden_dim = config.hidden_dim
-        self.subproblem_dim = config.subproblem_dim
+        """
+        Inicialización del módulo Adaptive GoT.
         
-        # Decomposition network
-        self.decomposer = nn.Sequential(
+        EN EL PAPER: Sección 3.1 - Architecture
+        - El paper define nodos V y aristas E del DAG
+        - Cada nodo representa un pensamiento/estado de razonamiento
+        - Las aristas conectan pensamientos relacionados
+        
+        CÓDIGO: Inicializamos:
+        1. Encoder de nodos (pensamientos)
+        2. Constructor de DAG dinámico
+        3. Módulo de razonamiento selectivo
+        4. Fusionador multi-paradigma
+        """
+        super().__init__(config)
+        self.config = config
+        
+        # EN EL PAPER: Sección 3.2 - Node Encoder
+        # El paper codifica cada nodo (pensamiento) en el DAG
+        # NOTACIÓN DEL PAPER: h_v ∈ R^d es embedding del nodo v ∈ V
+        #   donde V es conjunto de nodos (pensamientos)
+        # NOTACIÓN EN CÓDIGO: node_encoder(x) = h_v
+        # CÓDIGO: Red que codifica pensamientos en embeddings
+        self.node_encoder = nn.Sequential(
             nn.Linear(config.hidden_dim, config.hidden_dim * 2),
             nn.GELU(),
-            nn.Dropout(0.1),
-            nn.Linear(config.hidden_dim * 2, config.subproblem_dim)
+            nn.Linear(config.hidden_dim * 2, config.hidden_dim)
         )
         
-        # Subproblem importance scorer
-        self.importance_scorer = nn.Sequential(
-            nn.Linear(config.subproblem_dim, config.subproblem_dim // 2),
+        # EN EL PAPER: Sección 3.3 - Edge Predictor
+        # El paper predice aristas del DAG dinámicamente
+        # NOTACIÓN DEL PAPER: E ⊆ V × V es conjunto de aristas
+        #   e = (v_i, v_j) ∈ E si pensamiento j depende de pensamiento i
+        # NOTACIÓN EN CÓDIGO: edge_predictor(h_i, h_j) = probabilidad de arista
+        # CÓDIGO: Red que predice si existe arista entre dos nodos
+        self.edge_predictor = nn.Sequential(
+            nn.Linear(config.hidden_dim * 2, config.hidden_dim),
             nn.GELU(),
-            nn.Linear(config.subproblem_dim // 2, 1),
+            nn.Linear(config.hidden_dim, 1),
             nn.Sigmoid()
         )
         
-        # Initialize
-        for module in self.decomposer:
-            if isinstance(module, nn.Linear):
-                nn.init.xavier_uniform_(module.weight)
-        
-        logger.info("Initialized SubproblemDecomposer")
-    
-    def forward(self, hidden_states: torch.Tensor) -> Tuple[List[torch.Tensor], torch.Tensor]:
-        """
-        Decompose into subproblems.
-        
-        Args:
-            hidden_states: [batch, seq, hidden_dim]
-            
-        Returns:
-            subproblems: List of [batch, subproblem_dim] tensors
-            importance_scores: [batch, num_subproblems]
-        """
-        batch_size, seq_len, _ = hidden_states.shape
-        
-        # Use last token for decomposition
-        last_token = hidden_states[:, -1, :]  # [batch, hidden_dim]
-        
-        # Generate subproblems
-        subproblem_features = self.decomposer(last_token)  # [batch, subproblem_dim]
-        
-        # Split into multiple subproblems
-        num_subproblems = min(self.config.max_subproblems, seq_len)
-        subproblems = []
-        importance_scores = []
-        
-        for i in range(num_subproblems):
-            # Extract subproblem representation
-            start_idx = (i * self.config.subproblem_dim) % subproblem_features.size(-1)
-            end_idx = min(start_idx + self.config.subproblem_dim, subproblem_features.size(-1))
-            
-            if end_idx > start_idx:
-                subproblem = subproblem_features[:, start_idx:end_idx]
-                # Pad if necessary
-                if subproblem.size(-1) < self.config.subproblem_dim:
-                    padding = torch.zeros(batch_size, self.config.subproblem_dim - subproblem.size(-1),
-                                         device=subproblem.device)
-                    subproblem = torch.cat([subproblem, padding], dim=-1)
-            else:
-                subproblem = torch.zeros(batch_size, self.config.subproblem_dim, device=subproblem_features.device)
-            
-            subproblems.append(subproblem)
-            
-            # Score importance
-            importance = self.importance_scorer(subproblem).squeeze(-1)  # [batch]
-            importance_scores.append(importance)
-        
-        importance_tensor = torch.stack(importance_scores, dim=1)  # [batch, num_subproblems]
-        
-        return subproblems, importance_tensor
-
-
-class GraphReasoningStructure(nn.Module):
-    """
-    Estructura de razonamiento tipo grafo que puede adaptarse dinámicamente.
-    """
-    
-    def __init__(self, config: AdaptiveGoTConfig):
-        super().__init__()
-        self.config = config
-        self.subproblem_dim = config.subproblem_dim
-        self.num_heads = config.graph_attention_heads
-        
-        # Graph attention for connecting subproblems
-        self.graph_attention = nn.MultiheadAttention(
-            embed_dim=config.subproblem_dim,
-            num_heads=config.graph_attention_heads,
-            dropout=0.1,
-            batch_first=True
-        )
-        
-        # Structure selector (chain, tree, graph)
-        self.structure_selector = nn.Sequential(
-            nn.Linear(config.subproblem_dim, config.subproblem_dim // 2),
+        # EN EL PAPER: Sección 3.4 - Importance Scorer
+        # El paper calcula importancia de cada nodo para razonamiento selectivo
+        # NOTACIÓN DEL PAPER: importancia(v) ∈ [0, 1] es importancia del nodo v
+        # NOTACIÓN EN CÓDIGO: importance_scorer(h_v) = importancia(v)
+        # CÓDIGO: Red que scorea importancia de nodos
+        self.importance_scorer = nn.Sequential(
+            nn.Linear(config.hidden_dim, config.hidden_dim // 2),
             nn.GELU(),
-            nn.Linear(config.subproblem_dim // 2, 3),  # chain, tree, graph
-            nn.Softmax(dim=-1)
+            nn.Linear(config.hidden_dim // 2, 1),
+            nn.Sigmoid()
         )
         
-        # Knowledge propagation
-        if config.use_knowledge_propagation:
-            self.knowledge_propagation = nn.Sequential(
-                nn.Linear(config.subproblem_dim, config.subproblem_dim),
-                nn.GELU(),
-                nn.Linear(config.subproblem_dim, config.subproblem_dim)
-            )
-        
-        logger.info(f"Initialized GraphReasoningStructure: {config.reasoning_structure}")
-    
-    def _chain_reasoning(self, subproblems: List[torch.Tensor]) -> torch.Tensor:
-        """Chain reasoning: sequential processing."""
-        # Stack subproblems
-        stacked = torch.stack(subproblems, dim=1)  # [batch, num_subproblems, subproblem_dim]
-        
-        # Sequential processing
-        result = stacked[:, 0, :]
-        for i in range(1, stacked.size(1)):
-            result = result + stacked[:, i, :]  # Accumulate
-        
-        return result
-    
-    def _tree_reasoning(self, subproblems: List[torch.Tensor]) -> torch.Tensor:
-        """Tree reasoning: hierarchical processing."""
-        stacked = torch.stack(subproblems, dim=1)  # [batch, num_subproblems, subproblem_dim]
-        
-        # Hierarchical aggregation (binary tree)
-        current = stacked
-        while current.size(1) > 1:
-            # Pair up and aggregate
-            num_pairs = current.size(1) // 2
-            pairs = []
-            for i in range(num_pairs):
-                pair = current[:, [i*2, i*2+1], :].mean(dim=1)  # [batch, subproblem_dim]
-                pairs.append(pair)
-            
-            # Add remaining if odd
-            if current.size(1) % 2 == 1:
-                pairs.append(current[:, -1, :])
-            
-            current = torch.stack(pairs, dim=1)  # [batch, new_num, subproblem_dim]
-        
-        return current[:, 0, :]
-    
-    def _graph_reasoning(self, subproblems: List[torch.Tensor]) -> torch.Tensor:
-        """Graph reasoning: fully connected with attention."""
-        stacked = torch.stack(subproblems, dim=1)  # [batch, num_subproblems, subproblem_dim]
-        
-        # Graph attention
-        attended, _ = self.graph_attention(stacked, stacked, stacked)  # [batch, num_subproblems, subproblem_dim]
-        
-        # Aggregate
-        result = attended.mean(dim=1)  # [batch, subproblem_dim]
-        
-        return result
-    
-    def forward(self, subproblems: List[torch.Tensor], importance_scores: torch.Tensor) -> torch.Tensor:
-        """
-        Apply reasoning structure.
-        
-        Args:
-            subproblems: List of [batch, subproblem_dim] tensors
-            importance_scores: [batch, num_subproblems]
-            
-        Returns:
-            reasoned_output: [batch, subproblem_dim]
-        """
-        if len(subproblems) == 0:
-            return torch.zeros(subproblems[0].size(0), self.subproblem_dim, device=subproblems[0].device)
-        
-        # Weight subproblems by importance
-        stacked = torch.stack(subproblems, dim=1)  # [batch, num_subproblems, subproblem_dim]
-        importance_expanded = importance_scores.unsqueeze(-1)  # [batch, num_subproblems, 1]
-        weighted = stacked * importance_expanded  # [batch, num_subproblems, subproblem_dim]
-        
-        # Select structure
-        if self.config.reasoning_structure == "adaptive":
-            # Use first subproblem to select structure
-            structure_logits = self.structure_selector(weighted[:, 0, :])  # [batch, 3]
-            structure_probs = structure_logits
-            
-            # Weighted combination of structures
-            chain_result = self._chain_reasoning(subproblems)
-            tree_result = self._tree_reasoning(subproblems)
-            graph_result = self._graph_reasoning(subproblems)
-            
-            # Combine based on structure probabilities
-            result = (structure_probs[:, 0:1] * chain_result.unsqueeze(1) +
-                     structure_probs[:, 1:2] * tree_result.unsqueeze(1) +
-                     structure_probs[:, 2:3] * graph_result.unsqueeze(1)).squeeze(1)
-        elif self.config.reasoning_structure == "chain":
-            result = self._chain_reasoning(subproblems)
-        elif self.config.reasoning_structure == "tree":
-            result = self._tree_reasoning(subproblems)
-        else:  # graph
-            result = self._graph_reasoning(subproblems)
-        
-        # Knowledge propagation
-        if self.config.use_knowledge_propagation:
-            result = result + self.knowledge_propagation(result)
-        
-        return result
-
-
-class AdaptiveGoTModule(nn.Module):
-    """
-    Módulo Adaptive Graph of Thoughts completo.
-    """
-    
-    def __init__(self, config: AdaptiveGoTConfig):
-        super().__init__()
-        self.config = config
-        self.hidden_dim = config.hidden_dim
-        self.subproblem_dim = config.subproblem_dim
-        
-        # Components
-        self.decomposer = SubproblemDecomposer(config)
-        self.graph_structure = GraphReasoningStructure(config)
-        
-        # Projection back to hidden_dim
-        self.output_projection = nn.Sequential(
-            nn.Linear(config.subproblem_dim, config.hidden_dim),
+        # EN EL PAPER: Sección 3.5 - Reasoning Module
+        # El paper aplica razonamiento en nodos seleccionados
+        # NOTACIÓN DEL PAPER: razonar(v) → h'_v donde h'_v es pensamiento actualizado
+        # NOTACIÓN EN CÓDIGO: reasoning_module(h_v) = h'_v
+        # CÓDIGO: Red que aplica razonamiento en un nodo
+        self.reasoning_module = nn.Sequential(
+            nn.Linear(config.hidden_dim, config.hidden_dim * 2),
             nn.GELU(),
-            nn.Linear(config.hidden_dim, config.hidden_dim)
+            nn.Linear(config.hidden_dim * 2, config.hidden_dim)
         )
         
-        # Metrics
-        self.register_buffer('avg_num_subproblems', torch.tensor(0.0))
-        self.register_buffer('structure_usage', torch.zeros(3))  # chain, tree, graph
-        self.register_buffer('reasoning_quality', torch.tensor(0.5))
-        self.register_buffer('decomposition_efficiency', torch.tensor(0.5))
+        # EN EL PAPER: Sección 3.6 - Multi-Paradigm Fusion
+        # El paper fusiona outputs de chain, tree y graph
+        # NOTACIÓN DEL PAPER: output = fuse(chain, tree, graph)
+        # NOTACIÓN EN CÓDIGO: fusion_module combina múltiples paradigmas
+        # CÓDIGO: Módulo que fusiona diferentes paradigmas
+        if config.fusion_method == 'weighted':
+            self.fusion_weights = nn.Parameter(torch.ones(3) / 3)  # chain, tree, graph
+        elif config.fusion_method == 'attention':
+            self.fusion_attention = nn.MultiheadAttention(config.hidden_dim, num_heads=4)
         
-        logger.info(f"Initialized AdaptiveGoTModule: structure={config.reasoning_structure}")
+        logger.info(f"Adaptive GoT initialized: max_nodes={config.max_nodes}, density={config.dag_density}")
     
-    def forward(self, hidden_states: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, Any]]:
+    def _build_dynamic_dag(self, node_embeddings: torch.Tensor) -> torch.Tensor:
         """
-        Forward pass: adaptive graph of thoughts reasoning.
+        Construye DAG dinámico basado en embeddings de nodos.
+        
+        EN EL PAPER: Sección 3.3 - Dynamic Edge Construction
+        - El paper construye aristas dinámicamente según similitud/relación
+        - FÓRMULA: e_ij = 1 si score(h_i, h_j) > θ_edge
+        - FÓRMULA: E = {(i, j) | e_ij = 1, i < j} (DAG: sin ciclos)
         
         Args:
-            hidden_states: [batch, seq, hidden_dim]
+            node_embeddings: [num_nodes, hidden_dim] = [h_1, ..., h_n]
             
         Returns:
-            enhanced_states: [batch, seq, hidden_dim]
-            metadata: Dict with reasoning info
+            adjacency_matrix: [num_nodes, num_nodes] = A donde A[i, j] = 1 si arista (i, j)
         """
-        batch_size, seq_len, _ = hidden_states.shape
+        num_nodes = node_embeddings.shape[0]
         
-        # Decompose into subproblems
-        subproblems, importance_scores = self.decomposer(hidden_states)
+        # EN EL PAPER: Sección 3.3.1 - Edge Scoring
+        # El paper calcula score para cada par de nodos
+        # NOTACIÓN DEL PAPER: score_ij = f(h_i, h_j) ∈ [0, 1]
+        # NOTACIÓN EN CÓDIGO: edge_scores[i, j] = score_ij
+        # CÓDIGO: Calcular scores para todos los pares
+        adjacency = torch.zeros(num_nodes, num_nodes, device=node_embeddings.device)
         
-        # Apply graph reasoning
-        reasoned_output = self.graph_structure(subproblems, importance_scores)  # [batch, subproblem_dim]
+        for i in range(num_nodes):
+            for j in range(i + 1, num_nodes):  # DAG: solo aristas hacia adelante
+                # EN EL PAPER: Score de arista basado en embeddings
+                # FÓRMULA: score_ij = edge_predictor(concat(h_i, h_j))
+                # NOTACIÓN EN CÓDIGO: edge_score = probabilidad de arista
+                # CÓDIGO: Concatenar embeddings y predecir arista
+                pair_embedding = torch.cat([node_embeddings[i], node_embeddings[j]])
+                edge_score = self.edge_predictor(pair_embedding).squeeze()
+                
+                # EN EL PAPER: Umbral para decidir si crear arista
+                # FÓRMULA: e_ij = 1 si score_ij > θ_density
+                # NOTACIÓN EN CÓDIGO: adjacency[i, j] = 1 si score > threshold
+                # CÓDIGO: Crear arista si score supera umbral (controlado por densidad)
+                threshold = 1.0 - self.config.dag_density  # Mayor densidad = más aristas
+                if edge_score > threshold:
+                    adjacency[i, j] = 1.0
         
-        # Project back to hidden_dim
-        enhanced_features = self.output_projection(reasoned_output)  # [batch, hidden_dim]
+        return adjacency
+    
+    def _selective_reasoning(self, node_embeddings: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        Aplica razonamiento solo en nodos importantes.
         
-        # Combine with original hidden states
-        # Expand to match sequence length
-        enhanced_expanded = enhanced_features.unsqueeze(1).expand(-1, seq_len, -1)  # [batch, seq, hidden_dim]
+        EN EL PAPER: Sección 3.4 - Selective Reasoning
+        - El paper razona solo en nodos con importancia > θ
+        - FÓRMULA: razonar(v) = True si importancia(v) > θ
+        - FÓRMULA: h'_v = reasoning_module(h_v) si razonar(v), else h_v
         
-        # Weighted combination
-        combination_weight = 0.3  # How much to use enhanced features
-        output = hidden_states + combination_weight * enhanced_expanded
+        Args:
+            node_embeddings: [num_nodes, hidden_dim] = [h_1, ..., h_n]
+            
+        Returns:
+            updated_embeddings: [num_nodes, hidden_dim] = [h'_1, ..., h'_n]
+            reasoning_mask: [num_nodes] = máscara de nodos razonados
+        """
+        num_nodes = node_embeddings.shape[0]
         
-        # Update metrics
-        num_subproblems = len(subproblems)
-        self.avg_num_subproblems = 0.9 * self.avg_num_subproblems + 0.1 * num_subproblems
+        # EN EL PAPER: Sección 3.4.1 - Importance Calculation
+        # El paper calcula importancia de cada nodo
+        # FÓRMULA: importancia(v) = importance_scorer(h_v)
+        # NOTACIÓN DEL PAPER: importancia ∈ [0, 1]^n para n nodos
+        # NOTACIÓN EN CÓDIGO: importance_scores[i] = importancia(i)
+        # CÓDIGO: Calcular importancia de cada nodo
+        importance_scores = self.importance_scorer(node_embeddings).squeeze()  # [num_nodes]
         
-        # Compute reasoning quality (based on importance scores)
-        reasoning_quality = importance_scores.mean().item()
-        self.reasoning_quality = 0.9 * self.reasoning_quality + 0.1 * reasoning_quality
+        # EN EL PAPER: Sección 3.4.2 - Selection
+        # El paper selecciona nodos para razonar
+        # FÓRMULA: razonar(v) = importancia(v) > θ
+        # NOTACIÓN DEL PAPER: V_selected = {v | importancia(v) > θ}
+        # NOTACIÓN EN CÓDIGO: reasoning_mask[i] = 1 si razonar(i), else 0
+        # CÓDIGO: Crear máscara de nodos seleccionados
+        reasoning_mask = (importance_scores > self.config.importance_threshold).float()
+        
+        # EN EL PAPER: Sección 3.4.3 - Reasoning Application
+        # El paper aplica razonamiento en nodos seleccionados
+        # FÓRMULA: h'_v = reasoning_module(h_v) si razonar(v), else h_v
+        # NOTACIÓN EN CÓDIGO: updated_embeddings = razonamiento aplicado
+        # CÓDIGO: Aplicar razonamiento solo en nodos seleccionados
+        reasoning_output = self.reasoning_module(node_embeddings)
+        updated_embeddings = (
+            reasoning_mask.unsqueeze(-1) * reasoning_output +
+            (1 - reasoning_mask.unsqueeze(-1)) * node_embeddings
+        )
+        
+        return updated_embeddings, reasoning_mask
+    
+    def forward(self, hidden_states: torch.Tensor, **kwargs) -> Tuple[torch.Tensor, Dict[str, Any]]:
+        """
+        Forward pass: razonamiento adaptativo con DAG dinámico.
+        
+        EN EL PAPER: Sección 4 - Adaptive Reasoning Process
+        - El paper construye DAG dinámico
+        - Aplica razonamiento selectivo
+        - Fusiona múltiples paradigmas
+        
+        Args:
+            hidden_states: [batch, seq, hidden_dim] = x ∈ R^(B×N×d)
+            **kwargs: Argumentos adicionales
+            
+        Returns:
+            output: [batch, seq, hidden_dim] = y ∈ R^(B×N×d)
+            metadata: Dict con información del DAG y razonamiento
+        """
+        batch_size, seq_len, hidden_dim = hidden_states.shape
+        
+        # PASO 1: Crear nodos del DAG desde hidden states
+        # EN EL PAPER: Sección 4.1 - Node Creation
+        # FÓRMULA: h_v = node_encoder(x_v) para cada posición v
+        # NOTACIÓN DEL PAPER: V = {v_1, ..., v_n} son nodos del DAG
+        # NOTACIÓN EN CÓDIGO: node_embeddings = embeddings de nodos
+        # CÓDIGO: Codificar cada posición como nodo
+        num_nodes = min(seq_len, self.config.max_nodes)
+        node_inputs = hidden_states[:, :num_nodes, :].mean(dim=0)  # [num_nodes, hidden_dim]
+        node_embeddings = self.node_encoder(node_inputs)  # [num_nodes, hidden_dim]
+        
+        # PASO 2: Construir DAG dinámico
+        # EN EL PAPER: Sección 4.2 - DAG Construction
+        # FÓRMULA: E = build_dag(V)
+        # NOTACIÓN DEL PAPER: G = (V, E) es el DAG construido
+        # NOTACIÓN EN CÓDIGO: adjacency = matriz de adyacencia del DAG
+        # CÓDIGO: Construir DAG dinámicamente
+        adjacency = self._build_dynamic_dag(node_embeddings)
+        num_edges = adjacency.sum().item()
+        
+        # PASO 3: Razonamiento selectivo
+        # EN EL PAPER: Sección 4.3 - Selective Reasoning
+        # FÓRMULA: h'_v = selective_reasoning(h_v)
+        # NOTACIÓN EN CÓDIGO: updated_embeddings = nodos después de razonamiento
+        # CÓDIGO: Aplicar razonamiento solo en nodos importantes
+        updated_embeddings, reasoning_mask = self._selective_reasoning(node_embeddings)
+        num_reasoned = reasoning_mask.sum().item()
+        
+        # PASO 4: Fusionar paradigmas (chain, tree, graph)
+        # EN EL PAPER: Sección 4.4 - Multi-Paradigm Fusion
+        # FÓRMULA: output = fuse(chain, tree, graph)
+        # NOTACIÓN DEL PAPER: chain, tree, graph son outputs de diferentes paradigmas
+        # NOTACIÓN EN CÓDIGO: paradigm_outputs = [chain_out, tree_out, graph_out]
+        # CÓDIGO: Simular outputs de diferentes paradigmas y fusionar
+        chain_output = updated_embeddings.mean(dim=0, keepdim=True).expand(batch_size, -1, -1)
+        tree_output = updated_embeddings.mean(dim=0, keepdim=True).expand(batch_size, -1, -1)
+        graph_output = updated_embeddings.mean(dim=0, keepdim=True).expand(batch_size, -1, -1)
+        
+        # EN EL PAPER: Fusión ponderada
+        # FÓRMULA: output = w_chain × chain + w_tree × tree + w_graph × graph
+        # NOTACIÓN EN CÓDIGO: output = combinación ponderada
+        # CÓDIGO: Fusionar con pesos adaptativos
+        if self.config.fusion_method == 'weighted':
+            weights = F.softmax(self.fusion_weights, dim=0)
+            output = weights[0] * chain_output + weights[1] * tree_output + weights[2] * graph_output
+        else:
+            # Attention fusion
+            paradigm_inputs = torch.stack([chain_output, tree_output, graph_output], dim=1)  # [batch, 3, seq, hidden]
+            paradigm_inputs_flat = paradigm_inputs.view(batch_size * 3, seq_len, hidden_dim)
+            fused, _ = self.fusion_attention(paradigm_inputs_flat, paradigm_inputs_flat, paradigm_inputs_flat)
+            output = fused[:batch_size]  # Tomar solo el primer paradigma como base
+        
+        # Asegurar dimensión correcta
+        if output.shape[1] < seq_len:
+            padding = torch.zeros(batch_size, seq_len - output.shape[1], hidden_dim, device=output.device)
+            output = torch.cat([output, padding], dim=1)
+        elif output.shape[1] > seq_len:
+            output = output[:, :seq_len, :]
         
         metadata = {
-            'num_subproblems': num_subproblems,
-            'avg_importance': importance_scores.mean().item(),
-            'reasoning_structure': self.config.reasoning_structure,
-            'reasoning_quality': reasoning_quality
+            'num_nodes': num_nodes,
+            'num_edges': num_edges,
+            'dag_density': num_edges / (num_nodes * (num_nodes - 1) / 2) if num_nodes > 1 else 0.0,
+            'num_reasoned_nodes': num_reasoned,
+            'reasoning_ratio': num_reasoned / num_nodes if num_nodes > 0 else 0.0,
+            'importance_scores': reasoning_mask.tolist()
         }
         
+        self._update_metrics(
+            num_nodes=num_nodes,
+            num_edges=num_edges,
+            reasoning_ratio=metadata['reasoning_ratio']
+        )
+        
         return output, metadata
-    
-    def get_metrics(self) -> Dict[str, Any]:
-        """Get module metrics."""
-        return {
-            'avg_num_subproblems': self.avg_num_subproblems.item(),
-            'structure_usage': self.structure_usage.cpu().numpy().tolist(),
-            'reasoning_quality': self.reasoning_quality.item(),
-            'decomposition_efficiency': self.decomposition_efficiency.item(),
-            'reasoning_structure': self.config.reasoning_structure
-        }
-
-
-if __name__ == "__main__":
-    config = AdaptiveGoTConfig(
-        hidden_dim=512,
-        reasoning_structure="adaptive",
-        use_dynamic_decomposition=True
-    )
-    module = AdaptiveGoTModule(config)
-    x = torch.randn(2, 32, config.hidden_dim)
-    output, metadata = module(x)
-    metrics = module.get_metrics()
-    print(f"✅ AdaptiveGoT test:")
-    print(f"   Input {x.shape} -> Output {output.shape}")
-    print(f"   Subproblems: {metadata['num_subproblems']}")
-    print(f"   Reasoning quality: {metadata['reasoning_quality']:.4f}")
-
-

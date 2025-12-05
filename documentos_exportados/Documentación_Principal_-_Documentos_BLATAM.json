@@ -1,0 +1,357 @@
+{
+  "title": "Documentación Principal - Documentos BLATAM",
+  "generated_at": "2025-11-24T21:24:31.033638",
+  "metrics": {
+    "reading_time_minutes": 8,
+    "total_links": 120,
+    "total_images": 4,
+    "complexity_score": 202,
+    "complexity_level": "Muy Alta",
+    "quality_score": 100,
+    "quality_level": "Excelente",
+    "total_numbers": 96,
+    "max_number": 1000,
+    "avg_number": 36,
+    "total_lines": 505,
+    "total_words": 2181,
+    "total_sections": 74,
+    "code_blocks": 5,
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "sentiment_tone": "Negativo",
+    "coherence_score": 80
+  },
+  "sections": [
+    {
+      "title": "📚 Documentos BLATAM - Ecosistema Completo de Documentación Empresarial",
+      "level": 1
+    },
+    {
+      "title": "🎯 ¿Qué es Documentos BLATAM?",
+      "level": 2
+    },
+    {
+      "title": "✨ Características Principales",
+      "level": 3
+    },
+    {
+      "title": "🎨 Áreas Cubiertas",
+      "level": 3
+    },
+    {
+      "title": "🚀 Inicio Rápido",
+      "level": 2
+    },
+    {
+      "title": "⚡ Para Nuevos Usuarios (5 minutos)",
+      "level": 3
+    },
+    {
+      "title": "1. Clona o navega al repositorio",
+      "level": 1
+    },
+    {
+      "title": "2. Lee la guía de inicio",
+      "level": 1
+    },
+    {
+      "title": "3. Explora según tu necesidad",
+      "level": 1
+    },
+    {
+      "title": "🎯 Para Casos Específicos",
+      "level": 3
+    },
+    {
+      "title": "💡 Ejemplos de Uso Rápido",
+      "level": 3
+    },
+    {
+      "title": "Ejemplo 1: Enviar DMs de Instagram",
+      "level": 4
+    },
+    {
+      "title": "1. Ve a la guía de DMs",
+      "level": 1
+    },
+    {
+      "title": "2. Copia un template",
+      "level": 1
+    },
+    {
+      "title": "3. Personaliza y envía",
+      "level": 1
+    },
+    {
+      "title": "Ejemplo 2: Configurar Dashboard",
+      "level": 4
+    },
+    {
+      "title": "1. Abre la guía de Google Sheets",
+      "level": 1
+    },
+    {
+      "title": "2. Sigue los pasos de configuración",
+      "level": 1
+    },
+    {
+      "title": "3. Importa el template CSV",
+      "level": 1
+    },
+    {
+      "title": "Ejemplo 3: Calcular ROI",
+      "level": 4
+    },
+    {
+      "title": "1. Abre la calculadora",
+      "level": 1
+    },
+    {
+      "title": "2. Ingresa tus datos",
+      "level": 1
+    },
+    {
+      "title": "3. Obtén resultados instantáneos",
+      "level": 1
+    },
+    {
+      "title": "📁 Estructura del Proyecto",
+      "level": 2
+    },
+    {
+      "title": "Directorios Principales",
+      "level": 3
+    },
+    {
+      "title": "Categorías Completas",
+      "level": 3
+    },
+    {
+      "title": "🎯 Casos de Uso Principales",
+      "level": 2
+    },
+    {
+      "title": "1. Marketing Digital y Outreach",
+      "level": 3
+    },
+    {
+      "title": "2. Automatización de Ventas",
+      "level": 3
+    },
+    {
+      "title": "3. Dashboards y Analítica",
+      "level": 3
+    },
+    {
+      "title": "4. Sistemas de IA",
+      "level": 3
+    },
+    {
+      "title": "5. Estrategia Empresarial",
+      "level": 3
+    },
+    {
+      "title": "📚 Documentación Esencial",
+      "level": 2
+    },
+    {
+      "title": "Guías de Inicio",
+      "level": 3
+    },
+    {
+      "title": "Guías de Referencia",
+      "level": 3
+    },
+    {
+      "title": "Guías por Área",
+      "level": 3
+    },
+    {
+      "title": "Templates y Recursos",
+      "level": 3
+    },
+    {
+      "title": "🛠️ Herramientas y Scripts",
+      "level": 2
+    },
+    {
+      "title": "🔧 Scripts de Automatización",
+      "level": 3
+    },
+    {
+      "title": "📊 Herramientas de Marketing",
+      "level": 3
+    },
+    {
+      "title": "📈 Herramientas de Analítica",
+      "level": 3
+    },
+    {
+      "title": "🎨 Herramientas de Diseño",
+      "level": 3
+    },
+    {
+      "title": "📊 Estadísticas del Proyecto",
+      "level": 2
+    },
+    {
+      "title": "📈 Números Totales",
+      "level": 3
+    },
+    {
+      "title": "🎨 Por Categoría Principal",
+      "level": 3
+    },
+    {
+      "title": "🎓 Recursos de Aprendizaje",
+      "level": 2
+    },
+    {
+      "title": "Cursos y Capacitación",
+      "level": 3
+    },
+    {
+      "title": "Guías Paso a Paso",
+      "level": 3
+    },
+    {
+      "title": "🔍 Búsqueda y Navegación",
+      "level": 2
+    },
+    {
+      "title": "Índices Principales",
+      "level": 3
+    }
+  ],
+  "quality_analysis": {
+    "scores": {
+      "structure": 25,
+      "content": 25,
+      "links": 20,
+      "tables": 15,
+      "code": 15
+    },
+    "issues": [],
+    "recommendations": [],
+    "overall_score": 100,
+    "errors": [
+      "Enlace posiblemente roto: [🤝 Contribuir](CONTRIBUTING.md)",
+      "Enlace posiblemente roto: [📖 Documentación](ARCHITECTURE.md)",
+      "Enlace posiblemente roto: [❓ FAQ](FAQ.md)",
+      "Enlace posiblemente roto: [🔒 Seguridad](SECURITY.md)",
+      "Enlace posiblemente roto: [start_here.md](06_documentation/start_here.md)",
+      "Enlace posiblemente roto: [QuickStart.md](06_documentation/QuickStart.md)",
+      "Enlace posiblemente roto: [INDEX.md](06_documentation/INDEX.md)",
+      "Enlace posiblemente roto: [ARCHITECTURE.md](ARCHITECTURE.md)",
+      "Enlace posiblemente roto: [SETUP.md](SETUP.md)",
+      "Header sin contenido: ## 🚀 Inicio Rápido"
+    ],
+    "quality_level": "Excelente"
+  },
+  "readability": {
+    "flesch_score": 0,
+    "reading_level": "Difícil",
+    "avg_sentence_length": 17.75,
+    "avg_syllables_per_word": 2.8,
+    "sentence_count": 59,
+    "word_count": 1047
+  },
+  "sentiment": {
+    "primary_tone": "Negativo",
+    "positive_words": 1,
+    "negative_words": 3,
+    "technical_words": 5,
+    "sentiment_score": -2
+  },
+  "coherence": {
+    "score": 80,
+    "level": "Alta",
+    "issues": [
+      "Pocos conectores de transición"
+    ]
+  },
+  "top_keywords": [
+    {
+      "word": "scripts",
+      "count": 31
+    },
+    {
+      "word": "templates",
+      "count": 25
+    },
+    {
+      "word": "marketing",
+      "count": 15
+    },
+    {
+      "word": "dashboards",
+      "count": 14
+    },
+    {
+      "word": "para",
+      "count": 14
+    },
+    {
+      "word": "documentos",
+      "count": 13
+    },
+    {
+      "word": "completo",
+      "count": 13
+    },
+    {
+      "word": "ventas",
+      "count": 13
+    },
+    {
+      "word": "index",
+      "count": 12
+    },
+    {
+      "word": "tools",
+      "count": 12
+    },
+    {
+      "word": "inicio",
+      "count": 11
+    },
+    {
+      "word": "setup",
+      "count": 11
+    },
+    {
+      "word": "empresarial",
+      "count": 10
+    },
+    {
+      "word": "herramientas",
+      "count": 10
+    },
+    {
+      "word": "troubleshooting",
+      "count": 10
+    },
+    {
+      "word": "playbooks",
+      "count": 9
+    },
+    {
+      "word": "architecture",
+      "count": 8
+    },
+    {
+      "word": "sistemas",
+      "count": 8
+    },
+    {
+      "word": "estructura",
+      "count": 7
+    },
+    {
+      "word": "proyecto",
+      "count": 7
+    }
+  ],
+  "links_count": 120,
+  "images_count": 4
+}

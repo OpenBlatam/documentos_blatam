@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "throughput_tokens_per_sec": 9225.419175118806,
+    "memory_mb": 0.0,
+    "batch_utilization": 0.85,
+    "efficiency": 0.9225419175118806,
+    "speedup_factor": 1.0
+  },
+  "optimized": {
+    "throughput_tokens_per_sec": 32167.38893388911,
+    "memory_mb": 0.0,
+    "batch_utilization": 0.85,
+    "efficiency": 1.0,
+    "speedup_factor": 1.0
+  },
+  "improvements": {
+    "throughput_improvement_percent": 248.6821392424681,
+    "throughput_speedup": 3.486821392424681,
+    "memory_improvement_percent": 0,
+    "memory_reduction_factor": 1.0,
+    "efficiency_improvement_percent": 8.396158593749952,
+    "efficiency_speedup": 1.0839615859374996
+  },
+  "targets": {
+    "tensorrt_llm": 40000.0,
+    "vllm": 4656.0,
+    "combined": 35000.0
+  },
+  "configuration": {
+    "batch_size": 4,
+    "seq_len": 128,
+    "hidden_dim": 512,
+    "num_layers": 12
+  }
+}

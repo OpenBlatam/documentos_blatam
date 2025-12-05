@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Documentos BLATAM - Resumen Ejecutivo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .chart-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .chart-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+        .insights {
+            background: #e3f2fd;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #2196f3;
+            margin-top: 30px;
+        }
+        .insights h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        .insights ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .insights li {
+            padding: 10px;
+            margin: 5px 0;
+            background: white;
+            border-radius: 8px;
+            border-left: 3px solid #2196f3;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Dashboard de Análisis de Documentos</h1>
+            <p class="subtitle">Documentos BLATAM - Resumen Ejecutivo</p>
+            <p class="subtitle">Generado el 24/11/2025 20:35</p>
+        </header>
+        
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-label">Total de Palabras</div>
+                <div class="metric-value">34,915</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Secciones</div>
+                <div class="metric-value">504</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Documentos Procesados</div>
+                <div class="metric-value">11</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Promedio Palabras/Doc</div>
+                <div class="metric-value">3,174</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Bloques de Código</div>
+                <div class="metric-value">61</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Enlaces</div>
+                <div class="metric-value">178</div>
+            </div>
+        </div>
+        
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Distribución de Contenido</div>
+                <div class="chart-container">
+                    <canvas id="contentChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Comparativa de Documentos</div>
+                <div class="chart-container">
+                    <canvas id="docChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="insights">
+            <h3>💡 Insights Clave</h3>
+            <ul>
+                <li>Se procesaron <strong>11</strong> documentos con un total de <strong>34,915</strong> palabras</li>
+                <li>Promedio de <strong>3,174</strong> palabras por documento</li>
+                <li>Promedio de <strong>45.8</strong> secciones por documento</li>
+                <li>Densidad de código: <strong>1.75</strong> bloques por 1000 palabras</li>
+                <li>Total de <strong>178</strong> enlaces y <strong>4</strong> imágenes</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Dashboard generado automáticamente por generar_documentos_premium.py</p>
+        </div>
+    </div>
+    
+    <script>
+        // Datos
+        const stats = {
+  "total_words": 34915,
+  "total_sections": 504,
+  "code_blocks": 61,
+  "links": 178,
+  "images": 4,
+  "tables": 36,
+  "files_processed": 11,
+  "avg_words_per_section": 69.27579365079364,
+  "code_density": 1.7471001002434485,
+  "readability_score": 100.0,
+  "complexity_score": 18.236363636363635,
+  "main_topics": [
+    "templates",
+    "documentaci\u00f3n",
+    "scripts",
+    "06_documentation",
+    "imports",
+    "files",
+    "import",
+    "api_utils",
+    "arquitectura",
+    "mejoras"
+  ],
+  "avg_sentiment": 0.35476119973511167
+};
+        const docStats = {
+  "ARCHITECTURE.md": {
+    "words": 968,
+    "sections": 45,
+    "code_blocks": 8,
+    "links": 13,
+    "images": 0,
+    "tables": 4,
+    "avg_words_per_section": 21.511111111111113,
+    "code_density": 8.264462809917356,
+    "readability": 100,
+    "complexity": 18.8,
+    "topics": [
+      "scripts",
+      "enlaces",
+      "estructura",
+      "categor\u00eda",
+      "templates"
+    ],
+    "sentiment": 0.2066115702479339,
+    "code_quality": 21.724137931034484,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "# \ud83c\udfd7\ufe0f Arquitectura del Proyecto - Documentos BLATAM\n\nEste documento describe la arquitectura, estructura y organizaci\u00f3n del proyecto Documentos BLATAM. ---\n\n## \ud83d\udccb Tabla de Contenidos\n\n- [Visi\u00f3n General]"
+  },
+  "README.md": {
+    "words": 1830,
+    "sections": 74,
+    "code_blocks": 5,
+    "links": 120,
+    "images": 4,
+    "tables": 32,
+    "avg_words_per_section": 24.72972972972973,
+    "code_density": 2.73224043715847,
+    "readability": 100,
+    "complexity": 42.6,
+    "topics": [
+      "06_documentation",
+      "scripts",
+      "templates",
+      "16_data_analytics",
+      "documentaci\u00f3n"
+    ],
+    "sentiment": 0.16393442622950818,
+    "code_quality": 16.176470588235293,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "# \ud83d\udcda Documentos BLATAM - Ecosistema Completo de Documentaci\u00f3n Empresarial\n\n<div align=\"center\">. [Version](https://img. [Documentos](https://img."
+  },
+  "airflow_automation_prompt.md": {
+    "words": 23132,
+    "sections": 0,
+    "code_blocks": 1,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 23132.0,
+    "code_density": 0.04323015735777279,
+    "readability": 100,
+    "complexity": 0.4,
+    "topics": [
+      "automation",
+      "management",
+      "automated",
+      "data",
+      "monitoring"
+    ],
+    "sentiment": 0.0,
+    "code_quality": 3.4259259259259256,
+    "structure_score": 0,
+    "duplication_ratio": 0.004593175853018373,
+    "summary": "--\n================================================================================\nAUTOMATION EXPERT SYSTEM PROMPT\n================================================================================\nVer"
+  },
+  "truthgpt_collected/integration_code/production_code/ARCHITECTURE_IMPROVEMENTS.md": {
+    "words": 1381,
+    "sections": 39,
+    "code_blocks": 2,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 35.41025641025641,
+    "code_density": 1.448225923244026,
+    "readability": 100,
+    "complexity": 12.5,
+    "topics": [
+      "imports",
+      "root",
+      "files",
+      "import",
+      "api_utils"
+    ],
+    "sentiment": 0.2172338884866039,
+    "code_quality": 6.219512195121951,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "# \ud83c\udfd7\ufe0f Architectural Improvements - Implementation Plan\n\n**Date**: 2025-01-27  \n**Status**: Implementation In Progress\n\n---\n\n## \ud83d\udccb Executive Summary\n\nThis document outlines the comprehensive architectura"
+  },
+  "truthgpt_collected/integration_code/production_code/REFACTORING_PLAN.md": {
+    "words": 1725,
+    "sections": 51,
+    "code_blocks": 3,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 33.8235294117647,
+    "code_density": 1.7391304347826089,
+    "readability": 100,
+    "complexity": 16.5,
+    "topics": [
+      "import",
+      "update",
+      "imports",
+      "files",
+      "api_utils"
+    ],
+    "sentiment": 0.11594202898550725,
+    "code_quality": 10.0,
+    "structure_score": 100,
+    "duplication_ratio": 0.007874015748031496,
+    "summary": "# \ud83d\udd04 Refactoring Plan - Production Code\n\n**Date**: 2025-01-27  \n**Status**: Analysis Complete - Ready for Implementation\n\n---\n\n## \ud83d\udcca Executive Summary\n\nThis document outlines a comprehensive refactoring"
+  },
+  "truthgpt_collected/integration_code/production_code/ARCHITECTURE.md": {
+    "words": 349,
+    "sections": 11,
+    "code_blocks": 5,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 31.727272727272727,
+    "code_density": 14.326647564469916,
+    "readability": 100,
+    "complexity": 5.3,
+    "topics": [
+      "servicios",
+      "capa",
+      "http",
+      "service",
+      "arquitectura"
+    ],
+    "sentiment": 0.28653295128939826,
+    "code_quality": 14.583333333333332,
+    "structure_score": 41.2,
+    "duplication_ratio": 0.0,
+    "summary": "# Arquitectura Mejorada\n\n## Estructura de Capas\n\nLa arquitectura ha sido refactorizada siguiendo principios de dise\u00f1o limpio y separaci\u00f3n de responsabilidades:\n\n```\nproduction_code/\n\u251c\u2500\u2500 api/          "
+  },
+  "truthgpt_collected/integration_code/production_code/README.md": {
+    "words": 1996,
+    "sections": 101,
+    "code_blocks": 19,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 19.762376237623762,
+    "code_density": 9.519038076152306,
+    "readability": 100,
+    "complexity": 37.9,
+    "topics": [
+      "python",
+      "modelos",
+      "sistema",
+      "core",
+      "mejoras"
+    ],
+    "sentiment": 0.1002004008016032,
+    "code_quality": 50.79218106995885,
+    "structure_score": 100,
+    "duplication_ratio": 0.009259259259259259,
+    "summary": "# Production Code - Modelos de Papers\n\nEste directorio contiene los modelos de producci\u00f3n implementados basados en los papers de investigaci\u00f3n. Todos los modelos aqu\u00ed son implementaciones completas qu"
+  },
+  "truthgpt_collected/integration_code/production_code/INDICE_DOCUMENTACION.md": {
+    "words": 518,
+    "sections": 35,
+    "code_blocks": 0,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 14.8,
+    "code_density": 0.0,
+    "readability": 100,
+    "complexity": 10.5,
+    "topics": [
+      "documentaci\u00f3n",
+      "mejoras",
+      "architecture",
+      "docs",
+      "arquitectura"
+    ],
+    "sentiment": 0.9652509652509653,
+    "code_quality": 0,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "# \ud83d\udcda \u00cdndice de Documentaci\u00f3n - Production Code\n\n**\u00daltima actualizaci\u00f3n**: 2025-01-27\n\n---\n\n## \ud83c\udfaf Documentaci\u00f3n Principal\n\n### Arquitectura y Mejoras\n1. **`RESUMEN_FINAL_MEJORAS. md`** \u2b50 - **EMPEZAR AQU\u00cd"
+  },
+  "06_documentation/resumen_final_completo.md": {
+    "words": 874,
+    "sections": 33,
+    "code_blocks": 17,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 26.484848484848484,
+    "code_density": 19.450800915331808,
+    "readability": 100,
+    "complexity": 16.700000000000003,
+    "topics": [
+      "documentos",
+      "yaml",
+      "frameworks",
+      "implementaci\u00f3n",
+      "description"
+    ],
+    "sentiment": 0.8009153318077803,
+    "code_quality": 42.5,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "# \ud83d\udcca Resumen Final Completo - Documentos BLATAM\n\n> **Resumen ejecutivo completo de todo el ecosistema de documentaci\u00f3n creado**\n\n---\n\n## \ud83c\udfaf **Visi\u00f3n General del Proyecto**\n\n### **Objetivo Cumplido**\nSe "
+  },
+  "06_documentation/Master_documents/indice_maestro_documentacion.md": {
+    "words": 612,
+    "sections": 48,
+    "code_blocks": 0,
+    "links": 0,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 12.75,
+    "code_density": 0.0,
+    "readability": 100,
+    "complexity": 14.399999999999999,
+    "topics": [
+      "gesti\u00f3n",
+      "documentaci\u00f3n",
+      "marketing",
+      "optimizaci\u00f3n",
+      "buscar"
+    ],
+    "sentiment": 0.6535947712418301,
+    "code_quality": 0,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "---\ntitle: \"Indice Maestro Documentacion\"\ncategory: \"06_documentation\"\ntags: []\ncreated: \"2025-10-29\"\npath: \"06_documentation/Master_documents/indice_maestro_documentacion. md\"\n---\n\n# \ud83d\udcda \u00cdNDICE MAESTRO"
+  },
+  "06_documentation/Other/Summaries/project_summary.md": {
+    "words": 1530,
+    "sections": 67,
+    "code_blocks": 1,
+    "links": 45,
+    "images": 0,
+    "tables": 0,
+    "avg_words_per_section": 22.83582089552239,
+    "code_density": 0.6535947712418301,
+    "readability": 100,
+    "complexity": 24.999999999999996,
+    "topics": [
+      "readme",
+      "06_documentation",
+      "marketing",
+      "navegaci\u00f3n",
+      "templates"
+    ],
+    "sentiment": 0.39215686274509803,
+    "code_quality": 7.5,
+    "structure_score": 100,
+    "duplication_ratio": 0.0,
+    "summary": "---\ntitle: \"Project Summary\"\ncategory: \"06_documentation\"\ntags: []\ncreated: \"2025-10-29\"\npath: \"06_documentation/Other/Summaries/project_summary. md\"\n---\n\n# \ud83d\udcca Resumen del Proyecto - Documentos BLATAM\n"
+  }
+};
+        
+        // Gráfico de distribución de contenido
+        const contentCtx = document.getElementById('contentChart').getContext('2d');
+        new Chart(contentCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Palabras (K)', 'Secciones', 'Código', 'Enlaces', 'Imágenes', 'Tablas'],
+                datasets: [{
+                    label: 'Cantidad',
+                    data: [
+                        Math.round(stats.total_words / 1000),
+                        stats.total_sections,
+                        stats.code_blocks,
+                        Math.min(stats.links, 100),
+                        stats.images,
+                        stats.tables
+                    ],
+                    backgroundColor: [
+                        '#2E86AB',
+                        '#A23B72',
+                        '#F18F01',
+                        '#C73E1D',
+                        '#6A994E',
+                        '#BC4749'
+                    ],
+                    borderColor: 'rgba(0,0,0,0.8)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Cantidad: ' + context.parsed.y;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Gráfico comparativo de documentos
+        const docCtx = document.getElementById('docChart').getContext('2d');
+        const docNames = Object.keys(docStats);
+        const docWords = docNames.map(name => docStats[name]?.words || 0);
+        const docSections = docNames.map(name => docStats[name]?.sections || 0);
+        
+        new Chart(docCtx, {
+            type: 'line',
+            data: {
+                labels: docNames.map(name => name.split('/').pop().substring(0, 20)),
+                datasets: [{
+                    label: 'Palabras (x100)',
+                    data: docWords.map(w => Math.round(w / 100)),
+                    borderColor: '#2E86AB',
+                    backgroundColor: 'rgba(46, 134, 171, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }, {
+                    label: 'Secciones',
+                    data: docSections,
+                    borderColor: '#A23B72',
+                    backgroundColor: 'rgba(162, 59, 114, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                if (context.datasetIndex === 0) {
+                                    return 'Palabras: ' + (context.parsed.y * 100).toLocaleString();
+                                }
+                                return 'Secciones: ' + context.parsed.y;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    },
+                    x: {
+                        ticks: {
+                            maxRotation: 45,
+                            minRotation: 45
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

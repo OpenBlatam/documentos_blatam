@@ -271,3 +271,8 @@ Return the inventory management operational plan ONLY in the specified table for
 
 
 
+
+
+
+
+

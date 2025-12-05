@@ -232,3 +232,8 @@ Estos papers han demostrado mejoras significativas en:
 Todos los papers están basados en publicaciones de arXiv 2025 y repositorios oficiales. Ver los docstrings en cada archivo para referencias específicas.
 
 
+
+
+
+
+

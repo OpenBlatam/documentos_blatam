@@ -1,0 +1,29 @@
+
+RESUMEN EJECUTIVO - DOCUMENTOS BLATAM
+============================================================
+
+Fecha de Generación: 24 de November de 2025 20:39
+
+ESTADÍSTICAS GENERALES
+------------------------------------------------------------
+Total de Documentos Procesados: 16
+Total de Palabras: 42,233
+Total de Secciones: 779
+Total de Bloques de Código: 77
+Total de Enlaces: 408
+Total de Tablas: 11
+
+MÉTRICAS PROMEDIO
+------------------------------------------------------------
+Promedio de Palabras por Documento: 2,640
+Promedio de Secciones por Documento: 48.7
+Legibilidad Promedio: 100.0/100
+Complejidad Promedio: 19.22
+
+DISTRIBUCIÓN POR CATEGORÍA
+------------------------------------------------------------
+Automatización: 1 documentos
+Arquitectura: 2 documentos
+Documentación: 8 documentos
+Desarrollo: 2 documentos
+Estrategia: 3 documentos
